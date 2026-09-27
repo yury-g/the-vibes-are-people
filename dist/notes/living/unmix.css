@@ -1,0 +1,20 @@
+.study-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.unmix-open,.unmix-actions>button:first-child{border:1px solid #20201e;background:#20201e;color:#fff;border-radius:4px;padding:11px 14px;font-size:14px}
+.unmix-open:hover,.unmix-actions>button:first-child:hover{background:#454540}
+.scrub-controls{border-top:1px solid var(--line);margin-top:18px;padding-top:16px}
+.scrub-controls label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
+.scrub-controls output{font:12px monospace;color:var(--muted)}
+.scrub-controls input{width:100%;margin:14px 0 11px;accent-color:#20201e}
+.unmix-steps{display:flex;border-bottom:1px solid var(--line);margin:20px 0 25px;gap:4px}
+.unmix-steps button{border:0;border-bottom:2px solid transparent;background:transparent;padding:10px 12px;font-size:13px;white-space:nowrap}
+.unmix-steps button[aria-pressed=true]{border-color:#20201e;font-weight:700}
+.unmix-kicker{font-size:22px;line-height:1.3;letter-spacing:-.035em;margin:0 0 18px}
+.unmix-content p{font-size:16px;line-height:1.6;margin:0 0 16px}
+.unmix-content .unmix-hint,.unmix-caution{font-size:13px;color:var(--muted);line-height:1.55}
+.unmix-content .source-links{margin:15px 0 23px}
+.unmix-content .trail-link{display:block;font-size:13px;line-height:1.5;margin:9px 0}
+.unmix-caution{border-top:1px solid var(--line);padding-top:14px;margin-top:25px}
+.unmix-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:24px}
+@media(max-width:640px){.unmix-steps button{flex:1;padding:10px 4px}.unmix-kicker{font-size:20px}}
+
+.cross-index{font-size:13px;margin-top:8px}.cross-index a{text-underline-offset:3px}

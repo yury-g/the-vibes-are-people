@@ -1,0 +1,684 @@
+{
+  "Vera Molnár": {
+    "src": "/notes/living/portraits/molnar.png",
+    "page": "https://ropac.net/news/1609-vera-molnar-pioneer-of-computer-art-dies-at-experimenting-with-algorithms-she-began-to-employ-the/",
+    "kind": "existing",
+    "personId": "molnar"
+  },
+  "Manfred Mohr": {
+    "src": "/notes/living/portraits/mohr.png",
+    "page": "https://zkm.de/en/event/2013/06/the-algorithm-of-manfred-mohr-1963-present",
+    "kind": "existing",
+    "personId": "mohr"
+  },
+  "Frieder Nake": {
+    "src": "/notes/living/portraits/nake.png",
+    "page": "https://www.uni-bremen.de/universitaet/hochschulkommunikation-und-marketing/personalia/detailansicht/association-for-computing-machinery-ehrt-bremer-informatiker-frieder-nake",
+    "kind": "existing",
+    "personId": "nake"
+  },
+  "Georg Nees": {
+    "src": "/notes/living/portraits/nees.png",
+    "page": "https://dam.org/museum/artists_ui/artists/nees-georg/",
+    "kind": "existing",
+    "personId": "nees"
+  },
+  "Harold Cohen": {
+    "src": "/notes/living/portraits/cohen.png",
+    "page": "https://gazelliarthouse.com/artists/harold-cohen/overview/",
+    "kind": "existing",
+    "personId": "cohen"
+  },
+  "John Whitney": {
+    "src": "/notes/living/portraits/whitney.png",
+    "page": "https://www.isea-symposium-archives.org/person/john-whitney-sr/",
+    "kind": "existing",
+    "personId": "whitney"
+  },
+  "Lillian Schwartz": {
+    "src": "/notes/living/portraits/schwartz.png",
+    "page": "https://computerhistory.org/blog/lillian-schwartz-pushing-the-medium/",
+    "kind": "existing",
+    "personId": "schwartz"
+  },
+  "Ken Perlin": {
+    "src": "/notes/living/portraits/perlin.png",
+    "page": "https://realitylab.uw.edu/components/lectures.html",
+    "kind": "existing",
+    "personId": "perlin"
+  },
+  "Craig Reynolds": {
+    "src": "/notes/living/portraits/reynolds.png",
+    "page": "https://www.red3d.com/cwr/",
+    "kind": "existing",
+    "personId": "reynolds"
+  },
+  "Karl Sims": {
+    "src": "/notes/living/portraits/sims.png",
+    "page": "https://lasiggraph.org/bio/presenter/sims-karl",
+    "kind": "existing",
+    "personId": "sims"
+  },
+  "Casey Reas": {
+    "src": "/notes/living/portraits/reas.png",
+    "page": "https://2015.grayareafestival.io/bio/casey-reas/",
+    "kind": "existing",
+    "personId": "reas"
+  },
+  "Ben Fry": {
+    "src": "/notes/living/portraits/fry.png",
+    "page": "https://vizknowledge.aalto.fi/speakers/BenFry.html",
+    "kind": "existing",
+    "personId": "fry"
+  },
+  "Golan Levin": {
+    "src": "/notes/living/portraits/levin.png",
+    "page": "https://flong.com/archive/bio/en/index.html",
+    "kind": "existing",
+    "personId": "levin"
+  },
+  "Zach Lieberman": {
+    "src": "/notes/living/portraits/lieberman.png",
+    "page": "https://www.media.mit.edu/people/zachl/overview/",
+    "kind": "existing",
+    "personId": "lieberman"
+  },
+  "Daniel Shiffman": {
+    "src": "/notes/living/portraits/shiffman.png",
+    "page": "https://tisch.nyu.edu/about/directory/itp/1984778605.html",
+    "kind": "existing",
+    "personId": "shiffman"
+  },
+  "Jared Tarbell": {
+    "src": "/notes/living/portraits/tarbell.png",
+    "page": "https://www.jaredstarbell.com/about/",
+    "kind": "existing",
+    "personId": "tarbell"
+  },
+  "Joshua Davis": {
+    "src": "/notes/living/portraits/davis.png",
+    "page": "https://www.andersonranch.org/people/joshua-davis/",
+    "kind": "existing",
+    "personId": "davis"
+  },
+  "Tyler Hobbs": {
+    "src": "/notes/living/portraits/hobbs.png",
+    "page": "https://www.tylerxhobbs.com/",
+    "kind": "existing",
+    "personId": "hobbs"
+  },
+  "Josiah Willard Gibbs": {
+    "src": "/notes/ingredients/people-portraits/josiah-willard-gibbs.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/pictdisplay/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/Gibbs.jpeg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/pictdisplay/",
+    "kind": "dithered-photograph"
+  },
+  "Oliver Heaviside": {
+    "src": "/notes/ingredients/people-portraits/oliver-heaviside.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/pictdisplay/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/Heaviside.jpeg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/pictdisplay/",
+    "kind": "dithered-photograph"
+  },
+  "Ernst Chladni": {
+    "src": "/notes/ingredients/people-portraits/ernst-chladni.png",
+    "page": "https://en.wikipedia.org/wiki/Ernst_Chladni",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Echladni.jpg/330px-Echladni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Alan Turing": {
+    "src": "/notes/ingredients/people-portraits/alan-turing.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/pictdisplay/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/Turing.jpeg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/pictdisplay/",
+    "kind": "dithered-photograph"
+  },
+  "Peter Gray": {
+    "src": "/notes/ingredients/people-portraits/peter-gray.png",
+    "page": "https://en.wikipedia.org/wiki/Peter_Gray_(chemist)",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/fd/Peter_Gray_%28chemist%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Roger Penrose": {
+    "src": "/notes/ingredients/people-portraits/roger-penrose.png",
+    "page": "https://en.wikipedia.org/wiki/Roger_Penrose",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Roger_Penrose_at_Festival_della_Scienza_Oct_29_2011.jpg/330px-Roger_Penrose_at_Festival_della_Scienza_Oct_29_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Edward N. Lorenz": {
+    "src": "/notes/ingredients/people-portraits/edward-n-lorenz.png",
+    "page": "https://www.lorenz.mit.edu/edward-n-lorenz",
+    "sourceImage": "https://images.squarespace-cdn.com/content/v1/5f1b2cc864da571b04dd30f0/1597851221504-7L291WF25O4JWEV62GX1/Image%2BLorenz%2Bcopy.jpg",
+    "credit": "https://www.lorenz.mit.edu/edward-n-lorenz",
+    "kind": "dithered-photograph"
+  },
+  "Georgy Voronoy": {
+    "src": "/notes/ingredients/people-portraits/georgy-voronoy.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/thumbnail.jpg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/",
+    "kind": "dithered-photograph"
+  },
+  "L. Mahadevan": {
+    "src": "/notes/ingredients/people-portraits/l-mahadevan.png",
+    "page": "https://en.wikipedia.org/wiki/L._Mahadevan",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Professor_Lakshminarayanan_Mahadevan_FRS_%28cropped%29.jpg/330px-Professor_Lakshminarayanan_Mahadevan_FRS_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Stephen Wolfram": {
+    "src": "/notes/ingredients/people-portraits/stephen-wolfram.png",
+    "page": "https://www.stephenwolfram.com/about/",
+    "sourceImage": "https://www.stephenwolfram.com/about/images/01-inpages-about_10.png",
+    "credit": "https://www.stephenwolfram.com/about/",
+    "kind": "dithered-photograph"
+  },
+  "Sébastien Truchet": {
+    "src": "/notes/ingredients/people-portraits/sebastien-truchet.png",
+    "page": "https://en.wikipedia.org/wiki/S%C3%A9bastien_Truchet",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sebastien_truchet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Cyril Stanley Smith": {
+    "src": "/notes/ingredients/people-portraits/cyril-stanley-smith.png",
+    "page": "https://en.wikipedia.org/wiki/Cyril_Stanley_Smith",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Cyril_S_Smith.jpg/330px-Cyril_S_Smith.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Michael F. Cohen": {
+    "src": "/notes/ingredients/people-portraits/michael-f-cohen.png",
+    "page": "https://en.wikipedia.org/wiki/Michael_F._Cohen",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Michael_Cohen.jpg/330px-Michael_Cohen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Evgraf S. Fedorov": {
+    "src": "/notes/ingredients/people-portraits/evgraf-s-fedorov.png",
+    "page": "https://en.wikipedia.org/wiki/Evgraf_Fedorov",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Evgraf_Fedorov_Mondadori.jpg/330px-Evgraf_Fedorov_Mondadori.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "George Pólya": {
+    "src": "/notes/ingredients/people-portraits/george-polya.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Polya/pictdisplay/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Polya/Polya.jpeg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Polya/pictdisplay/",
+    "kind": "dithered-photograph"
+  },
+  "M. C. Escher": {
+    "src": "/notes/ingredients/people-portraits/m-c-escher.png",
+    "page": "https://en.wikipedia.org/wiki/M._C._Escher",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Maurits_Cornelis_Escher.jpg/330px-Maurits_Cornelis_Escher.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Paul J. Steinhardt": {
+    "src": "/notes/ingredients/people-portraits/paul-j-steinhardt.png",
+    "page": "https://phy.princeton.edu/people/paul-j-steinhardt",
+    "sourceImage": "https://phy.princeton.edu/sites/g/files/toruqf6851/files/styles/3x4_750w_1000h/public/people/photo_35.jpg?h=e86e6001&itok=T7X3rWYr",
+    "credit": "Princeton University Department of Physics profile.",
+    "kind": "dithered-photograph"
+  },
+  "Gülru Necipoğlu": {
+    "src": "/notes/ingredients/people-portraits/gulru-necipoglu.png",
+    "page": "https://www.hoart.cam.ac.uk/aboutthedept/sladeprofs/sladeprofs/professor-gulru-necipoglu",
+    "sourceImage": "https://www.hoart.cam.ac.uk/sites/default/files/styles/3_4_sm/public/media/profile/professor-gulru-necipoglu.jpg?h=254c1694&itok=Dsu5HVie",
+    "credit": "University of Cambridge Department of History of Art, Slade Professor profile; image labeled Gülru Necipoğlu.",
+    "kind": "dithered-photograph"
+  },
+  "H. S. M. Coxeter": {
+    "src": "/notes/ingredients/people-portraits/h-s-m-coxeter.png",
+    "page": "https://en.wikipedia.org/wiki/H._S._M._Coxeter",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/3/3d/H.S.M._Coxeter.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Henri Poincaré": {
+    "src": "/notes/ingredients/people-portraits/henri-poincare.png",
+    "page": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/PSM_V82_D416_Henri_Poincare.png/330px-PSM_V82_D416_Henri_Poincare.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Edwin Catmull": {
+    "src": "/notes/ingredients/people-portraits/edwin-catmull.png",
+    "page": "https://en.wikipedia.org/wiki/Edwin_Catmull",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ed_Catmull_at_Web_Summit_2015_%28cropped%29.jpg/330px-Ed_Catmull_at_Web_Summit_2015_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "James Clark": {
+    "src": "/notes/ingredients/people-portraits/james-clark.png",
+    "page": "https://en.wikipedia.org/wiki/James_H._Clark",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/James_H._Clark.jpg/330px-James_H._Clark.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Loren Carpenter": {
+    "src": "/notes/ingredients/people-portraits/loren-carpenter.png",
+    "page": "https://noetic.org/event/water-ones-zeros/",
+    "sourceImage": "https://noetic.org/wp-content/uploads/2020/06/Presenter-Pics-Loren-Carpenter.png",
+    "credit": "Institute of Noetic Sciences presenter profile; explicitly identifies the Pixar cofounder.",
+    "kind": "dithered-photograph"
+  },
+  "David Ruelle": {
+    "src": "/notes/ingredients/people-portraits/david-ruelle.png",
+    "page": "https://www.ihes.fr/en/professeur/david-ruelle-2/",
+    "sourceImage": "https://www.ihes.fr/wp-content/uploads/2016/10/david-ruelle.jpg",
+    "credit": "https://www.ihes.fr/en/professeur/david-ruelle-2/",
+    "kind": "dithered-photograph"
+  },
+  "Floris Takens": {
+    "src": "/notes/ingredients/people-portraits/floris-takens.png",
+    "page": "https://en.wikipedia.org/wiki/Floris_Takens",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Floris_Takens.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Jules Lissajous": {
+    "src": "/notes/ingredients/people-portraits/jules-lissajous.png",
+    "page": "https://en.wikipedia.org/wiki/Jules_Antoine_Lissajous",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/4/43/Jules_Antoine_Lissajous.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "James A. Yorke": {
+    "src": "/notes/ingredients/people-portraits/james-a-yorke.png",
+    "page": "https://en.wikipedia.org/wiki/James_A._Yorke",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/James_A_Yorke.jpg/330px-James_A_Yorke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Piet Hut": {
+    "src": "/notes/ingredients/people-portraits/piet-hut.png",
+    "page": "https://www.ias.edu/piet",
+    "sourceImage": "https://www.ias.edu/sites/default/files/styles/wysiwyg_full/public/piet-homepage-aug-2023%20300px%2020pxhs.jpeg.webp?itok=H0aymsva",
+    "credit": "Institute for Advanced Study member homepage; image labeled Piet Hut.",
+    "kind": "dithered-photograph"
+  },
+  "Clifford A. Pickover": {
+    "src": "/notes/ingredients/people-portraits/clifford-a-pickover.png",
+    "page": "https://en.wikipedia.org/wiki/Clifford_A._Pickover",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pickover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Robert L. Cook": {
+    "src": "/notes/ingredients/people-portraits/robert-l-cook.png",
+    "page": "https://en.wikipedia.org/wiki/Robert_L._Cook",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rob_Cook.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "Donald E. Knuth": {
+    "src": "/notes/ingredients/people-portraits/donald-e-knuth.png",
+    "page": "https://profiles.stanford.edu/donald-knuth",
+    "sourceImage": "https://profiles.stanford.edu/proxy/api/cap/profiles/41803/resources/profilephoto/350x350.1509557588525.jpg",
+    "credit": "https://profiles.stanford.edu/donald-knuth",
+    "kind": "dithered-photograph"
+  },
+  "Craig S. Kaplan": {
+    "src": "/notes/ingredients/people-portraits/craig-s-kaplan.png",
+    "page": "https://uwaterloo.ca/math-innovation/contacts/craig-kaplan",
+    "sourceImage": "https://uwaterloo.ca/math-innovation/sites/default/files/styles/large/public/uploads/images/Craig%20Kaplan.jpg?itok=-jE7QHqA",
+    "credit": "https://uwaterloo.ca/math-innovation/contacts/craig-kaplan",
+    "kind": "dithered-photograph"
+  },
+  "Boris Delaunay": {
+    "src": "/notes/ingredients/people-portraits/boris-delaunay.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Delone/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Delone/thumbnail.jpg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Delone/",
+    "kind": "dithered-photograph"
+  },
+  "Godfried T. Toussaint": {
+    "src": "/notes/ingredients/people-portraits/godfried-t-toussaint.png",
+    "page": "https://nyuad.nyu.edu/en/academics/divisions/science/faculty/godfried-toussaint.html",
+    "sourceImage": "https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/science/faculty/godfried-toussaint/_jcr_content/bio-info/image.img.jpg",
+    "credit": "NYU Abu Dhabi faculty profile. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "Lawrence G. Roberts": {
+    "src": "/notes/ingredients/people-portraits/lawrence-g-roberts.png",
+    "page": "https://en.wikipedia.org/wiki/Larry_Roberts_%28computer_scientist%29",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Larry_Roberts.jpg/330px-Larry_Roberts.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Previously verified Wikimedia portrait from the parent portrait research; see linked biography and its image page for photographer/license.",
+    "kind": "dithered-photograph"
+  },
+  "Carlos Cruz-Diez": {
+    "src": "/notes/ingredients/people-portraits/carlos-cruz-diez.png",
+    "page": "https://en.wikipedia.org/wiki/Carlos_Cruz-Diez",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Retrato_Cruz-Diez_France_2013.jpg/330px-Retrato_Cruz-Diez_France_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Previously verified Wikimedia portrait from the parent portrait research; see linked biography and its image page for photographer/license.",
+    "kind": "dithered-photograph"
+  },
+  "Thomas Young": {
+    "src": "/notes/ingredients/people-portraits/thomas-young.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Thomas/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Thomas/thumbnail.jpg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Thomas/",
+    "kind": "dithered-photograph"
+  },
+  "Jim Blinn": {
+    "src": "/notes/ingredients/people-portraits/jim-blinn.png",
+    "page": "https://www.ithistory.org/honor-roll/dr-james-jim-f-blinn",
+    "sourceImage": "https://www.ithistory.org/sites/default/files/honor-roll/James%20Blinn.jpg",
+    "credit": "IT History Society Honor Roll profile. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "Benoît Mandelbrot": {
+    "src": "/notes/ingredients/people-portraits/benoit-mandelbrot.png",
+    "page": "https://en.wikipedia.org/wiki/Benoit_Mandelbrot",
+    "sourceImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Benoit_Mandelbrot%2C_TED_2010_%283x4_cropped%29.jpg/330px-Benoit_Mandelbrot%2C_TED_2010_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Portrait via Wikimedia / biography image",
+    "kind": "dithered-photograph"
+  },
+  "James P. Crutchfield": {
+    "src": "/notes/ingredients/people-portraits/james-p-crutchfield.png",
+    "page": "https://quist.ucdavis.edu/people/james-crutchfield",
+    "sourceImage": "https://quist.ucdavis.edu/sites/g/files/dgvnsk12101/files/styles/sf_profile/public/media/images/crutchfield_cropped_medium.jpg?h=c1e31ceb&itok=u7egoCjq",
+    "credit": "UC Davis Quantum Information Science and Technology profile. Photographer not stated. Image independently visible through image search; profile may restrict automated downloads.",
+    "kind": "dithered-photograph"
+  },
+  "Robert Bridson": {
+    "src": "/notes/ingredients/people-portraits/robert-bridson.png",
+    "page": "https://www.cs.ubc.ca/~rbridson/",
+    "sourceImage": "https://www.cs.ubc.ca/~rbridson/rbridson.jpg",
+    "credit": "https://www.cs.ubc.ca/~rbridson/",
+    "kind": "dithered-photograph"
+  },
+  "Jessica Rosenkrantz": {
+    "src": "/notes/ingredients/people-portraits/jessica-rosenkrantz.png",
+    "page": "https://n-e-r-v-o-u-s.com/about_us.php",
+    "sourceImage": "https://n-e-r-v-o-u-s.com/images/about/jessica_2025_website.jpg",
+    "credit": "https://n-e-r-v-o-u-s.com/about_us.php",
+    "kind": "dithered-photograph"
+  },
+  "Jesse Louis-Rosenberg": {
+    "src": "/notes/ingredients/people-portraits/jesse-louis-rosenberg.png",
+    "page": "https://n-e-r-v-o-u-s.com/about_us.php",
+    "sourceImage": "https://n-e-r-v-o-u-s.com/images/about/jesse_2025_website.jpg",
+    "credit": "https://n-e-r-v-o-u-s.com/about_us.php",
+    "kind": "dithered-photograph"
+  },
+  "Michael Barnsley": {
+    "src": "/notes/ingredients/people-portraits/michael-barnsley.png",
+    "page": "https://maths.anu.edu.au/people/michael-barnsley",
+    "sourceImage": "https://maths.anu.edu.au/sites/prod.maths.sca-lws06.anu.edu.au/files/styles/portrait_250_250/public/Barnsley%252C%2520Michael.jpg.webp?h=6783ce62&itok=ul6P9msu",
+    "credit": "https://maths.anu.edu.au/people/michael-barnsley",
+    "kind": "dithered-photograph"
+  },
+  "Louis Steinberg": {
+    "src": "/notes/ingredients/people-portraits/louis-steinberg.png",
+    "page": "https://www.cs.rutgers.edu/people/professors/details/emeritus/louis-steinberg",
+    "sourceImage": "https://www.cs.rutgers.edu/images/people/Louis-Steinberg.jpeg",
+    "credit": "https://www.cs.rutgers.edu/people/professors/details/emeritus/louis-steinberg",
+    "kind": "dithered-photograph"
+  },
+  "Robert Bosch": {
+    "src": "/notes/ingredients/people-portraits/robert-bosch.png",
+    "page": "https://www.oberlin.edu/bob-bosch",
+    "sourceImage": "https://www.oberlin.edu/sites/default/files/styles/width_260/public/content/biography/image/leiawitbjqmofzovgfgt_robert_bosch.jpg?itok=FmxkUDv3",
+    "credit": "https://www.oberlin.edu/bob-bosch",
+    "kind": "dithered-photograph"
+  },
+  "Joseph B. Kruskal": {
+    "src": "/notes/ingredients/people-portraits/joseph-b-kruskal.png",
+    "page": "https://mathshistory.st-andrews.ac.uk/Biographies/Kruskal_Joseph/",
+    "sourceImage": "https://mathshistory.st-andrews.ac.uk/Biographies/Kruskal_Joseph/thumbnail.jpg",
+    "credit": "https://mathshistory.st-andrews.ac.uk/Biographies/Kruskal_Joseph/",
+    "kind": "dithered-photograph"
+  },
+  "John C. Hart": {
+    "src": "/notes/ingredients/people-portraits/john-c-hart.png",
+    "page": "https://siebelschool.illinois.edu/about/people/faculty/jch",
+    "sourceImage": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?photo=9962&s=300",
+    "credit": "https://siebelschool.illinois.edu/about/people/faculty/jch",
+    "kind": "dithered-photograph"
+  },
+  "Robert W. Floyd": {
+    "src": "/notes/ingredients/people-portraits/robert-w-floyd.png",
+    "page": "https://legacy.cs.stanford.edu/node/1258",
+    "sourceImage": "https://legacy.cs.stanford.edu/sites/default/files/hhfffhcc.png",
+    "credit": "Stanford Computer Science faculty obituary portrait.",
+    "kind": "dithered-photograph"
+  },
+  "Adrian Secord": {
+    "src": "/notes/ingredients/people-portraits/adrian-secord.png",
+    "page": "https://design.google/library/adrian-secord-material-engineering-ai",
+    "sourceImage": "https://storage.googleapis.com/gd-prod/images/97d34114-0a96-42a1-8d6e-aa5801cb6d97.799a99c1196c2fd4.webp",
+    "credit": "Google Design, Design Notes: United by Design. Real monochrome portrait within a decorative pixel-art layout; face is in the lower portion. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "Marius Watz": {
+    "src": "/notes/ingredients/people-portraits/marius-watz.png",
+    "page": "https://www.lerandom.art/artists/marius-watz",
+    "sourceImage": "https://cdn.prod.website-files.com/6411e594fbd274173bf8c35c/64bee61cd701dfef3dd83830_17F0B592-3DB0-4E0C-8102-EE75B0798300.jpeg",
+    "credit": "Le Random artist biography; image credited Courtesy of the artist.",
+    "kind": "dithered-photograph"
+  },
+  "Johan Gielis": {
+    "src": "/notes/ingredients/people-portraits/johan-gielis.png",
+    "page": "https://www.worldbamboo.net/team-2/johan-gielis-",
+    "sourceImage": "https://static.wixstatic.com/media/9191d7_6d334617fc874e4cb55cd5f00fbb0569~mv2.jpeg/v1/fill/w_1250%2Ch_1167%2Cal_c%2Cq_85/Headshot%20JG.jpeg",
+    "credit": "World Bamboo Organization profile, Headshot JG. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "Paul Bourke": {
+    "src": "/notes/ingredients/people-portraits/paul-bourke.png",
+    "page": "https://construkted.com/ts-teams/paul-bourke/",
+    "sourceImage": "https://construkted.com/wp-content/uploads/2020/08/ECMphoto-e1597237967697.jpg",
+    "credit": "Construkted Reality former team profile; biography identifies the data-visualization and computational-photography consultant. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "John W. Van Ness": {
+    "src": "/notes/ingredients/people-portraits/john-w-van-ness.png",
+    "page": "https://profiles.utdallas.edu/john.ness",
+    "sourceImage": "https://profiles.utdallas.edu/storage/media/3425/conversions/vanness-medium.jpg",
+    "credit": "University of Texas at Dallas profile of John Van Ness, Professor Emeritus of Mathematical Sciences. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "F. Kenton Musgrave": {
+    "src": "/notes/ingredients/people-portraits/f-kenton-musgrave.png",
+    "page": "https://www.isea-symposium-archives.org/person/f-kenton-musgrave/",
+    "sourceImage": "https://www.isea-symposium-archives.org/wp-content/uploads/2019/09/Ken-Musgrave.jpg",
+    "credit": "ISEA Symposium Archives identifies F. Kenton Musgrave; archive says Photo from Pinterest. Photographer and reuse license not stated; portrait successfully fetched with a normal browser User-Agent.",
+    "kind": "dithered-photograph"
+  },
+  "Craig E. Kolb": {
+    "src": "/notes/ingredients/people-portraits/craig-e-kolb.png",
+    "page": "https://research.nvidia.com/labs/rtr/author/craig-kolb/",
+    "sourceImage": "https://research.nvidia.com/labs/rtr/author/craig-kolb/avatar_hu1dbf7f0b580772017464c245e9796faa_123179_270x270_fill_q90_lanczos_center.jpg",
+    "credit": "NVIDIA Research real-time-rendering lab author profile. Photographer not stated.",
+    "kind": "dithered-photograph"
+  },
+  "Steina Vasulka": {
+    "src": "/notes/ingredients/people-portraits/steina-vasulka.png",
+    "page": "https://www.vasulkainterviews.org/",
+    "sourceImage": "https://i.vimeocdn.com/video/285202070-3dcf16cdf3d3eeda8954444777c369016efb0dcacd853a25c208657536a18ebb-d_295x166",
+    "credit": "Vasulka Interviews: individual video still from Steina / Video as art / 1997.",
+    "kind": "dithered-photograph"
+  },
+  "Woody Vasulka": {
+    "src": "/notes/ingredients/people-portraits/woody-vasulka.png",
+    "page": "https://www.vasulkainterviews.org/",
+    "sourceImage": "https://i.vimeocdn.com/video/285091679-c28574a0818ec36efbd0ffa575fd0473751951144ae6fc8b5db38d386367db18-d_295x166",
+    "credit": "Vasulka Interviews: individual video still from Woody Vasulka / Deconstruction of the image / 1997.",
+    "kind": "dithered-photograph"
+  },
+  "Olivia Jack": {
+    "src": "/notes/ingredients/people-portraits/olivia-jack.png",
+    "page": "https://synosys.github.io/team/olivia-jack/",
+    "sourceImage": "https://synosys.github.io/_astro/olivia.thvl-zdh_1Tp4ri.webp",
+    "credit": "SynoSys, Dresden University of Technology, researcher profile. Photographer not stated; visually verified genuine headshot.",
+    "kind": "dithered-photograph"
+  },
+  "Mathias Isaksen": {
+    "src": "/notes/ingredients/people-portraits/mathias-isaksen.png",
+    "page": "https://st4yho.me/about/",
+    "sourceImage": "https://st4yho.me/wp-content/uploads/2023/03/IMG_3876-576x1024.jpg",
+    "credit": "Mathias Isaksen",
+    "kind": "dithered-photograph"
+  },
+  "Marcus Nordenstam": {
+    "src": "/notes/ingredients/people-portraits/marcus-nordenstam.png",
+    "page": "https://beforesandafters.com/2019/11/18/a-bifrost-journey/",
+    "sourceImage": "https://i0.wp.com/beforesandafters.com/wp-content/uploads/2019/11/MarcusNordenstam.jpeg?resize=376%2C376&ssl=1",
+    "credit": "befores & afters",
+    "kind": "dithered-photograph"
+  },
+  "Stephen K. Scott": {
+    "src": "/notes/ingredients/people-portraits/stephen-k-scott.png",
+    "page": "https://prism.leeds.ac.uk/people/stephen-scott/",
+    "sourceImage": "https://leedsbasic.wpengine.com/prism/wp-content/uploads/sites/43/2017/03/Stephen-Scott_1_.png",
+    "credit": "University of Leeds PRiSM biography portrait.",
+    "kind": "dithered-photograph"
+  },
+  "Przemysław Prusinkiewicz": {
+    "src": "/notes/ingredients/people-portraits/przemysaw-prusinkiewicz.png",
+    "page": "https://algorithmicbotany.org/people/",
+    "sourceImage": "https://algorithmicbotany.org/people/Photos/pwp1.jpg",
+    "credit": "University of Calgary Algorithmic Botany people page; explicitly named photograph.",
+    "kind": "dithered-photograph"
+  },
+  "Adam Runions": {
+    "src": "/notes/ingredients/people-portraits/adam-runions.png",
+    "page": "https://algorithmicbotany.org/people/",
+    "sourceImage": "https://algorithmicbotany.org/people/Photos/runionsa.jpg",
+    "credit": "University of Calgary Algorithmic Botany people page; explicitly named photograph.",
+    "kind": "dithered-photograph"
+  },
+  "Brendan Lane": {
+    "src": "/notes/ingredients/people-portraits/brendan-lane.png",
+    "page": "https://algorithmicbotany.org/people/",
+    "sourceImage": "https://algorithmicbotany.org/people/Photos/laneb.jpg",
+    "credit": "University of Calgary Algorithmic Botany people page; explicitly named photograph.",
+    "kind": "dithered-photograph"
+  },
+  "Thomas A. Witten Jr.": {
+    "src": "/notes/ingredients/people-portraits/thomas-a-witten-jr.png",
+    "page": "https://physics.uchicago.edu/people/profile/thomas-witten/",
+    "sourceImage": "https://d3qi0qp55mx5f5.cloudfront.net/physics/i/people/ThomasWitten_600.png?mtime=1789676939",
+    "credit": "University of Chicago Department of Physics; image labelled Thomas Witten.",
+    "kind": "dithered-photograph"
+  },
+  "Leonard M. Sander": {
+    "src": "/notes/ingredients/people-portraits/leonard-m-sander.png",
+    "page": "https://lsa.umich.edu/physics/people/emeritus/lsander.html",
+    "sourceImage": "https://lsa.umich.edu/content/michigan-lsa/physics/en/people/emeritus/lsander/jcr%3Acontent/profileImage.transform/profile_portrait/image.jpg",
+    "credit": "University of Michigan Department of Physics; faculty portrait labelled Leonard Sander.",
+    "kind": "dithered-photograph"
+  },
+  "Anders Hoff": {
+    "src": "/notes/ingredients/people-portraits/anders-hoff.png",
+    "page": "https://usesthis.com/interviews/anders.hoff/",
+    "sourceImage": "https://usesthis.com/images/interviews/anders.hoff/portrait.jpg",
+    "credit": "Uses This firsthand interview; HTML explicitly identifies portrait of Anders Hoff.",
+    "kind": "dithered-photograph"
+  },
+  "Oliver Deussen": {
+    "src": "/notes/ingredients/people-portraits/oliver-deussen.png",
+    "page": "https://www.cgmi.uni-konstanz.de/en/persons/prof-dr-oliver-deussen/",
+    "sourceImage": "https://www.cgmi.uni-konstanz.de/fileadmin/informatik/ag-deussen/Bilder_MAs/oliver_100x100.jpg",
+    "credit": "University of Konstanz faculty page; portrait adjacent to personal biography.",
+    "kind": "dithered-photograph"
+  },
+  "Hao Wang": {
+    "src": "/notes/ingredients/people-portraits/hao-wang.png",
+    "page": "https://digitalcommons.rockefeller.edu/faculty-members/109/",
+    "sourceImage": "https://digitalcommons.rockefeller.edu/faculty-members/1109/preview.jpg",
+    "credit": "Rockefeller University Digital Commons; Hao Wang circa 1980s, photographer unknown.",
+    "kind": "dithered-photograph"
+  },
+  "Bert Wang-Chak Chan": {
+    "src": "/notes/ingredients/people-portraits/bert-wang-chak-chan.png",
+    "page": "https://www.crosslabs.org/event-summary/cross-roads-15-lenia-life-and-intelligence",
+    "sourceImage": "https://cdn.prod.website-files.com/5e338abdcf951ffb0e1fadb1/5f433186916fd95417a2f73e_Cross_Roads_15_Screenshot_1400x900.jpg",
+    "credit": "Cross Labs event screenshot explicitly labelled Bert Chan; contains presentation, crop speaker face after visual inspection.",
+    "kind": "dithered-photograph"
+  },
+  "Peter J. Lu": {
+    "src": "/notes/ingredients/people-portraits/peter-j-lu.png",
+    "page": "https://peterlu.org/about.html",
+    "sourceImage": "https://peterlu.org/images/large/peterlu_atlantis_launchpad_sm_110707.jpg",
+    "credit": "Peter J. Lu, author website; photograph at the final shuttle launch; photographer not specified.",
+    "kind": "dithered-photograph"
+  },
+  "Mohammad al-Asad": {
+    "src": "/notes/ingredients/people-portraits/mohammad-al-asad.png",
+    "page": "https://www.holcimfoundation.org/experts/mohammad-al-asad",
+    "sourceImage": "https://d1f6o4licw9har.cloudfront.net/560x746/f297558e-b807-4064-abd4-90bcdde566da.jpg",
+    "credit": "Holcim Foundation expert profile identifies the CSBE founding director.",
+    "kind": "dithered-photograph"
+  },
+  "John E. Hutchinson": {
+    "src": "/notes/ingredients/people-portraits/john-e-hutchinson.png",
+    "page": "https://johnehutchinson.github.io/",
+    "sourceImage": "https://johnehutchinson.github.io/images/John_H.jpeg",
+    "credit": "John E. Hutchinson author website, linked from Australian National University staff profile.",
+    "kind": "dithered-photograph"
+  },
+  "Andrew Vince": {
+    "src": "/notes/ingredients/people-portraits/andrew-vince.png",
+    "page": "https://en.mfi.ug.edu.pl/news/116775/visiting-professors-ug-researchers-invited-fmpi",
+    "sourceImage": "https://en.mfi.ug.edu.pl/sites/en.mfi.ug.edu.pl/files/_nodes/news/116775/images/andrew-vince.png",
+    "credit": "University of Gdansk Faculty of Mathematics, Physics and Informatics; image explicitly labeled Andrew Vince, University of Florida.",
+    "kind": "dithered-photograph"
+  },
+  "Troy Shinbrot": {
+    "src": "/notes/ingredients/people-portraits/troy-shinbrot.png",
+    "page": "https://bme.rutgers.edu/troy-shinbrot",
+    "sourceImage": "https://bme.rutgers.edu/sites/default/files/styles/3x4_one_third_full_default_1x/public/2023-09/NR15ShinbrotTroy0722.JPG?h=eea91d19&itok=jfSt7MSH",
+    "credit": "Rutgers University Biomedical Engineering faculty profile.",
+    "kind": "dithered-photograph"
+  },
+  "Celso Grebogi": {
+    "src": "/notes/ingredients/people-portraits/celso-grebogi.png",
+    "page": "https://www.twas.org/directory/grebogi-celso",
+    "sourceImage": "https://www.twas.org/sites/default/files/cropped_prof_celso_grebogi.jpeg",
+    "credit": "The World Academy of Sciences member profile; image labeled Grebogi, Celso.",
+    "kind": "dithered-photograph"
+  },
+  "Jack Wisdom": {
+    "src": "/notes/ingredients/people-portraits/jack-wisdom.png",
+    "page": "https://eaps.mit.edu/people/faculty/jack-wisdom/",
+    "sourceImage": "https://eaps.mit.edu/wp-content/uploads/2024/01/Wisdom-aspect-ratio-1-1-272x0-c-default.jpg",
+    "credit": "Massachusetts Institute of Technology EAPS faculty profile.",
+    "kind": "dithered-photograph"
+  },
+  "Josh Barnes": {
+    "src": "/notes/ingredients/people-portraits/josh-barnes.png",
+    "page": "https://home.ifa.hawaii.edu/users/barnes/",
+    "sourceImage": "https://home.ifa.hawaii.edu/users/barnes/jb2.jpg",
+    "credit": "Joshua E. Barnes author homepage, University of Hawaii Institute for Astronomy; image explicitly captioned Josh Barnes, near the Kamo-gawa.",
+    "kind": "dithered-photograph"
+  },
+  "Paul W. Carlson": {
+    "src": "/notes/ingredients/people-portraits/paul-w-carlson.png",
+    "page": "https://departments.fmarion.edu/mathematics/museum/author.html",
+    "sourceImage": "https://departments.fmarion.edu/mathematics/museum/images/paul_thm.jpg",
+    "credit": "Francis Marion University Paul Carlson Fractal Museum, About the Artist; image labeled Paul Carlson.",
+    "kind": "dithered-photograph"
+  },
+  "Alain Fournier": {
+    "src": "/notes/ingredients/people-portraits/alain-fournier.png",
+    "page": "https://www.cs.ubc.ca/our-department/in-memoriam",
+    "sourceImage": "https://www.cs.ubc.ca/sites/default/files/inline-images/alain-fournier_0.jpg",
+    "credit": "University of British Columbia Department of Computer Science, In Memoriam; image beside Prof. Alain Fournier (1943–2000).",
+    "kind": "dithered-photograph"
+  },
+  "Donald Fussell": {
+    "src": "/notes/ingredients/people-portraits/donald-fussell.png",
+    "page": "https://www.cs.utexas.edu/~fussell/",
+    "sourceImage": "https://www.cs.utexas.edu/~fussell/fussell-exp1.jpg",
+    "credit": "Donald Fussell author homepage, University of Texas at Austin Department of Computer Science.",
+    "kind": "dithered-photograph"
+  }
+}

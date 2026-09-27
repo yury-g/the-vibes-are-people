@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {UltravioletKoi} from '../dist/iterations/ultraviolet-flow/koi.js';
+let next=1,cancelled=[];
+globalThis.requestAnimationFrame=()=>next++;
+globalThis.cancelAnimationFrame=id=>cancelled.push(id);
+globalThis.document={hidden:false,body:{classList:{toggle(){}}}};
+const e=Object.create(UltravioletKoi.prototype);
+Object.assign(e,{letters:[],x:300,y:300,heading:0,phase:0,paused:false,visible:true,last:0,raf:0,accumulator:0,mini:false,time:0,steps:0,frameMs:0,fps:0,frameCosts:[],sampleAt:0,step(dt){this.time+=dt;this.steps++;},draw(){},measure(){},onFrame(){},updateDiagnostics(){}});
+e.start();assert(e.raf);e.frame(1000);const t=e.time;
+e.setVisible(false);assert.equal(e.raf,0);e.frame(50000);assert.equal(e.time,t);
+e.setVisible(true);e.frame(100000);assert(e.time-t<=1/60+1e-8,'background interval never becomes simulation catch-up');
+e.setPaused(true);const paused=e.time;e.frame(200000);assert.equal(e.time,paused);assert.equal(e.raf,0);
+e.setPaused(false);e.frame(300000);assert(e.time-paused<=1/60+1e-8);
+assert(cancelled.length>=3);console.log('Actual inherited frame loop freezes while hidden/paused and resumes without elapsed-time catch-up.');

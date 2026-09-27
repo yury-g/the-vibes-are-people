@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {fish,glyph} from './size-hunt.mjs';
+import {captureFrame,advanceCaptures} from '../dist/iterations/brain/capture-effects.js';
+const e=fish();e.letters=[glyph(1,350,300,12)];e.capture();assert.equal(e.captureEffects?.length||0,0,'No proximity-only effects');
+e.letters[0].x=302;e.capture();assert.equal(e.captureEffects.length,1);e.capture();assert.equal(e.captureEffects.length,1,'One event per real capture');
+const event=e.captureEffects[0];assert.equal(event.x,301.6);assert.equal(event.y,300);assert.equal(event.letter,'a');
+const begin=captureFrame(e,0),open=captureFrame(e,.12),close=captureFrame(e,.43);assert.equal(begin.jaw,0);assert(open.jaw>.8);assert(close.jaw<.1);assert(begin.glyph.scale>0);assert(!close.glyph,'Captured glyph contracts away');
+const bubblesA=captureFrame(e,.6).bubbles,bubblesB=captureFrame(e,.9).bubbles;assert.equal(bubblesA.length,3);assert(bubblesB.every((b,i)=>b.y<bubblesA[i].y),'Bubbles rise from capture pose');
+e.x=600;assert.equal(captureFrame(e,.6).bubbles[0].x,bubblesA[0].x,'Bubble origin stays at real capture, not following fish');
+assert.deepEqual(captureFrame(e,.6),captureFrame(e,.6),'Drawing cameras never advances effects');
+e.time=3;advanceCaptures(e);assert.equal(e.captureEffects.length,0,'Bounded lifecycle cleans expired effects');
+for(let i=0;i<12;i++){e.time=i*2;e.biteAt=0;e.letters=[glyph(i+2,e.x+2,e.y,12)];e.capture();assert(e.captureEffects.length<=3);assert(captureFrame(e).bubbles.length<=9);}e.time+=3;advanceCaptures(e);assert.equal(e.captureEffects.length,0);
+const paused=fish();paused.paused=true;paused.time=1;paused.frame(1000);assert.equal(paused.time,1,'Paused frame cannot advance bite clock');
+console.log('Actual-event-only, once-only, jaw/glyph choreography, rising bounded bubbles and pause pass');

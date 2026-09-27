@@ -1,0 +1,21 @@
+import {SharedTank} from '/dist/iterations/shared-pond/tank.js';
+import {SharedSchool} from '/dist/iterations/shared-pond/school.js';
+import {glyphBox} from '/dist/iterations/tank/solid.js';
+const params=new URLSearchParams(location.search),duration=Number(params.get('seconds')||60)*1000,warmup=5000;
+const frames=[],work=[],travel=Array(6).fill(0),moves=Array(6).fill(0);let first=0,last=0,done=false,engine,lastEvent=-1,maxOutside=0,overlapFrames=0,unresolved=0,duplicateCapture=false,scripted=0,maxMoving=0;
+const q=(a,p)=>[...a].sort((a,b)=>a-b)[Math.min(a.length-1,Math.floor(a.length*p))]||0;
+const parts={school:[],draw:[],step:[]},slow=[];let schoolWork=0,drawWork=0,stepWork=0;
+for(const [Type,name,key] of [[SharedSchool,'update','school'],[SharedTank,'draw','draw'],[SharedTank,'step','step']]){const old=Type.prototype[name];Type.prototype[name]=function(...args){const t=performance.now(),r=old.apply(this,args),work=performance.now()-t;parts[key].push(work);if(key==='school')schoolWork+=work;if(key==='draw')drawWork+=work;if(key==='step')stepWork+=work;return r;};}
+const original=SharedTank.prototype.frame;
+SharedTank.prototype.frame=function(now){engine=this;const begin=performance.now();if(!first)first=now;const elapsed=now-first;
+ if(elapsed>=warmup&&last&&!this.paused&&!document.hidden)frames.push(now-last);last=now;
+ schoolWork=drawWork=stepWork=0;const contactStart=this.contacts;
+ const old=this.fishes.map(f=>({x:f.x,y:f.y}));
+ if(params.has('stress')){const event=Math.floor(elapsed/1000);if(event!==lastEvent){lastEvent=event;if(event%10===6){const f=this.fishes[Math.floor(event/10)%6],l=this.letters.find(l=>!l.eaten&&!l.locked&&l.visible);if(l){const n=f.eaten||0;l.x=f.x+Math.cos(f.heading)*2;l.y=f.y+Math.sin(f.heading)*2;f.capture();scripted+=(f.eaten||0)-n;}}if(event%10===8)this.tap={x:this.w*.5,y:this.h*.5,until:this.time+3};}}
+ original.call(this,now);
+ if(elapsed>=warmup){const cost=performance.now()-begin;work.push(cost);if(cost>20){slow.push({at:elapsed,work:cost,school:schoolWork,draw:drawWork,step:stepWork,contacts:this.contacts-contactStart});slow.sort((a,b)=>b.work-a.work);slow.length=Math.min(8,slow.length);}for(const f of this.fishes){const d=Math.hypot(f.x-old[f.id].x,f.y-old[f.id].y);travel[f.id]+=d;if(d>.001)moves[f.id]++;if(f.contactOverlap)overlapFrames++;const b=f.solidSkin.bounds;maxOutside=Math.max(maxOutside,-b.left,b.right-this.w,-b.top,b.bottom-this.h);}for(const l of this.letters){if(l.eaten||l.locked||l.state==='home'||!l.visible)continue;const b=glyphBox(l);maxOutside=Math.max(maxOutside,-b.left,b.right-this.w,-b.top,b.bottom-this.h);}unresolved+=this.school.viewportContacts?.unresolved||0;duplicateCapture||=this.fishes.reduce((n,f)=>n+(f.eaten||0),0)!==this.letters.filter(l=>l.eaten).length;maxMoving=Math.max(maxMoving,this.letters.filter(l=>l.state!=='home'&&!l.eaten).length);}
+ if(elapsed>=duration+warmup&&!done){done=true;this.setPaused(true);report();}
+};
+function report(){const total=frames.reduce((a,b)=>a+b,0);document.querySelector('#profile-result').textContent=JSON.stringify({done,width:innerWidth,height:innerHeight,dpr:devicePixelRatio,userAgent:navigator.userAgent,scenario:params.has('stress')?'six fish; shared school; scripted mouth captures and central taps':'six fish; natural',frames:frames.length,seconds:total/1000,fps:frames.length*1000/total,interval:{p50:q(frames,.5),p95:q(frames,.95),p99:q(frames,.99),max:q(frames,1),over25:frames.filter(x=>x>25).length,missPercent:frames.filter(x=>x>25).length/frames.length*100},work:{p50:q(work,.5),p95:q(work,.95),p99:q(work,.99),max:q(work,1)},parts:Object.fromEntries(Object.entries(parts).map(([k,v])=>[k,{p95:q(v,.95),p99:q(v,.99),max:q(v,1)}])),slow,registered:engine?.letters.length,captures:engine?.fishes.map(f=>f.eaten||0),scripted,travel,moves,maxOutside,overlapFrames,unresolved,duplicateCapture,maxMoving,contacts:engine?.contacts});}
+const output=document.createElement('script');output.id='profile-result';output.type='application/json';document.body.append(output);setInterval(()=>{if(!done)report();},1000);
+await import('/dist/iterations/shared-pond/app.js');
