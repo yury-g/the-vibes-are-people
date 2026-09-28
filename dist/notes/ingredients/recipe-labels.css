@@ -9,3 +9,6 @@ body[data-page=techniques] dialog{width:min(1220px,calc(100vw - 34px));padding:2
 @media(prefers-reduced-motion:reduce){.tile canvas{transition:none}}
 
 @media(min-width:701px){.recipe-intro{padding-top:26px;padding-bottom:22px}.recipe-intro h1{font-size:clamp(60px,6vw,88px);margin-bottom:16px}.recipe-guide span{padding:12px 16px}.provenance-status{margin:12px 0 16px}.people-search{margin:14px 0}.tile canvas{max-height:190px}}
+
+/* Evidence labels and bios must fit narrow recipe columns. */
+.ingredient-copy,.detail-grid>div{min-width:0}.ingredient-copy{overflow-wrap:anywhere}.detail-grid .ingredient-copy p.ingredient-bio{font-size:13px;line-height:1.55;margin:12px 0 5px;color:var(--muted)}

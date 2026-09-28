@@ -5,49 +5,49 @@
       "id": "person-adam-runions",
       "name": "Adam Runions",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-adrian-secord",
       "name": "Adrian Secord",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-adrianne-herman",
       "name": "Adrianne Herman",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-alain-fournier",
       "name": "Alain Fournier",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-alan-turing",
       "name": "Alan Turing",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-anders-hoff",
       "name": "Anders Hoff",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-andrew-vince",
       "name": "Andrew Vince",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-aristid-lindenmayer",
       "name": "Aristid Lindenmayer",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-ben-fry",
@@ -59,37 +59,37 @@
       "id": "person-benoit-mandelbrot",
       "name": "Benoît Mandelbrot",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-bert-wang-chak-chan",
       "name": "Bert Wang-Chak Chan",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-boris-delaunay",
       "name": "Boris Delaunay",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-brendan-lane",
       "name": "Brendan Lane",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-bryce-e-bayer",
       "name": "Bryce E. Bayer",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-carlos-cruz-diez",
       "name": "Carlos Cruz-Diez",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-casey-reas",
@@ -101,19 +101,19 @@
       "id": "person-celso-grebogi",
       "name": "Celso Grebogi",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-clifford-a-pickover",
       "name": "Clifford A. Pickover",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-craig-e-kolb",
       "name": "Craig E. Kolb",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-craig-reynolds",
@@ -125,79 +125,85 @@
       "id": "person-craig-s-kaplan",
       "name": "Craig S. Kaplan",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-cyril-stanley-smith",
       "name": "Cyril Stanley Smith",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-daniel-shiffman",
       "name": "Daniel Shiffman",
       "study": "shiffman",
-      "placement": "In the collection"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-david-ruelle",
       "name": "David Ruelle",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-donald-e-knuth",
       "name": "Donald E. Knuth",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-donald-fussell",
       "name": "Donald Fussell",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-edward-n-lorenz",
       "name": "Edward N. Lorenz",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-edwin-catmull",
       "name": "Edwin Catmull",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-ernst-chladni",
       "name": "Ernst Chladni",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-evgraf-s-fedorov",
       "name": "Evgraf S. Fedorov",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-f-kenton-musgrave",
       "name": "F. Kenton Musgrave",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-floris-takens",
       "name": "Floris Takens",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-frieder-nake",
       "name": "Frieder Nake",
       "study": "nake",
       "placement": "In the collection"
+    },
+    {
+      "id": "person-gene-kogan",
+      "name": "Gene Kogan",
+      "study": null,
+      "placement": "In Ingredients"
     },
     {
       "id": "person-georg-nees",
@@ -209,49 +215,49 @@
       "id": "person-george-polya",
       "name": "George Pólya",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-georgy-voronoy",
       "name": "Georgy Voronoy",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-godfried-t-toussaint",
       "name": "Godfried T. Toussaint",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-golan-levin",
       "name": "Golan Levin",
       "study": "levin",
-      "placement": "In the collection"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-gulru-necipoglu",
       "name": "Gülru Necipoğlu",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-h-s-m-coxeter",
       "name": "H. S. M. Coxeter",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-haiyi-liang",
       "name": "Haiyi Liang",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-hao-wang",
       "name": "Hao Wang",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-harold-cohen",
@@ -263,37 +269,37 @@
       "id": "person-henri-poincare",
       "name": "Henri Poincaré",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-inigo-quilez",
       "name": "Iñigo Quilez",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jack-wisdom",
       "name": "Jack Wisdom",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-james-a-yorke",
       "name": "James A. Yorke",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-james-clark",
       "name": "James Clark",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-james-p-crutchfield",
       "name": "James P. Crutchfield",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jared-tarbell",
@@ -305,67 +311,67 @@
       "id": "person-jeff-jones",
       "name": "Jeff Jones",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jesse-louis-rosenberg",
       "name": "Jesse Louis-Rosenberg",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jessica-rosenkrantz",
       "name": "Jessica Rosenkrantz",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jim-blinn",
       "name": "Jim Blinn",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jim-hourihan",
       "name": "Jim Hourihan",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-johan-gielis",
       "name": "Johan Gielis",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-john-browning",
       "name": "John Browning",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-john-c-hart",
       "name": "John C. Hart",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-john-e-hutchinson",
       "name": "John E. Hutchinson",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-john-e-pearson",
       "name": "John E. Pearson",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-john-w-van-ness",
       "name": "John W. Van Ness",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-john-whitney",
@@ -377,19 +383,19 @@
       "id": "person-jonathan-shade",
       "name": "Jonathan Shade",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-joseph-b-kruskal",
       "name": "Joseph B. Kruskal",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-josh-barnes",
       "name": "Josh Barnes",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-joshua-davis",
@@ -401,25 +407,25 @@
       "id": "person-josiah-willard-gibbs",
       "name": "Josiah Willard Gibbs",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-jules-lissajous",
       "name": "Jules Lissajous",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-karl-sims",
       "name": "Karl Sims",
       "study": "sims",
-      "placement": "In the collection"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-ken-perlin",
       "name": "Ken Perlin",
       "study": "perlin",
-      "placement": "In the collection"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-kyle-mcdonald",
@@ -431,25 +437,25 @@
       "id": "person-l-mahadevan",
       "name": "L. Mahadevan",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-lauren-lee-mccarthy",
       "name": "Lauren Lee McCarthy",
       "study": null,
-      "placement": "To be assigned"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-lawrence-g-roberts",
       "name": "Lawrence G. Roberts",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-leonard-m-sander",
       "name": "Leonard M. Sander",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-lillian-schwartz",
@@ -461,19 +467,19 @@
       "id": "person-loren-carpenter",
       "name": "Loren Carpenter",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-louis-steinberg",
       "name": "Louis Steinberg",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-m-c-escher",
       "name": "M. C. Escher",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-manfred-mohr",
@@ -485,175 +491,175 @@
       "id": "person-marcus-nordenstam",
       "name": "Marcus Nordenstam",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-marius-watz",
       "name": "Marius Watz",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-mathias-isaksen",
       "name": "Mathias Isaksen",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-michael-barnsley",
       "name": "Michael Barnsley",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-michael-f-cohen",
       "name": "Michael F. Cohen",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-mohammad-al-asad",
       "name": "Mohammad al-Asad",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-oliver-deussen",
       "name": "Oliver Deussen",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-oliver-heaviside",
       "name": "Oliver Heaviside",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-olivia-jack",
       "name": "Olivia Jack",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-paul-bourke",
       "name": "Paul Bourke",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-paul-j-steinhardt",
       "name": "Paul J. Steinhardt",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-paul-w-carlson",
       "name": "Paul W. Carlson",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-pauline-boucher",
       "name": "Pauline Boucher",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-peter-gray",
       "name": "Peter Gray",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-peter-j-lu",
       "name": "Peter J. Lu",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-piet-hut",
       "name": "Piet Hut",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-przemys-aw-prusinkiewicz",
       "name": "Przemysław Prusinkiewicz",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-robert-berger",
       "name": "Robert Berger",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-robert-bosch",
       "name": "Robert Bosch",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-robert-bridson",
       "name": "Robert Bridson",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-robert-l-cook",
       "name": "Robert L. Cook",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-robert-s-mace",
       "name": "Robert S. Mace",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-robert-w-floyd",
       "name": "Robert W. Floyd",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-roger-penrose",
       "name": "Roger Penrose",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-sebastien-truchet",
       "name": "Sébastien Truchet",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-stefan-hiller",
       "name": "Stefan Hiller",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-steina-vasulka",
       "name": "Steina Vasulka",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-stephen-k-scott",
       "name": "Stephen K. Scott",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-stephen-wolfram",
       "name": "Stephen Wolfram",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-taeyoon-choi",
@@ -665,31 +671,31 @@
       "id": "person-tega-brain",
       "name": "Tega Brain",
       "study": null,
-      "placement": "To be assigned"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-thomas-a-witten-jr",
       "name": "Thomas A. Witten Jr.",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-thomas-young",
       "name": "Thomas Young",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-troy-shinbrot",
       "name": "Troy Shinbrot",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-tyler-hobbs",
       "name": "Tyler Hobbs",
       "study": "hobbs",
-      "placement": "In the collection"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-vera-molnar",
@@ -701,7 +707,7 @@
       "id": "person-woody-vasulka",
       "name": "Woody Vasulka",
       "study": null,
-      "placement": "Existing recipe credit"
+      "placement": "In Ingredients"
     },
     {
       "id": "person-yury-gitman",
@@ -713,7 +719,7 @@
       "id": "person-zach-lieberman",
       "name": "Zach Lieberman",
       "study": "lieberman",
-      "placement": "In the collection"
+      "placement": "In Ingredients"
     }
   ],
   "entities": [
@@ -1146,6 +1152,18 @@
       "dates": null,
       "checked": null,
       "review": "imported"
+    },
+    {
+      "person": "person-gene-kogan",
+      "target": "recipe-vector-fields-from-math",
+      "kind": "contribution",
+      "role": "Artistic use · Vertex rivers (2011)",
+      "detail": "His work index describes Vertex rivers as dots over vector fields. The work page documents a generative sketch, shown at Big Screen Plaza in January 2012, and links to its OpenProcessing code.",
+      "source": "https://genekogan.com/work/",
+      "sourceLabel": "Artist’s work index · Vertex rivers",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
     },
     {
       "person": "person-ernst-chladni",
@@ -1796,6 +1814,18 @@
       "review": "imported"
     },
     {
+      "person": "person-zach-lieberman",
+      "target": "recipe-harmonographs-lissajous",
+      "kind": "contribution",
+      "role": "Teaching · Lissajous figures in C++",
+      "detail": "Authored the openFrameworks animation chapter, including a Lissajous section demonstrating different angular rates for horizontal and vertical motion. A contemporary teaching contribution; Jules Antoine Lissajous remains credited for the historical curves.",
+      "source": "https://openframeworks.cc/ofBook/chapters/animation.html#lissajous-figures",
+      "sourceLabel": "ofBook · animation chapter by Zach Lieberman",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
       "person": "person-troy-shinbrot",
       "target": "recipe-double-pendulum-n-body-trails",
       "kind": "contribution",
@@ -1950,6 +1980,30 @@
       "dates": null,
       "checked": null,
       "review": "imported"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "recipe-dithering-as-art",
+      "kind": "contribution",
+      "role": "Teaching · Code as Creative Medium co-author",
+      "detail": "Co-authored the creative-coding book and its shared example collection, including this random-dot dithering exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+      "source": "https://github.com/golanlevin/exercises/tree/main/12_image/04_random_dot_dithering",
+      "sourceLabel": "Code as Creative Medium · example and repository credits",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "recipe-dithering-as-art",
+      "kind": "contribution",
+      "role": "Teaching · Code as Creative Medium co-author",
+      "detail": "Co-authored the creative-coding book and its shared example collection, including this random-dot dithering exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+      "source": "https://github.com/golanlevin/exercises/tree/main/12_image/04_random_dot_dithering",
+      "sourceLabel": "Code as Creative Medium · example and repository credits",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
     },
     {
       "person": "person-robert-w-floyd",
@@ -2156,6 +2210,42 @@
       "review": "imported"
     },
     {
+      "person": "person-golan-levin",
+      "target": "recipe-moire",
+      "kind": "contribution",
+      "role": "Teaching · Code as Creative Medium co-author",
+      "detail": "Co-authored the creative-coding book and its shared example collection, including this moiré exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+      "source": "https://github.com/golanlevin/exercises/tree/main/02_iteration/14_moire_patterns",
+      "sourceLabel": "Code as Creative Medium · example and repository credits",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "recipe-moire",
+      "kind": "contribution",
+      "role": "Teaching · Code as Creative Medium co-author",
+      "detail": "Co-authored the creative-coding book and its shared example collection, including this moiré exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+      "source": "https://github.com/golanlevin/exercises/tree/main/02_iteration/14_moire_patterns",
+      "sourceLabel": "Code as Creative Medium · example and repository credits",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-gene-kogan",
+      "target": "recipe-moire",
+      "kind": "contribution",
+      "role": "Artistic use · Interference (2012)",
+      "detail": "Used repeated deltoid curves to produce moiré patterns in Interference. His account says the original code was lost; the work documents an artistic application, not invention of moiré.",
+      "source": "https://genekogan.com/works/interference/",
+      "sourceLabel": "Artist’s work record · Interference",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
       "person": "person-thomas-young",
       "target": "recipe-wave-interference",
       "kind": "contribution",
@@ -2262,6 +2352,18 @@
       "dates": null,
       "checked": null,
       "review": "imported"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Toolmaking · p5.js creator",
+      "detail": "Created p5.js, whose noiseDetail API exposes octave and falloff controls for layered Perlin noise. This credits the enabling platform, not invention of fBm, implementation of every noise function, or all ridged/turbulent variants.",
+      "source": "https://p5js.org/reference/p5/noiseDetail/",
+      "sourceLabel": "p5.js · octave and falloff documentation",
+      "dates": null,
+      "checked": "2026-09-27",
+      "review": "checked"
     },
     {
       "person": "person-john-c-hart",
@@ -2762,6 +2864,17 @@
       "review": "checked"
     },
     {
+      "person": "person-gene-kogan",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Project Resident · jointly with Lisa Kori",
+      "dates": "2015",
+      "source": "https://eyebeam.org/artists/lisa-kori-gene-kogan/",
+      "sourceLabel": "Eyebeam · Lisa Kori & Gene Kogan",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
       "person": "person-vera-molnar",
       "target": "entity-fortran",
       "role": "Used for computer drawings",
@@ -3108,30 +3221,6 @@
       "checked": "2026-09-27",
       "kind": "language/tool",
       "review": "checked"
-    },
-    {
-      "person": "person-zach-lieberman",
-      "target": "entity-cpp",
-      "role": "Language association via openFrameworks",
-      "context": "C++ is the toolkit’s language; no specific artwork implementation is claimed.",
-      "source": "https://eyebeam.org/artists/zach-lieberman/",
-      "sourceLabel": "Eyebeam · Lieberman",
-      "evidence": [
-        {
-          "url": "https://eyebeam.org/artists/zach-lieberman/",
-          "label": "Eyebeam · Lieberman"
-        },
-        {
-          "url": "https://openframeworks.cc/about/",
-          "label": "openFrameworks · C++ toolkit"
-        }
-      ],
-      "confidence": 2,
-      "rationale": "Inferred from co-creating openFrameworks and the toolkit’s documented C++ basis.",
-      "dates": null,
-      "checked": "2026-09-27",
-      "kind": "language/tool",
-      "review": "inferred"
     },
     {
       "person": "person-kyle-mcdonald",
@@ -3508,6 +3597,106 @@
       ],
       "confidence": 3,
       "rationale": "The primary project page explicitly names the language for this implementation.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-gene-kogan",
+      "target": "entity-processing",
+      "role": "Artist-authored shader examples",
+      "context": "Processing shader examples (2013), a personal collection and tutorial.",
+      "source": "https://genekogan.com/works/processing-shader-examples/",
+      "sourceLabel": "Gene Kogan · Processing shader examples",
+      "evidence": [
+        {
+          "url": "https://genekogan.com/works/processing-shader-examples/",
+          "label": "Gene Kogan · Processing shader examples"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-gene-kogan",
+      "target": "entity-glsl",
+      "role": "Artist-authored shader examples",
+      "context": "Processing shader examples (2013), a personal collection and tutorial.",
+      "source": "https://genekogan.com/works/processing-shader-examples/",
+      "sourceLabel": "Gene Kogan · Processing shader examples",
+      "evidence": [
+        {
+          "url": "https://genekogan.com/works/processing-shader-examples/",
+          "label": "Gene Kogan · Processing shader examples"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "entity-processing",
+      "role": "Co-author · educational examples",
+      "context": "Shared Code as Creative Medium example collection; repository credits additional assistants and ports.",
+      "source": "https://github.com/golanlevin/exercises",
+      "sourceLabel": "Code as Creative Medium · repository credits",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/exercises",
+          "label": "Code as Creative Medium · repository credits"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "entity-javascript",
+      "role": "Co-author · educational examples",
+      "context": "Shared JavaScript/p5.js examples accompanying Code as Creative Medium; not sole authorship of each port.",
+      "source": "https://github.com/golanlevin/exercises",
+      "sourceLabel": "Code as Creative Medium · repository credits",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/exercises",
+          "label": "Code as Creative Medium · repository credits"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-cpp",
+      "role": "Author · animation tutorial",
+      "context": "ofBook animation chapter, including C++ examples for Lissajous figures.",
+      "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
+      "sourceLabel": "ofBook · Zach Lieberman’s animation chapter",
+      "evidence": [
+        {
+          "url": "https://openframeworks.cc/ofBook/chapters/animation.html",
+          "label": "ofBook · Zach Lieberman’s animation chapter"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
       "dates": null,
       "checked": "2026-09-27",
       "kind": "language/tool",

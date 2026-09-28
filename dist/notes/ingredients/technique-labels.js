@@ -6,7 +6,8 @@ const portraitRequest=fetch(new URL('portrait-map.json',import.meta.url))
   .then(r=>r.ok?r.json():{}).catch(()=>({}));
 const records=await fetch(new URL('technique-provenance.json',import.meta.url))
   .then(r=>{if(!r.ok)throw new Error('Provenance unavailable');return r.json()});
-let portraits={};
+let portraits={},profiles={};
+const profileRequest=fetch(new URL('people-profiles.json',import.meta.url)).then(r=>r.ok?r.json():{}).catch(()=>({}));
 const byName=new Map(records.map(record=>[record.name,record]));
 const tiles=[...document.querySelectorAll('.tile')];
 const $=selector=>document.querySelector(selector);
@@ -55,6 +56,7 @@ function renderLabel(){
     if(photo?.page)imageColumn.append(sourceLink(photo.kind==='existing'?'Portrait credit ↗':'Photo source ↗',photo.page,'photo-credit'));
     const copy=element('div','ingredient-copy');
     copy.append(element('h4','',person.name),element('p','ingredient-role',person.role),element('p','contribution',person.detail),sourceLink(`${person.source} ↗`,person.url));
+    if(profiles[person.name]){const bio=profiles[person.name];copy.append(element('p','ingredient-bio',bio.bio),sourceLink('Artist biography ↗',bio.source))}
     if(photo?.personId){const profile=element('a','person-profile','Open person’s study ↗');profile.href=`/notes/ingredients/people.html?person=${encodeURIComponent(photo.personId)}`;copy.append(profile)}
     attachConnections(copy,person.name);row.append(imageColumn,copy);panel.append(row);
   });
@@ -94,3 +96,15 @@ portraitRequest.then(loaded=>{
   panel.dataset.technique='';renderLabel();
   document.body.dataset.portraits='ready';
 });
+
+profileRequest.then(loaded=>{profiles=loaded;panel.dataset.technique='';renderLabel();document.body.dataset.profiles='ready'});
+
+fetch('/connections/data.json').then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}).then(graph=>{
+ const roster=document.querySelector('#eyebeam-roster');if(!roster)return;
+ const rows=graph.people.filter(p=>graph.relationships.some(r=>r.person===p.id&&r.target==='entity-eyebeam'&&r.review==='checked'));
+ roster.replaceChildren();
+ for(const p of rows){const card=element('article','eyebeam-person');card.append(element('h3','',p.name));
+ const credits=records.filter(r=>r.contributors.some(c=>c.name===p.name));
+ card.append(element('p','',credits.length?'In Ingredients · '+credits.map(r=>r.name).join(' · '):p.placement));
+ const a=element('a','',credits.length?'Explore recipe credits ↗':'View evidence & research ↗');a.href=credits.length?'?person='+encodeURIComponent(p.name):'/connections/?node='+encodeURIComponent(p.id)+'#people';card.append(a);attachConnections(card,p.name);roster.append(card)}
+}).catch(()=>{});

@@ -1,0 +1,1288 @@
+[
+  {
+    "recipe": "Curl noise",
+    "contributor": {
+      "name": "Robert Bridson",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored Curl-Noise for Procedural Fluid Flow, constructing incompressible procedural velocity fields with controllable boundaries.",
+      "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+      "source": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+      "portraitUrl": "https://www.cs.ubc.ca/~rbridson/rbridson.jpg",
+      "portraitPage": "https://www.cs.ubc.ca/~rbridson/"
+    }
+  },
+  {
+    "recipe": "Curl noise",
+    "contributor": {
+      "name": "Jim Hourihan",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the 2007 curl-noise method for procedural fluid-like motion.",
+      "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+      "source": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Curl noise",
+    "contributor": {
+      "name": "Marcus Nordenstam",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the 2007 curl-noise method, including treatment of solid boundaries.",
+      "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+      "source": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Domain warping",
+    "contributor": {
+      "name": "Ken Perlin",
+      "role": "Noise and domain displacement",
+      "detail": "Developed procedural noise and demonstrated domain displacement as a texture-building operation.",
+      "url": "https://mrl.cs.nyu.edu/projects/texture/",
+      "source": "NYU Media Research Lab · procedural textures"
+    }
+  },
+  {
+    "recipe": "Domain warping",
+    "contributor": {
+      "name": "Iñigo Quilez",
+      "role": "Earlier exposition",
+      "detail": "Mathias Isaksen's first-person account explicitly credits Quilez's 2002 domain-warping article as an earlier explanation of the technique.",
+      "url": "https://st4yho.me/domain-warping-an-interactive-introduction/",
+      "source": "Mathias Isaksen, Domain warping: an interactive introduction (2022)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Domain warping",
+    "contributor": {
+      "name": "Mathias Isaksen",
+      "role": "Later artist / expositor",
+      "detail": "His illustrated tutorial documents domain-warped artworks and shows how to repeatedly displace sample positions with noise.",
+      "url": "https://st4yho.me/domain-warping-an-interactive-introduction/",
+      "source": "Artist's own tutorial, 18 March 2022",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Vector fields from math",
+    "contributor": {
+      "name": "Josiah Willard Gibbs",
+      "role": "Mathematical foundation",
+      "detail": "Developed vector analysis as a practical mathematical language; his 1881–1884 Yale notes are preserved by the Smithsonian.",
+      "url": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+      "source": "Smithsonian Libraries, Elements of vector analysis",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/Gibbs.jpeg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/pictdisplay/"
+    }
+  },
+  {
+    "recipe": "Vector fields from math",
+    "contributor": {
+      "name": "Oliver Heaviside",
+      "role": "Mathematical foundation",
+      "detail": "The Smithsonian identifies Heaviside alongside Gibbs as a developer of practical vector analysis.",
+      "url": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+      "source": "Smithsonian Libraries, Elements of vector analysis",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/Heaviside.jpeg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/pictdisplay/"
+    }
+  },
+  {
+    "recipe": "Vector fields from math",
+    "contributor": {
+      "name": "Tyler Hobbs",
+      "role": "Later artist / expositor",
+      "detail": "Explains tracing paths through direction fields and shows how he uses and varies them in his own artwork.",
+      "url": "https://www.tylerxhobbs.com/words/flow-fields",
+      "source": "Tyler Hobbs · Flow Fields"
+    }
+  },
+  {
+    "recipe": "Chladni / standing waves",
+    "contributor": {
+      "name": "Ernst Chladni",
+      "role": "Experimental pioneer",
+      "detail": "Developed sand-covered vibrating-plate demonstrations that made nodal patterns visible.",
+      "url": "https://amhistory.si.edu/science/chladni.htm",
+      "source": "Smithsonian, Chladni Plates",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Reaction–diffusion (Gray–Scott)",
+    "contributor": {
+      "name": "Alan Turing",
+      "role": "1952 theoretical foundation",
+      "detail": "Proposed reaction and diffusion as a mechanism for the emergence of biological pattern.",
+      "url": "https://embryo.asu.edu/pages/chemical-basis-morphogenesis-1952-alan-m-turing",
+      "source": "Arizona State University, Embryo Project Encyclopedia",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/Turing.jpeg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/pictdisplay/"
+    }
+  },
+  {
+    "recipe": "Reaction–diffusion (Gray–Scott)",
+    "contributor": {
+      "name": "Peter Gray",
+      "role": "1984 model · coauthor",
+      "detail": "Coauthored the analysis of cubic autocatalysis and catalyst decay in an isothermal stirred reactor underlying the Gray–Scott model.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0009250984870177",
+      "source": "Gray & Scott, Chemical Engineering Science 39 (1984), 1087–1097; metadata verified through NII and CNRS records",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Reaction–diffusion (Gray–Scott)",
+    "contributor": {
+      "name": "Stephen K. Scott",
+      "role": "1984 model · coauthor",
+      "detail": "Coauthored the reaction-system analysis that supplies the named Gray–Scott chemical model.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0009250984870177",
+      "source": "Gray & Scott, Chemical Engineering Science 39 (1984), 1087–1097; metadata verified through NII and CNRS records",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Reaction–diffusion (Gray–Scott)",
+    "contributor": {
+      "name": "John E. Pearson",
+      "role": "1993 pattern study",
+      "detail": "His simulations demonstrated diverse irregular patterns and dividing spots in a simple reaction–diffusion system.",
+      "url": "https://arxiv.org/abs/patt-sol/9304003",
+      "source": "Pearson, Complex Patterns in a Simple System (1993), author preprint",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Reaction–diffusion (Gray–Scott)",
+    "contributor": {
+      "name": "Karl Sims",
+      "role": "Later artistic exposition",
+      "detail": "His tutorial explains an implementation of Gray–Scott reaction–diffusion and ways of controlling the resulting patterns.",
+      "url": "https://www.karlsims.com/rd.html",
+      "source": "Karl Sims, Reaction-Diffusion Tutorial",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Differential growth",
+    "contributor": {
+      "name": "Haiyi Liang",
+      "role": "2011 scientific model · coauthor",
+      "detail": "Coauthored experiments and a thin-shell model showing how excess edge growth can drive a lily's blooming.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3078366/",
+      "source": "Liang & Mahadevan, PNAS (2011)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Differential growth",
+    "contributor": {
+      "name": "L. Mahadevan",
+      "role": "2011 scientific model · coauthor",
+      "detail": "Coauthored the lily-growth study explicitly identified by Nervous System as an inspiration for Floraform.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3078366/",
+      "source": "Liang & Mahadevan, PNAS (2011); Floraform project credits",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Differential growth",
+    "contributor": {
+      "name": "Jessica Rosenkrantz",
+      "role": "Later artistic use",
+      "detail": "As a Nervous System cofounder, developed a studio practice whose Floraform system turns differential surface growth into sculptures and jewelry.",
+      "url": "https://n-e-r-v-o-u-s.com/projects/floraform/",
+      "source": "Nervous System, Floraform; studio authorship verified on About Us",
+      "portraitUrl": "https://n-e-r-v-o-u-s.com/images/about/jessica_2025_website.jpg",
+      "portraitPage": "https://n-e-r-v-o-u-s.com/about_us.php"
+    }
+  },
+  {
+    "recipe": "Differential growth",
+    "contributor": {
+      "name": "Jesse Louis-Rosenberg",
+      "role": "Later artistic use",
+      "detail": "As a Nervous System cofounder, developed a studio practice whose Floraform system simulates differently growing elastic surfaces.",
+      "url": "https://n-e-r-v-o-u-s.com/projects/floraform/",
+      "source": "Nervous System, Floraform; studio authorship verified on About Us",
+      "portraitUrl": "https://n-e-r-v-o-u-s.com/images/about/jesse_2025_website.jpg",
+      "portraitPage": "https://n-e-r-v-o-u-s.com/about_us.php"
+    }
+  },
+  {
+    "recipe": "Differential growth",
+    "contributor": {
+      "name": "Anders Hoff",
+      "role": "Later artistic implementation",
+      "detail": "His Differential Line code grows connected nodes and explicitly compares its behavior with Nervous System's Floraform.",
+      "url": "https://github.com/inconvergent/differential-line",
+      "source": "Artist's own code; identity verified on inconvergent.net",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Diffusion-limited aggregation (DLA)",
+    "contributor": {
+      "name": "Thomas A. Witten Jr.",
+      "role": "1981 model · coauthor",
+      "detail": "Coauthored the original diffusion-limited aggregation paper studying random aggregates by computer simulation.",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.47.1400",
+      "source": "Witten & Sander, Physical Review Letters 47 (1981), 1400",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Diffusion-limited aggregation (DLA)",
+    "contributor": {
+      "name": "Leonard M. Sander",
+      "role": "1981 model · coauthor",
+      "detail": "Coauthored the diffusion-limited aggregation model and its analysis of scaling in random aggregates.",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.47.1400",
+      "source": "Witten & Sander, Physical Review Letters 47 (1981), 1400",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Space colonization",
+    "contributor": {
+      "name": "Adam Runions",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the space-colonization tree model extending an earlier open leaf-venation model into three dimensions.",
+      "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+      "source": "Runions, Lane & Prusinkiewicz, Eurographics Workshop on Natural Phenomena (2007)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Space colonization",
+    "contributor": {
+      "name": "Brendan Lane",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the tree-growth algorithm whose parameters control visually relevant characteristics of tree shape.",
+      "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+      "source": "Runions, Lane & Prusinkiewicz, Eurographics Workshop on Natural Phenomena (2007)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Space colonization",
+    "contributor": {
+      "name": "Przemysław Prusinkiewicz",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the space-colonization model of trees based on geometric competition for available space.",
+      "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+      "source": "Runions, Lane & Prusinkiewicz, Eurographics Workshop on Natural Phenomena (2007)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Physarum / slime mold",
+    "contributor": {
+      "name": "Jeff Jones",
+      "role": "2010 agent model",
+      "detail": "Published a Physarum-inspired model in which simple chemotactic particles form and reorganize transport networks.",
+      "url": "https://uwe-repository.worktribe.com/output/980579/characteristics-of-pattern-formation-and-evolution-in-approximations-of-physarum-transport-networks",
+      "source": "Jones, Artificial Life 16 (2010), 127–153; UWE institutional repository",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Cellular automata beyond Life",
+    "contributor": {
+      "name": "Stephen Wolfram",
+      "role": "1983 elementary-CA study",
+      "detail": "Analyzed self-organization and pattern formation in one-dimensional binary cellular automata.",
+      "url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.55.601",
+      "source": "Wolfram, Reviews of Modern Physics 55 (1983), 601",
+      "portraitUrl": "https://www.stephenwolfram.com/about/images/01-inpages-about_10.png",
+      "portraitPage": "https://www.stephenwolfram.com/about/"
+    }
+  },
+  {
+    "recipe": "Cellular automata beyond Life",
+    "contributor": {
+      "name": "Bert Wang-Chak Chan",
+      "role": "Later continuous-CA model",
+      "detail": "Introduced Lenia, a cellular-automaton system with continuous space-time-state and a generalized local rule.",
+      "url": "https://arxiv.org/abs/1812.05433",
+      "source": "Chan, Lenia—Biology of Artificial Life (2018 preprint; 2019 publication)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Truchet tiles",
+    "contributor": {
+      "name": "Sébastien Truchet",
+      "role": "1704 tile study",
+      "detail": "Studied combinations of square tiles divided diagonally into contrasting triangles in Mémoire sur les combinaisons.",
+      "url": "https://www.newsroom.hlf-foundation.org/blog/article/truchet-tilings/",
+      "source": "Heidelberg Laureate Forum Foundation, Truchet Tilings",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Truchet tiles",
+    "contributor": {
+      "name": "Cyril Stanley Smith",
+      "role": "1987 expansion / exposition",
+      "detail": "Revisited Truchet's work in Leonardo and discussed alternative motifs including paired quarter-circle arcs.",
+      "url": "https://www.newsroom.hlf-foundation.org/blog/article/truchet-tilings/",
+      "source": "Heidelberg Laureate Forum Foundation, Truchet Tilings",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Truchet tiles",
+    "contributor": {
+      "name": "Pauline Boucher",
+      "role": "1987 translation",
+      "detail": "Translated Truchet's original text for the Leonardo publication that brought it to a later audience.",
+      "url": "https://www.newsroom.hlf-foundation.org/blog/article/truchet-tilings/",
+      "source": "Heidelberg Laureate Forum Foundation, Truchet Tilings",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wang tiles",
+    "contributor": {
+      "name": "Hao Wang",
+      "role": "1961 formal system",
+      "detail": "Introduced the combinatorial tile problem in Proving Theorems by Pattern Recognition—II.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1961.tb03975.x",
+      "source": "Wang, Bell System Technical Journal 40 (1961), 1–41",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wang tiles",
+    "contributor": {
+      "name": "Michael F. Cohen",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored a stochastic Wang-tile method for efficiently constructing nonperiodic textures, patterns, and geometry.",
+      "url": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "source": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wang tiles",
+    "contributor": {
+      "name": "Jonathan Shade",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored the Wang-tile graphics method for continuous nonperiodic image and texture generation.",
+      "url": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "source": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wang tiles",
+    "contributor": {
+      "name": "Stefan Hiller",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored the stochastic tiling and tile-filling methods presented in the 2003 graphics paper.",
+      "url": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "source": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wang tiles",
+    "contributor": {
+      "name": "Oliver Deussen",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored the graphics method applying edge-coded tiles to textures, sample distributions, and geometry.",
+      "url": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "source": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wallpaper groups",
+    "contributor": {
+      "name": "Evgraf S. Fedorov",
+      "role": "Early classification",
+      "detail": "The IUCr history credits Fedorov with the first description of the 17 plane symmetry groups in 1890 or 1891.",
+      "url": "https://www.iucr.org/news/newsletter/volume-33/number-5/appeal-of-symmetry",
+      "source": "International Union of Crystallography, Appeal of Symmetry (2025)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wallpaper groups",
+    "contributor": {
+      "name": "George Pólya",
+      "role": "1924 independent classification",
+      "detail": "Enumerated the 17 plane symmetry groups and illustrated each with a tiling, helping connect the mathematics to decorative art.",
+      "url": "https://www.iucr.org/news/newsletter/volume-33/number-5/appeal-of-symmetry",
+      "source": "International Union of Crystallography, Appeal of Symmetry (2025)",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Polya/Polya.jpeg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Polya/pictdisplay/"
+    }
+  },
+  {
+    "recipe": "Wallpaper groups",
+    "contributor": {
+      "name": "M. C. Escher",
+      "role": "Later artistic use",
+      "detail": "Studied Pólya's diagrams and used a tiling derived from that study in Development I.",
+      "url": "https://www.iucr.org/news/newsletter/volume-33/number-5/appeal-of-symmetry",
+      "source": "International Union of Crystallography, Appeal of Symmetry (2025)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Girih / Islamic star patterns",
+    "contributor": {
+      "name": "Peter J. Lu",
+      "role": "2007 geometric analysis",
+      "detail": "Coauthored a study interpreting medieval girih designs through decorated polygonal tiles and self-similar transformations.",
+      "url": "https://peterlu.org/research/islamic_tilings",
+      "source": "Author research page and Science paper",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Girih / Islamic star patterns",
+    "contributor": {
+      "name": "Paul J. Steinhardt",
+      "role": "2007 geometric analysis",
+      "detail": "Coauthored the study of decagonal and nearly quasicrystalline order in medieval Islamic architectural patterns.",
+      "url": "https://peterlu.org/research/islamic_tilings",
+      "source": "Author research page and Science paper",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Girih / Islamic star patterns",
+    "contributor": {
+      "name": "Gülru Necipoğlu",
+      "role": "Historical scholarship",
+      "detail": "Authored The Topkapı Scroll, a historical study of geometry and ornament in Islamic architecture.",
+      "url": "https://www.getty.edu/publications/resources/virtuallibrary/9780892363353.pdf",
+      "source": "Getty, The Topkapı Scroll (1995)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Girih / Islamic star patterns",
+    "contributor": {
+      "name": "Mohammad al-Asad",
+      "role": "Contributing scholar",
+      "detail": "Contributed the essay on the geometry of muqarnas to The Topkapı Scroll.",
+      "url": "https://www.getty.edu/publications/resources/virtuallibrary/9780892363353.pdf",
+      "source": "Getty, The Topkapı Scroll (1995)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Penrose / aperiodic",
+    "contributor": {
+      "name": "Roger Penrose",
+      "role": "1970s tilings",
+      "detail": "Developed the aperiodic tilings bearing his name and described his construction in 1974.",
+      "url": "https://www.ams.org/journals/notices/202308/noti2759/noti2759.html?adat=September+2023&cat=feature&galt=feature&pdffile=rnoti-p1179.pdf&pdfissue=202308&trk=2759",
+      "source": "AMS Notices, September 2023",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Penrose / aperiodic",
+    "contributor": {
+      "name": "Robert Berger",
+      "role": "Earlier tiling theory",
+      "detail": "Authored the 1966 proof that the general domino tiling problem is undecidable.",
+      "url": "https://www.ams.org/journals/notices/196701/196701FullIssue.pdf",
+      "source": "AMS publisher notice for Memoir 66",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Hyperbolic tilings {p,q}",
+    "contributor": {
+      "name": "H. S. M. Coxeter",
+      "role": "Mathematical bridge",
+      "detail": "Sent Escher a symmetry paper whose hyperbolic tiling diagram helped inspire the Circle Limit series.",
+      "url": "https://www.ams.org/samplings/feature-column/fcarc-circle-limit",
+      "source": "AMS, How Did Escher Do It?",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Hyperbolic tilings {p,q}",
+    "contributor": {
+      "name": "M. C. Escher",
+      "role": "Artistic interpretation",
+      "detail": "Studied Coxeter’s diagram and translated hyperbolic repetition into his Circle Limit woodcuts.",
+      "url": "https://www.ams.org/samplings/feature-column/fcarc-circle-limit",
+      "source": "AMS, How Did Escher Do It?",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Hyperbolic tilings {p,q}",
+    "contributor": {
+      "name": "Henri Poincaré",
+      "role": "Disk-model namesake",
+      "detail": "The AMS account describes the unit-disk model of hyperbolic geometry as attributed to Poincaré.",
+      "url": "https://www.ams.org/samplings/feature-column/fcarc-circle-limit",
+      "source": "AMS, How Did Escher Do It?",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "L-systems",
+    "contributor": {
+      "name": "Aristid Lindenmayer",
+      "role": "1968 growth formalism",
+      "detail": "Developed formal growth models for cellular interactions, including branching filaments.",
+      "url": "https://www0.cs.ucl.ac.uk/staff/p.bentley/teaching/L6_reading/lsystems.pdf",
+      "source": "Lindenmayer, Journal of Theoretical Biology (1968), institutional copy",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "L-systems",
+    "contributor": {
+      "name": "Przemysław Prusinkiewicz",
+      "role": "1986 graphical method",
+      "detail": "Presented turtle interpretation of L-system strings to generate fractal curves and plant-like pictures.",
+      "url": "https://algorithmicbotany.org/papers/graphical.gi86.html",
+      "source": "Author publication page, Graphics Interface 1986",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Recursive subdivision",
+    "contributor": {
+      "name": "Edwin Catmull",
+      "role": "1978 surface subdivision",
+      "detail": "Coauthored a recursive method producing B-spline surfaces on meshes of arbitrary topology.",
+      "url": "https://people.eecs.berkeley.edu/~sequin/CS284/PAPERS/CatmullClark_SDSurf.pdf",
+      "source": "Catmull and Clark, Computer-Aided Design (1978), Berkeley-hosted original",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Recursive subdivision",
+    "contributor": {
+      "name": "James Clark",
+      "role": "1978 surface subdivision",
+      "detail": "Coauthored the generalization of recursive bicubic B-spline subdivision to arbitrary mesh topology.",
+      "url": "https://people.eecs.berkeley.edu/~sequin/CS284/PAPERS/CatmullClark_SDSurf.pdf",
+      "source": "Catmull and Clark, Computer-Aided Design (1978), Berkeley-hosted original",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Chaos game / IFS",
+    "contributor": {
+      "name": "John E. Hutchinson",
+      "role": "1981 mathematical foundation",
+      "detail": "Developed a rigorous theory of self-similar sets and measures generated by finite families of contractions.",
+      "url": "https://maths-people.anu.edu.au/~john/Assets/Research%20Papers/fractals_self-similarity.pdf",
+      "source": "Hutchinson, Fractals and Self Similarity (1981), author copy",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Chaos game / IFS",
+    "contributor": {
+      "name": "Michael Barnsley",
+      "role": "Chaos-game research",
+      "detail": "Coauthored a theorem showing when a chaos-game orbit yields an attractor for a general iterated function system.",
+      "url": "https://arxiv.org/abs/1005.0322",
+      "source": "Barnsley and Vince, The Chaos Game on a General Iterated Function System",
+      "portraitUrl": "https://maths.anu.edu.au/sites/prod.maths.sca-lws06.anu.edu.au/files/styles/portrait_250_250/public/Barnsley%252C%2520Michael.jpg.webp?h=6783ce62&itok=ul6P9msu",
+      "portraitPage": "https://maths.anu.edu.au/people/michael-barnsley"
+    }
+  },
+  {
+    "recipe": "Chaos game / IFS",
+    "contributor": {
+      "name": "Andrew Vince",
+      "role": "Chaos-game research",
+      "detail": "Coauthored the general chaos-game theorem, including settings beyond contractive IFS.",
+      "url": "https://arxiv.org/abs/1005.0322",
+      "source": "Barnsley and Vince, The Chaos Game on a General Iterated Function System",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Fractal fracture",
+    "contributor": {
+      "name": "Alain Fournier",
+      "role": "1982 stochastic subdivision · coauthor",
+      "detail": "Coauthored recursive stochastic subdivision methods for rendering rough curves and surfaces.",
+      "url": "https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/stochastic-fournier.pdf",
+      "source": "Fournier, Fussell & Carpenter · Computer Rendering of Stochastic Models (1982)"
+    }
+  },
+  {
+    "recipe": "Fractal fracture",
+    "contributor": {
+      "name": "Donald Fussell",
+      "role": "1982 stochastic subdivision · coauthor",
+      "detail": "Coauthored recursive stochastic subdivision methods for rendering rough curves and surfaces.",
+      "url": "https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/stochastic-fournier.pdf",
+      "source": "Fournier, Fussell & Carpenter · Computer Rendering of Stochastic Models (1982)"
+    }
+  },
+  {
+    "recipe": "Fractal fracture",
+    "contributor": {
+      "name": "Loren Carpenter",
+      "role": "1982 stochastic subdivision · coauthor",
+      "detail": "Coauthored recursive stochastic subdivision methods for rendering rough curves and surfaces.",
+      "url": "https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/stochastic-fournier.pdf",
+      "source": "Fournier, Fussell & Carpenter · Computer Rendering of Stochastic Models (1982)"
+    }
+  },
+  {
+    "recipe": "Strange attractors",
+    "contributor": {
+      "name": "Edward N. Lorenz",
+      "role": "1963 nonlinear model",
+      "detail": "Demonstrated unstable nonperiodic trajectories in a simplified deterministic convection model.",
+      "url": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281963%29020%3C0130%3Adnf%3E2.0.CO%3B2",
+      "source": "Lorenz, Deterministic Nonperiodic Flow (1963)",
+      "portraitUrl": "https://images.squarespace-cdn.com/content/v1/5f1b2cc864da571b04dd30f0/1597851221504-7L291WF25O4JWEV62GX1/Image%2BLorenz%2Bcopy.jpg",
+      "portraitPage": "https://www.lorenz.mit.edu/edward-n-lorenz"
+    }
+  },
+  {
+    "recipe": "Strange attractors",
+    "contributor": {
+      "name": "David Ruelle",
+      "role": "1971 attractor theory",
+      "detail": "Coauthored a proposed mechanism for turbulence in dissipative systems using strange attractors.",
+      "url": "https://www.ihes.fr/~ruelle/PUBLICATIONS/%5B29%5D.pdf",
+      "source": "Ruelle and Takens, On the Nature of Turbulence (1971)",
+      "portraitUrl": "https://www.ihes.fr/wp-content/uploads/2016/10/david-ruelle.jpg",
+      "portraitPage": "https://www.ihes.fr/en/professeur/david-ruelle-2/"
+    }
+  },
+  {
+    "recipe": "Strange attractors",
+    "contributor": {
+      "name": "Floris Takens",
+      "role": "1971 attractor theory",
+      "detail": "Coauthored the mathematical turbulence proposal describing strange attractors.",
+      "url": "https://www.ihes.fr/~ruelle/PUBLICATIONS/%5B29%5D.pdf",
+      "source": "Ruelle and Takens, On the Nature of Turbulence (1971)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Harmonographs / Lissajous",
+    "contributor": {
+      "name": "Jules Lissajous",
+      "role": "1850s vibration studies",
+      "detail": "Developed an optical method for studying vibrations associated with the curves named after him.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60446/sympalmograph-in-fitted-box",
+      "source": "Science Museum Group, Sympalmograph collection record",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Harmonographs / Lissajous",
+    "contributor": {
+      "name": "John Browning",
+      "role": "Drawing-instrument maker",
+      "detail": "Made the circa-1877 sympalmograph, a harmonograph variant drawing combined perpendicular harmonic motions.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60446/sympalmograph-in-fitted-box",
+      "source": "Science Museum Group, Sympalmograph collection record",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Double pendulum / N-body trails",
+    "contributor": {
+      "name": "Troy Shinbrot",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored an experimental and numerical demonstration of sensitive dependence in a double pendulum.",
+      "url": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "source": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Double pendulum / N-body trails",
+    "contributor": {
+      "name": "Celso Grebogi",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored the double-pendulum study measuring exponential growth of initially small separations.",
+      "url": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "source": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Double pendulum / N-body trails",
+    "contributor": {
+      "name": "Jack Wisdom",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored the comparison between measured double-pendulum motion and numerical simulations.",
+      "url": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "source": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Double pendulum / N-body trails",
+    "contributor": {
+      "name": "James A. Yorke",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored the laboratory demonstration of chaotic double-pendulum motion.",
+      "url": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "source": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Double pendulum / N-body trails",
+    "contributor": {
+      "name": "Josh Barnes",
+      "role": "1986 N-body algorithm",
+      "detail": "Coauthored a hierarchical tree algorithm for efficiently calculating gravitational forces among many bodies.",
+      "url": "https://www.nature.com/articles/324446a0",
+      "source": "Barnes and Hut, Nature (1986)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Double pendulum / N-body trails",
+    "contributor": {
+      "name": "Piet Hut",
+      "role": "1986 N-body algorithm",
+      "detail": "Coauthored the recursive spatial-subdivision method now called the Barnes–Hut algorithm.",
+      "url": "https://www.nature.com/articles/324446a0",
+      "source": "Barnes and Hut, Nature (1986)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Orbit traps",
+    "contributor": {
+      "name": "Clifford A. Pickover",
+      "role": "Epsilon-cross precursor",
+      "detail": "Developed the epsilon-cross method identified by Carlson as a precursor to his 3-D stalk rendering.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0097849399001235",
+      "source": "Carlson, Computers & Graphics (1999), introduction",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Orbit traps",
+    "contributor": {
+      "name": "Paul W. Carlson",
+      "role": "Artistic rendering methods",
+      "detail": "Presented two artistic orbit-trap rendering methods for Newton M-set fractals and described extensions of Pickover’s approach.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0097849399001235",
+      "source": "Carlson, Computers & Graphics (1999)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Poisson-disk / blue noise",
+    "contributor": {
+      "name": "Robert L. Cook",
+      "role": "1986 graphics sampling",
+      "detail": "Showed how appropriately nonuniform sampling turns structured aliasing into less objectionable noise.",
+      "url": "https://graphics.pixar.com/library/StochasticSampling/",
+      "source": "Cook, Stochastic Sampling in Computer Graphics (1986), Pixar archive",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Poisson-disk / blue noise",
+    "contributor": {
+      "name": "Robert Bridson",
+      "role": "2007 fast sampler",
+      "detail": "Presented a linear-time Poisson-disk sampler using an active list, local candidates and a background grid.",
+      "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
+      "source": "Bridson, ACM SIGGRAPH 2007 Sketches",
+      "portraitUrl": "https://www.cs.ubc.ca/~rbridson/rbridson.jpg",
+      "portraitPage": "https://www.cs.ubc.ca/~rbridson/"
+    }
+  },
+  {
+    "recipe": "Dithering as art",
+    "contributor": {
+      "name": "Robert W. Floyd",
+      "role": "1976 error diffusion",
+      "detail": "Coauthored An Adaptive Algorithm for Spatial Greyscale, the paper associated with Floyd–Steinberg dithering.",
+      "url": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+      "source": "University of Magdeburg bibliography for Floyd and Steinberg (1976)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Dithering as art",
+    "contributor": {
+      "name": "Louis Steinberg",
+      "role": "1976 error diffusion",
+      "detail": "Coauthored the spatial-greyscale algorithm jointly credited as Floyd–Steinberg dithering.",
+      "url": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+      "source": "University of Magdeburg bibliography for Floyd and Steinberg (1976)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Dithering as art",
+    "contributor": {
+      "name": "Donald E. Knuth",
+      "role": "1987 dot diffusion",
+      "detail": "Published Digital Halftones by Dot Diffusion, another documented route from continuous tones to discrete marks.",
+      "url": "https://profiles.stanford.edu/donald-knuth",
+      "source": "Stanford profile publication record",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41803/resources/profilephoto/350x350.1509557588525.jpg",
+      "portraitPage": "https://profiles.stanford.edu/donald-knuth"
+    }
+  },
+  {
+    "recipe": "Halftone systems",
+    "contributor": {
+      "name": "Robert W. Floyd",
+      "role": "Error-diffusion coauthor",
+      "detail": "Coauthored the 1976 spatial-greyscale paper underlying Floyd–Steinberg error diffusion.",
+      "url": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+      "source": "University of Magdeburg: Floyd and Steinberg (1976)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Halftone systems",
+    "contributor": {
+      "name": "Louis Steinberg",
+      "role": "Error-diffusion coauthor",
+      "detail": "Coauthored An Adaptive Algorithm for Spatial Greyscale with Robert Floyd.",
+      "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201002004108891171",
+      "source": "Japan Science and Technology Agency: 1976 publication record",
+      "portraitUrl": "https://www.cs.rutgers.edu/images/people/Louis-Steinberg.jpeg",
+      "portraitPage": "https://www.cs.rutgers.edu/people/professors/details/emeritus/louis-steinberg"
+    }
+  },
+  {
+    "recipe": "Halftone systems",
+    "contributor": {
+      "name": "Bryce E. Bayer",
+      "role": "Ordered-dithering contributor",
+      "detail": "Authored the 1973 paper An Optimum Method for Two-Level Rendition of Continuous-Tone Pictures.",
+      "url": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1570009749134624128",
+      "source": "National Diet Library: Bayer (1973)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "TSP art / scribble fill",
+    "contributor": {
+      "name": "Robert Bosch",
+      "role": "TSP-art co-originator",
+      "detail": "Developed continuous-line TSP drawings with Adrianne Herman, then coauthored the 2005 improvements with Craig Kaplan.",
+      "url": "https://cs.uwaterloo.ca/~csk/publications/Papers/kaplan_bosch_2005.pdf",
+      "source": "Kaplan and Bosch: TSP Art (2005)",
+      "portraitUrl": "https://www.oberlin.edu/sites/default/files/styles/width_260/public/content/biography/image/leiawitbjqmofzovgfgt_robert_bosch.jpg?itok=FmxkUDv3",
+      "portraitPage": "https://www.oberlin.edu/bob-bosch"
+    }
+  },
+  {
+    "recipe": "TSP art / scribble fill",
+    "contributor": {
+      "name": "Adrianne Herman",
+      "role": "TSP-art co-originator",
+      "detail": "Coauthored Continuous Line Drawings via the Traveling Salesman Problem with Robert Bosch in 2004.",
+      "url": "https://www.math.uwaterloo.ca/tsp/data/art/",
+      "source": "University of Waterloo: TSP Art Instances",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "TSP art / scribble fill",
+    "contributor": {
+      "name": "Craig S. Kaplan",
+      "role": "Later algorithm contributor",
+      "detail": "Coauthored TSP Art, introducing improved city distributions based on stippling and ordered dithering.",
+      "url": "https://cs.uwaterloo.ca/~csk/publications/Papers/kaplan_bosch_2005.pdf",
+      "source": "Kaplan and Bosch: TSP Art (2005)",
+      "portraitUrl": "https://uwaterloo.ca/math-innovation/sites/default/files/styles/large/public/uploads/images/Craig%20Kaplan.jpg?itok=-jE7QHqA",
+      "portraitPage": "https://uwaterloo.ca/math-innovation/contacts/craig-kaplan"
+    }
+  },
+  {
+    "recipe": "Weighted Voronoi stippling",
+    "contributor": {
+      "name": "Adrian Secord",
+      "role": "Named-method author",
+      "detail": "Presented image-based stippling using weighted centroidal Voronoi diagrams in 2002.",
+      "url": "https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf",
+      "source": "Secord: Weighted Voronoi Stippling (2002)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Circle packing, grown",
+    "contributor": {
+      "name": "Daniel Shiffman",
+      "role": "Later educator",
+      "detail": "Demonstrated growing circles with boundary and overlap tests in Coding Challenge 50.",
+      "url": "https://thecodingtrain.com/challenges/50-animated-circle-packing",
+      "source": "The Coding Train: Circle Packing",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Circle packing, grown",
+    "contributor": {
+      "name": "Marius Watz",
+      "role": "Artist / tutorial influence",
+      "detail": "Shiffman's grown-circle tutorial explicitly introduces Watz's circle-packing work as a reference.",
+      "url": "https://thecodingtrain.com/challenges/50-animated-circle-packing",
+      "source": "The Coding Train: Circle Packing, introductory credit",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Voronoi/Delaunay operated on",
+    "contributor": {
+      "name": "Georgy Voronoy",
+      "role": "Mathematical foundation",
+      "detail": "Studied the tessellations now known as Voronoi diagrams in his geometry-of-numbers work.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/",
+      "source": "University of St Andrews: Georgy Voronoy",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/thumbnail.jpg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/"
+    }
+  },
+  {
+    "recipe": "Voronoi/Delaunay operated on",
+    "contributor": {
+      "name": "Boris Delaunay",
+      "role": "Mathematical foundation",
+      "detail": "Authored the 1934 empty-sphere paper Sur la sphère vide, dedicated to Georges Voronoï.",
+      "url": "https://www.mathnet.ru/php/archive.phtml?jrnid=im&option_lang=&paperid=4937&wshow=paper",
+      "source": "Math-Net: Delaunay (1934)",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Delone/thumbnail.jpg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Delone/"
+    }
+  },
+  {
+    "recipe": "Minimum spanning tree / relative neighborhood graphs",
+    "contributor": {
+      "name": "Joseph B. Kruskal",
+      "role": "MST algorithm contributor",
+      "detail": "Published On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem in 1956.",
+      "url": "https://cir.nii.ac.jp/crid/1363107368257159424",
+      "source": "CiNii / AMS: Kruskal (1956)",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kruskal_Joseph/thumbnail.jpg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Kruskal_Joseph/"
+    }
+  },
+  {
+    "recipe": "Minimum spanning tree / relative neighborhood graphs",
+    "contributor": {
+      "name": "Godfried T. Toussaint",
+      "role": "RNG method author",
+      "detail": "Defined the relative neighbourhood graph and proved its relationship to the MST and Delaunay triangulation in 1980.",
+      "url": "https://www-cgrl.cs.mcgill.ca/~godfried/teaching/mir-reading-assignments/RNG.pdf",
+      "source": "Toussaint: The Relative Neighbourhood Graph of a Finite Planar Set (1980)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Hidden-line 3D → 2D",
+    "contributor": {
+      "name": "Lawrence G. Roberts",
+      "role": "Early hidden-line researcher",
+      "detail": "His 1963 MIT thesis describes removing back lines and line segments obscured by other objects.",
+      "url": "https://dspace.mit.edu/entities/publication/840d8056-9b54-4bd4-b16f-2f3d8296386e",
+      "source": "MIT: Machine Perception of Three-Dimensional Solids (1963)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Superformula / supershapes",
+    "contributor": {
+      "name": "Johan Gielis",
+      "role": "Superformula author",
+      "detail": "Introduced the Superformula as a single parametric equation for many natural and abstract shapes in 2003.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21659124/",
+      "source": "Gielis: American Journal of Botany (2003)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Superformula / supershapes",
+    "contributor": {
+      "name": "Paul Bourke",
+      "role": "Later 3D expositor",
+      "detail": "Published 3D supershape examples and software based on Gielis's equations and a spherical product.",
+      "url": "https://www.paulbourke.org/geometry/supershape/",
+      "source": "Paul Bourke: Supershapes (July 2003)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Moiré",
+    "contributor": {
+      "name": "Carlos Cruz-Diez",
+      "role": "Artist / optical exploration",
+      "detail": "His 1964 Chromointerférence arose from sliding one repeated-line image over another transparent line pattern.",
+      "url": "https://cruz-diez.com/works/chromointerference/",
+      "source": "Cruz-Diez official archive: Chromointerférence (1964)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Wave interference",
+    "contributor": {
+      "name": "Thomas Young",
+      "role": "Physical foundation",
+      "detail": "Explained light interference through the superposition of waves in his early-nineteenth-century work.",
+      "url": "https://spark.iop.org/collections/superposition",
+      "source": "Institute of Physics: Superposition",
+      "portraitUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Thomas/thumbnail.jpg",
+      "portraitPage": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Thomas/"
+    }
+  },
+  {
+    "recipe": "Metaballs / implicit fields",
+    "contributor": {
+      "name": "Jim Blinn",
+      "role": "Blobby-modeling pioneer",
+      "detail": "His 1982 paper renders surfaces formed by summed Gaussian density distributions.",
+      "url": "https://www.microsoft.com/en-us/research/?p=154282",
+      "source": "Microsoft Research: A Generalization of Algebraic Surface Drawing",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Metaballs / implicit fields",
+    "contributor": {
+      "name": "Paul Bourke",
+      "role": "Later expositor",
+      "detail": "Explains implicit-surface blending under the names metaballs, blobbies, and soft objects.",
+      "url": "https://paulbourke.net/geometry/implicitsurf/",
+      "source": "Paul Bourke: Implicit Surfaces",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "fBm + ridged / turbulent",
+    "contributor": {
+      "name": "Benoît Mandelbrot",
+      "role": "Mathematical foundation coauthor",
+      "detail": "Coauthored the 1968 study Fractional Brownian Motions, Fractional Noises and Applications.",
+      "url": "https://epubs.siam.org/doi/10.1137/1010093",
+      "source": "Mandelbrot and Van Ness: SIAM Review (1968)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "fBm + ridged / turbulent",
+    "contributor": {
+      "name": "John W. Van Ness",
+      "role": "Mathematical foundation coauthor",
+      "detail": "Coauthored the 1968 paper formalizing and studying fractional Brownian motions.",
+      "url": "https://epubs.siam.org/doi/10.1137/1010093",
+      "source": "Mandelbrot and Van Ness: SIAM Review (1968)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "fBm + ridged / turbulent",
+    "contributor": {
+      "name": "Ken Perlin",
+      "role": "Procedural graphics contributor",
+      "detail": "Introduced a procedural noise-based image synthesizer including synthetic turbulence in 1985.",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/perlin85_imagesynthesizer.pdf",
+      "source": "Perlin: An Image Synthesizer (1985)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "fBm + ridged / turbulent",
+    "contributor": {
+      "name": "F. Kenton Musgrave",
+      "role": "Ridged-noise contributor / terrain coauthor",
+      "detail": "Developed ridged multifractal noise used for mountainous terrain, as credited in LightWave's texture documentation.",
+      "url": "https://docs.lightwave3d.com/2025/3d-textures.html",
+      "source": "LightWave 2025 documentation: Ridged Multifractal",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "fBm + ridged / turbulent",
+    "contributor": {
+      "name": "Craig E. Kolb",
+      "role": "Fractal-terrain coauthor",
+      "detail": "Coauthored the 1989 paper on fractal terrain noise synthesis, erosion, and rendering.",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=8af1ba21a954c910994f5ad599777640452a3d6b&repid=rep1&type=pdf",
+      "source": "Musgrave, Kolb and Mace (1989)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "fBm + ridged / turbulent",
+    "contributor": {
+      "name": "Robert S. Mace",
+      "role": "Fractal-terrain coauthor",
+      "detail": "Coauthored the 1989 paper on fractal terrain noise synthesis, erosion, and rendering.",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=8af1ba21a954c910994f5ad599777640452a3d6b&repid=rep1&type=pdf",
+      "source": "Musgrave, Kolb and Mace (1989)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "SDF raymarching",
+    "contributor": {
+      "name": "John C. Hart",
+      "role": "Sphere-tracing author",
+      "detail": "His 1996 sphere-tracing paper advances rays using geometric distance bounds that avoid crossing the surface.",
+      "url": "https://experts.illinois.edu/en/publications/sphere-tracing-a-geometric-method-for-the-antialiased-ray-tracing/",
+      "source": "University of Illinois: Sphere Tracing (1996)",
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?photo=9962&s=300",
+      "portraitPage": "https://siebelschool.illinois.edu/about/people/faculty/jch"
+    }
+  },
+  {
+    "recipe": "SDF raymarching",
+    "contributor": {
+      "name": "Iñigo Quilez",
+      "role": "Later shader artist / expositor",
+      "detail": "Presented distance-field rendering techniques in Rendering Worlds with Two Triangles.",
+      "url": "https://iquilezles.org/articles/nvscene2008/rwwtt.pdf",
+      "source": "Iñigo Quilez: Rendering Worlds with Two Triangles (2008)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Feedback buffers",
+    "contributor": {
+      "name": "James P. Crutchfield",
+      "role": "Video-feedback researcher",
+      "detail": "Modeled video-feedback dynamics and reproduced their behavior with digital simulations in 1984.",
+      "url": "https://csc.ucdavis.edu/~cmg/papers/Crutchfield.PhysicaD1984.pdf",
+      "source": "Crutchfield: Space-Time Dynamics in Video Feedback (1984)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Feedback buffers",
+    "contributor": {
+      "name": "Steina Vasulka",
+      "role": "Early video-feedback artist",
+      "detail": "Described her early video-feedback experiments in a preserved 1997 interview.",
+      "url": "https://www.vasulkainterviews.org/",
+      "source": "Vasulka Interviews: Steina on video feedback (1997)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Feedback buffers",
+    "contributor": {
+      "name": "Woody Vasulka",
+      "role": "Early video-feedback artist",
+      "detail": "Discussed analog feedback loops and feedback in digital devices in a preserved 1996 interview.",
+      "url": "https://www.vasulkainterviews.org/",
+      "source": "Vasulka Interviews: Woody on feedback (1996)",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  },
+  {
+    "recipe": "Feedback buffers",
+    "contributor": {
+      "name": "Olivia Jack",
+      "role": "Later tool creator / artist",
+      "detail": "Created Hydra, a live-coding video-synthesis environment with feedback influences documented in its source repository.",
+      "url": "https://github.com/hydra-synth/hydra",
+      "source": "Hydra: official repository and contributor credits",
+      "portraitUrl": null,
+      "portraitPage": null
+    }
+  }
+]

@@ -51,3 +51,7 @@ A search located a Nake Polygon Drawings record mentioning several languages, bu
 `node scripts/build-connections.mjs` validates and generates the layer. `node tests/languages.mjs` checks confidence/review consistency, scope requirements, distinct C/C++ identifiers, unassigned gaps and exclusion of inferred links from documented overlap counts. `tests/languages-browser.mjs` checks visible meters, the inferred-link toggle, navigation, unknown items and mobile layout.
 
 The directory's language counts separate documented and inferred people. Documented overlap counts exclude inferred and tentative relationships. The general index retains prior imported source credits with their existing status; those are not upgraded by this language research. The public export and GitHub checks include this evidence file and policy.
+
+## Ingredients expansion update
+
+The subsequent Ingredients pass brings the layer to 41 relationships across 18 people: 37 documented and four inferred. Gene Kogan’s Processing/GLSL examples and Tega Brain’s shared Processing/JavaScript teaching collection are added. Zach Lieberman’s C++ link now cites his authored ofBook animation tutorial directly. See [Ingredients expansion](INGREDIENTS-EXPANSION.md) for precise role boundaries. Earlier first-release counts above describe that earlier snapshot.

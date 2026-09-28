@@ -298,5 +298,15 @@
     "source": "https://tisch.nyu.edu/about/directory/itp/1984778605",
     "sourceLabel": "Institutional source",
     "checked": "2026-09-27"
+  },
+  {
+    "person": "Gene Kogan",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Project Resident · jointly with Lisa Kori",
+    "dates": "2015",
+    "source": "https://eyebeam.org/artists/lisa-kori-gene-kogan/",
+    "sourceLabel": "Eyebeam · Lisa Kori & Gene Kogan",
+    "checked": "2026-09-27"
   }
 ]

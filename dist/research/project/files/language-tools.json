@@ -432,28 +432,6 @@
       "checked": "2026-09-27"
     },
     {
-      "person": "Zach Lieberman",
-      "target": "entity-cpp",
-      "role": "Language association via openFrameworks",
-      "context": "C++ is the toolkit’s language; no specific artwork implementation is claimed.",
-      "source": "https://eyebeam.org/artists/zach-lieberman/",
-      "sourceLabel": "Eyebeam · Lieberman",
-      "evidence": [
-        {
-          "url": "https://eyebeam.org/artists/zach-lieberman/",
-          "label": "Eyebeam · Lieberman"
-        },
-        {
-          "url": "https://openframeworks.cc/about/",
-          "label": "openFrameworks · C++ toolkit"
-        }
-      ],
-      "confidence": 2,
-      "rationale": "Inferred from co-creating openFrameworks and the toolkit’s documented C++ basis.",
-      "dates": null,
-      "checked": "2026-09-27"
-    },
-    {
       "person": "Kyle McDonald",
       "target": "entity-python",
       "role": "Publishes Python utilities",
@@ -792,6 +770,96 @@
       ],
       "confidence": 3,
       "rationale": "The primary project page explicitly names the language for this implementation.",
+      "dates": null,
+      "checked": "2026-09-27"
+    },
+    {
+      "person": "Gene Kogan",
+      "target": "entity-processing",
+      "role": "Artist-authored shader examples",
+      "context": "Processing shader examples (2013), a personal collection and tutorial.",
+      "source": "https://genekogan.com/works/processing-shader-examples/",
+      "sourceLabel": "Gene Kogan · Processing shader examples",
+      "evidence": [
+        {
+          "url": "https://genekogan.com/works/processing-shader-examples/",
+          "label": "Gene Kogan · Processing shader examples"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27"
+    },
+    {
+      "person": "Gene Kogan",
+      "target": "entity-glsl",
+      "role": "Artist-authored shader examples",
+      "context": "Processing shader examples (2013), a personal collection and tutorial.",
+      "source": "https://genekogan.com/works/processing-shader-examples/",
+      "sourceLabel": "Gene Kogan · Processing shader examples",
+      "evidence": [
+        {
+          "url": "https://genekogan.com/works/processing-shader-examples/",
+          "label": "Gene Kogan · Processing shader examples"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27"
+    },
+    {
+      "person": "Tega Brain",
+      "target": "entity-processing",
+      "role": "Co-author · educational examples",
+      "context": "Shared Code as Creative Medium example collection; repository credits additional assistants and ports.",
+      "source": "https://github.com/golanlevin/exercises",
+      "sourceLabel": "Code as Creative Medium · repository credits",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/exercises",
+          "label": "Code as Creative Medium · repository credits"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27"
+    },
+    {
+      "person": "Tega Brain",
+      "target": "entity-javascript",
+      "role": "Co-author · educational examples",
+      "context": "Shared JavaScript/p5.js examples accompanying Code as Creative Medium; not sole authorship of each port.",
+      "source": "https://github.com/golanlevin/exercises",
+      "sourceLabel": "Code as Creative Medium · repository credits",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/exercises",
+          "label": "Code as Creative Medium · repository credits"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
+      "dates": null,
+      "checked": "2026-09-27"
+    },
+    {
+      "person": "Zach Lieberman",
+      "target": "entity-cpp",
+      "role": "Author · animation tutorial",
+      "context": "ofBook animation chapter, including C++ examples for Lissajous figures.",
+      "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
+      "sourceLabel": "ofBook · Zach Lieberman’s animation chapter",
+      "evidence": [
+        {
+          "url": "https://openframeworks.cc/ofBook/chapters/animation.html",
+          "label": "ofBook · Zach Lieberman’s animation chapter"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The source explicitly documents this tool or language in the stated contribution; no claim is made about every artwork.",
       "dates": null,
       "checked": "2026-09-27"
     }

@@ -90,6 +90,15 @@
         "detail": "Explains tracing paths through direction fields and shows how he uses and varies them in his own artwork.",
         "url": "https://www.tylerxhobbs.com/words/flow-fields",
         "source": "Tyler Hobbs · Flow Fields"
+      },
+      {
+        "name": "Gene Kogan",
+        "role": "Artistic use · Vertex rivers (2011)",
+        "detail": "His work index describes Vertex rivers as dots over vector fields. The work page documents a generative sketch, shown at Big Screen Plaza in January 2012, and links to its OpenProcessing code.",
+        "url": "https://genekogan.com/work/",
+        "source": "Artist’s work index · Vertex rivers",
+        "review": "checked",
+        "checked": "2026-09-27"
       }
     ],
     "caveat": "This is a broad mathematical family, not a named algorithm with one inventor; these are foundations of the language, not claims that Gibbs or Heaviside made this sketch or invented every vector-field technique."
@@ -684,6 +693,15 @@
         "source": "Science Museum Group, Sympalmograph collection record",
         "portraitUrl": null,
         "portraitPage": null
+      },
+      {
+        "name": "Zach Lieberman",
+        "role": "Teaching · Lissajous figures in C++",
+        "detail": "Authored the openFrameworks animation chapter, including a Lissajous section demonstrating different angular rates for horizontal and vertical motion. A contemporary teaching contribution; Jules Antoine Lissajous remains credited for the historical curves.",
+        "url": "https://openframeworks.cc/ofBook/chapters/animation.html#lissajous-figures",
+        "source": "ofBook · animation chapter by Zach Lieberman",
+        "review": "checked",
+        "checked": "2026-09-27"
       }
     ],
     "caveat": "Harmonographs are a family of instruments with no single inventor established here; Lissajous’s optical work and Browning’s manufactured drawing machine are different contributions."
@@ -825,6 +843,24 @@
         "source": "Stanford profile publication record",
         "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41803/resources/profilephoto/350x350.1509557588525.jpg",
         "portraitPage": "https://profiles.stanford.edu/donald-knuth"
+      },
+      {
+        "name": "Golan Levin",
+        "role": "Teaching · Code as Creative Medium co-author",
+        "detail": "Co-authored the creative-coding book and its shared example collection, including this random-dot dithering exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+        "url": "https://github.com/golanlevin/exercises/tree/main/12_image/04_random_dot_dithering",
+        "source": "Code as Creative Medium · example and repository credits",
+        "review": "checked",
+        "checked": "2026-09-27"
+      },
+      {
+        "name": "Tega Brain",
+        "role": "Teaching · Code as Creative Medium co-author",
+        "detail": "Co-authored the creative-coding book and its shared example collection, including this random-dot dithering exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+        "url": "https://github.com/golanlevin/exercises/tree/main/12_image/04_random_dot_dithering",
+        "source": "Code as Creative Medium · example and repository credits",
+        "review": "checked",
+        "checked": "2026-09-27"
       }
     ],
     "caveat": "Dithering as an artistic practice has no single inventor. These are named technical contributors to halftoning methods, not a claim that they originated every artistic use or ordered-dither pattern."
@@ -1032,6 +1068,33 @@
         "source": "Cruz-Diez official archive: Chromointerférence (1964)",
         "portraitUrl": null,
         "portraitPage": null
+      },
+      {
+        "name": "Golan Levin",
+        "role": "Teaching · Code as Creative Medium co-author",
+        "detail": "Co-authored the creative-coding book and its shared example collection, including this moiré exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+        "url": "https://github.com/golanlevin/exercises/tree/main/02_iteration/14_moire_patterns",
+        "source": "Code as Creative Medium · example and repository credits",
+        "review": "checked",
+        "checked": "2026-09-27"
+      },
+      {
+        "name": "Tega Brain",
+        "role": "Teaching · Code as Creative Medium co-author",
+        "detail": "Co-authored the creative-coding book and its shared example collection, including this moiré exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+        "url": "https://github.com/golanlevin/exercises/tree/main/02_iteration/14_moire_patterns",
+        "source": "Code as Creative Medium · example and repository credits",
+        "review": "checked",
+        "checked": "2026-09-27"
+      },
+      {
+        "name": "Gene Kogan",
+        "role": "Artistic use · Interference (2012)",
+        "detail": "Used repeated deltoid curves to produce moiré patterns in Interference. His account says the original code was lost; the work documents an artistic application, not invention of moiré.",
+        "url": "https://genekogan.com/works/interference/",
+        "source": "Artist’s work record · Interference",
+        "review": "checked",
+        "checked": "2026-09-27"
       }
     ],
     "caveat": "Moiré is an optical phenomenon with a long history; Cruz-Diez is a documented artistic example, not its inventor."
@@ -1131,6 +1194,15 @@
         "source": "Musgrave, Kolb and Mace (1989)",
         "portraitUrl": null,
         "portraitPage": null
+      },
+      {
+        "name": "Lauren Lee McCarthy",
+        "role": "Toolmaking · p5.js creator",
+        "detail": "Created p5.js, whose noiseDetail API exposes octave and falloff controls for layered Perlin noise. This credits the enabling platform, not invention of fBm, implementation of every noise function, or all ridged/turbulent variants.",
+        "url": "https://p5js.org/reference/p5/noiseDetail/",
+        "source": "p5.js · octave and falloff documentation",
+        "review": "checked",
+        "checked": "2026-09-27"
       }
     ],
     "caveat": "Graphics 'fBm' usually means a finite noise-octave construction, not exact stochastic fBm; ridged and turbulent variants also have distinct histories."

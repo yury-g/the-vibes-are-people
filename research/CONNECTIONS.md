@@ -1,6 +1,6 @@
 # Rebuilding the connections index
 
-Run `node scripts/build-connections.mjs` after editing the catalog or `research/checked-relationships.json`. This regenerates the public `dist/connections/data.json` and private editorial `research/connections-coverage.json` deterministically. Run `node tests/connections.mjs` to validate.
+Run `node scripts/build-connections.mjs` after editing the catalog or `research/checked-relationships.json`. This regenerates the public `dist/connections/data.json` and public editorial `research/connections-coverage.json` deterministically. Run `node tests/connections.mjs` to validate.
 
 Each record preserves a person, target, relationship kind, exact role, date text (null when unknown), source URL, source label, checked date and review status. People are joined by exact catalog names; there is no fuzzy name merging. Generated ID collisions and dangling references fail validation. Existing recipe claims remain `imported`, not newly source-checked. Add checked claims only after reading a supporting source. A source loading successfully is not factual verification.
 
@@ -11,3 +11,5 @@ Current UI: visible relationship sentences with internal entity/person/recipe li
 Browser checks: set TEST_URL to a local static server and PLAYWRIGHT_PATH to installed Playwright, then run `node tests/connections-browser.mjs`. Existing regression checks: `tests/technique-labels.mjs`, `tests/ingredients-presentation.mjs`.
 
 The language/tool layer is maintained in `research/language-tools.json`, with its evidence rubric in `research/LANGUAGES.md`. Its inferred and tentative records are never promoted to checked by the generator. Languages and frameworks share the stable node-link system while preserving category, work context and confidence.
+
+Recipe contributors can now carry `review: "checked"` with a checked date after source inspection; absent review metadata remains imported. Actual recipe membership determines the generated “In Ingredients” placement. `tests/ingredients-expansion.mjs` ensures the original 108 records remain intact while the five new contributors have checked recipe and Eyebeam links.

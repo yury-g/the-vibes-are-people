@@ -2,22 +2,40 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/INGREDIENTS-EXPANSION.md",
+      "file": "files/INGREDIENTS-EXPANSION.md",
+      "bytes": 4247,
+      "sha256": "55911f3d7f0ff1514bc73761257da3d2a7ec7df99b7bf3349f5fb4965691f19a"
+    },
+    {
+      "source": "dist/notes/ingredients/people-profiles.json",
+      "file": "files/people-profiles.json",
+      "bytes": 1307,
+      "sha256": "564cecda9d3d2a248ad9a2e104067c52b5ac14fb965932eb431a59a6b5e7d5c2"
+    },
+    {
+      "source": "dist/notes/ingredients/portrait-map.json",
+      "file": "files/portrait-map.json",
+      "bytes": 38948,
+      "sha256": "7c521c7aa29feccbdd2a482be9304dce8df2802c078f1585bd5de69c3390d72a"
+    },
+    {
       "source": "research/LANGUAGES.md",
       "file": "files/LANGUAGES.md",
-      "bytes": 6110,
-      "sha256": "90010b293e5e0e29a14774d7b94a9aad8f60882a2c170e16c15af60bc22c94de"
+      "bytes": 6620,
+      "sha256": "c3700870c51f1732962b47e787b81a34ca600a246d53407adeb57447109ea924"
     },
     {
       "source": "research/language-tools.json",
       "file": "files/language-tools.json",
-      "bytes": 28594,
-      "sha256": "27c3c95e8d14291a9b7710deadef539b9bfd2141fa6b5043196a44212b752864"
+      "bytes": 31637,
+      "sha256": "bb21bc18f66083a0e068e1476dd30598b7d32ffc85135849fa6afb437799fd7e"
     },
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 4703,
-      "sha256": "dce27c73abb2194756eb077163a85f75c5c3a7533dc7609363c57c2c76a62cef"
+      "bytes": 4774,
+      "sha256": "132efe751d2a62002906d160d629b8090e472fff8f4115c889a490a3da0cf774"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -28,26 +46,26 @@
     {
       "source": "research/CONNECTIONS.md",
       "file": "files/CONNECTIONS.md",
-      "bytes": 2446,
-      "sha256": "17a53e89b39aee72f0da72ac522f0c9754373f4733fea730fdd07759e2fea6f9"
+      "bytes": 2820,
+      "sha256": "256bda03df1f7afd8dbbb5ba299cb577031ceb0162d44a852460fe5da11d705e"
     },
     {
       "source": "research/checked-relationships.json",
       "file": "files/checked-relationships.json",
-      "bytes": 8547,
-      "sha256": "ff960d3f5c7981de78f739c0b3a9716a1ce326ebcfb32c988fdc49dc378620c1"
+      "bytes": 8864,
+      "sha256": "1deb4a8ddcfb02d978fff939208d3473ed1c5b7f8b99f28132b60505dd71ed6c"
     },
     {
       "source": "research/connections-coverage.json",
       "file": "files/connections-coverage.json",
-      "bytes": 7519,
-      "sha256": "83050e1811c132d6952c1e35b23f3ed0ea5e31fc4a4f7432042e49b9a53d9a5c"
+      "bytes": 7514,
+      "sha256": "ea6e3c51cbd3e7c1b6c7f3507d3d77c1b0c110562a99f548d1599e2857e2f44f"
     },
     {
       "source": "research/eyebeam-connections.json",
       "file": "files/eyebeam-connections.json",
-      "bytes": 2636,
-      "sha256": "32b5ec6398a640c75956ab6693b6364b9630d2ee3ecb50f7e7ad6378a7a9f9a1"
+      "bytes": 2408,
+      "sha256": "46302036037011fbaba8fa4ac8f32c21b70c48cd2910289c181df066645f47b9"
     },
     {
       "source": "research/institutional-archive-sources.md",
@@ -70,26 +88,26 @@
     {
       "source": "dist/connections/data.json",
       "file": "files/data.json",
-      "bytes": 124014,
-      "sha256": "9e6759aeaa537ea7b43fb893be4fa4f2cfe129a7cc9f985a1879c48ef52ad9c7"
+      "bytes": 132543,
+      "sha256": "b4240a2ebe56a92e566463bd220f4472253d0683d8935db076b8c930a2e06789"
     },
     {
       "source": "dist/notes/ingredients/technique-provenance.json",
       "file": "files/technique-provenance.json",
-      "bytes": 60301,
-      "sha256": "f5f31b2470bf40bcc580d9e3320f0bd0c755bda62316739a840685a5894d00d6"
+      "bytes": 65076,
+      "sha256": "80fab56fa95542e0c6cb407aa9edfe3d951e59b0198e747c23dab51f29da4e23"
     },
     {
       "source": "scripts/build-connections.mjs",
       "file": "files/build-connections.mjs",
-      "bytes": 5199,
-      "sha256": "a29ba13703b692ce7c823aa0f43bd73f6187ca9c47460e9b316f80647a4ecf50"
+      "bytes": 5564,
+      "sha256": "3d2d32236352d98a07f5fe940b4b155e18ffbad98b351ab1b8d18763af163f8b"
     },
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 1260,
-      "sha256": "807e5b549a6eaf97326ffb3276d4a3025a842d93954f925717b9d8c550e23f99"
+      "bytes": 1385,
+      "sha256": "d81931df166bf240089513da59236f00daadc7f5d68c231dca949f003242c4e1"
     }
   ]
 }

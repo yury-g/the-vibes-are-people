@@ -97,7 +97,6 @@
     "Stephen K. Scott",
     "Stephen Wolfram",
     "Taeyoon Choi",
-    "Tega Brain",
     "Thomas A. Witten Jr.",
     "Thomas Young",
     "Troy Shinbrot",
@@ -217,13 +216,15 @@
     "Vera Molnár",
     "Woody Vasulka"
   ],
-  "people": 119,
+  "people": 120,
   "recipes": 40,
+  "recipeContributors": 105,
   "importedCredits": 108,
+  "checkedRecipeCredits": 8,
   "importedPaths": 8,
-  "checkedRelationships": 62,
-  "languageRelationships": 37,
-  "inferredLanguageRelationships": 5,
+  "checkedRelationships": 76,
+  "languageRelationships": 41,
+  "inferredLanguageRelationships": 4,
   "technologiesWithoutArtistEvidence": [
     "Assembly",
     "Ruby",
@@ -231,9 +232,7 @@
   ],
   "toBeAssigned": [
     "Kyle McDonald",
-    "Lauren Lee McCarthy",
-    "Taeyoon Choi",
-    "Tega Brain"
+    "Taeyoon Choi"
   ],
   "peopleWithoutCheckedRelationships": [
     "Adam Runions",

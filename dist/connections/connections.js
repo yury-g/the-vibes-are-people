@@ -52,7 +52,7 @@ if(document.querySelector('#connections-directory')){
   if(selected?.category){context.append(el('p',selected.category+(selected.note?' · '+selected.note:'')));}
   if(languageOnly)context.append(el('h2','People connected to languages & tools'),link('Show all relationships','/connections/#people'));
   if(gap)context.append(el('h2',gap.label),el('p','A research queue based on what is recorded here, not a claim about anyone’s life or practice.'),link('Show all people','/connections/#people'));
-  document.querySelector('#coverage').textContent=`${g.people.length} people · ${g.recipes.length} recipes · ${g.relationships.filter(r=>r.review==='checked').length} checked relationships · ${g.relationships.filter(r=>r.kind==='contribution').length} existing recipe credits · ${g.relationships.filter(r=>r.kind==='documented path').length} existing person-to-person paths.`;
+  document.querySelector('#coverage').textContent=`${g.people.length} people · ${g.recipes.length} recipes · ${g.relationships.filter(r=>r.review==='checked').length} checked relationships · ${g.relationships.filter(r=>r.kind==='contribution').length} recipe credits · ${g.relationships.filter(r=>r.kind==='documented path').length} existing person-to-person paths.`;
   const pending=document.querySelector('#pending');g.people.filter(p=>p.placement==='To be assigned').forEach((p,i)=>{if(i)pending.append(', ');pending.append(nodeLink(p))});pending.append('. Their affiliations are documented; recipe placements still need evidence.');
   const languageHost=document.querySelector('#language-links');
   const techs=g.entities.filter(t=>t.category);
