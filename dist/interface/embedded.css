@@ -1,0 +1,20 @@
+/* Navigation belongs to the book shell; direct pages keep their own navigation. */
+.in-book body > .variant-nav,
+.in-book body > .notes-nav,
+.in-book body > header{display:none}
+.in-book .surface-label{align-items:center;flex-wrap:wrap;gap:12px}
+.in-book .surface-label #motion{margin-left:auto;flex:none}
+/* A section name is enough: keep the studies ahead of repeated introductory copy. */
+body[data-page=techniques] .recipe-intro{display:block;padding:24px 0 12px}
+body[data-page=techniques] .recipe-intro h1{font-size:36px;line-height:1.1;margin:0;letter-spacing:-.035em}
+.index-resources{border-bottom:1px solid #bbb;margin:0 0 20px;font:12px/1.6 'Courier New',monospace}
+.index-resources summary{cursor:pointer;padding:12px 0;width:fit-content;min-height:44px}
+.index-resources summary:focus-visible{outline:3px solid #111;outline-offset:3px}
+.index-resources[open]{padding-bottom:16px}
+.index-resources .eyebeam-jump{display:flex;flex-wrap:wrap;gap:8px 16px;margin:10px 0 20px}
+.index-resources .contents-stamp{max-width:560px;transform:none}
+.in-book main{padding-top:0}
+@media(max-width:600px){.people-search input{min-width:0;width:100%;flex-basis:100%}}
+dialog{overscroll-behavior:contain}
+dialog .dialog-bar,dialog .dialog-head{position:sticky;top:-22px;z-index:5;background:var(--paper,#f6f6f3);padding:12px 0;border-bottom:1px solid #bbb}
+@media(max-width:600px){dialog .dialog-bar,dialog .dialog-head{top:-14px}}

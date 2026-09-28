@@ -1,10 +1,10 @@
 // B is a presentation adapter over the original controllers, records and loops.
 // The original A documents, scripts, data and assets remain untouched.
 const techniques = document.body.dataset.page === 'techniques';
-await import(techniques ? '../techniques/techniques.js' : '../living/app.js');
+await import(techniques ? '../techniques/techniques.js?v=nav-20260928c' : '../living/app.js?v=nav-20260928c');
 
 if (techniques) {
-  import('./technique-labels.js').catch(() => {
+  import('./technique-labels.js?v=nav-20260928c').catch(() => {
     document.querySelector('#provenance-status').textContent='People and sources could not load. Reload this page to try again.';
   });
 }

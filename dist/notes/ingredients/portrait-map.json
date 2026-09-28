@@ -755,5 +755,82 @@
     "checked": "2026-09-28",
     "src": "/notes/ingredients/portraits/yury-gitman-stippled.png",
     "referenceLocal": "/notes/ingredients/portrait-sources/yury-gitman-photo.jpg"
+  },
+  "Qianqian Ye": {
+    "src": "/notes/ingredients/portraits/qianqian-ye-photo.webp",
+    "page": "https://www.processingfoundation.org/people",
+    "original": "https://www.processingfoundation.org/_astro/profile.Caf04SQF_Z2b6dmO.webp",
+    "credit": "Portrait published by Processing Foundation; photographer not identified on the source page.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "Processing Foundation People page labels this image \"Photo of Qianqian Ye\" alongside the named profile."
+  },
+  "Xin Xin": {
+    "src": "/notes/ingredients/portraits/xin-xin-photo.webp",
+    "page": "https://www.processingfoundation.org/people",
+    "original": "https://www.processingfoundation.org/_astro/profile.BIqxxpAD_Fj8Qn.webp",
+    "credit": "Portrait published by Processing Foundation; photographer not identified on the source page.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "Processing Foundation People page labels this image \"Photo of Xin Xin\" alongside the named profile."
+  },
+  "Cassie Tarakajian": {
+    "src": "/notes/ingredients/portraits/cassie-tarakajian-photo.webp",
+    "page": "https://www.processingfoundation.org/people",
+    "original": "https://www.processingfoundation.org/_astro/profile.CnDGS15G_1NA8Ht.webp",
+    "credit": "Portrait published by Processing Foundation; photographer not identified on the source page.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "Processing Foundation People page labels this image \"Photo of Cassie Tarakajian\" alongside the named profile."
+  },
+  "John Maeda": {
+    "src": "/notes/ingredients/portraits/john-maeda-photo.webp",
+    "page": "https://www.processingfoundation.org/people",
+    "original": "https://www.processingfoundation.org/_astro/profile.DPh4N9mU_Zby33g.webp",
+    "credit": "Portrait published by Processing Foundation; photographer not identified on the source page.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "Processing Foundation People page labels this image \"Photo of John Maeda\" alongside the named profile."
+  },
+  "Kate Hollenbach": {
+    "src": "/notes/ingredients/portraits/kate-hollenbach-photo.webp",
+    "page": "https://www.processingfoundation.org/people",
+    "original": "https://www.processingfoundation.org/_astro/profile.D04tVUhQ_Z10vzt4.webp",
+    "credit": "Portrait published by Processing Foundation; photographer not identified on the source page.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "Processing Foundation People page labels this image \"Photo of Kate Hollenbach\" alongside the named profile."
+  },
+  "R. Luke DuBois": {
+    "src": "/notes/ingredients/portraits/r-luke-dubois-photo.webp",
+    "page": "https://www.processingfoundation.org/people",
+    "original": "https://www.processingfoundation.org/_astro/profile.DPtFgOHa_2slrno.webp",
+    "credit": "Portrait published by Processing Foundation; photographer not identified on the source page.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "Processing Foundation People page labels this image \"Photo of R. Luke Dubois\" alongside the named profile."
+  },
+  "Muriel Cooper": {
+    "src": "/notes/ingredients/portraits/muriel-cooper-photo.jpg",
+    "page": "https://mitpress.mit.edu/university-press-week-throwback-thursday-featuring-muriel-cooper/",
+    "original": "https://dhjhkxawhe8q4.cloudfront.net/mit-press/wp-content/uploads/2022/05/27131739/muriel_1.jpg",
+    "credit": "Carl Zahn, 1964; published by MIT Press.",
+    "kind": "photograph",
+    "treatment": "Source photograph; no AI generation or illustration.",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "identityEvidence": "MIT Press caption identifies Muriel Cooper, 1964, photograph by Carl Zahn."
   }
 }

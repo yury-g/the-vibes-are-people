@@ -22,7 +22,7 @@ try{
  await page.waitForTimeout(500);
  assert.equal(await page.locator('#ingredients .page-content').getAttribute('inert'),'');
  assert.equal(await page.locator('#ingredients').evaluate(e=>e.getBoundingClientRect().width),44);
- assert.equal(await people.locator('#detail').evaluate(e=>e.open),true);
+ assert.equal(await people.locator('#detail').evaluate(e=>e.open),false,'Touching the shell outside a detail dismisses it');
  await page.getByRole('button',{name:'Unfold Ingredients',exact:true}).click();await page.waitForTimeout(500);
  assert.equal(await ingredients.locator('#people-search').inputValue(),'Perlin');
  assert.equal(await ingredients.locator('body').evaluate(()=>window.scrollY),scrollBefore,'Folding and unfolding preserves the scroll position');
@@ -30,17 +30,17 @@ try{
  await page.getByRole('button',{name:'Ingredients',exact:true}).click();await page.waitForTimeout(500);
  assert.equal(await page.locator('#people .page-content').getAttribute('inert'),'');
  await page.getByRole('button',{name:'Together',exact:true}).focus();await page.keyboard.press('Enter');await page.waitForTimeout(500);
- assert.equal(await people.locator('#detail').evaluate(e=>e.open),true);
+ assert.equal(await people.locator('#detail').evaluate(e=>e.open),false,'Touching the shell outside a detail dismisses it');
  assert.equal(navigations,0,'Folding never reloads a view');assert.deepEqual(page.frames().map(f=>f.url()),frameUrls);
  await page.emulateMedia({reducedMotion:'reduce'});
  assert.equal(await page.locator('.book').evaluate(e=>getComputedStyle(e).transitionDuration),'0s');
  await page.setViewportSize({width:320,height:740});
- for(const name of ['People','Ingredients','Together']){
+ for(const name of ['People','Ingredients']){
   await page.getByRole('button',{name,exact:true}).click();
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'No phone overflow');
  }
  for(const route of ['/notes/ingredients/','/notes/ingredients/compare.html']){
   await page.goto(base+route);assert.equal(await page.getByRole('button',{name:'Together',exact:true}).count(),1);
  }
- assert.deepEqual(errors,[]);console.log('PASS: folding preserves both frames, filters and open studies; keyboard, narrow screens, reduced motion and legacy links work.');
+ assert.deepEqual(errors,[]);console.log('PASS: folding preserves both frames and filters, dismisses details on outside touch; keyboard, narrow screens, reduced motion and legacy links work.');
 }finally{await browser.close()}

@@ -1,6 +1,6 @@
 import {ledgerRequest,acceptedClaims} from '/agents/overlay.js';
 import {recipeSearchTerms} from '/connections/graph.js';
-import {attachConnections,connectionData} from '/connections/connections.js';
+import {attachConnections,connectionData} from '/connections/connections.js?v=nav-20260928c';
 // Supplemental provenance for B. The existing technique records and draw loop
 // are still owned by ../techniques/techniques.js and are never copied or replaced.
 // Portraits are optional: a slow image manifest must never block the recipes.
@@ -20,7 +20,7 @@ function element(tag, className, text){const el=document.createElement(tag);el.c
 function face(person){
   const photo=portraits[person.name];
   if(!photo){const missing=element('span','ingredient-face unavailable','Portrait not located');missing.dataset.person=person.name;missing.setAttribute('role','img');missing.setAttribute('aria-label',`Portrait not yet located for ${person.name}`);return missing}
-  const img=element('img','ingredient-face');img.src=photo.src;img.alt=photo.kind==='ai-assisted-illustration'?`AI-assisted portrait illustration of ${person.name}`:'';img.dataset.person=person.name;img.dataset.portraitKind=photo.kind;img.width=96;img.height=112;img.loading='lazy';img.decoding='async';
+  const img=element('img','ingredient-face');img.src=photo.src;img.alt=photo.kind==='ai-assisted-illustration'?`AI-assisted portrait illustration of ${person.name}`:photo.kind==='photograph'?`Photograph of ${person.name}`:'';img.dataset.person=person.name;img.dataset.portraitKind=photo.kind;img.width=96;img.height=112;img.loading='lazy';img.decoding='async';
   img.addEventListener('error',()=>{const missing=element('span','ingredient-face unavailable','Portrait unavailable');img.replaceWith(missing)},{once:true});
   return img;
 }
@@ -114,7 +114,7 @@ connectionData.then(async graph=>{
  const roster=document.querySelector('#eyebeam-roster');if(!roster)return;
  const rows=graph.people.filter(p=>graph.relationships.some(r=>r.person===p.id&&r.target==='entity-eyebeam'&&r.review==='checked'));
  roster.replaceChildren();
- for(const p of rows){const card=element('article','eyebeam-person');card.append(face(p),element('h3','',p.name));const portrait=portraits[p.name];if(portrait){card.append(sourceLink(portrait.kind==='ai-assisted-illustration'?'Reference photo ↗':'Portrait source ↗',portrait.page,'photo-credit'),element('small','portrait-treatment',portrait.kind==='ai-assisted-illustration'?'AI-assisted illustration':'Illustrated portrait'));if(portrait.credit)card.append(element('small','portrait-treatment',portrait.credit))}
+ for(const p of rows){const card=element('article','eyebeam-person');card.append(face(p),element('h3','',p.name));const portrait=portraits[p.name];if(portrait){card.append(sourceLink(portrait.kind==='ai-assisted-illustration'?'Reference photo ↗':'Portrait source ↗',portrait.page,'photo-credit'),element('small','portrait-treatment',portrait.kind==='ai-assisted-illustration'?'AI-assisted illustration':portrait.kind==='photograph'?'Photograph':portrait.kind==='dithered-photograph'?'Dithered portrait':'Illustrated portrait'));if(portrait.credit)card.append(element('small','portrait-treatment',portrait.credit))}
  const credits=records.filter(r=>r.contributors.some(c=>c.name===p.name));
  card.append(element('p','',credits.length?'In Ingredients · '+credits.map(r=>r.name).join(' · '):p.placement));
  const a=element('a','',credits.length?'Explore recipe credits ↗':'View evidence & research ↗');a.href=credits.length?'?person='+encodeURIComponent(p.name):'/connections/?node='+encodeURIComponent(p.id)+'#people';card.append(a);attachConnections(card,p.name,{compact:true});roster.append(card)}

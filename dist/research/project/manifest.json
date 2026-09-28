@@ -142,8 +142,8 @@
     {
       "source": "dist/notes/ingredients/portrait-map.json",
       "file": "files/portrait-map.json",
-      "bytes": 42943,
-      "sha256": "c998871848b95fb16965cc7a4dae34389b3f511bc2b917c7338e1b5180e2a308"
+      "bytes": 48109,
+      "sha256": "e438780c47b7e9f41bdae49e8b4a48d9ea02c5537bee2b186d639a3c6af62a5a"
     },
     {
       "source": "research/LANGUAGES.md",
