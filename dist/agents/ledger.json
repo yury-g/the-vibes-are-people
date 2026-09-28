@@ -131,6 +131,87 @@
       "model": "gpt-4.1-mini-2025-04-14",
       "previous": "8c8f41b707f46ff186207dba2110a7c40e7a545ebf655c32121650ac68123b3c",
       "hash": "adbe450dbe356ad561ed9277e5339fd7dedddb021bf2ba9444f029c60b55c0c4"
+    },
+    {
+      "status": "accepted",
+      "confidence": 3,
+      "reason": "Both AI checks found direct source support. AI review can still be wrong; follow the evidence.",
+      "reviews": [
+        {
+          "supported": true,
+          "inScope": true,
+          "identityCertain": true,
+          "duplicate": false,
+          "confidence": 3,
+          "reason": "Craig Reynolds is explicitly documented as creator of the Boids model in 1986, defining local steering behaviors of separation, alignment, and cohesion to simulate flocking, supported by his own detailed web page and original SIGGRAPH paper.",
+          "sourceIndex": 0,
+          "evidenceIndex": 0,
+          "model": "gpt-4.1-mini-2025-04-14",
+          "usage": {
+            "prompt_tokens": 4471,
+            "completion_tokens": 82,
+            "total_tokens": 4553,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          }
+        },
+        {
+          "supported": true,
+          "inScope": true,
+          "identityCertain": true,
+          "duplicate": false,
+          "confidence": 3,
+          "reason": "Craig Reynolds explicitly states he created the Boids model in 1986 using three local steering behaviors: separation, alignment, and cohesion to simulate flocking, as documented in his 1987 SIGGRAPH paper and his own website.",
+          "sourceIndex": 0,
+          "evidenceIndex": 0,
+          "model": "gpt-4.1-mini-2025-04-14",
+          "usage": {
+            "prompt_tokens": 4473,
+            "completion_tokens": 82,
+            "total_tokens": 4555,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.red3d.com/cwr/boids/",
+          "sha256": "618f930893a46db4449c126621b3f8b306c53f8db00604e43af54dd6b22dcbf3",
+          "fetchedAt": "2026-09-28T14:47:36.984Z",
+          "truncated": true,
+          "excerpt": "Boids (Flocks, Herds, and Schools: a Distributed Behavioral Model) Boids Background and Update by Craig Reynolds [You need to be using an Java-enabled browser"
+        },
+        {
+          "url": "https://www.red3d.com/cwr/papers/1987/boids.html",
+          "sha256": "6a43319cc2a22f39e75e7c21273bcabff2ad93c410531a8ae61bcd8a61c64f6a",
+          "fetchedAt": "2026-09-28T14:47:37.012Z",
+          "truncated": false,
+          "excerpt": ""
+        }
+      ],
+      "estimatedUSD": 0.00384,
+      "type": "reviewed",
+      "issue": 2,
+      "at": "2026-09-28T14:47:41.985Z",
+      "previous": "adbe450dbe356ad561ed9277e5339fd7dedddb021bf2ba9444f029c60b55c0c4",
+      "hash": "df7a36721660b9d3743f776fc0fc0836a62a89f777398df00d70cd3e89b63ed8"
     }
   ]
 }
