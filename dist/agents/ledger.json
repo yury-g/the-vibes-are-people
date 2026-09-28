@@ -105,6 +105,32 @@
       "at": "2026-09-28T14:42:27.591Z",
       "previous": "a13a48f685c79521cffdc190ed3b4f2fc05e9c1865487bc2a3e706fecdc0b6a2",
       "hash": "8c8f41b707f46ff186207dba2110a7c40e7a545ebf655c32121650ac68123b3c"
+    },
+    {
+      "type": "reserved",
+      "at": "2026-09-28T14:47:34.973Z",
+      "issue": 2,
+      "author": "yury-g",
+      "proposal": {
+        "version": 1,
+        "person": "Craig Reynolds",
+        "target": {
+          "type": "recipe",
+          "name": "Boids / flocking"
+        },
+        "kind": "contribution",
+        "role": "Model creator",
+        "claim": "Craig Reynolds created the Boids computer model in 1986, using local steering behaviors including separation, alignment and cohesion to simulate flocking.",
+        "sources": [
+          "https://www.red3d.com/cwr/boids/",
+          "https://www.red3d.com/cwr/papers/1987/boids.html"
+        ]
+      },
+      "proposalHash": "8c144379f79e5da82d8cc246d800b58a481f44bf1feac313ec7273fb06261885",
+      "reservedUSD": 0.2,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "previous": "8c8f41b707f46ff186207dba2110a7c40e7a545ebf655c32121650ac68123b3c",
+      "hash": "adbe450dbe356ad561ed9277e5339fd7dedddb021bf2ba9444f029c60b55c0c4"
     }
   ]
 }
