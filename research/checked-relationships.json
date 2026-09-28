@@ -1,0 +1,302 @@
+[
+  {
+    "person": "Zach Lieberman",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Project Resident",
+    "dates": "2002–2003",
+    "source": "https://eyebeam.org/artists/zach-lieberman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Zach Lieberman",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Research Resident",
+    "dates": "2007–2008",
+    "source": "https://eyebeam.org/artists/zach-lieberman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Golan Levin",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Project Resident",
+    "dates": "2002–2003",
+    "source": "https://eyebeam.org/artists/golan-levin/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Project Resident",
+    "dates": "2013",
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Rapid Response Fellow",
+    "dates": "2020",
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Kyle McDonald",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Resident",
+    "dates": "2010",
+    "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Kyle McDonald",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Rapid Response Fellow",
+    "dates": "2020",
+    "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Taeyoon Choi",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Research Resident",
+    "dates": "2008",
+    "source": "https://eyebeam.org/artists/taeyoon-choi/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Taeyoon Choi",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Resident",
+    "dates": "2011",
+    "source": "https://eyebeam.org/artists/taeyoon-choi/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Tega Brain",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Project Resident",
+    "dates": "2015",
+    "source": "https://eyebeam.org/artists/tega-brain/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Tega Brain",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Rapid Response Fellow",
+    "dates": "2020",
+    "source": "https://eyebeam.org/artists/tega-brain/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Yury Gitman",
+    "target": "Eyebeam",
+    "kind": "residency",
+    "role": "Project Resident",
+    "dates": "2003",
+    "source": "https://eyebeam.org/artists/yury-gitman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "MIT",
+    "kind": "education",
+    "role": "BS Computer Science; BS Art and Design",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "UCLA",
+    "kind": "education",
+    "role": "MFA",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "UCLA",
+    "kind": "teaching",
+    "role": "Professor, Design Media Arts",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "p5.js",
+    "kind": "toolmaking",
+    "role": "Creator",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Lauren Lee McCarthy",
+    "target": "Processing Foundation",
+    "kind": "service",
+    "role": "Board member",
+    "dates": "2015–2021",
+    "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Golan Levin",
+    "target": "Carnegie Mellon University",
+    "kind": "teaching",
+    "role": "Professor of Electronic Art",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/golan-levin/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Golan Levin",
+    "target": "STUDIO for Creative Inquiry",
+    "kind": "service",
+    "role": "Director",
+    "dates": "2009–2022",
+    "source": "https://eyebeam.org/artists/golan-levin/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Zach Lieberman",
+    "target": "openFrameworks",
+    "kind": "toolmaking",
+    "role": "Co-creator",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/zach-lieberman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Zach Lieberman",
+    "target": "School for Poetic Computation",
+    "kind": "education",
+    "role": "Co-founder",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/zach-lieberman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Taeyoon Choi",
+    "target": "School for Poetic Computation",
+    "kind": "education",
+    "role": "Co-founder; curriculum development",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/taeyoon-choi/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Kyle McDonald",
+    "target": "NYU ITP",
+    "kind": "teaching",
+    "role": "Former adjunct professor",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Kyle McDonald",
+    "target": "openFrameworks",
+    "kind": "service",
+    "role": "Former community manager",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Tega Brain",
+    "target": "NYU Integrated Design & Media",
+    "kind": "teaching",
+    "role": "Industry Associate Professor",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/tega-brain/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Yury Gitman",
+    "target": "NYU ITP",
+    "kind": "education",
+    "role": "Master’s degree",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/yury-gitman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Yury Gitman",
+    "target": "Georgia Tech",
+    "kind": "education",
+    "role": "BS Science, Technology and Culture",
+    "dates": null,
+    "source": "https://eyebeam.org/artists/yury-gitman/",
+    "sourceLabel": "Eyebeam artist record",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Golan Levin",
+    "target": "Code as Creative Medium",
+    "kind": "publication",
+    "role": "Co-author",
+    "dates": "2021",
+    "source": "https://mitpress.mit.edu/9780262362030/code-as-creative-medium/",
+    "sourceLabel": "Institutional source",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Tega Brain",
+    "target": "Code as Creative Medium",
+    "kind": "publication",
+    "role": "Co-author",
+    "dates": "2021",
+    "source": "https://mitpress.mit.edu/9780262362030/code-as-creative-medium/",
+    "sourceLabel": "Institutional source",
+    "checked": "2026-09-27"
+  },
+  {
+    "person": "Daniel Shiffman",
+    "target": "NYU ITP",
+    "kind": "teaching",
+    "role": "Professor",
+    "dates": null,
+    "source": "https://tisch.nyu.edu/about/directory/itp/1984778605",
+    "sourceLabel": "Institutional source",
+    "checked": "2026-09-27"
+  }
+]

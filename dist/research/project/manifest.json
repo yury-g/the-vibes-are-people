@@ -1,0 +1,83 @@
+{
+  "repository": "https://github.com/yury-g/the-vibes-are-people",
+  "files": [
+    {
+      "source": "README.md",
+      "file": "files/README.md",
+      "bytes": 4213,
+      "sha256": "2615d98d3ef7aed9e4bf2fd544b61f95f8ce5904f5cd0055e9907dad737bd23b"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "file": "files/CONTRIBUTING.md",
+      "bytes": 1268,
+      "sha256": "058a8cd95c315bbebeaffc0b76720c5ae4273c07f9344a3f6f36fb3395d3b2bb"
+    },
+    {
+      "source": "research/CONNECTIONS.md",
+      "file": "files/CONNECTIONS.md",
+      "bytes": 2121,
+      "sha256": "c90c735568f1a47b73b74ca8f595f60b32c2e922b02bc377515fbfd092216939"
+    },
+    {
+      "source": "research/checked-relationships.json",
+      "file": "files/checked-relationships.json",
+      "bytes": 8547,
+      "sha256": "ff960d3f5c7981de78f739c0b3a9716a1ce326ebcfb32c988fdc49dc378620c1"
+    },
+    {
+      "source": "research/connections-coverage.json",
+      "file": "files/connections-coverage.json",
+      "bytes": 2723,
+      "sha256": "ce4a098a2e9ed8a0c0d41822a4b37c0de670705b2a2f557e7b02ae5d148d0d2f"
+    },
+    {
+      "source": "research/eyebeam-connections.json",
+      "file": "files/eyebeam-connections.json",
+      "bytes": 2636,
+      "sha256": "32b5ec6398a640c75956ab6693b6364b9630d2ee3ecb50f7e7ad6378a7a9f9a1"
+    },
+    {
+      "source": "research/institutional-archive-sources.md",
+      "file": "files/institutional-archive-sources.md",
+      "bytes": 5536,
+      "sha256": "55748c4649af292e538e6cc5e68498c83557dd74336a245642b70fef2ceb69ef"
+    },
+    {
+      "source": "research/eyebeam-expanded-source-map.md",
+      "file": "files/eyebeam-expanded-source-map.md",
+      "bytes": 6812,
+      "sha256": "8b9d2d9b573e3280eca207007ab900b576b3b6dd4cc254c9c95cf61ebf11e1c9"
+    },
+    {
+      "source": "research/eyebeam-application-language.md",
+      "file": "files/eyebeam-application-language.md",
+      "bytes": 2794,
+      "sha256": "18a58043638f65033eeba27f44bbd8fa921bddf2ca6ad45632e3d311384c77e1"
+    },
+    {
+      "source": "dist/connections/data.json",
+      "file": "files/data.json",
+      "bytes": 93234,
+      "sha256": "08d4311d1db4185f63b8aef8dfa8d00810512571176358d80f140a00a083cd3e"
+    },
+    {
+      "source": "dist/notes/ingredients/technique-provenance.json",
+      "file": "files/technique-provenance.json",
+      "bytes": 60301,
+      "sha256": "f5f31b2470bf40bcc580d9e3320f0bd0c755bda62316739a840685a5894d00d6"
+    },
+    {
+      "source": "scripts/build-connections.mjs",
+      "file": "files/build-connections.mjs",
+      "bytes": 3500,
+      "sha256": "9e42652360b2d150001263039c315cc4bcf1157b9a685cec5cbf3b0207bb861e"
+    },
+    {
+      "source": "scripts/export-research.mjs",
+      "file": "files/export-research.mjs",
+      "bytes": 1205,
+      "sha256": "bf7e5e54a4c40a824bac95349e40c349c2fce4aa202862b735cec047f413d0f1"
+    }
+  ]
+}

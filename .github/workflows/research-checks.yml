@@ -1,0 +1,18 @@
+name: Research and linked-data checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/build-connections.mjs
+      - run: node tests/connections.mjs
+      - run: node tests/connection-links.mjs
+      - run: node scripts/export-research.mjs
+      - name: Verify committed exports are current
+        run: git diff --exit-code -- dist/connections/data.json research/connections-coverage.json dist/research/project/

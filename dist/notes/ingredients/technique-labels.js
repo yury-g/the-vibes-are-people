@@ -1,3 +1,4 @@
+import {attachConnections} from '/connections/connections.js';
 // Supplemental provenance for B. The existing technique records and draw loop
 // are still owned by ../techniques/techniques.js and are never copied or replaced.
 // Portraits are optional: a slow image manifest must never block the recipes.
@@ -55,7 +56,7 @@ function renderLabel(){
     const copy=element('div','ingredient-copy');
     copy.append(element('h4','',person.name),element('p','ingredient-role',person.role),element('p','contribution',person.detail),sourceLink(`${person.source} ↗`,person.url));
     if(photo?.personId){const profile=element('a','person-profile','Open person’s study ↗');profile.href=`/notes/ingredients/people.html?person=${encodeURIComponent(photo.personId)}`;copy.append(profile)}
-    row.append(imageColumn,copy);panel.append(row);
+    attachConnections(copy,person.name);row.append(imageColumn,copy);panel.append(row);
   });
   panel.append(element('p','provenance-note',record.caveat));
 }

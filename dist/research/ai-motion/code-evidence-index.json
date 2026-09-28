@@ -1,0 +1,42 @@
+[
+  {
+    "brand": "deepseek",
+    "url": "https://www.deepseek.com/_next/static/chunks/1563-a897fb459c74fd9b.js",
+    "file": "work/source-code/deepseek-1563-a897fb459c74fd9b.js",
+    "sha256": "eb66d386c7c2b8b3de78f318951fe81ae298b5479f5f6bbdd86cb7b6eef1a95b",
+    "counts": {
+      "requestAnimationFrame": 2
+    }
+  },
+  {
+    "brand": "deepseek",
+    "url": "https://www.deepseek.com/_next/static/chunks/app/%5Blocale%5D/layout-72ad7d9593cf31f2.js",
+    "file": "work/source-code/deepseek-layout-72ad7d9593cf31f2.js",
+    "sha256": "efa65bbed791e912e59855d6e1a4b64676cdeb001dd771474d2ca194c42bfaef",
+    "counts": {
+      "requestAnimationFrame": 2
+    }
+  },
+  {
+    "brand": "deepseek",
+    "url": "https://www.deepseek.com/_next/static/chunks/1677-58213b6e55e8ddf0.js",
+    "file": "work/source-code/deepseek-1677-58213b6e55e8ddf0.js",
+    "sha256": "188804fe6748da933c953dd0cc5f71cef4e5e7248f4ab9af028e47861c8d7729",
+    "counts": {
+      "requestAnimationFrame": 2,
+      "Math.sin": 6
+    }
+  },
+  {
+    "brand": "deepseek",
+    "url": "https://www.deepseek.com/_next/static/chunks/4097-1b51b1ad13616f56.js",
+    "file": "work/source-code/deepseek-4097-1b51b1ad13616f56.js",
+    "sha256": "4b10047b745a2c59b5eff86aa410fd881e601afff396163fcef388e27fe89f92",
+    "counts": {
+      "requestAnimationFrame": 3,
+      "createShader": 1,
+      "getContext(\"webgl": 1,
+      "noise(": 9
+    }
+  }
+]

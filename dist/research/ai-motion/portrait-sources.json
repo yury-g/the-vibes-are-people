@@ -1,0 +1,62 @@
+{
+  "Vera Molnár": {
+    "src": "/notes/living/portraits/molnar.png",
+    "page": "https://ropac.net/news/1609-vera-molnar-pioneer-of-computer-art-dies-at-experimenting-with-algorithms-she-began-to-employ-the/",
+    "kind": "existing",
+    "personId": "molnar",
+    "asset": "assets/portraits/molnar.png",
+    "sha256": "8d9c47ac22574764f8c24a0beb780c03b1feaa4eb51edc656de128a19d9e7b33",
+    "identity_source": "https://ropac.net/news/1609-vera-molnar-pioneer-of-computer-art-dies-at-experimenting-with-algorithms-she-began-to-employ-the/",
+    "reuse_basis": "user-authorized-local",
+    "rights_status": "not-independently-cleared",
+    "rights_source": "references/local-use-authorization.md"
+  },
+  "Zach Lieberman": {
+    "src": "/notes/living/portraits/lieberman.png",
+    "page": "https://www.media.mit.edu/people/zachl/overview/",
+    "kind": "existing",
+    "personId": "lieberman",
+    "asset": "assets/portraits/lieberman.png",
+    "sha256": "061cf04bfff3c525059ebc146ef86cea621cd8c9ba57cac927d11212cca833e7",
+    "identity_source": "https://www.media.mit.edu/people/zachl/overview/",
+    "reuse_basis": "user-authorized-local",
+    "rights_status": "not-independently-cleared",
+    "rights_source": "references/local-use-authorization.md"
+  },
+  "Ken Perlin": {
+    "src": "/notes/living/portraits/perlin.png",
+    "page": "https://realitylab.uw.edu/components/lectures.html",
+    "kind": "existing",
+    "personId": "perlin",
+    "asset": "assets/portraits/perlin.png",
+    "sha256": "f8bd8adc9541d1056a931b66841e0bc7e0686ff488ecd50f807a1e44619fbf62",
+    "identity_source": "https://realitylab.uw.edu/components/lectures.html",
+    "reuse_basis": "user-authorized-local",
+    "rights_status": "not-independently-cleared",
+    "rights_source": "references/local-use-authorization.md"
+  },
+  "John Whitney": {
+    "src": "/notes/living/portraits/whitney.png",
+    "page": "https://www.isea-symposium-archives.org/person/john-whitney-sr/",
+    "kind": "existing",
+    "personId": "whitney",
+    "asset": "assets/portraits/whitney.png",
+    "sha256": "0a92f95fadf8d1906955070a11d3daace90ebe8c52320827e417d4dbb2d0c761",
+    "identity_source": "https://www.isea-symposium-archives.org/person/john-whitney-sr/",
+    "reuse_basis": "user-authorized-local",
+    "rights_status": "not-independently-cleared",
+    "rights_source": "references/local-use-authorization.md"
+  },
+  "Golan Levin": {
+    "src": "/notes/living/portraits/levin.png",
+    "page": "https://flong.com/archive/bio/en/index.html",
+    "kind": "existing",
+    "personId": "levin",
+    "asset": "assets/portraits/levin.png",
+    "sha256": "7a72d5c3b7770812701ef6aaca309e50049f60ec4286c3a7af2701ae9db75af5",
+    "identity_source": "https://flong.com/archive/bio/en/index.html",
+    "reuse_basis": "user-authorized-local",
+    "rights_status": "not-independently-cleared",
+    "rights_source": "references/local-use-authorization.md"
+  }
+}

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {build,validate} from '../scripts/build-connections.mjs';
+const graph=await build();
+assert.equal(graph.recipes.length,40);
+assert.equal(graph.relationships.filter(r=>r.kind==='documented path').length,8);
+assert.equal(new Set(graph.people.map(p=>p.id)).size,graph.people.length);
+assert.ok(graph.relationships.some(r=>r.review==='imported'));
+assert.ok(graph.relationships.some(r=>r.review==='checked' && r.role==='MFA'));
+assert.ok(graph.people.find(p=>p.name==='Lauren Lee McCarthy').placement==='To be assigned');
+assert.throws(()=>validate({...graph,relationships:[{...graph.relationships[0],target:'missing'}]}),/reference/);
+assert.throws(()=>validate({...graph,relationships:[{...graph.relationships[0],source:''}]}),/source/);
+assert.deepEqual(await build(),graph,'Output must be deterministic');
+console.log('Connections validation passed');

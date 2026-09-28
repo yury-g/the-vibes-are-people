@@ -1,0 +1,96 @@
+{
+  "captured": "2026-09-27",
+  "scope": "Representative large AI-company sweep, expanded with waiting/prompt animations. Editorial readings, not proven influence. Existing Vibes app unchanged.",
+  "items": [
+    {
+      "id": "devday",
+      "title": "OpenAI DevDay · rearrangement as rhythm",
+      "source": "https://play.studio/work/open-ai-dev",
+      "person": "Vera Molnár",
+      "portrait": "molnar",
+      "phrase": "Molnár / interrupted order",
+      "motion": "Squares expand and contract, nested frames change scale, and repeated word blocks slide between alignments. The small panels run variations of the same modular vocabulary. The rhythm comes from regularity repeatedly being disturbed and restored.",
+      "reading": "The useful comparison is controlled variation inside a rule-bound composition. Molnár is a vocabulary reference here, not an attribution or a claim that she influenced this identity. John Whitney’s visual-music framing is another promising comparison for a future timing study.",
+      "prompt": "Animate a fixed grid of square modules. Alternate clean alignment with selected omissions, stepped translations and expanding nested squares. Offset the cycles across neighboring panels; preserve a readable underlying order. Use Molnár’s interrupted order as a conceptual reference, with explicit timing rules rather than random jitter.",
+      "evidence": "Play Studio documents creating the 2023 identity with OpenAI and lists its project team. This capture is the MotionLaydown video on that case study. 16-second screen recording; approximately 14 sampled frames/second, exported at 15 fps with recorded timing. The excerpt restarts at the end; it is not a seamless source loop."
+    },
+    {
+      "id": "claude",
+      "title": "Code with Claude · a stable word, an unstable surface",
+      "source": "https://claude.com/code-with-claude/san-francisco",
+      "person": "Vera Molnár",
+      "portrait": "molnar",
+      "phrase": "Molnár / controlled variation",
+      "motion": "The SAN FRANCISCO letter silhouette remains legible while the small star-and-line marks change across its grid. The captured motion reads as local variation within a stable typographic mask, rather than the entire word translating across the page.",
+      "reading": "The match is a teaching analogy: a fixed system with controlled departures. The capture supports changing marks, but does not establish the exact algorithm, randomness model, interaction rules or a historical influence.",
+      "prompt": "Build a readable word from a grid of tiny radial and diagonal marks. Hold the letter mask fixed. Change each mark’s orientation or state in staggered waves, with brief rests between changes. Keep local variation subordinate to legibility. Think Molnár / controlled variation; specify the actual state rules.",
+      "evidence": "10-second screen recording of the official 2026 San Francisco event page, approximately 15 sampled frames/second. No pointer interaction was intentionally applied during this capture. The author and internal algorithm have not been established. The excerpt restarts at the end."
+    },
+    {
+      "id": "gemini",
+      "title": "Gemini · breathing light",
+      "source": "https://deepmind.google/models/gemini/",
+      "person": "Zach Lieberman",
+      "portrait": "lieberman",
+      "phrase": "Lieberman / expressive contour — exploratory comparison",
+      "motion": "As the user observed, it reads as breathing: blue illumination swells and recedes around a comparatively stable dark silhouette. This describes the felt rhythm, not respiration, sentience, or a measured breathing rate.",
+      "reading": "The existing Vibes vocabulary offers expressive contour and deformation as a way to develop a new study. This is the weakest match of the three: the observed clip is more about light modulation than obvious elastic deformation. A shader technique description is more defensible than naming a specific underlying algorithm.",
+      "prompt": "Keep a dark four-point curved silhouette nearly fixed. Move a soft electric-blue light field slowly along its edges, gently varying bloom and gradient width. Use smooth periodic modulation, no abrupt cuts, and a quiet background. Explore expressive contours as a separate variation; do not turn the source into fast particle motion.",
+      "evidence": "Original WebM obtained from the video element of the official Gemini page, plus MP4 and GIF derivatives. Full source duration is retained; the GIF samples at 15 fps. The maker and rendering method have not been established."
+    },
+    {
+      "id": "deepseek",
+      "title": "DeepSeek · atmospheric flow + performed typing",
+      "source": "https://www.deepseek.com/en/platform/",
+      "person": "Ken Perlin",
+      "portrait": "perlin",
+      "phrase": "Perlin / coherent variation — method family",
+      "motion": "The blue-grey background slowly folds and drifts while the headline types, erases and replaces itself. These are two different tempos: an ambient field and a foreground performance of work.",
+      "reading": "Strongest implementation evidence in this collection: the delivered JavaScript contains a WebGL2 renderer, 3D simplex-style noise, time uniforms and a continuous animation loop. Its component exposes distortion and swirl parameters. This is code evidence for procedural animation, not merely a resemblance to a shader. It does not identify who wrote this particular implementation.",
+      "prompt": "Move a restrained blue-grey field with smooth time-varying noise and broad domain distortion. Keep its motion slow enough to sit behind readable text. Give headline typing a separate cadence: type, hold, erase, pause. Use Perlin / coherent variation as the method-family vocabulary; name the exact noise implementation separately.",
+      "evidence": "12-second screen capture of the API marketing page; captured frames retain wall-clock timing. Source evidence: DeepSeek chunk 4097-1b51b1ad13616f56.js, accessed 27 September 2026. Page bundle lists chunk 4097 as a dependency; its renderer uses WebGL2, updates u_time and draws every frame subject to a 30fps throttle. This was static source inspection, not a debugger trace."
+    },
+    {
+      "id": "deepmind",
+      "title": "DeepMind Institute · a diagram quietly thinking",
+      "source": "https://deepmind.google/",
+      "person": "John Whitney",
+      "portrait": "whitney",
+      "phrase": "Whitney / coordinated geometric motion",
+      "motion": "Fine circular and curved construction lines surround blue rectangular modules. Across the short loop, modules shift and change proportions while the diagram stays organized around its center. It reads as a diagram being continually recomputed.",
+      "reading": "Whitney offers useful vocabulary for related motions and visual rhythm. This is a proposed comparison; the served WebM establishes moving geometry, not the source algorithm or historical influence.",
+      "prompt": "Build a spare geometric diagram from thin orbit-like curves and pale rectangular modules. Animate a few positions and proportions with coordinated periodic functions. Use small phase offsets, restrained motion and no camera cuts. Reference Whitney / visual music while keeping the actual rules explicit.",
+      "evidence": "Original short WebM served by the DeepMind homepage’s Institute card, retained locally with MP4 and GIF derivatives. Video filename includes constant_motion. A moving video is not proof of a live procedural implementation."
+    },
+    {
+      "id": "grok",
+      "title": "Grok · a voice orb and the theater of waiting",
+      "source": "https://x.ai/",
+      "person": "John Whitney",
+      "portrait": "whitney",
+      "phrase": "Whitney / phase and recurrence — exploratory comparison",
+      "motion": "The Voice card contains a luminous sphere with moving highlights and specks. Above it, the Bot and Build cards cycle through messages, thinking dots, tool activity and results. The orb suggests continuous presence; the dots and text suggest work progressing.",
+      "reading": "The page exposes a canvas at the orb’s position, supporting live rendered graphics. The exact sphere and particle algorithm was not established. The upper cards are marketing demonstrations of waiting states, not recordings of an actual inference session. Whitney is a motion-design reference, not a detected maker.",
+      "prompt": "Make a quiet spherical field with slowly circulating specks and soft moving highlights. For waiting states, give three dots staggered pulses with clear rests; keep this distinct from actual progress percentage. Specify phase relationships and a calm base rhythm rather than generic “AI glow.”",
+      "evidence": "12-second screen capture of official x.ai product cards. Canvas elements were observed at the Voice card and other animation positions. No actual user prompt was submitted; these are marketing animations."
+    },
+    {
+      "id": "astra",
+      "title": "Project Astra · a useful contrast case",
+      "source": "https://deepmind.google/models/project-astra/",
+      "person": "Golan Levin",
+      "portrait": "levin",
+      "phrase": "Levin / gesture into response — a research direction",
+      "motion": "The captured teaser shows a phone, a person interacting with it, and changing on-screen content. This is demonstrational footage; it is not an abstract generative field.",
+      "reading": "Keep this as a contrast example rather than forcing it into algorithmic art. Gesture into response is a direction for examining the interface, but this short teaser does not establish the timing or algorithm of a particular waiting animation.",
+      "prompt": "For a separate original study, map a real input signal to visible motion and distinguish listening, waiting and responding states. Show an idle rhythm without falsely implying a measurable completion percentage. Capture the transitions before drawing conclusions about the interface.",
+      "evidence": "Original official Project Astra hero teaser MP4 and derivatives retained. Included to document what was found; not counted as confirmed algorithmic art."
+    }
+  ],
+  "gemini_original": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/KmpjWlhFA-6wtqBm/gemini__page-cover__dark.webm",
+  "waiting_animation_status": "Captured marketing demonstrations of thinking/typing/waiting; did not trigger live inference or capture authenticated chat states.",
+  "original_sources": {
+    "deepmind": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/M42lHs_BAsbgFhuZ/dmi_illustration_introducing_the_dmi_constant_motion.webm",
+    "astra": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/media/project-astra__hero__poster.mp4"
+  }
+}

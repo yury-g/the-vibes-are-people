@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {build} from '../scripts/build-connections.mjs';
+import {overlaps,gaps} from '../dist/connections/graph.js';
+const g=await build();
+assert.equal(overlaps(g).find(n=>n.name==='Eyebeam').people.length,7,'Multiple residencies must not double-count people');
+assert.equal(gaps(g).find(n=>n.id==='placement').people.length,4);
+assert.ok(!gaps(g)[0].people.includes('person-lauren-lee-mccarthy'));
+const fixture={people:[{id:'p'}],entities:[{id:'e',name:'E'}],recipes:[],relationships:[{person:'p',target:'e'},{person:'p',target:'e'}]};
+assert.equal(overlaps(fixture).length,0,'One person with two roles is not an overlap');
+console.log('Overlap and gap checks passed');

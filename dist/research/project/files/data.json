@@ -1,0 +1,2659 @@
+{
+  "checked": "2026-09-27",
+  "people": [
+    {
+      "id": "person-adam-runions",
+      "name": "Adam Runions",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-adrian-secord",
+      "name": "Adrian Secord",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-adrianne-herman",
+      "name": "Adrianne Herman",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-alain-fournier",
+      "name": "Alain Fournier",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-alan-turing",
+      "name": "Alan Turing",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-anders-hoff",
+      "name": "Anders Hoff",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-andrew-vince",
+      "name": "Andrew Vince",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-aristid-lindenmayer",
+      "name": "Aristid Lindenmayer",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-ben-fry",
+      "name": "Ben Fry",
+      "study": "fry",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-benoit-mandelbrot",
+      "name": "Benoît Mandelbrot",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-bert-wang-chak-chan",
+      "name": "Bert Wang-Chak Chan",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-boris-delaunay",
+      "name": "Boris Delaunay",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-brendan-lane",
+      "name": "Brendan Lane",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-bryce-e-bayer",
+      "name": "Bryce E. Bayer",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-carlos-cruz-diez",
+      "name": "Carlos Cruz-Diez",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-casey-reas",
+      "name": "Casey Reas",
+      "study": "reas",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-celso-grebogi",
+      "name": "Celso Grebogi",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-clifford-a-pickover",
+      "name": "Clifford A. Pickover",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-craig-e-kolb",
+      "name": "Craig E. Kolb",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-craig-reynolds",
+      "name": "Craig Reynolds",
+      "study": "reynolds",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-craig-s-kaplan",
+      "name": "Craig S. Kaplan",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-cyril-stanley-smith",
+      "name": "Cyril Stanley Smith",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-daniel-shiffman",
+      "name": "Daniel Shiffman",
+      "study": "shiffman",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-david-ruelle",
+      "name": "David Ruelle",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-donald-e-knuth",
+      "name": "Donald E. Knuth",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-donald-fussell",
+      "name": "Donald Fussell",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-edward-n-lorenz",
+      "name": "Edward N. Lorenz",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-edwin-catmull",
+      "name": "Edwin Catmull",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-ernst-chladni",
+      "name": "Ernst Chladni",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-evgraf-s-fedorov",
+      "name": "Evgraf S. Fedorov",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-f-kenton-musgrave",
+      "name": "F. Kenton Musgrave",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-floris-takens",
+      "name": "Floris Takens",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-frieder-nake",
+      "name": "Frieder Nake",
+      "study": "nake",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-georg-nees",
+      "name": "Georg Nees",
+      "study": "nees",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-george-polya",
+      "name": "George Pólya",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-georgy-voronoy",
+      "name": "Georgy Voronoy",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-godfried-t-toussaint",
+      "name": "Godfried T. Toussaint",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-golan-levin",
+      "name": "Golan Levin",
+      "study": "levin",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-gulru-necipoglu",
+      "name": "Gülru Necipoğlu",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-h-s-m-coxeter",
+      "name": "H. S. M. Coxeter",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-haiyi-liang",
+      "name": "Haiyi Liang",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-hao-wang",
+      "name": "Hao Wang",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-harold-cohen",
+      "name": "Harold Cohen",
+      "study": "cohen",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-henri-poincare",
+      "name": "Henri Poincaré",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-inigo-quilez",
+      "name": "Iñigo Quilez",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jack-wisdom",
+      "name": "Jack Wisdom",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-james-a-yorke",
+      "name": "James A. Yorke",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-james-clark",
+      "name": "James Clark",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-james-p-crutchfield",
+      "name": "James P. Crutchfield",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jared-tarbell",
+      "name": "Jared Tarbell",
+      "study": "tarbell",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-jeff-jones",
+      "name": "Jeff Jones",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jesse-louis-rosenberg",
+      "name": "Jesse Louis-Rosenberg",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jessica-rosenkrantz",
+      "name": "Jessica Rosenkrantz",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jim-blinn",
+      "name": "Jim Blinn",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jim-hourihan",
+      "name": "Jim Hourihan",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-johan-gielis",
+      "name": "Johan Gielis",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-john-browning",
+      "name": "John Browning",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-john-c-hart",
+      "name": "John C. Hart",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-john-e-hutchinson",
+      "name": "John E. Hutchinson",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-john-e-pearson",
+      "name": "John E. Pearson",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-john-w-van-ness",
+      "name": "John W. Van Ness",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-john-whitney",
+      "name": "John Whitney",
+      "study": "whitney",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-jonathan-shade",
+      "name": "Jonathan Shade",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-joseph-b-kruskal",
+      "name": "Joseph B. Kruskal",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-josh-barnes",
+      "name": "Josh Barnes",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-joshua-davis",
+      "name": "Joshua Davis",
+      "study": "davis",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-josiah-willard-gibbs",
+      "name": "Josiah Willard Gibbs",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-jules-lissajous",
+      "name": "Jules Lissajous",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-karl-sims",
+      "name": "Karl Sims",
+      "study": "sims",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-ken-perlin",
+      "name": "Ken Perlin",
+      "study": "perlin",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-kyle-mcdonald",
+      "name": "Kyle McDonald",
+      "study": null,
+      "placement": "To be assigned"
+    },
+    {
+      "id": "person-l-mahadevan",
+      "name": "L. Mahadevan",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-lauren-lee-mccarthy",
+      "name": "Lauren Lee McCarthy",
+      "study": null,
+      "placement": "To be assigned"
+    },
+    {
+      "id": "person-lawrence-g-roberts",
+      "name": "Lawrence G. Roberts",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-leonard-m-sander",
+      "name": "Leonard M. Sander",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-lillian-schwartz",
+      "name": "Lillian Schwartz",
+      "study": "schwartz",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-loren-carpenter",
+      "name": "Loren Carpenter",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-louis-steinberg",
+      "name": "Louis Steinberg",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-m-c-escher",
+      "name": "M. C. Escher",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-manfred-mohr",
+      "name": "Manfred Mohr",
+      "study": "mohr",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-marcus-nordenstam",
+      "name": "Marcus Nordenstam",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-marius-watz",
+      "name": "Marius Watz",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-mathias-isaksen",
+      "name": "Mathias Isaksen",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-michael-barnsley",
+      "name": "Michael Barnsley",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-michael-f-cohen",
+      "name": "Michael F. Cohen",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-mohammad-al-asad",
+      "name": "Mohammad al-Asad",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-oliver-deussen",
+      "name": "Oliver Deussen",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-oliver-heaviside",
+      "name": "Oliver Heaviside",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-olivia-jack",
+      "name": "Olivia Jack",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-paul-bourke",
+      "name": "Paul Bourke",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-paul-j-steinhardt",
+      "name": "Paul J. Steinhardt",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-paul-w-carlson",
+      "name": "Paul W. Carlson",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-pauline-boucher",
+      "name": "Pauline Boucher",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-peter-gray",
+      "name": "Peter Gray",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-peter-j-lu",
+      "name": "Peter J. Lu",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-piet-hut",
+      "name": "Piet Hut",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-przemys-aw-prusinkiewicz",
+      "name": "Przemysław Prusinkiewicz",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-robert-berger",
+      "name": "Robert Berger",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-robert-bosch",
+      "name": "Robert Bosch",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-robert-bridson",
+      "name": "Robert Bridson",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-robert-l-cook",
+      "name": "Robert L. Cook",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-robert-s-mace",
+      "name": "Robert S. Mace",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-robert-w-floyd",
+      "name": "Robert W. Floyd",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-roger-penrose",
+      "name": "Roger Penrose",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-sebastien-truchet",
+      "name": "Sébastien Truchet",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-stefan-hiller",
+      "name": "Stefan Hiller",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-steina-vasulka",
+      "name": "Steina Vasulka",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-stephen-k-scott",
+      "name": "Stephen K. Scott",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-stephen-wolfram",
+      "name": "Stephen Wolfram",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-taeyoon-choi",
+      "name": "Taeyoon Choi",
+      "study": null,
+      "placement": "To be assigned"
+    },
+    {
+      "id": "person-tega-brain",
+      "name": "Tega Brain",
+      "study": null,
+      "placement": "To be assigned"
+    },
+    {
+      "id": "person-thomas-a-witten-jr",
+      "name": "Thomas A. Witten Jr.",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-thomas-young",
+      "name": "Thomas Young",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-troy-shinbrot",
+      "name": "Troy Shinbrot",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-tyler-hobbs",
+      "name": "Tyler Hobbs",
+      "study": "hobbs",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-vera-molnar",
+      "name": "Vera Molnár",
+      "study": "molnar",
+      "placement": "In the collection"
+    },
+    {
+      "id": "person-woody-vasulka",
+      "name": "Woody Vasulka",
+      "study": null,
+      "placement": "Existing recipe credit"
+    },
+    {
+      "id": "person-yury-gitman",
+      "name": "Yury Gitman",
+      "study": null,
+      "placement": "Project author"
+    },
+    {
+      "id": "person-zach-lieberman",
+      "name": "Zach Lieberman",
+      "study": "lieberman",
+      "placement": "In the collection"
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity-eyebeam",
+      "name": "Eyebeam"
+    },
+    {
+      "id": "entity-mit",
+      "name": "MIT"
+    },
+    {
+      "id": "entity-ucla",
+      "name": "UCLA"
+    },
+    {
+      "id": "entity-p5-js",
+      "name": "p5.js"
+    },
+    {
+      "id": "entity-processing-foundation",
+      "name": "Processing Foundation"
+    },
+    {
+      "id": "entity-carnegie-mellon-university",
+      "name": "Carnegie Mellon University"
+    },
+    {
+      "id": "entity-studio-for-creative-inquiry",
+      "name": "STUDIO for Creative Inquiry"
+    },
+    {
+      "id": "entity-openframeworks",
+      "name": "openFrameworks"
+    },
+    {
+      "id": "entity-school-for-poetic-computation",
+      "name": "School for Poetic Computation"
+    },
+    {
+      "id": "entity-nyu-itp",
+      "name": "NYU ITP"
+    },
+    {
+      "id": "entity-nyu-integrated-design-media",
+      "name": "NYU Integrated Design & Media"
+    },
+    {
+      "id": "entity-georgia-tech",
+      "name": "Georgia Tech"
+    },
+    {
+      "id": "entity-code-as-creative-medium",
+      "name": "Code as Creative Medium"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe-curl-noise",
+      "name": "Curl noise"
+    },
+    {
+      "id": "recipe-domain-warping",
+      "name": "Domain warping"
+    },
+    {
+      "id": "recipe-vector-fields-from-math",
+      "name": "Vector fields from math"
+    },
+    {
+      "id": "recipe-chladni-standing-waves",
+      "name": "Chladni / standing waves"
+    },
+    {
+      "id": "recipe-reaction-diffusion-gray-scott",
+      "name": "Reaction–diffusion (Gray–Scott)"
+    },
+    {
+      "id": "recipe-differential-growth",
+      "name": "Differential growth"
+    },
+    {
+      "id": "recipe-diffusion-limited-aggregation-dla",
+      "name": "Diffusion-limited aggregation (DLA)"
+    },
+    {
+      "id": "recipe-space-colonization",
+      "name": "Space colonization"
+    },
+    {
+      "id": "recipe-physarum-slime-mold",
+      "name": "Physarum / slime mold"
+    },
+    {
+      "id": "recipe-cellular-automata-beyond-life",
+      "name": "Cellular automata beyond Life"
+    },
+    {
+      "id": "recipe-truchet-tiles",
+      "name": "Truchet tiles"
+    },
+    {
+      "id": "recipe-wang-tiles",
+      "name": "Wang tiles"
+    },
+    {
+      "id": "recipe-wallpaper-groups",
+      "name": "Wallpaper groups"
+    },
+    {
+      "id": "recipe-girih-islamic-star-patterns",
+      "name": "Girih / Islamic star patterns"
+    },
+    {
+      "id": "recipe-penrose-aperiodic",
+      "name": "Penrose / aperiodic"
+    },
+    {
+      "id": "recipe-hyperbolic-tilings-p-q",
+      "name": "Hyperbolic tilings {p,q}"
+    },
+    {
+      "id": "recipe-l-systems",
+      "name": "L-systems"
+    },
+    {
+      "id": "recipe-recursive-subdivision",
+      "name": "Recursive subdivision"
+    },
+    {
+      "id": "recipe-chaos-game-ifs",
+      "name": "Chaos game / IFS"
+    },
+    {
+      "id": "recipe-fractal-fracture",
+      "name": "Fractal fracture"
+    },
+    {
+      "id": "recipe-strange-attractors",
+      "name": "Strange attractors"
+    },
+    {
+      "id": "recipe-harmonographs-lissajous",
+      "name": "Harmonographs / Lissajous"
+    },
+    {
+      "id": "recipe-double-pendulum-n-body-trails",
+      "name": "Double pendulum / N-body trails"
+    },
+    {
+      "id": "recipe-orbit-traps",
+      "name": "Orbit traps"
+    },
+    {
+      "id": "recipe-poisson-disk-blue-noise",
+      "name": "Poisson-disk / blue noise"
+    },
+    {
+      "id": "recipe-dithering-as-art",
+      "name": "Dithering as art"
+    },
+    {
+      "id": "recipe-halftone-systems",
+      "name": "Halftone systems"
+    },
+    {
+      "id": "recipe-tsp-art-scribble-fill",
+      "name": "TSP art / scribble fill"
+    },
+    {
+      "id": "recipe-weighted-voronoi-stippling",
+      "name": "Weighted Voronoi stippling"
+    },
+    {
+      "id": "recipe-circle-packing-grown",
+      "name": "Circle packing, grown"
+    },
+    {
+      "id": "recipe-voronoi-delaunay-operated-on",
+      "name": "Voronoi/Delaunay operated on"
+    },
+    {
+      "id": "recipe-minimum-spanning-tree-relative-neighborhood-graphs",
+      "name": "Minimum spanning tree / relative neighborhood graphs"
+    },
+    {
+      "id": "recipe-hidden-line-3d-2d",
+      "name": "Hidden-line 3D → 2D"
+    },
+    {
+      "id": "recipe-superformula-supershapes",
+      "name": "Superformula / supershapes"
+    },
+    {
+      "id": "recipe-moire",
+      "name": "Moiré"
+    },
+    {
+      "id": "recipe-wave-interference",
+      "name": "Wave interference"
+    },
+    {
+      "id": "recipe-metaballs-implicit-fields",
+      "name": "Metaballs / implicit fields"
+    },
+    {
+      "id": "recipe-fbm-ridged-turbulent",
+      "name": "fBm + ridged / turbulent"
+    },
+    {
+      "id": "recipe-sdf-raymarching",
+      "name": "SDF raymarching"
+    },
+    {
+      "id": "recipe-feedback-buffers",
+      "name": "Feedback buffers"
+    }
+  ],
+  "relationships": [
+    {
+      "person": "person-robert-bridson",
+      "target": "recipe-curl-noise",
+      "kind": "contribution",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored Curl-Noise for Procedural Fluid Flow, constructing incompressible procedural velocity fields with controllable boundaries.",
+      "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+      "sourceLabel": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jim-hourihan",
+      "target": "recipe-curl-noise",
+      "kind": "contribution",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the 2007 curl-noise method for procedural fluid-like motion.",
+      "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+      "sourceLabel": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-marcus-nordenstam",
+      "target": "recipe-curl-noise",
+      "kind": "contribution",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the 2007 curl-noise method, including treatment of solid boundaries.",
+      "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+      "sourceLabel": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-ken-perlin",
+      "target": "recipe-domain-warping",
+      "kind": "contribution",
+      "role": "Noise and domain displacement",
+      "detail": "Developed procedural noise and demonstrated domain displacement as a texture-building operation.",
+      "source": "https://mrl.cs.nyu.edu/projects/texture/",
+      "sourceLabel": "NYU Media Research Lab · procedural textures",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-inigo-quilez",
+      "target": "recipe-domain-warping",
+      "kind": "contribution",
+      "role": "Earlier exposition",
+      "detail": "Mathias Isaksen's first-person account explicitly credits Quilez's 2002 domain-warping article as an earlier explanation of the technique.",
+      "source": "https://st4yho.me/domain-warping-an-interactive-introduction/",
+      "sourceLabel": "Mathias Isaksen, Domain warping: an interactive introduction (2022)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-mathias-isaksen",
+      "target": "recipe-domain-warping",
+      "kind": "contribution",
+      "role": "Later artist / expositor",
+      "detail": "His illustrated tutorial documents domain-warped artworks and shows how to repeatedly displace sample positions with noise.",
+      "source": "https://st4yho.me/domain-warping-an-interactive-introduction/",
+      "sourceLabel": "Artist's own tutorial, 18 March 2022",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-josiah-willard-gibbs",
+      "target": "recipe-vector-fields-from-math",
+      "kind": "contribution",
+      "role": "Mathematical foundation",
+      "detail": "Developed vector analysis as a practical mathematical language; his 1881–1884 Yale notes are preserved by the Smithsonian.",
+      "source": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+      "sourceLabel": "Smithsonian Libraries, Elements of vector analysis",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-oliver-heaviside",
+      "target": "recipe-vector-fields-from-math",
+      "kind": "contribution",
+      "role": "Mathematical foundation",
+      "detail": "The Smithsonian identifies Heaviside alongside Gibbs as a developer of practical vector analysis.",
+      "source": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+      "sourceLabel": "Smithsonian Libraries, Elements of vector analysis",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-tyler-hobbs",
+      "target": "recipe-vector-fields-from-math",
+      "kind": "contribution",
+      "role": "Later artist / expositor",
+      "detail": "Explains tracing paths through direction fields and shows how he uses and varies them in his own artwork.",
+      "source": "https://www.tylerxhobbs.com/words/flow-fields",
+      "sourceLabel": "Tyler Hobbs · Flow Fields",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-ernst-chladni",
+      "target": "recipe-chladni-standing-waves",
+      "kind": "contribution",
+      "role": "Experimental pioneer",
+      "detail": "Developed sand-covered vibrating-plate demonstrations that made nodal patterns visible.",
+      "source": "https://amhistory.si.edu/science/chladni.htm",
+      "sourceLabel": "Smithsonian, Chladni Plates",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-alan-turing",
+      "target": "recipe-reaction-diffusion-gray-scott",
+      "kind": "contribution",
+      "role": "1952 theoretical foundation",
+      "detail": "Proposed reaction and diffusion as a mechanism for the emergence of biological pattern.",
+      "source": "https://embryo.asu.edu/pages/chemical-basis-morphogenesis-1952-alan-m-turing",
+      "sourceLabel": "Arizona State University, Embryo Project Encyclopedia",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-peter-gray",
+      "target": "recipe-reaction-diffusion-gray-scott",
+      "kind": "contribution",
+      "role": "1984 model · coauthor",
+      "detail": "Coauthored the analysis of cubic autocatalysis and catalyst decay in an isothermal stirred reactor underlying the Gray–Scott model.",
+      "source": "https://www.sciencedirect.com/science/article/abs/pii/0009250984870177",
+      "sourceLabel": "Gray & Scott, Chemical Engineering Science 39 (1984), 1087–1097; metadata verified through NII and CNRS records",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-stephen-k-scott",
+      "target": "recipe-reaction-diffusion-gray-scott",
+      "kind": "contribution",
+      "role": "1984 model · coauthor",
+      "detail": "Coauthored the reaction-system analysis that supplies the named Gray–Scott chemical model.",
+      "source": "https://www.sciencedirect.com/science/article/abs/pii/0009250984870177",
+      "sourceLabel": "Gray & Scott, Chemical Engineering Science 39 (1984), 1087–1097; metadata verified through NII and CNRS records",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-john-e-pearson",
+      "target": "recipe-reaction-diffusion-gray-scott",
+      "kind": "contribution",
+      "role": "1993 pattern study",
+      "detail": "His simulations demonstrated diverse irregular patterns and dividing spots in a simple reaction–diffusion system.",
+      "source": "https://arxiv.org/abs/patt-sol/9304003",
+      "sourceLabel": "Pearson, Complex Patterns in a Simple System (1993), author preprint",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-karl-sims",
+      "target": "recipe-reaction-diffusion-gray-scott",
+      "kind": "contribution",
+      "role": "Later artistic exposition",
+      "detail": "His tutorial explains an implementation of Gray–Scott reaction–diffusion and ways of controlling the resulting patterns.",
+      "source": "https://www.karlsims.com/rd.html",
+      "sourceLabel": "Karl Sims, Reaction-Diffusion Tutorial",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-haiyi-liang",
+      "target": "recipe-differential-growth",
+      "kind": "contribution",
+      "role": "2011 scientific model · coauthor",
+      "detail": "Coauthored experiments and a thin-shell model showing how excess edge growth can drive a lily's blooming.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3078366/",
+      "sourceLabel": "Liang & Mahadevan, PNAS (2011)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-l-mahadevan",
+      "target": "recipe-differential-growth",
+      "kind": "contribution",
+      "role": "2011 scientific model · coauthor",
+      "detail": "Coauthored the lily-growth study explicitly identified by Nervous System as an inspiration for Floraform.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3078366/",
+      "sourceLabel": "Liang & Mahadevan, PNAS (2011); Floraform project credits",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jessica-rosenkrantz",
+      "target": "recipe-differential-growth",
+      "kind": "contribution",
+      "role": "Later artistic use",
+      "detail": "As a Nervous System cofounder, developed a studio practice whose Floraform system turns differential surface growth into sculptures and jewelry.",
+      "source": "https://n-e-r-v-o-u-s.com/projects/floraform/",
+      "sourceLabel": "Nervous System, Floraform; studio authorship verified on About Us",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jesse-louis-rosenberg",
+      "target": "recipe-differential-growth",
+      "kind": "contribution",
+      "role": "Later artistic use",
+      "detail": "As a Nervous System cofounder, developed a studio practice whose Floraform system simulates differently growing elastic surfaces.",
+      "source": "https://n-e-r-v-o-u-s.com/projects/floraform/",
+      "sourceLabel": "Nervous System, Floraform; studio authorship verified on About Us",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-anders-hoff",
+      "target": "recipe-differential-growth",
+      "kind": "contribution",
+      "role": "Later artistic implementation",
+      "detail": "His Differential Line code grows connected nodes and explicitly compares its behavior with Nervous System's Floraform.",
+      "source": "https://github.com/inconvergent/differential-line",
+      "sourceLabel": "Artist's own code; identity verified on inconvergent.net",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-thomas-a-witten-jr",
+      "target": "recipe-diffusion-limited-aggregation-dla",
+      "kind": "contribution",
+      "role": "1981 model · coauthor",
+      "detail": "Coauthored the original diffusion-limited aggregation paper studying random aggregates by computer simulation.",
+      "source": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.47.1400",
+      "sourceLabel": "Witten & Sander, Physical Review Letters 47 (1981), 1400",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-leonard-m-sander",
+      "target": "recipe-diffusion-limited-aggregation-dla",
+      "kind": "contribution",
+      "role": "1981 model · coauthor",
+      "detail": "Coauthored the diffusion-limited aggregation model and its analysis of scaling in random aggregates.",
+      "source": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.47.1400",
+      "sourceLabel": "Witten & Sander, Physical Review Letters 47 (1981), 1400",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-adam-runions",
+      "target": "recipe-space-colonization",
+      "kind": "contribution",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the space-colonization tree model extending an earlier open leaf-venation model into three dimensions.",
+      "source": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+      "sourceLabel": "Runions, Lane & Prusinkiewicz, Eurographics Workshop on Natural Phenomena (2007)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-brendan-lane",
+      "target": "recipe-space-colonization",
+      "kind": "contribution",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the tree-growth algorithm whose parameters control visually relevant characteristics of tree shape.",
+      "source": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+      "sourceLabel": "Runions, Lane & Prusinkiewicz, Eurographics Workshop on Natural Phenomena (2007)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-przemys-aw-prusinkiewicz",
+      "target": "recipe-space-colonization",
+      "kind": "contribution",
+      "role": "2007 paper · coauthor",
+      "detail": "Coauthored the space-colonization model of trees based on geometric competition for available space.",
+      "source": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+      "sourceLabel": "Runions, Lane & Prusinkiewicz, Eurographics Workshop on Natural Phenomena (2007)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jeff-jones",
+      "target": "recipe-physarum-slime-mold",
+      "kind": "contribution",
+      "role": "2010 agent model",
+      "detail": "Published a Physarum-inspired model in which simple chemotactic particles form and reorganize transport networks.",
+      "source": "https://uwe-repository.worktribe.com/output/980579/characteristics-of-pattern-formation-and-evolution-in-approximations-of-physarum-transport-networks",
+      "sourceLabel": "Jones, Artificial Life 16 (2010), 127–153; UWE institutional repository",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-stephen-wolfram",
+      "target": "recipe-cellular-automata-beyond-life",
+      "kind": "contribution",
+      "role": "1983 elementary-CA study",
+      "detail": "Analyzed self-organization and pattern formation in one-dimensional binary cellular automata.",
+      "source": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.55.601",
+      "sourceLabel": "Wolfram, Reviews of Modern Physics 55 (1983), 601",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-bert-wang-chak-chan",
+      "target": "recipe-cellular-automata-beyond-life",
+      "kind": "contribution",
+      "role": "Later continuous-CA model",
+      "detail": "Introduced Lenia, a cellular-automaton system with continuous space-time-state and a generalized local rule.",
+      "source": "https://arxiv.org/abs/1812.05433",
+      "sourceLabel": "Chan, Lenia—Biology of Artificial Life (2018 preprint; 2019 publication)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-sebastien-truchet",
+      "target": "recipe-truchet-tiles",
+      "kind": "contribution",
+      "role": "1704 tile study",
+      "detail": "Studied combinations of square tiles divided diagonally into contrasting triangles in Mémoire sur les combinaisons.",
+      "source": "https://www.newsroom.hlf-foundation.org/blog/article/truchet-tilings/",
+      "sourceLabel": "Heidelberg Laureate Forum Foundation, Truchet Tilings",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-cyril-stanley-smith",
+      "target": "recipe-truchet-tiles",
+      "kind": "contribution",
+      "role": "1987 expansion / exposition",
+      "detail": "Revisited Truchet's work in Leonardo and discussed alternative motifs including paired quarter-circle arcs.",
+      "source": "https://www.newsroom.hlf-foundation.org/blog/article/truchet-tilings/",
+      "sourceLabel": "Heidelberg Laureate Forum Foundation, Truchet Tilings",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-pauline-boucher",
+      "target": "recipe-truchet-tiles",
+      "kind": "contribution",
+      "role": "1987 translation",
+      "detail": "Translated Truchet's original text for the Leonardo publication that brought it to a later audience.",
+      "source": "https://www.newsroom.hlf-foundation.org/blog/article/truchet-tilings/",
+      "sourceLabel": "Heidelberg Laureate Forum Foundation, Truchet Tilings",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-hao-wang",
+      "target": "recipe-wang-tiles",
+      "kind": "contribution",
+      "role": "1961 formal system",
+      "detail": "Introduced the combinatorial tile problem in Proving Theorems by Pattern Recognition—II.",
+      "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1961.tb03975.x",
+      "sourceLabel": "Wang, Bell System Technical Journal 40 (1961), 1–41",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-michael-f-cohen",
+      "target": "recipe-wang-tiles",
+      "kind": "contribution",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored a stochastic Wang-tile method for efficiently constructing nonperiodic textures, patterns, and geometry.",
+      "source": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "sourceLabel": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jonathan-shade",
+      "target": "recipe-wang-tiles",
+      "kind": "contribution",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored the Wang-tile graphics method for continuous nonperiodic image and texture generation.",
+      "source": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "sourceLabel": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-stefan-hiller",
+      "target": "recipe-wang-tiles",
+      "kind": "contribution",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored the stochastic tiling and tile-filling methods presented in the 2003 graphics paper.",
+      "source": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "sourceLabel": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-oliver-deussen",
+      "target": "recipe-wang-tiles",
+      "kind": "contribution",
+      "role": "2003 graphics use · coauthor",
+      "detail": "Coauthored the graphics method applying edge-coded tiles to textures, sample distributions, and geometry.",
+      "source": "https://graphics.uni-konstanz.de/publikationen/Cohen2003WangTilesImage/index.html",
+      "sourceLabel": "Cohen, Shade, Hiller & Deussen, ACM TOG (2003); author-hosted institutional page",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-evgraf-s-fedorov",
+      "target": "recipe-wallpaper-groups",
+      "kind": "contribution",
+      "role": "Early classification",
+      "detail": "The IUCr history credits Fedorov with the first description of the 17 plane symmetry groups in 1890 or 1891.",
+      "source": "https://www.iucr.org/news/newsletter/volume-33/number-5/appeal-of-symmetry",
+      "sourceLabel": "International Union of Crystallography, Appeal of Symmetry (2025)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-george-polya",
+      "target": "recipe-wallpaper-groups",
+      "kind": "contribution",
+      "role": "1924 independent classification",
+      "detail": "Enumerated the 17 plane symmetry groups and illustrated each with a tiling, helping connect the mathematics to decorative art.",
+      "source": "https://www.iucr.org/news/newsletter/volume-33/number-5/appeal-of-symmetry",
+      "sourceLabel": "International Union of Crystallography, Appeal of Symmetry (2025)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-m-c-escher",
+      "target": "recipe-wallpaper-groups",
+      "kind": "contribution",
+      "role": "Later artistic use",
+      "detail": "Studied Pólya's diagrams and used a tiling derived from that study in Development I.",
+      "source": "https://www.iucr.org/news/newsletter/volume-33/number-5/appeal-of-symmetry",
+      "sourceLabel": "International Union of Crystallography, Appeal of Symmetry (2025)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-peter-j-lu",
+      "target": "recipe-girih-islamic-star-patterns",
+      "kind": "contribution",
+      "role": "2007 geometric analysis",
+      "detail": "Coauthored a study interpreting medieval girih designs through decorated polygonal tiles and self-similar transformations.",
+      "source": "https://peterlu.org/research/islamic_tilings",
+      "sourceLabel": "Author research page and Science paper",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-paul-j-steinhardt",
+      "target": "recipe-girih-islamic-star-patterns",
+      "kind": "contribution",
+      "role": "2007 geometric analysis",
+      "detail": "Coauthored the study of decagonal and nearly quasicrystalline order in medieval Islamic architectural patterns.",
+      "source": "https://peterlu.org/research/islamic_tilings",
+      "sourceLabel": "Author research page and Science paper",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-gulru-necipoglu",
+      "target": "recipe-girih-islamic-star-patterns",
+      "kind": "contribution",
+      "role": "Historical scholarship",
+      "detail": "Authored The Topkapı Scroll, a historical study of geometry and ornament in Islamic architecture.",
+      "source": "https://www.getty.edu/publications/resources/virtuallibrary/9780892363353.pdf",
+      "sourceLabel": "Getty, The Topkapı Scroll (1995)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-mohammad-al-asad",
+      "target": "recipe-girih-islamic-star-patterns",
+      "kind": "contribution",
+      "role": "Contributing scholar",
+      "detail": "Contributed the essay on the geometry of muqarnas to The Topkapı Scroll.",
+      "source": "https://www.getty.edu/publications/resources/virtuallibrary/9780892363353.pdf",
+      "sourceLabel": "Getty, The Topkapı Scroll (1995)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-roger-penrose",
+      "target": "recipe-penrose-aperiodic",
+      "kind": "contribution",
+      "role": "1970s tilings",
+      "detail": "Developed the aperiodic tilings bearing his name and described his construction in 1974.",
+      "source": "https://www.ams.org/journals/notices/202308/noti2759/noti2759.html?adat=September+2023&cat=feature&galt=feature&pdffile=rnoti-p1179.pdf&pdfissue=202308&trk=2759",
+      "sourceLabel": "AMS Notices, September 2023",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-berger",
+      "target": "recipe-penrose-aperiodic",
+      "kind": "contribution",
+      "role": "Earlier tiling theory",
+      "detail": "Authored the 1966 proof that the general domino tiling problem is undecidable.",
+      "source": "https://www.ams.org/journals/notices/196701/196701FullIssue.pdf",
+      "sourceLabel": "AMS publisher notice for Memoir 66",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-h-s-m-coxeter",
+      "target": "recipe-hyperbolic-tilings-p-q",
+      "kind": "contribution",
+      "role": "Mathematical bridge",
+      "detail": "Sent Escher a symmetry paper whose hyperbolic tiling diagram helped inspire the Circle Limit series.",
+      "source": "https://www.ams.org/samplings/feature-column/fcarc-circle-limit",
+      "sourceLabel": "AMS, How Did Escher Do It?",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-m-c-escher",
+      "target": "recipe-hyperbolic-tilings-p-q",
+      "kind": "contribution",
+      "role": "Artistic interpretation",
+      "detail": "Studied Coxeter’s diagram and translated hyperbolic repetition into his Circle Limit woodcuts.",
+      "source": "https://www.ams.org/samplings/feature-column/fcarc-circle-limit",
+      "sourceLabel": "AMS, How Did Escher Do It?",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-henri-poincare",
+      "target": "recipe-hyperbolic-tilings-p-q",
+      "kind": "contribution",
+      "role": "Disk-model namesake",
+      "detail": "The AMS account describes the unit-disk model of hyperbolic geometry as attributed to Poincaré.",
+      "source": "https://www.ams.org/samplings/feature-column/fcarc-circle-limit",
+      "sourceLabel": "AMS, How Did Escher Do It?",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-aristid-lindenmayer",
+      "target": "recipe-l-systems",
+      "kind": "contribution",
+      "role": "1968 growth formalism",
+      "detail": "Developed formal growth models for cellular interactions, including branching filaments.",
+      "source": "https://www0.cs.ucl.ac.uk/staff/p.bentley/teaching/L6_reading/lsystems.pdf",
+      "sourceLabel": "Lindenmayer, Journal of Theoretical Biology (1968), institutional copy",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-przemys-aw-prusinkiewicz",
+      "target": "recipe-l-systems",
+      "kind": "contribution",
+      "role": "1986 graphical method",
+      "detail": "Presented turtle interpretation of L-system strings to generate fractal curves and plant-like pictures.",
+      "source": "https://algorithmicbotany.org/papers/graphical.gi86.html",
+      "sourceLabel": "Author publication page, Graphics Interface 1986",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-edwin-catmull",
+      "target": "recipe-recursive-subdivision",
+      "kind": "contribution",
+      "role": "1978 surface subdivision",
+      "detail": "Coauthored a recursive method producing B-spline surfaces on meshes of arbitrary topology.",
+      "source": "https://people.eecs.berkeley.edu/~sequin/CS284/PAPERS/CatmullClark_SDSurf.pdf",
+      "sourceLabel": "Catmull and Clark, Computer-Aided Design (1978), Berkeley-hosted original",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-james-clark",
+      "target": "recipe-recursive-subdivision",
+      "kind": "contribution",
+      "role": "1978 surface subdivision",
+      "detail": "Coauthored the generalization of recursive bicubic B-spline subdivision to arbitrary mesh topology.",
+      "source": "https://people.eecs.berkeley.edu/~sequin/CS284/PAPERS/CatmullClark_SDSurf.pdf",
+      "sourceLabel": "Catmull and Clark, Computer-Aided Design (1978), Berkeley-hosted original",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-john-e-hutchinson",
+      "target": "recipe-chaos-game-ifs",
+      "kind": "contribution",
+      "role": "1981 mathematical foundation",
+      "detail": "Developed a rigorous theory of self-similar sets and measures generated by finite families of contractions.",
+      "source": "https://maths-people.anu.edu.au/~john/Assets/Research%20Papers/fractals_self-similarity.pdf",
+      "sourceLabel": "Hutchinson, Fractals and Self Similarity (1981), author copy",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-michael-barnsley",
+      "target": "recipe-chaos-game-ifs",
+      "kind": "contribution",
+      "role": "Chaos-game research",
+      "detail": "Coauthored a theorem showing when a chaos-game orbit yields an attractor for a general iterated function system.",
+      "source": "https://arxiv.org/abs/1005.0322",
+      "sourceLabel": "Barnsley and Vince, The Chaos Game on a General Iterated Function System",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-andrew-vince",
+      "target": "recipe-chaos-game-ifs",
+      "kind": "contribution",
+      "role": "Chaos-game research",
+      "detail": "Coauthored the general chaos-game theorem, including settings beyond contractive IFS.",
+      "source": "https://arxiv.org/abs/1005.0322",
+      "sourceLabel": "Barnsley and Vince, The Chaos Game on a General Iterated Function System",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-alain-fournier",
+      "target": "recipe-fractal-fracture",
+      "kind": "contribution",
+      "role": "1982 stochastic subdivision · coauthor",
+      "detail": "Coauthored recursive stochastic subdivision methods for rendering rough curves and surfaces.",
+      "source": "https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/stochastic-fournier.pdf",
+      "sourceLabel": "Fournier, Fussell & Carpenter · Computer Rendering of Stochastic Models (1982)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-donald-fussell",
+      "target": "recipe-fractal-fracture",
+      "kind": "contribution",
+      "role": "1982 stochastic subdivision · coauthor",
+      "detail": "Coauthored recursive stochastic subdivision methods for rendering rough curves and surfaces.",
+      "source": "https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/stochastic-fournier.pdf",
+      "sourceLabel": "Fournier, Fussell & Carpenter · Computer Rendering of Stochastic Models (1982)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-loren-carpenter",
+      "target": "recipe-fractal-fracture",
+      "kind": "contribution",
+      "role": "1982 stochastic subdivision · coauthor",
+      "detail": "Coauthored recursive stochastic subdivision methods for rendering rough curves and surfaces.",
+      "source": "https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/stochastic-fournier.pdf",
+      "sourceLabel": "Fournier, Fussell & Carpenter · Computer Rendering of Stochastic Models (1982)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-edward-n-lorenz",
+      "target": "recipe-strange-attractors",
+      "kind": "contribution",
+      "role": "1963 nonlinear model",
+      "detail": "Demonstrated unstable nonperiodic trajectories in a simplified deterministic convection model.",
+      "source": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281963%29020%3C0130%3Adnf%3E2.0.CO%3B2",
+      "sourceLabel": "Lorenz, Deterministic Nonperiodic Flow (1963)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-david-ruelle",
+      "target": "recipe-strange-attractors",
+      "kind": "contribution",
+      "role": "1971 attractor theory",
+      "detail": "Coauthored a proposed mechanism for turbulence in dissipative systems using strange attractors.",
+      "source": "https://www.ihes.fr/~ruelle/PUBLICATIONS/%5B29%5D.pdf",
+      "sourceLabel": "Ruelle and Takens, On the Nature of Turbulence (1971)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-floris-takens",
+      "target": "recipe-strange-attractors",
+      "kind": "contribution",
+      "role": "1971 attractor theory",
+      "detail": "Coauthored the mathematical turbulence proposal describing strange attractors.",
+      "source": "https://www.ihes.fr/~ruelle/PUBLICATIONS/%5B29%5D.pdf",
+      "sourceLabel": "Ruelle and Takens, On the Nature of Turbulence (1971)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jules-lissajous",
+      "target": "recipe-harmonographs-lissajous",
+      "kind": "contribution",
+      "role": "1850s vibration studies",
+      "detail": "Developed an optical method for studying vibrations associated with the curves named after him.",
+      "source": "https://collection.sciencemuseumgroup.org.uk/objects/co60446/sympalmograph-in-fitted-box",
+      "sourceLabel": "Science Museum Group, Sympalmograph collection record",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-john-browning",
+      "target": "recipe-harmonographs-lissajous",
+      "kind": "contribution",
+      "role": "Drawing-instrument maker",
+      "detail": "Made the circa-1877 sympalmograph, a harmonograph variant drawing combined perpendicular harmonic motions.",
+      "source": "https://collection.sciencemuseumgroup.org.uk/objects/co60446/sympalmograph-in-fitted-box",
+      "sourceLabel": "Science Museum Group, Sympalmograph collection record",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-troy-shinbrot",
+      "target": "recipe-double-pendulum-n-body-trails",
+      "kind": "contribution",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored an experimental and numerical demonstration of sensitive dependence in a double pendulum.",
+      "source": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "sourceLabel": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-celso-grebogi",
+      "target": "recipe-double-pendulum-n-body-trails",
+      "kind": "contribution",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored the double-pendulum study measuring exponential growth of initially small separations.",
+      "source": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "sourceLabel": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jack-wisdom",
+      "target": "recipe-double-pendulum-n-body-trails",
+      "kind": "contribution",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored the comparison between measured double-pendulum motion and numerical simulations.",
+      "source": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "sourceLabel": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-james-a-yorke",
+      "target": "recipe-double-pendulum-n-body-trails",
+      "kind": "contribution",
+      "role": "1992 pendulum experiment",
+      "detail": "Coauthored the laboratory demonstration of chaotic double-pendulum motion.",
+      "source": "https://www.yorke.umd.edu/Yorke_papers_most_cited_and_post2000/1992-04-Wisdom_Shinbrot_AmerJPhys_double_pendulum.pdf",
+      "sourceLabel": "Shinbrot, Grebogi, Wisdom and Yorke, American Journal of Physics (1992)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-josh-barnes",
+      "target": "recipe-double-pendulum-n-body-trails",
+      "kind": "contribution",
+      "role": "1986 N-body algorithm",
+      "detail": "Coauthored a hierarchical tree algorithm for efficiently calculating gravitational forces among many bodies.",
+      "source": "https://www.nature.com/articles/324446a0",
+      "sourceLabel": "Barnes and Hut, Nature (1986)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-piet-hut",
+      "target": "recipe-double-pendulum-n-body-trails",
+      "kind": "contribution",
+      "role": "1986 N-body algorithm",
+      "detail": "Coauthored the recursive spatial-subdivision method now called the Barnes–Hut algorithm.",
+      "source": "https://www.nature.com/articles/324446a0",
+      "sourceLabel": "Barnes and Hut, Nature (1986)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-clifford-a-pickover",
+      "target": "recipe-orbit-traps",
+      "kind": "contribution",
+      "role": "Epsilon-cross precursor",
+      "detail": "Developed the epsilon-cross method identified by Carlson as a precursor to his 3-D stalk rendering.",
+      "source": "https://www.sciencedirect.com/science/article/abs/pii/S0097849399001235",
+      "sourceLabel": "Carlson, Computers & Graphics (1999), introduction",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-paul-w-carlson",
+      "target": "recipe-orbit-traps",
+      "kind": "contribution",
+      "role": "Artistic rendering methods",
+      "detail": "Presented two artistic orbit-trap rendering methods for Newton M-set fractals and described extensions of Pickover’s approach.",
+      "source": "https://www.sciencedirect.com/science/article/abs/pii/S0097849399001235",
+      "sourceLabel": "Carlson, Computers & Graphics (1999)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-l-cook",
+      "target": "recipe-poisson-disk-blue-noise",
+      "kind": "contribution",
+      "role": "1986 graphics sampling",
+      "detail": "Showed how appropriately nonuniform sampling turns structured aliasing into less objectionable noise.",
+      "source": "https://graphics.pixar.com/library/StochasticSampling/",
+      "sourceLabel": "Cook, Stochastic Sampling in Computer Graphics (1986), Pixar archive",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-bridson",
+      "target": "recipe-poisson-disk-blue-noise",
+      "kind": "contribution",
+      "role": "2007 fast sampler",
+      "detail": "Presented a linear-time Poisson-disk sampler using an active list, local candidates and a background grid.",
+      "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
+      "sourceLabel": "Bridson, ACM SIGGRAPH 2007 Sketches",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-w-floyd",
+      "target": "recipe-dithering-as-art",
+      "kind": "contribution",
+      "role": "1976 error diffusion",
+      "detail": "Coauthored An Adaptive Algorithm for Spatial Greyscale, the paper associated with Floyd–Steinberg dithering.",
+      "source": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+      "sourceLabel": "University of Magdeburg bibliography for Floyd and Steinberg (1976)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-louis-steinberg",
+      "target": "recipe-dithering-as-art",
+      "kind": "contribution",
+      "role": "1976 error diffusion",
+      "detail": "Coauthored the spatial-greyscale algorithm jointly credited as Floyd–Steinberg dithering.",
+      "source": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+      "sourceLabel": "University of Magdeburg bibliography for Floyd and Steinberg (1976)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-donald-e-knuth",
+      "target": "recipe-dithering-as-art",
+      "kind": "contribution",
+      "role": "1987 dot diffusion",
+      "detail": "Published Digital Halftones by Dot Diffusion, another documented route from continuous tones to discrete marks.",
+      "source": "https://profiles.stanford.edu/donald-knuth",
+      "sourceLabel": "Stanford profile publication record",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-w-floyd",
+      "target": "recipe-halftone-systems",
+      "kind": "contribution",
+      "role": "Error-diffusion coauthor",
+      "detail": "Coauthored the 1976 spatial-greyscale paper underlying Floyd–Steinberg error diffusion.",
+      "source": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+      "sourceLabel": "University of Magdeburg: Floyd and Steinberg (1976)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-louis-steinberg",
+      "target": "recipe-halftone-systems",
+      "kind": "contribution",
+      "role": "Error-diffusion coauthor",
+      "detail": "Coauthored An Adaptive Algorithm for Spatial Greyscale with Robert Floyd.",
+      "source": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201002004108891171",
+      "sourceLabel": "Japan Science and Technology Agency: 1976 publication record",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-bryce-e-bayer",
+      "target": "recipe-halftone-systems",
+      "kind": "contribution",
+      "role": "Ordered-dithering contributor",
+      "detail": "Authored the 1973 paper An Optimum Method for Two-Level Rendition of Continuous-Tone Pictures.",
+      "source": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1570009749134624128",
+      "sourceLabel": "National Diet Library: Bayer (1973)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-bosch",
+      "target": "recipe-tsp-art-scribble-fill",
+      "kind": "contribution",
+      "role": "TSP-art co-originator",
+      "detail": "Developed continuous-line TSP drawings with Adrianne Herman, then coauthored the 2005 improvements with Craig Kaplan.",
+      "source": "https://cs.uwaterloo.ca/~csk/publications/Papers/kaplan_bosch_2005.pdf",
+      "sourceLabel": "Kaplan and Bosch: TSP Art (2005)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-adrianne-herman",
+      "target": "recipe-tsp-art-scribble-fill",
+      "kind": "contribution",
+      "role": "TSP-art co-originator",
+      "detail": "Coauthored Continuous Line Drawings via the Traveling Salesman Problem with Robert Bosch in 2004.",
+      "source": "https://www.math.uwaterloo.ca/tsp/data/art/",
+      "sourceLabel": "University of Waterloo: TSP Art Instances",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-craig-s-kaplan",
+      "target": "recipe-tsp-art-scribble-fill",
+      "kind": "contribution",
+      "role": "Later algorithm contributor",
+      "detail": "Coauthored TSP Art, introducing improved city distributions based on stippling and ordered dithering.",
+      "source": "https://cs.uwaterloo.ca/~csk/publications/Papers/kaplan_bosch_2005.pdf",
+      "sourceLabel": "Kaplan and Bosch: TSP Art (2005)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-adrian-secord",
+      "target": "recipe-weighted-voronoi-stippling",
+      "kind": "contribution",
+      "role": "Named-method author",
+      "detail": "Presented image-based stippling using weighted centroidal Voronoi diagrams in 2002.",
+      "source": "https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf",
+      "sourceLabel": "Secord: Weighted Voronoi Stippling (2002)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-daniel-shiffman",
+      "target": "recipe-circle-packing-grown",
+      "kind": "contribution",
+      "role": "Later educator",
+      "detail": "Demonstrated growing circles with boundary and overlap tests in Coding Challenge 50.",
+      "source": "https://thecodingtrain.com/challenges/50-animated-circle-packing",
+      "sourceLabel": "The Coding Train: Circle Packing",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-marius-watz",
+      "target": "recipe-circle-packing-grown",
+      "kind": "contribution",
+      "role": "Artist / tutorial influence",
+      "detail": "Shiffman's grown-circle tutorial explicitly introduces Watz's circle-packing work as a reference.",
+      "source": "https://thecodingtrain.com/challenges/50-animated-circle-packing",
+      "sourceLabel": "The Coding Train: Circle Packing, introductory credit",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-georgy-voronoy",
+      "target": "recipe-voronoi-delaunay-operated-on",
+      "kind": "contribution",
+      "role": "Mathematical foundation",
+      "detail": "Studied the tessellations now known as Voronoi diagrams in his geometry-of-numbers work.",
+      "source": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/",
+      "sourceLabel": "University of St Andrews: Georgy Voronoy",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-boris-delaunay",
+      "target": "recipe-voronoi-delaunay-operated-on",
+      "kind": "contribution",
+      "role": "Mathematical foundation",
+      "detail": "Authored the 1934 empty-sphere paper Sur la sphère vide, dedicated to Georges Voronoï.",
+      "source": "https://www.mathnet.ru/php/archive.phtml?jrnid=im&option_lang=&paperid=4937&wshow=paper",
+      "sourceLabel": "Math-Net: Delaunay (1934)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-joseph-b-kruskal",
+      "target": "recipe-minimum-spanning-tree-relative-neighborhood-graphs",
+      "kind": "contribution",
+      "role": "MST algorithm contributor",
+      "detail": "Published On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem in 1956.",
+      "source": "https://cir.nii.ac.jp/crid/1363107368257159424",
+      "sourceLabel": "CiNii / AMS: Kruskal (1956)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-godfried-t-toussaint",
+      "target": "recipe-minimum-spanning-tree-relative-neighborhood-graphs",
+      "kind": "contribution",
+      "role": "RNG method author",
+      "detail": "Defined the relative neighbourhood graph and proved its relationship to the MST and Delaunay triangulation in 1980.",
+      "source": "https://www-cgrl.cs.mcgill.ca/~godfried/teaching/mir-reading-assignments/RNG.pdf",
+      "sourceLabel": "Toussaint: The Relative Neighbourhood Graph of a Finite Planar Set (1980)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-lawrence-g-roberts",
+      "target": "recipe-hidden-line-3d-2d",
+      "kind": "contribution",
+      "role": "Early hidden-line researcher",
+      "detail": "His 1963 MIT thesis describes removing back lines and line segments obscured by other objects.",
+      "source": "https://dspace.mit.edu/entities/publication/840d8056-9b54-4bd4-b16f-2f3d8296386e",
+      "sourceLabel": "MIT: Machine Perception of Three-Dimensional Solids (1963)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-johan-gielis",
+      "target": "recipe-superformula-supershapes",
+      "kind": "contribution",
+      "role": "Superformula author",
+      "detail": "Introduced the Superformula as a single parametric equation for many natural and abstract shapes in 2003.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21659124/",
+      "sourceLabel": "Gielis: American Journal of Botany (2003)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-paul-bourke",
+      "target": "recipe-superformula-supershapes",
+      "kind": "contribution",
+      "role": "Later 3D expositor",
+      "detail": "Published 3D supershape examples and software based on Gielis's equations and a spherical product.",
+      "source": "https://www.paulbourke.org/geometry/supershape/",
+      "sourceLabel": "Paul Bourke: Supershapes (July 2003)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-carlos-cruz-diez",
+      "target": "recipe-moire",
+      "kind": "contribution",
+      "role": "Artist / optical exploration",
+      "detail": "His 1964 Chromointerférence arose from sliding one repeated-line image over another transparent line pattern.",
+      "source": "https://cruz-diez.com/works/chromointerference/",
+      "sourceLabel": "Cruz-Diez official archive: Chromointerférence (1964)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-thomas-young",
+      "target": "recipe-wave-interference",
+      "kind": "contribution",
+      "role": "Physical foundation",
+      "detail": "Explained light interference through the superposition of waves in his early-nineteenth-century work.",
+      "source": "https://spark.iop.org/collections/superposition",
+      "sourceLabel": "Institute of Physics: Superposition",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-jim-blinn",
+      "target": "recipe-metaballs-implicit-fields",
+      "kind": "contribution",
+      "role": "Blobby-modeling pioneer",
+      "detail": "His 1982 paper renders surfaces formed by summed Gaussian density distributions.",
+      "source": "https://www.microsoft.com/en-us/research/?p=154282",
+      "sourceLabel": "Microsoft Research: A Generalization of Algebraic Surface Drawing",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-paul-bourke",
+      "target": "recipe-metaballs-implicit-fields",
+      "kind": "contribution",
+      "role": "Later expositor",
+      "detail": "Explains implicit-surface blending under the names metaballs, blobbies, and soft objects.",
+      "source": "https://paulbourke.net/geometry/implicitsurf/",
+      "sourceLabel": "Paul Bourke: Implicit Surfaces",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-benoit-mandelbrot",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Mathematical foundation coauthor",
+      "detail": "Coauthored the 1968 study Fractional Brownian Motions, Fractional Noises and Applications.",
+      "source": "https://epubs.siam.org/doi/10.1137/1010093",
+      "sourceLabel": "Mandelbrot and Van Ness: SIAM Review (1968)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-john-w-van-ness",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Mathematical foundation coauthor",
+      "detail": "Coauthored the 1968 paper formalizing and studying fractional Brownian motions.",
+      "source": "https://epubs.siam.org/doi/10.1137/1010093",
+      "sourceLabel": "Mandelbrot and Van Ness: SIAM Review (1968)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-ken-perlin",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Procedural graphics contributor",
+      "detail": "Introduced a procedural noise-based image synthesizer including synthetic turbulence in 1985.",
+      "source": "https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/perlin85_imagesynthesizer.pdf",
+      "sourceLabel": "Perlin: An Image Synthesizer (1985)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-f-kenton-musgrave",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Ridged-noise contributor / terrain coauthor",
+      "detail": "Developed ridged multifractal noise used for mountainous terrain, as credited in LightWave's texture documentation.",
+      "source": "https://docs.lightwave3d.com/2025/3d-textures.html",
+      "sourceLabel": "LightWave 2025 documentation: Ridged Multifractal",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-craig-e-kolb",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Fractal-terrain coauthor",
+      "detail": "Coauthored the 1989 paper on fractal terrain noise synthesis, erosion, and rendering.",
+      "source": "https://citeseerx.ist.psu.edu/document?doi=8af1ba21a954c910994f5ad599777640452a3d6b&repid=rep1&type=pdf",
+      "sourceLabel": "Musgrave, Kolb and Mace (1989)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-robert-s-mace",
+      "target": "recipe-fbm-ridged-turbulent",
+      "kind": "contribution",
+      "role": "Fractal-terrain coauthor",
+      "detail": "Coauthored the 1989 paper on fractal terrain noise synthesis, erosion, and rendering.",
+      "source": "https://citeseerx.ist.psu.edu/document?doi=8af1ba21a954c910994f5ad599777640452a3d6b&repid=rep1&type=pdf",
+      "sourceLabel": "Musgrave, Kolb and Mace (1989)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-john-c-hart",
+      "target": "recipe-sdf-raymarching",
+      "kind": "contribution",
+      "role": "Sphere-tracing author",
+      "detail": "His 1996 sphere-tracing paper advances rays using geometric distance bounds that avoid crossing the surface.",
+      "source": "https://experts.illinois.edu/en/publications/sphere-tracing-a-geometric-method-for-the-antialiased-ray-tracing/",
+      "sourceLabel": "University of Illinois: Sphere Tracing (1996)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-inigo-quilez",
+      "target": "recipe-sdf-raymarching",
+      "kind": "contribution",
+      "role": "Later shader artist / expositor",
+      "detail": "Presented distance-field rendering techniques in Rendering Worlds with Two Triangles.",
+      "source": "https://iquilezles.org/articles/nvscene2008/rwwtt.pdf",
+      "sourceLabel": "Iñigo Quilez: Rendering Worlds with Two Triangles (2008)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-james-p-crutchfield",
+      "target": "recipe-feedback-buffers",
+      "kind": "contribution",
+      "role": "Video-feedback researcher",
+      "detail": "Modeled video-feedback dynamics and reproduced their behavior with digital simulations in 1984.",
+      "source": "https://csc.ucdavis.edu/~cmg/papers/Crutchfield.PhysicaD1984.pdf",
+      "sourceLabel": "Crutchfield: Space-Time Dynamics in Video Feedback (1984)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-steina-vasulka",
+      "target": "recipe-feedback-buffers",
+      "kind": "contribution",
+      "role": "Early video-feedback artist",
+      "detail": "Described her early video-feedback experiments in a preserved 1997 interview.",
+      "source": "https://www.vasulkainterviews.org/",
+      "sourceLabel": "Vasulka Interviews: Steina on video feedback (1997)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-woody-vasulka",
+      "target": "recipe-feedback-buffers",
+      "kind": "contribution",
+      "role": "Early video-feedback artist",
+      "detail": "Discussed analog feedback loops and feedback in digital devices in a preserved 1996 interview.",
+      "source": "https://www.vasulkainterviews.org/",
+      "sourceLabel": "Vasulka Interviews: Woody on feedback (1996)",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-olivia-jack",
+      "target": "recipe-feedback-buffers",
+      "kind": "contribution",
+      "role": "Later tool creator / artist",
+      "detail": "Created Hydra, a live-coding video-synthesis environment with feedback influences documented in its source repository.",
+      "source": "https://github.com/hydra-synth/hydra",
+      "sourceLabel": "Hydra: official repository and contributor credits",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-frieder-nake",
+      "target": "person-georg-nees",
+      "kind": "documented path",
+      "role": "Shared exhibition",
+      "detail": "Exhibited together in Stuttgart in 1965.",
+      "source": "https://dam.org/museum/artists_ui/artists/nake-frieder/",
+      "sourceLabel": "Digital Art Museum",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-casey-reas",
+      "target": "person-ben-fry",
+      "kind": "documented path",
+      "role": "Co-creation",
+      "detail": "Started Processing together in 2001.",
+      "source": "https://www.processing.org/people/",
+      "sourceLabel": "Processing project history",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-casey-reas",
+      "target": "person-daniel-shiffman",
+      "kind": "documented path",
+      "role": "Shared organization",
+      "detail": "Helped establish the Processing Foundation in 2012.",
+      "source": "https://www.processing.org/people/",
+      "sourceLabel": "Processing project history",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-ben-fry",
+      "target": "person-daniel-shiffman",
+      "kind": "documented path",
+      "role": "Shared organization",
+      "detail": "Helped establish the Processing Foundation in 2012.",
+      "source": "https://www.processing.org/people/",
+      "sourceLabel": "Processing project history",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "person-zach-lieberman",
+      "kind": "documented path",
+      "role": "Teaching + collaboration",
+      "detail": "Lieberman identifies Levin as his professor and a collaborator after graduation.",
+      "source": "https://openframeworks.cc/ofBook/chapters/foreword.html",
+      "sourceLabel": "Lieberman’s first-person account",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-craig-reynolds",
+      "target": "person-daniel-shiffman",
+      "kind": "documented path",
+      "role": "Technique → teaching",
+      "detail": "Shiffman explicitly builds on Reynolds’s steering and boids work.",
+      "source": "https://natureofcode.com/autonomous-agents/",
+      "sourceLabel": "The Nature of Code",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-ken-perlin",
+      "target": "person-daniel-shiffman",
+      "kind": "documented path",
+      "role": "Technique → teaching",
+      "detail": "The Nature of Code uses Perlin noise to construct flow fields.",
+      "source": "https://natureofcode.com/autonomous-agents/",
+      "sourceLabel": "The Nature of Code",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-ken-perlin",
+      "target": "person-tyler-hobbs",
+      "kind": "documented path",
+      "role": "Technique → writing",
+      "detail": "Hobbs explains Perlin noise as one way to build flow fields.",
+      "source": "https://www.tylerxhobbs.com/words/flow-fields",
+      "sourceLabel": "Hobbs’s Flow Fields essay",
+      "dates": null,
+      "checked": null,
+      "review": "imported"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Project Resident",
+      "dates": "2002–2003",
+      "source": "https://eyebeam.org/artists/zach-lieberman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Research Resident",
+      "dates": "2007–2008",
+      "source": "https://eyebeam.org/artists/zach-lieberman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Project Resident",
+      "dates": "2002–2003",
+      "source": "https://eyebeam.org/artists/golan-levin/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Project Resident",
+      "dates": "2013",
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Rapid Response Fellow",
+      "dates": "2020",
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-kyle-mcdonald",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Resident",
+      "dates": "2010",
+      "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-kyle-mcdonald",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Rapid Response Fellow",
+      "dates": "2020",
+      "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-taeyoon-choi",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Research Resident",
+      "dates": "2008",
+      "source": "https://eyebeam.org/artists/taeyoon-choi/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-taeyoon-choi",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Resident",
+      "dates": "2011",
+      "source": "https://eyebeam.org/artists/taeyoon-choi/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Project Resident",
+      "dates": "2015",
+      "source": "https://eyebeam.org/artists/tega-brain/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Rapid Response Fellow",
+      "dates": "2020",
+      "source": "https://eyebeam.org/artists/tega-brain/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-yury-gitman",
+      "target": "entity-eyebeam",
+      "kind": "residency",
+      "role": "Project Resident",
+      "dates": "2003",
+      "source": "https://eyebeam.org/artists/yury-gitman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-mit",
+      "kind": "education",
+      "role": "BS Computer Science; BS Art and Design",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-ucla",
+      "kind": "education",
+      "role": "MFA",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-ucla",
+      "kind": "teaching",
+      "role": "Professor, Design Media Arts",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-p5-js",
+      "kind": "toolmaking",
+      "role": "Creator",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-processing-foundation",
+      "kind": "service",
+      "role": "Board member",
+      "dates": "2015–2021",
+      "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-carnegie-mellon-university",
+      "kind": "teaching",
+      "role": "Professor of Electronic Art",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/golan-levin/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-studio-for-creative-inquiry",
+      "kind": "service",
+      "role": "Director",
+      "dates": "2009–2022",
+      "source": "https://eyebeam.org/artists/golan-levin/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-openframeworks",
+      "kind": "toolmaking",
+      "role": "Co-creator",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/zach-lieberman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-school-for-poetic-computation",
+      "kind": "education",
+      "role": "Co-founder",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/zach-lieberman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-taeyoon-choi",
+      "target": "entity-school-for-poetic-computation",
+      "kind": "education",
+      "role": "Co-founder; curriculum development",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/taeyoon-choi/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-kyle-mcdonald",
+      "target": "entity-nyu-itp",
+      "kind": "teaching",
+      "role": "Former adjunct professor",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-kyle-mcdonald",
+      "target": "entity-openframeworks",
+      "kind": "service",
+      "role": "Former community manager",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/kyle-mcdonald/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "entity-nyu-integrated-design-media",
+      "kind": "teaching",
+      "role": "Industry Associate Professor",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/tega-brain/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-yury-gitman",
+      "target": "entity-nyu-itp",
+      "kind": "education",
+      "role": "Master’s degree",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/yury-gitman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-yury-gitman",
+      "target": "entity-georgia-tech",
+      "kind": "education",
+      "role": "BS Science, Technology and Culture",
+      "dates": null,
+      "source": "https://eyebeam.org/artists/yury-gitman/",
+      "sourceLabel": "Eyebeam artist record",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-code-as-creative-medium",
+      "kind": "publication",
+      "role": "Co-author",
+      "dates": "2021",
+      "source": "https://mitpress.mit.edu/9780262362030/code-as-creative-medium/",
+      "sourceLabel": "Institutional source",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-tega-brain",
+      "target": "entity-code-as-creative-medium",
+      "kind": "publication",
+      "role": "Co-author",
+      "dates": "2021",
+      "source": "https://mitpress.mit.edu/9780262362030/code-as-creative-medium/",
+      "sourceLabel": "Institutional source",
+      "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-daniel-shiffman",
+      "target": "entity-nyu-itp",
+      "kind": "teaching",
+      "role": "Professor",
+      "dates": null,
+      "source": "https://tisch.nyu.edu/about/directory/itp/1984778605",
+      "sourceLabel": "Institutional source",
+      "checked": "2026-09-27",
+      "review": "checked"
+    }
+  ]
+}
