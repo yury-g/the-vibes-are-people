@@ -22,3 +22,24 @@
 }
 
 .home-link{display:inline-block;text-decoration:none;padding:5px 0}.home-link:hover{text-decoration:underline;text-underline-offset:4px}
+
+/* Compact, always-available home and view controls. */
+.masthead{min-height:0;padding:6px 14px;gap:12px;border-bottom-width:1px}
+.masthead h1{font-size:13px}
+.masthead p{font-size:10px;margin:2px 0 0}
+.home-link{padding:2px 0}
+.view-controls{padding:2px;gap:2px}
+.view-controls button{min-height:32px;padding:6px 10px;font-size:10px}
+.research-footer[hidden]{display:none}
+.research-footer{padding:7px 14px}
+@media(max-width:700px), (pointer:coarse) and (max-width:1000px) and (max-height:500px){
+ .masthead{flex-direction:row;align-items:center;padding:3px 10px;gap:8px}
+ .masthead>div{min-width:0}
+ .masthead h1{font-size:11px;line-height:1.25;max-width:112px}
+ .masthead p{display:none}
+ .home-link{display:flex;align-items:center;min-height:44px;padding:0}
+ .view-controls{width:auto;align-self:center;padding:1px;gap:0}
+ .view-controls button{min-height:44px;padding:6px 8px;font-size:10px}
+ .view-controls .view-icon{display:none}
+ .research-footer{padding:6px 10px}
+}

@@ -66,7 +66,7 @@ if(document.querySelector('#connections-directory')){
   if(selected?.category){context.append(el('p',selected.category+(!selected.type&&selected.note?' · '+selected.note:'')));}
   if(languageOnly)context.append(el('h2','People connected to languages & tools'),link('Show all relationships','/connections/#people'));
   if(gap)context.append(el('h2',gap.label),el('p','A research queue based on what is recorded here, not a claim about anyone’s life or practice.'),link('Show all people','/connections/#people'));
-  document.querySelector('#coverage').textContent=`${g.people.length} people · ${g.recipes.length} recipes · ${g.relationships.filter(r=>r.review==='checked').length} checked relationships · ${g.relationships.filter(r=>r.kind==='contribution').length} recipe credits · ${g.relationships.filter(r=>r.kind==='documented path').length} existing person-to-person paths.`;
+  document.querySelector('#coverage').textContent=`${g.people.filter(p=>p.placement!=='Project author').length} catalog people · ${g.people.filter(p=>p.placement==='Project author').length} project creator record · ${g.recipes.length} recipes · ${g.relationships.filter(r=>r.review==='checked').length} checked relationships · ${g.relationships.filter(r=>r.kind==='contribution').length} recipe credits · ${g.relationships.filter(r=>r.kind==='documented path').length} existing person-to-person paths.`;
   const pending=document.querySelector('#pending');g.people.filter(p=>p.placement==='To be assigned').forEach((p,i)=>{if(i)pending.append(', ');pending.append(nodeLink(p))});pending.append('. Their affiliations are documented; recipe placements still need evidence.');
   const languageHost=document.querySelector('#language-links');
   const techs=g.entities.filter(t=>t.category);
@@ -87,6 +87,8 @@ if(document.querySelector('#connections-directory')){
   gaps(g).forEach(item=>{const p=el('p');p.append(link(`${item.people.length} ${item.label.toLowerCase()} →`,'/connections/?gap='+item.id+'#people'));gapHost.append(p)});
   function render(){host.replaceChildren();const query=search.value.trim().toLowerCase();
    const people=g.people.filter(p=>{
+    // Creator records stay available through their direct About/profile link.
+    if(p.placement==='Project author'&&selected?.id!==p.id)return false;
     const eligible=relations(g,p.id).filter(r=>(includeGuesses.checked||!['inferred','tentative'].includes(r.review))&&(!languageOnly||r.kind==='language/tool'));
     if(languageOnly&&!eligible.length)return false;
     if(gap&&!gap.people.includes(p.id))return false;

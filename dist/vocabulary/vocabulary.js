@@ -1,4 +1,4 @@
-import {connectionData} from '/connections/connections.js?v=nav-20260928c';
+import {connectionData} from '/connections/connections.js?v=compact-2';
 const data=await fetch('data.json').then(r=>r.json()),graph=await connectionData;
 const $=s=>document.querySelector(s),el=(tag,text)=>{const e=document.createElement(tag);e.textContent=text;return e};
 const link=(text,url)=>{const a=el('a',text);a.href=url;return a};

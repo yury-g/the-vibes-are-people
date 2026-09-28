@@ -7,7 +7,7 @@ page.on('pageerror',e=>errors.push(e.message));
 const base=process.env.TEST_URL;
 try{
  await page.goto(base+'/connections/');await page.waitForSelector('.connection-card');
- assert.equal(await page.locator('.connection-card').count(),127);
+ assert.equal(await page.locator('.connection-card').count(),126,'Project creator is separate from the artist catalog');
  assert.equal(await page.locator('details,select').count(),0);
  await page.locator('#connection-search').fill('UCLA');assert.equal(await page.locator('.connection-card').count(),1);
  assert.match(await page.locator('.connection-card').innerText(),/MFA/);assert.equal(await page.locator('.inline-source').first().getAttribute('target'),'_blank');

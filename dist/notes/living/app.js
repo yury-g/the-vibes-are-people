@@ -1,6 +1,6 @@
 import {studyLink} from '/interface/study-links.js?v=nav-20260928c';
 import {dismissOnOutsideTouch} from '/interface/dialog.js?v=nav-20260928c';
-import {attachConnections} from '/connections/connections.js?v=nav-20260928c';
+import {attachConnections} from '/connections/connections.js?v=compact-2';
 import {portrait,portraitFigure} from './portraits.js';
 import {people,connections,lifespan} from './data.js';
 import {drawStudy} from './studies.js';

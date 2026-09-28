@@ -1,6 +1,6 @@
 import {ledgerRequest,acceptedClaims} from '/agents/overlay.js';
 import {recipeSearchTerms} from '/connections/graph.js';
-import {attachConnections,connectionData} from '/connections/connections.js?v=nav-20260928c';
+import {attachConnections,connectionData} from '/connections/connections.js?v=compact-2';
 // Supplemental provenance for B. The existing technique records and draw loop
 // are still owned by ../techniques/techniques.js and are never copied or replaced.
 // Portraits are optional: a slow image manifest must never block the recipes.
@@ -112,7 +112,7 @@ connectionData.then(async graph=>{
  if(!graph)return;connectionTerms=recipeSearchTerms(graph);applyFilter();document.body.dataset.connectionSearch='ready';
  portraits=await portraitRequest;
  const roster=document.querySelector('#eyebeam-roster');if(!roster)return;
- const rows=graph.people.filter(p=>graph.relationships.some(r=>r.person===p.id&&r.target==='entity-eyebeam'&&r.review==='checked'));
+ const rows=graph.people.filter(p=>p.placement!=='Project author'&&graph.relationships.some(r=>r.person===p.id&&r.target==='entity-eyebeam'&&r.review==='checked'));
  roster.replaceChildren();
  for(const p of rows){const card=element('article','eyebeam-person');card.append(face(p),element('h3','',p.name));const portrait=portraits[p.name];if(portrait){card.append(sourceLink(portrait.kind==='ai-assisted-illustration'?'Reference photo ↗':'Portrait source ↗',portrait.page,'photo-credit'),element('small','portrait-treatment',portrait.kind==='ai-assisted-illustration'?'AI-assisted illustration':portrait.kind==='photograph'?'Photograph':portrait.kind==='dithered-photograph'?'Dithered portrait':'Illustrated portrait'));if(portrait.credit)card.append(element('small','portrait-treatment',portrait.credit))}
  const credits=records.filter(r=>r.contributors.some(c=>c.name===p.name));

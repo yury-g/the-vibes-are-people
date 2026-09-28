@@ -65,6 +65,7 @@ book.addEventListener('scroll',()=>{
 
 // Shared study links retain the book and open the exact record.
 function openSharedStudy(){
+if(location.hash==='#about-project'){const frame=document.querySelector('#ingredients iframe'),url=new URL(frame.src);url.searchParams.delete('recipe');url.hash='about-project';frame.src=url.href;setView('ingredients');return;}
 if(['#people','#ingredients'].includes(location.hash)){setView(location.hash.slice(1));return;}
 const sharedStudy=new URLSearchParams(location.hash.slice(1));
 for(const [kind,view] of [['person','people'],['recipe','ingredients']]){

@@ -4,7 +4,7 @@ const techniques = document.body.dataset.page === 'techniques';
 await import(techniques ? '../techniques/techniques.js?v=nav-20260928c' : '../living/app.js?v=nav-20260928c');
 
 if (techniques) {
-  import('./technique-labels.js?v=nav-20260928c').catch(() => {
+  import('./technique-labels.js?v=compact-2').catch(() => {
     document.querySelector('#provenance-status').textContent='People and sources could not load. Reload this page to try again.';
   });
 }
