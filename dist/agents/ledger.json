@@ -1,1 +1,31 @@
-{"version":1,"events":[]}
+{
+  "version": 1,
+  "events": [
+    {
+      "type": "reserved",
+      "at": "2026-09-28T14:42:16.190Z",
+      "issue": 1,
+      "author": "yury-g",
+      "proposal": {
+        "version": 1,
+        "person": "Craig Reynolds",
+        "target": {
+          "type": "recipe",
+          "name": "Boids / flocking"
+        },
+        "kind": "contribution",
+        "role": "Model creator",
+        "claim": "Craig Reynolds created the Boids computer model of flocking in 1986. Its local steering behaviors combine separation, alignment and cohesion; he described the distributed behavioral model for computer animation in his 1987 SIGGRAPH paper.",
+        "sources": [
+          "https://www.red3d.com/cwr/boids/",
+          "https://www.red3d.com/cwr/papers/1987/boids.html"
+        ]
+      },
+      "proposalHash": "8a162b6359efdebcedec87ca1a8a80dbe6b3a9727259bbe3da181584712bfcff",
+      "reservedUSD": 0.2,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "previous": null,
+      "hash": "a13a48f685c79521cffdc190ed3b4f2fc05e9c1865487bc2a3e706fecdc0b6a2"
+    }
+  ]
+}
