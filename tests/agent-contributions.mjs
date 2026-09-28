@@ -46,3 +46,8 @@ const large={version:1,events:[]};for(let i=0;i<500;i++){large.events.push({type
 assert.ok(Buffer.byteLength(JSON.stringify(buildCatalog(p,base,large)))<14000);
 assert.equal(validateProposal({...lang,target:{type:'language',name:'C'}}).target.name,'C');
 assert.equal(validateProposal({...lang,target:{type:'language',name:'R'}}).target.name,'R');
+const {evidencePassages,resolveEvidence}=await import('../scripts/agents/reviewer.mjs');
+assert.equal(typeof evidencePassages,'function','Models should select fetched evidence rather than reconstruct quotes');
+const ep=evidencePassages('One two three. Four five six.');assert.ok(ep.every(s=>s.split(/\s+/).length<=25));
+assert.equal(resolveEvidence({sourceIndex:0,evidenceIndex:0},[{...source,passages:['Exact words from the fetched source.']}]).quote,'Exact words from the fetched source.');
+assert.equal(resolveEvidence({sourceIndex:9,evidenceIndex:0},[source]).quote,'');
