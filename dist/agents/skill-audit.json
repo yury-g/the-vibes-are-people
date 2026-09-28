@@ -1,0 +1,149 @@
+{
+  "checked": "2026-09-28",
+  "revision": "b9e19e6f44773509fbdd7001d77ff41a49a486c1",
+  "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md",
+  "scope": "Counts cover SKILL.md only. The two bundled templates were inspected for implementation context. This is an instruction audit, not a benchmark of generated art.",
+  "counting": "Count distinct literal surnames separately from explicit human-name credits. The 12 method families are our selected, overlapping groupings of named techniques and computational processes—not an exhaustive algorithm count. Repeated mentions count once. Software, UI controls, generic mathematical concepts and template helpers are excluded.",
+  "counts": {
+    "explicitHumanNameCredits": 0,
+    "surnamesInMethodNames": 2,
+    "selectedMethodFamilies": 12
+  },
+  "surnameMentions": [
+    {
+      "name": "Perlin",
+      "line": 58
+    },
+    {
+      "name": "Voronoi",
+      "line": 74
+    }
+  ],
+  "methods": [
+    {
+      "name": "Seeded randomness",
+      "line": 135,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L135"
+    },
+    {
+      "name": "Flow / vector fields",
+      "line": 70,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L70"
+    },
+    {
+      "name": "Particle systems",
+      "line": 3,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L3"
+    },
+    {
+      "name": "Perlin noise",
+      "line": 58,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L58"
+    },
+    {
+      "name": "Noise octaves",
+      "line": 58,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L58"
+    },
+    {
+      "name": "Wave interference",
+      "line": 62,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L62"
+    },
+    {
+      "name": "L-systems",
+      "line": 66,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L66"
+    },
+    {
+      "name": "Recursive subdivision",
+      "line": 66,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L66"
+    },
+    {
+      "name": "Circle packing",
+      "line": 74,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L74"
+    },
+    {
+      "name": "Voronoi tessellation",
+      "line": 74,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L74"
+    },
+    {
+      "name": "Relaxation",
+      "line": 74,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L74"
+    },
+    {
+      "name": "Feedback",
+      "line": 172,
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L172"
+    }
+  ],
+  "files": [
+    {
+      "path": "SKILL.md",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md",
+      "sha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef",
+      "lines": 405
+    },
+    {
+      "path": "templates/viewer.html",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/templates/viewer.html",
+      "sha256": "86c79d7ce97d2599ebe4bd9b97fdeb7295c9d3ed61ceeb513cbe1b2bb5d1ce29",
+      "lines": 599
+    },
+    {
+      "path": "templates/generator_template.js",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/templates/generator_template.js",
+      "sha256": "9ee0f1da52ef8f7bbfde1917123654880890d43f2d388642d71eab6dd78f94c4",
+      "lines": 223
+    }
+  ],
+  "matrix": [
+    {
+      "topic": "People & attribution",
+      "strength": "Two surnames survive in method names.",
+      "opportunity": "Expand these into credited people, specific contributions and sources; include the people behind L-systems and p5.js.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L58-L74"
+    },
+    {
+      "topic": "Technique coverage",
+      "strength": "Recognizable methods connect creative ideas to computation.",
+      "opportunity": "Give each method a plain-language definition, distinguishing features and a linked example.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L54-L74"
+    },
+    {
+      "topic": "Adjustable controls",
+      "strength": "The instructions connect parameters to interactive controls.",
+      "opportunity": "Label the visible effect of each control: sparse/dense, fine/coarse, smooth/abrupt.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L143-L160"
+    },
+    {
+      "topic": "Repeatable comparisons",
+      "strength": "Both random and noise generators receive a seed.",
+      "opportunity": "Save parameters, code version and animation frame too; a seed alone does not preserve every input.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L135-L141"
+    },
+    {
+      "topic": "Visual language",
+      "strength": "A creative rationale guides the implementation.",
+      "opportunity": "Pair expressive language with observable criteria, comparison images and a maker’s intended meaning.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L35-L51"
+    },
+    {
+      "topic": "Working scaffold",
+      "strength": "The viewer supplies interface structure and seed navigation.",
+      "opportunity": "Its art functions are placeholders. Generate and test the actual sketch, including each parameter’s visible effect.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/templates/viewer.html#L499-L531"
+    },
+    {
+      "topic": "Export & actions",
+      "strength": "The instructions require regeneration and PNG export.",
+      "opportunity": "The viewer’s Actions section contains only Reset. Add and test the two missing buttons.",
+      "source": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/SKILL.md#L327-L335",
+      "comparisonSource": "https://github.com/anthropics/skills/blob/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/algorithmic-art/templates/viewer.html#L423-L429"
+    }
+  ]
+}

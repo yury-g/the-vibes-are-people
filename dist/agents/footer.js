@@ -20,6 +20,18 @@ if(!document.querySelector('.vibes-contribute-footer')){
  const credits=make('p');credits.append(document.createTextNode('Keep names attached to methods: '),link('Perlin noise · Ken Perlin','/connections/?person=Ken%20Perlin#people'),document.createTextNode('; '),link('Boids · Craig Reynolds','/connections/?person=Craig%20Reynolds#people'),document.createTextNode('; '),link('L-systems · Aristid Lindenmayer','/connections/?person=Aristid%20Lindenmayer#people'),document.createTextNode('. Follow each contribution and its sources.'));
  vocabulary.append(credits,make('p','Use established method names and people’s credited or chosen names. Pair them with observable qualities: flow, cohesion, grain, branching, scale and density. Names help us find a history; controls help us make deliberate changes.'),link('Try the visual vocabulary & build a brief ↗','/vocabulary/#flow'),make('small','This is our suggested teaching workflow. The linked Anthropic skill runs in your own AI tool; this site provides vocabulary, exercises and contribution research.'));
  resources.append(card,vocabulary);f.append(resources,make('p','Interpretations depend on context. Specific credits do not make one person the inventor of an entire aesthetic. Explore the sources, compare variations, and develop your own work.','footer-note'));
+ const audit=make('section',null,'skill-audit');audit.id='algorithmic-skill-audit';audit.setAttribute('aria-labelledby','skill-audit-title');
+ const auditTitle=make('h3','A closer look at the published skill');auditTitle.id='skill-audit-title';
+ audit.append(auditTitle,link('Read the audit & counting method ↗','/research/project/files/ANTHROPIC-SKILL-AUDIT.md'));f.append(audit);
+ fetch('/agents/skill-audit.json').then(r=>{if(!r.ok)throw new Error('Audit unavailable');return r.json()}).then(data=>{
+  const summary=make('p',`${data.counts.explicitHumanNameCredits} explicit human-name credits · ${data.counts.surnamesInMethodNames} surnames in technique names · ${data.counts.selectedMethodFamilies} selected method families`,'audit-counts');
+  const scope=make('p','Counts cover SKILL.md: Perlin and Voronoi appear as method names, without explicit person credits. The 12 families are overlapping editorial groupings, not an exhaustive algorithm count.','footer-note');
+  audit.append(summary,scope);
+  const table=make('table'),caption=make('caption','Instruction audit · September 28, 2026 · source revision '+data.revision.slice(0,7));table.append(caption);
+  const head=make('thead'),hr=make('tr');for(const title of ['Area','What it gets right','Opportunity to improve']){const th=make('th',title);th.scope='col';hr.append(th)}head.append(hr);table.append(head);
+  const body=make('tbody');for(const row of data.matrix){const tr=make('tr'),topic=make('th');topic.scope='row';topic.append(link(row.topic+' ↗',row.source,true));const strength=make('td',row.strength),opportunity=make('td',row.opportunity);strength.dataset.label='What it gets right';opportunity.dataset.label='Opportunity to improve';if(row.comparisonSource)opportunity.append(document.createTextNode(' '),link('Viewer evidence ↗',row.comparisonSource,true));tr.append(topic,strength,opportunity);body.append(tr)}table.append(body);audit.append(table);
+  audit.append(make('p','This reviews the instructions and bundled templates, not the quality of generated art. A missing credit is a research opportunity; it does not establish copying or model training history.','footer-note'));
+ }).catch(()=>{});
  document.body.append(f);
  const css=make('style');css.textContent=`
  .vibes-contribute-footer{display:block;box-sizing:border-box;padding:1.5rem max(1rem,4vw);border-top:1px solid #888;font:16px/1.6 system-ui,sans-serif;background:#fff;color:#151515;clear:both}
@@ -35,5 +47,13 @@ if(!document.querySelector('.vibes-contribute-footer')){
  .vibes-contribute-footer blockquote{margin:0;padding:.8rem 1rem;background:#f3f3ef;border-left:3px solid #111;font-size:16px}
  .vibes-contribute-footer small{display:block;font-size:13px;line-height:1.5;margin-top:1rem;color:#555}
  .vibes-contribute-footer .footer-note{font-size:14px;max-width:90ch}
+ .vibes-contribute-footer .skill-audit{max-width:1200px;margin-top:2rem;border-top:2px solid #111;padding-top:1.5rem}
+ .vibes-contribute-footer .audit-counts{font-weight:700}
+ .vibes-contribute-footer .skill-audit table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5;text-align:left;table-layout:fixed}
+ .vibes-contribute-footer .skill-audit caption{text-align:left;font-size:12px;margin:.6rem 0;color:#555}
+ .vibes-contribute-footer .skill-audit th,.vibes-contribute-footer .skill-audit td{padding:.75rem;border-bottom:1px solid #bbb;vertical-align:top;overflow-wrap:anywhere}
+ .vibes-contribute-footer .skill-audit th:first-child{width:22%}
+ .vibes-contribute-footer .skill-audit thead{background:#f3f3ef}
+ @media(max-width:600px){.vibes-contribute-footer .skill-audit table,.vibes-contribute-footer .skill-audit tbody,.vibes-contribute-footer .skill-audit tr,.vibes-contribute-footer .skill-audit td,.vibes-contribute-footer .skill-audit th{display:block;width:auto!important}.vibes-contribute-footer .skill-audit thead{display:none}.vibes-contribute-footer .skill-audit tr{border-bottom:1px solid #888;padding:.6rem 0}.vibes-contribute-footer .skill-audit td,.vibes-contribute-footer .skill-audit th{border:0;padding:.3rem 0}.vibes-contribute-footer .skill-audit td::before{content:attr(data-label) ': ';font-weight:700}}
  `;document.head.append(css);
 }

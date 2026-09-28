@@ -2,6 +2,18 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/ANTHROPIC-SKILL-AUDIT.md",
+      "file": "files/ANTHROPIC-SKILL-AUDIT.md",
+      "bytes": 6313,
+      "sha256": "dcc86ae77c009ba58c293269cd9a0cef9edc2fed9151ffd79062b3bb1db9eed8"
+    },
+    {
+      "source": "dist/agents/skill-audit.json",
+      "file": "files/skill-audit.json",
+      "bytes": 7288,
+      "sha256": "d81c296e68dae757631308f2254086f789beec90c979fb67b03d91646b7aa300"
+    },
+    {
       "source": "research/PUBLISHED-SKILLS.md",
       "file": "files/PUBLISHED-SKILLS.md",
       "bytes": 1912,
@@ -190,8 +202,8 @@
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 1807,
-      "sha256": "a3f50af08a6b642f77142f00e64adae8a23ada5463d40a9fc51fe1222ef1e487"
+      "bytes": 1874,
+      "sha256": "a763add8ba9c40fbc193fc0a3376e94e504381de413d88a92c6cd09c69651c9a"
     }
   ]
 }
