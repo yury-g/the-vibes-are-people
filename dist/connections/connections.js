@@ -1,18 +1,20 @@
-import {nodes,relations,overlaps,gaps} from './graph.js';
+import {nodes,relations,overlaps,gaps,indexGraph} from './graph.js';
 import {confidenceMeter} from './confidence.js';
-const data=fetch(new URL('data.json',import.meta.url)).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}).catch(()=>null);
+export const connectionData=fetch(new URL('data.json',import.meta.url)).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}).catch(()=>null);
 const el=(tag,text)=>{const node=document.createElement(tag);if(text)node.textContent=text;return node};
 const link=(text,url)=>{const a=el('a',text);a.href=url;if(/^https?:/.test(url)){a.target='_blank';a.rel='noopener noreferrer'}return a};
 const nodeLink=node=>link(node.name,'/connections/?node='+encodeURIComponent(node.id)+'#people');
-function rows(g,p,{languageOnly=false,includeInferred=true}={}){
+function rows(g,p,{languageOnly=false,includeInferred=true,excludeRecipe=null}={}){
  const list=el('div');list.className='connection-lines';
- const visible=relations(g,p.id).filter(r=>(!languageOnly||r.kind==='language/tool')&&(includeInferred||!['inferred','tentative'].includes(r.review)));
+ const visible=(indexGraph(g).byPerson.get(p.id)||[]).filter(r=>r.target!==excludeRecipe&&(!languageOnly||r.kind==='language/tool')&&(includeInferred||!['inferred','tentative'].includes(r.review)));
  const ordinary=visible.filter(r=>r.kind!=='language/tool'),languages=visible.filter(r=>r.kind==='language/tool');
  for(const r of [...ordinary,...languages]){
   if(r===languages[0]){const heading=el('h4','Languages & tools');list.append(heading)}
-  const target=nodes(g).find(t=>t.id===(r.target===p.id?r.person:r.target));
+  const target=indexGraph(g).byId.get(r.target===p.id?r.person:r.target);
   const line=el('p');line.className=r.kind==='language/tool'?'language-relationship':'';
   line.append(r.role+' · ',nodeLink(target),r.dates?' ('+r.dates+')':'');
+  if(r.kind==='contribution')line.append(' · ',link('View recipe ↗','/notes/ingredients/techniques.html?recipe='+encodeURIComponent(target.name)));
+  if(r.review==='imported'){const status=el('small','Catalog credit · source recheck pending');status.className='evidence-status';line.append(status)}
   if(r.detail&&r.kind==='documented path')line.append('. '+r.detail);
   if(r.kind==='language/tool'){
    line.append(' ',confidenceMeter(r));
@@ -24,22 +26,22 @@ function rows(g,p,{languageOnly=false,includeInferred=true}={}){
   }
   list.append(line);
  }
- if(!list.children.length)list.append(el('p',languageOnly?'No language or tool evidence recorded at this confidence level.':'Connections still need documentation.'));
+ if(!list.children.length)list.append(el('p',languageOnly?'No language or tool evidence recorded at this confidence level.':'No additional connections recorded.'));
  return list;
 }
-export function attachConnections(container,name){
+export function attachConnections(container,name,{recipe=null}={}){
  container.querySelector(':scope > .people-connections')?.remove();
  const section=el('section');section.className='people-connections';section.setAttribute('aria-label','People, places and connections');container.append(section);
- data.then(g=>{
+ connectionData.then(g=>{
   if(!g){section.append(link('Explore connections ↗','/connections/'));return}
   const p=g.people.find(p=>p.name===name);if(!p)return;
-  section.append(rows(g,p),link('Follow these connections ↗','/connections/?node='+encodeURIComponent(p.id)+'#people'));
+  section.append(rows(g,p,{excludeRecipe:g.recipes.find(r=>r.name===recipe)?.id}),link('Follow these connections ↗','/connections/?node='+encodeURIComponent(p.id)+'#people'));
   if(p.study){const note=el('p','This site’s animated study uses JavaScript. Language links above describe the cited work or practice, not our animation.');note.className='study-language-note';section.append(note)}
  });
  if(!document.querySelector('link[data-connections-style]')){const css=el('link');css.rel='stylesheet';css.href='/connections/connections.css';css.dataset.connectionsStyle='true';document.head.append(css)}
 }
 if(document.querySelector('#connections-directory')){
- const g=await data,host=document.querySelector('#connections-directory');
+ const g=await connectionData,host=document.querySelector('#connections-directory');
  if(!g)host.textContent='The directory could not load. Please try again.';
  else{
   const search=document.querySelector('#connection-search'),params=new URL(location.href).searchParams;
@@ -75,7 +77,7 @@ if(document.querySelector('#connections-directory')){
     if((languageOnly||selected?.category)&&!eligible.length)return false;
     if(gap&&!gap.people.includes(p.id))return false;
     if(selected&&p.id!==selected.id&&!eligible.some(r=>r.person===selected.id||r.target===selected.id))return false;
-    const text=[p.name,...eligible.map(r=>[r.role,nodes(g).find(t=>t.id===(r.target===p.id?r.person:r.target)).name].join(' '))].join(' ').toLowerCase();
+    const text=[p.name,...eligible.map(r=>[r.role,indexGraph(g).byId.get(r.target===p.id?r.person:r.target).name].join(' '))].join(' ').toLowerCase();
     return !query||text.includes(query);
    });document.querySelector('#connection-count').textContent=`${people.length} people shown`;
    for(const p of people){const card=el('article');card.className='connection-card';card.id=p.id;const heading=el('h3');heading.append(nodeLink(p));card.append(heading,el('small',p.placement),rows(g,p,{languageOnly:languageOnly||!!selected?.category,includeInferred:includeGuesses.checked}));if(p.study)card.append(link('Open animated study ↗','/notes/ingredients/people.html?person='+p.study));host.append(card)}

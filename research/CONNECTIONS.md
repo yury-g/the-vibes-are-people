@@ -13,3 +13,11 @@ Browser checks: set TEST_URL to a local static server and PLAYWRIGHT_PATH to ins
 The language/tool layer is maintained in `research/language-tools.json`, with its evidence rubric in `research/LANGUAGES.md`. Its inferred and tentative records are never promoted to checked by the generator. Languages and frameworks share the stable node-link system while preserving category, work context and confidence.
 
 Recipe contributors can now carry `review: "checked"` with a checked date after source inspection; absent review metadata remains imported. Actual recipe membership determines the generated “In Ingredients” placement. `tests/ingredients-expansion.mjs` ensures the original 108 records remain intact while the five new contributors have checked recipe and Eyebeam links.
+
+## Lean connection improvements · September 28, 2026
+
+Ingredients search now matches checked tool/institution links belonging to credited contributors. It does not infer which language implements a recipe or that an institution sponsored it. Inferred links do not enter this search. Without connection data, ordinary person/recipe search still works.
+
+“View recipe” links open the exact existing animated recipe and its provenance overlay. The current recipe's repeated credit is omitted from each embedded connection list; the original contribution and source above it remain visible. Other recipe credits remain available. Imported credits now have a visible source-recheck label. Documented overlaps require checked records at both ends and deduplicate people across multiple roles; imported credits remain available separately but do not inflate those overlaps.
+
+The Ingredients page shares one connection-data promise for overlays, search and the Eyebeam overview. A small in-memory graph index reuses node and relationship lookups. No dependency, service, dashboard or new media payload is added. Unit and browser regressions cover evidence filtering, duplicate residency counts, exact recipe navigation, one graph request, mobile layout and unavailable-data fallback.

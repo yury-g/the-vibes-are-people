@@ -52,8 +52,8 @@
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 4949,
-      "sha256": "70014f46b3ab3ee0f6e59ea8242fdb23a74c9be0970e7338daaa7d89eadb1742"
+      "bytes": 4988,
+      "sha256": "9c91ad761e33d9bbf342eeb12547a8e310b67cafefee9f2995a43e3371a5808b"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -64,8 +64,8 @@
     {
       "source": "research/CONNECTIONS.md",
       "file": "files/CONNECTIONS.md",
-      "bytes": 2820,
-      "sha256": "256bda03df1f7afd8dbbb5ba299cb577031ceb0162d44a852460fe5da11d705e"
+      "bytes": 4101,
+      "sha256": "d384f83d631be71cc527e698dbbc5c789fed9ddd26121a889aea1c2923e58786"
     },
     {
       "source": "research/checked-relationships.json",

@@ -38,6 +38,7 @@ node scripts/build-connections.mjs
 node scripts/export-research.mjs
 node tests/connections.mjs
 node tests/connection-links.mjs
+node tests/connection-fundamentals.mjs
 node tests/languages.mjs
 node tests/ingredients-expansion.mjs
 python3 -m http.server 8000 --directory dist
