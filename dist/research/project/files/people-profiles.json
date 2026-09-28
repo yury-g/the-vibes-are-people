@@ -2,22 +2,26 @@
   "Golan Levin": {
     "bio": "Artist and educator working with computation, gesture, and responsive environments; co-author of Code as Creative Medium.",
     "source": "https://eyebeam.org/artists/golan-levin/",
-    "checked": "2026-09-27"
+    "checked": "2026-09-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Golan_Levin"
   },
   "Tega Brain": {
     "bio": "Artist and environmental engineer examining ecology, data, and computation; co-author of Code as Creative Medium.",
     "source": "https://eyebeam.org/artists/tega-brain/",
-    "checked": "2026-09-27"
+    "checked": "2026-09-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tega_Brain"
   },
   "Lauren Lee McCarthy": {
     "bio": "Artist examining social relationships and automated systems; creator of p5.js, a platform for creative coding and education.",
     "source": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
-    "checked": "2026-09-27"
+    "checked": "2026-09-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lauren_McCarthy"
   },
   "Zach Lieberman": {
     "bio": "Artist making expressive drawing and animation tools with code; co-creator of openFrameworks and co-founder of the School for Poetic Computation.",
     "source": "https://eyebeam.org/artists/zach-lieberman/",
-    "checked": "2026-09-27"
+    "checked": "2026-09-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zachary_Lieberman"
   },
   "Gene Kogan": {
     "bio": "Artist and programmer working with generative systems and open educational tools. Eyebeam records his 2015 project residency jointly with Lisa Kori.",

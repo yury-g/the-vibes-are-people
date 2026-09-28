@@ -682,19 +682,39 @@
     "kind": "dithered-photograph"
   },
   "Lauren Lee McCarthy": {
-    "src": "/notes/ingredients/portraits/lauren-lee-mccarthy.jpg",
+    "src": "/notes/ingredients/portraits/lauren-lee-mccarthy-stippled.png",
     "page": "https://eyebeam.org/artists/lauren-lee-mccarthy/",
-    "kind": "photograph",
+    "kind": "ai-assisted-illustration",
     "original": "https://cdn.sanity.io/images/7pvh1tgn/production/4567fbba00415426e9c28a6cacd2521c5b1a5936-300x300.jpg",
     "credit": "Portrait published by Eyebeam; photographer not identified in the retrieved profile.",
-    "checked": "2026-09-27"
+    "checked": "2026-09-28",
+    "referenceLocal": "/notes/ingredients/portraits/lauren-lee-mccarthy.jpg",
+    "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
+    "generator": "Built-in image generation tool",
+    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license."
   },
   "Tega Brain": {
-    "src": "/notes/ingredients/portraits/tega-brain.jpg",
+    "src": "/notes/ingredients/portraits/tega-brain-stippled.png",
     "page": "https://eyebeam.org/artists/tega-brain/",
-    "kind": "photograph",
+    "kind": "ai-assisted-illustration",
     "original": "https://cdn.sanity.io/images/7pvh1tgn/production/0d28caed129869a039ead8877055d392c15f892e-300x260.jpg",
     "credit": "Portrait published by Eyebeam; photographer not identified in the retrieved profile.",
-    "checked": "2026-09-27"
+    "checked": "2026-09-28",
+    "referenceLocal": "/notes/ingredients/portraits/tega-brain.jpg",
+    "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
+    "generator": "Built-in image generation tool",
+    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license."
+  },
+  "Gene Kogan": {
+    "page": "https://www.automata.art/artists/gene-kogan/",
+    "original": "https://www.automata.art/artists/gene-kogan/Gene%20Kogan.jpg",
+    "credit": "Source photograph published by AUTOMATA; photographer not identified on the retrieved artist page.",
+    "src": "/notes/ingredients/portraits/gene-kogan-stippled.png",
+    "referenceLocal": "/notes/ingredients/portrait-sources/gene-kogan-photo.jpg",
+    "kind": "ai-assisted-illustration",
+    "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
+    "generator": "Built-in image generation tool",
+    "checked": "2026-09-28",
+    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license."
   }
 }

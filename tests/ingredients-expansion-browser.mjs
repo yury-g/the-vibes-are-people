@@ -18,10 +18,13 @@ try{
   await row.getByRole('link',{name:'Eyebeam',exact:true}).first().waitFor();
   assert.ok(await row.locator('meter').count()>0,'Language evidence is embedded');
   assert.ok(await row.getByRole('link',{name:'Artist biography ↗'}).count());
-  if(['Lauren Lee McCarthy','Tega Brain'].includes(name)){
+  if(name!=='Gene Kogan')assert.equal(await row.getByRole('link',{name:'Wikipedia biography ↗'}).count(),1);
+  if(['Lauren Lee McCarthy','Tega Brain','Gene Kogan'].includes(name)){
    const image=row.locator('img');await image.scrollIntoViewIfNeeded();
    await image.evaluate(img=>img.decode());assert.ok(await image.evaluate(img=>img.naturalWidth>=260));
-   assert.ok(await row.getByRole('link',{name:'Photo source ↗'}).count());
+   assert.ok(await row.getByRole('link',{name:'Reference photo ↗'}).count());
+   assert.match(await row.innerText(),/AI-assisted illustration/);
+   assert.match(await image.getAttribute('alt'),/AI-assisted portrait illustration/);
   }
   assert.equal(await page.locator('#detail').evaluate(el=>el.scrollWidth>el.clientWidth),false);
   if(name==='Tega Brain')await page.screenshot({path:'/tmp/ingredients-tega-mobile.png'});

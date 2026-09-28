@@ -22,7 +22,7 @@ All five have Eyebeam affiliation sources in the linked dataset. Kogan's [2015 r
 
 Five concise bios link to Eyebeam profiles. Two newly included photographs—Lauren Lee McCarthy and Tega Brain—come from images published with their Eyebeam profiles. Original asset URLs and retrieval dates are preserved in `portrait-map.json`. The retrieved profiles did not identify photographers; the site links the source rather than inventing a credit. Third-party image rights remain with their holders; no blanket reuse license is granted.
 
-Golan Levin and Zach Lieberman reuse the collection's existing illustrated portraits, labeled as portrait credits. Gene Kogan currently has a clearly labeled missing portrait; no substitute face is generated or guessed.
+Golan Levin and Zach Lieberman reuse the collection's existing illustrated portraits, labeled as portrait credits. At this expansion’s initial release, Gene Kogan had a labeled missing portrait. The September 28 portrait pass adds a photograph-based illustration; see PORTRAITS.md for the current assets and sources.
 
 ## Language evidence and remaining research
 

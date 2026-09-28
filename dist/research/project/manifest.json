@@ -2,22 +2,40 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/PORTRAITS.md",
+      "file": "files/PORTRAITS.md",
+      "bytes": 4083,
+      "sha256": "9886630fb54913a0829430d6bb067eecff8db79305d44dfee2fca61e3d0d8b0e"
+    },
+    {
+      "source": "research/portrait-coverage.json",
+      "file": "files/portrait-coverage.json",
+      "bytes": 1106,
+      "sha256": "f9659ab1fce2f63815c2ddabe9605704837da680778438b4f8e08edfaa6dbdc9"
+    },
+    {
+      "source": "research/portrait-prompts.json",
+      "file": "files/portrait-prompts.json",
+      "bytes": 2614,
+      "sha256": "a91d1a13984f518ca288a435ca6abc86d7ac22431bb1d5c5f43d5d105fceb2d6"
+    },
+    {
       "source": "research/INGREDIENTS-EXPANSION.md",
       "file": "files/INGREDIENTS-EXPANSION.md",
-      "bytes": 4247,
-      "sha256": "55911f3d7f0ff1514bc73761257da3d2a7ec7df99b7bf3349f5fb4965691f19a"
+      "bytes": 4346,
+      "sha256": "9658d39dd11a234070be84002082be5934fc300c10ff980fb96a998286c7e078"
     },
     {
       "source": "dist/notes/ingredients/people-profiles.json",
       "file": "files/people-profiles.json",
-      "bytes": 1307,
-      "sha256": "564cecda9d3d2a248ad9a2e104067c52b5ac14fb965932eb431a59a6b5e7d5c2"
+      "bytes": 1564,
+      "sha256": "a98ce7ed208c02dc26e868e7354295e4217bd976979ca44c3d72bb4c6e57779b"
     },
     {
       "source": "dist/notes/ingredients/portrait-map.json",
       "file": "files/portrait-map.json",
-      "bytes": 38948,
-      "sha256": "7c521c7aa29feccbdd2a482be9304dce8df2802c078f1585bd5de69c3390d72a"
+      "bytes": 40477,
+      "sha256": "5ea1b3459e9912388ef5eab023a58d53bc0fde7470968b58e79cf23d01a8d1ab"
     },
     {
       "source": "research/LANGUAGES.md",
@@ -34,8 +52,8 @@
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 4774,
-      "sha256": "132efe751d2a62002906d160d629b8090e472fff8f4115c889a490a3da0cf774"
+      "bytes": 4949,
+      "sha256": "70014f46b3ab3ee0f6e59ea8242fdb23a74c9be0970e7338daaa7d89eadb1742"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -106,8 +124,8 @@
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 1385,
-      "sha256": "d81931df166bf240089513da59236f00daadc7f5d68c231dca949f003242c4e1"
+      "bytes": 1476,
+      "sha256": "42c5d0c6bb851e43da41dc958ba0067d5081b7f06b466e104fa25d2e3a12f4bc"
     }
   ]
 }

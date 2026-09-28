@@ -12,3 +12,7 @@ body[data-page=techniques] dialog{width:min(1220px,calc(100vw - 34px));padding:2
 
 /* Evidence labels and bios must fit narrow recipe columns. */
 .ingredient-copy,.detail-grid>div{min-width:0}.ingredient-copy{overflow-wrap:anywhere}.detail-grid .ingredient-copy p.ingredient-bio{font-size:13px;line-height:1.55;margin:12px 0 5px;color:var(--muted)}
+
+.portrait-treatment{display:block;font:9px/1.5 Arial,sans-serif;margin-top:7px;overflow-wrap:anywhere;color:var(--muted)}
+
+.ingredient-face[data-portrait-kind="ai-assisted-illustration"]{filter:none;mix-blend-mode:normal}

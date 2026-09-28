@@ -16,7 +16,7 @@ for(const name of ['Golan Levin','Tega Brain','Lauren Lee McCarthy','Gene Kogan'
 }
 assert.equal(graph.relationships.filter(r=>r.kind==='contribution'&&r.review==='checked').length,8);
 const portraits=await read('dist/notes/ingredients/portrait-map.json');
-for(const name of ['Lauren Lee McCarthy','Tega Brain']){const p=portraits[name];assert.equal(p.kind,'photograph');assert.ok(p.original&&p.credit);await access(new URL('../dist'+p.src,import.meta.url))}
+for(const name of ['Lauren Lee McCarthy','Tega Brain']){const p=portraits[name];assert.equal(p.kind,'ai-assisted-illustration');assert.ok(p.original&&p.credit);await access(new URL('../dist'+p.src,import.meta.url))}
 assert.match(graph.relationships.find(r=>r.person==='person-gene-kogan'&&r.target==='entity-eyebeam').role,/Lisa Kori/);
 assert.equal(graph.relationships.find(r=>r.person==='person-zach-lieberman'&&r.target==='entity-cpp').confidence,3);
 console.log('105 recipe contributors; eight sourced additions; original credits, biographies, portraits and joint residency verified');

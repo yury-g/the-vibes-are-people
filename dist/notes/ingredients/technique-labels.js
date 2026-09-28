@@ -15,7 +15,7 @@ function element(tag, className, text){const el=document.createElement(tag);el.c
 function face(person){
   const photo=portraits[person.name];
   if(!photo){const missing=element('span','ingredient-face unavailable','Portrait not located');missing.dataset.person=person.name;missing.setAttribute('role','img');missing.setAttribute('aria-label',`Portrait not yet located for ${person.name}`);return missing}
-  const img=element('img','ingredient-face');img.src=photo.src;img.alt='';img.dataset.person=person.name;img.width=96;img.height=112;img.loading='lazy';img.decoding='async';
+  const img=element('img','ingredient-face');img.src=photo.src;img.alt=photo.kind==='ai-assisted-illustration'?`AI-assisted portrait illustration of ${person.name}`:'';img.dataset.person=person.name;img.dataset.portraitKind=photo.kind;img.width=96;img.height=112;img.loading='lazy';img.decoding='async';
   img.addEventListener('error',()=>{const missing=element('span','ingredient-face unavailable','Portrait unavailable');img.replaceWith(missing)},{once:true});
   return img;
 }
@@ -53,10 +53,13 @@ function renderLabel(){
     const row=element('article','ingredient-person');
     const photo=portraits[person.name];
     const imageColumn=element('div','ingredient-photo');imageColumn.append(face(person));
-    if(photo?.page)imageColumn.append(sourceLink(photo.kind==='existing'?'Portrait credit ↗':'Photo source ↗',photo.page,'photo-credit'));
+    if(photo?.page)imageColumn.append(sourceLink(photo.kind==='existing'?'Portrait credit ↗':photo.kind==='ai-assisted-illustration'?'Reference photo ↗':'Photo source ↗',photo.page,'photo-credit'));
+    if(photo?.kind==='ai-assisted-illustration'){imageColumn.append(element('small','portrait-treatment','AI-assisted illustration'));imageColumn.append(sourceLink('View illustration ↗',photo.src,'photo-credit'));imageColumn.append(element('small','portrait-treatment',photo.credit))}
     const copy=element('div','ingredient-copy');
     copy.append(element('h4','',person.name),element('p','ingredient-role',person.role),element('p','contribution',person.detail),sourceLink(`${person.source} ↗`,person.url));
     if(profiles[person.name]){const bio=profiles[person.name];copy.append(element('p','ingredient-bio',bio.bio),sourceLink('Artist biography ↗',bio.source))}
+    const wikipedia=profiles[person.name]?.wikipedia||(photo?.page?.startsWith('https://en.wikipedia.org/wiki/')?photo.page:null);
+    if(wikipedia)copy.append(sourceLink('Wikipedia biography ↗',wikipedia));
     if(photo?.personId){const profile=element('a','person-profile','Open person’s study ↗');profile.href=`/notes/ingredients/people.html?person=${encodeURIComponent(photo.personId)}`;copy.append(profile)}
     attachConnections(copy,person.name);row.append(imageColumn,copy);panel.append(row);
   });

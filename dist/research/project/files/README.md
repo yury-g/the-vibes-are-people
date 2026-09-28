@@ -51,6 +51,8 @@ GitHub Actions checks the data and public research export on pushes and pull req
 
 Open an issue or pull request with the person, contribution or relationship, dates if known, and supporting original or institutional sources. Keep proposals separate from verified facts. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+The [portrait research](research/PORTRAITS.md) records three new photograph-based AI-assisted illustrations, exact prompts, Wikipedia links, and the remaining portrait gaps.
+
 ## Credits and reuse
 
 Authored by Yury Gitman. Technique catalog names credit Pardesco. Portrait and third-party source credits remain alongside the work and in the portrait manifests. Animated studies are original visual introductions, not authentic reconstructions of named artists' works. Making this repository public does not grant a blanket license to third-party images, artworks or source material; consult each source's rights and attribution terms. No new blanket license is asserted here.

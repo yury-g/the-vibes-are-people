@@ -1,0 +1,18 @@
+{
+  "tool": "Built-in image generation",
+  "date": "2026-09-28",
+  "prompts": [
+    {
+      "person": "Lauren Lee McCarthy",
+      "prompt": "Edit the first reference photograph of Lauren Lee McCarthy into a head-and-shoulders portrait illustration for The Vibes Are People. Preserve her actual face, recognizable proportions, hairstyle, gaze, expression, and clothing from the photograph. Use the second image only as a rendering-style reference, NOT its person's face: refined black ink stippling and fine cross-hatched engraved lines on clean white paper, strong black-and-white contrast, richly detailed face, shoulders fading gently into white, square composition, generous small white margin. No text, frame, symbols, invented accessories, beautification, or additional people. This is an openly labeled AI-assisted illustration derived from the reference photograph."
+    },
+    {
+      "person": "Tega Brain",
+      "prompt": "Edit the first reference photograph of Tega Brain into a head-and-shoulders portrait illustration for The Vibes Are People. Preserve her actual face, recognizable proportions, hairstyle, gaze, expression, and clothing from the photograph. Use the second image only as a rendering-style reference, NOT its person's face: refined black ink stippling and fine cross-hatched engraved lines on clean white paper, strong black-and-white contrast, richly detailed face, shoulders fading gently into white, square composition, generous small white margin. No text, frame, symbols, invented accessories, beautification, or additional people. This is an openly labeled AI-assisted illustration derived from the reference photograph."
+    },
+    {
+      "person": "Gene Kogan",
+      "prompt": "Edit the first reference photograph of Gene Kogan into a head-and-shoulders portrait illustration for The Vibes Are People. Preserve his actual face, recognizable proportions, hairstyle, gaze, expression, and clothing from the photograph. Use the second image only as a rendering-style reference, NOT its person's face: refined black ink stippling and fine cross-hatched engraved lines on clean white paper, strong black-and-white contrast, richly detailed face, shoulders fading gently into white, square composition, generous small white margin. No text, frame, symbols, invented accessories, beautification, or additional people. This is an openly labeled AI-assisted illustration derived from the reference photograph. Crop at the upper chest so the microphone and hands can remain outside the crop; retain his actual three-quarter head pose and open-mouth speaking expression."
+    }
+  ]
+}
