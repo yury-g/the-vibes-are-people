@@ -202,7 +202,7 @@
     {
       "id": "person-gene-kogan",
       "name": "Gene Kogan",
-      "study": null,
+      "study": "kogan",
       "placement": "In Ingredients"
     },
     {
@@ -442,7 +442,7 @@
     {
       "id": "person-lauren-lee-mccarthy",
       "name": "Lauren Lee McCarthy",
-      "study": null,
+      "study": "mccarthy",
       "placement": "In Ingredients"
     },
     {
@@ -670,7 +670,7 @@
     {
       "id": "person-tega-brain",
       "name": "Tega Brain",
-      "study": null,
+      "study": "brain",
       "placement": "In Ingredients"
     },
     {

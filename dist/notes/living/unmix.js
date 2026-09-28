@@ -1,6 +1,9 @@
 // Observations and recipes refer to the original studies in studies.js.
 // Artist links are context, not claims that these studies reconstruct specific works.
 export const unmix = {
+ mccarthy:['Small ripples ride on broad, gently moving contours.','Add three layers of gradient noise at doubling frequencies and diminishing amplitudes. Sample along a circular path through the noise field to make a seamless loop.'],
+ brain:['Two grids create bands that appear to move between the lines.','Draw two evenly spaced line grids. Rotate them in opposite directions with a slow periodic angle; their intersections produce moiré bands.'],
+ kogan:['Nested three-cusped loops overlap into shifting dark bands.','Trace a family of deltoid curves with two harmonics. Vary their radius and rotation periodically. This is our own construction, not the lost source of Interference.'],
   molnar: ['A tidy grid of nested squares seems to hesitate and slip.', 'Place five rows of squares. Draw four nested outlines in each cell. Rotate and offset each outline with slow sine waves.'],
   mohr: ['Sharp line fragments fold through a shape that feels bigger than the page.', 'Make sixteen vertices of a four-dimensional cube. Rotate two coordinate pairs, project them into two dimensions, then draw selected edges with different weights.'],
   nake: ['A measured score of horizontal lines is interrupted by small slashes.', 'Lay down eight scored rows. Use a fixed numeric seed to decide which short slashes appear; sway their endpoints over time.'],

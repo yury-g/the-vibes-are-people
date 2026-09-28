@@ -5,7 +5,7 @@ export function portrait(person, className='portrait') {
   if(!entry) return null;
   const img=document.createElement('img');
   img.className=className;
-  img.src=new URL(`./portraits/${entry.file}`,import.meta.url).href;
+  img.src=entry.src||new URL(`./portraits/${entry.file}`,import.meta.url).href;
   img.alt=`${person.name} — illustrated portrait`;
   img.width=160; img.height=160; img.loading='lazy'; img.decoding='async'; img.draggable=false;
   return img;

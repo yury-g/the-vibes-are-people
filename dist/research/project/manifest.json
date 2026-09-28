@@ -34,8 +34,8 @@
     {
       "source": "dist/notes/ingredients/portrait-map.json",
       "file": "files/portrait-map.json",
-      "bytes": 40477,
-      "sha256": "5ea1b3459e9912388ef5eab023a58d53bc0fde7470968b58e79cf23d01a8d1ab"
+      "bytes": 40555,
+      "sha256": "756097c830f251ca786141c61dfb08f74664f03c62033203b28b6d86530ec55d"
     },
     {
       "source": "research/LANGUAGES.md",
@@ -53,7 +53,7 @@
       "source": "README.md",
       "file": "files/README.md",
       "bytes": 4988,
-      "sha256": "9c91ad761e33d9bbf342eeb12547a8e310b67cafefee9f2995a43e3371a5808b"
+      "sha256": "7ed90288cf705091c0e179168cb417fee7e2fd3e95f91ee8c90be2e4a46481fe"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -64,8 +64,8 @@
     {
       "source": "research/CONNECTIONS.md",
       "file": "files/CONNECTIONS.md",
-      "bytes": 4101,
-      "sha256": "d384f83d631be71cc527e698dbbc5c789fed9ddd26121a889aea1c2923e58786"
+      "bytes": 4773,
+      "sha256": "a09ac3fcd0056f7b3f6ca2c327cfbfcb995a90ef26eecde5c9571d270b286023"
     },
     {
       "source": "research/checked-relationships.json",
@@ -106,8 +106,8 @@
     {
       "source": "dist/connections/data.json",
       "file": "files/data.json",
-      "bytes": 132543,
-      "sha256": "b4240a2ebe56a92e566463bd220f4472253d0683d8935db076b8c930a2e06789"
+      "bytes": 132555,
+      "sha256": "51f7f8439a5d10cce059afa9dbbb3fdc49bc57b78755490091f000c90648ac9b"
     },
     {
       "source": "dist/notes/ingredients/technique-provenance.json",

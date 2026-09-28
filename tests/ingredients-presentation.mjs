@@ -12,8 +12,8 @@ try {
   const response=await page.goto(base+'/notes/ingredients/people.html');
   assert.equal(response.status(),200,'Variant B must be served');
   await page.waitForSelector('#sheet .card');
-  assert.equal(await page.locator('#sheet .card').count(),18);
-  assert.equal(await page.locator('#sheet .card img.portrait:visible').count(),18,'Reuse the existing portraits in B');
+  assert.equal(await page.locator('#sheet .card').count(),21);
+  assert.equal(await page.locator('#sheet .card img.portrait:visible').count(),21,'Reuse the existing portraits in B');
   assert.ok(await page.locator('#sheet .card img.portrait').first().evaluate(img=>getComputedStyle(img).visibility!=='hidden'));
   const canvas=page.locator('#sheet canvas').first();
   const firstFrame=await canvas.evaluate(c=>c.toDataURL());
@@ -40,7 +40,7 @@ try {
   assert.equal(await page.locator('#person-panel').isVisible(),true);
   await page.locator('#show-world').click();
   assert.equal(await page.locator('#network').isVisible(),true);
-  assert.equal(await page.locator('.node').count(),18);
+  assert.equal(await page.locator('.node').count(),21);
   await page.locator('.node').first().focus();
   await page.keyboard.press('Enter');
   assert.equal(await page.locator('#unmix-panel').isVisible(),true);
@@ -56,7 +56,7 @@ try {
   await page.goto(base+'/notes/ingredients/');
   await page.frameLocator('#people iframe').locator('.card').first().waitFor();
   await page.frameLocator('#ingredients iframe').locator('.tile').first().waitFor();
-  assert.equal(await page.frameLocator('#people iframe').locator('.card').count(),18);
+  assert.equal(await page.frameLocator('#people iframe').locator('.card').count(),21);
   assert.equal(await page.frameLocator('#ingredients iframe').locator('.tile').count(),40);
   await page.getByRole('button',{name:'Ingredients',exact:true}).click();
   assert.equal(await page.locator('#people .page-content').getAttribute('inert'),'');
@@ -82,5 +82,5 @@ try {
   assert.equal(await page.locator('#unmix-panel').isVisible(),true);
   releaseManifest();
   assert.deepEqual(errors,[]);
-  console.log('PASS: B shares all 18 people and 40 techniques; ingredient flow, provenance, connections and filtering work.');
+  console.log('PASS: B shares all 21 people and 40 techniques; ingredient flow, provenance, connections and filtering work.');
 } finally { await browser.close(); }

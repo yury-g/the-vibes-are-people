@@ -1,4 +1,7 @@
 export const portraitSources={
+"mccarthy":{"src": "/notes/ingredients/portraits/lauren-lee-mccarthy-stippled.png", "sourcePage": "https://eyebeam.org/artists/lauren-lee-mccarthy/", "credit": "Portrait published by Eyebeam; photographer not identified in the retrieved profile."},
+"brain":{"src": "/notes/ingredients/portraits/tega-brain-stippled.png", "sourcePage": "https://eyebeam.org/artists/tega-brain/", "credit": "Portrait published by Eyebeam; photographer not identified in the retrieved profile."},
+"kogan":{"src": "/notes/ingredients/portraits/gene-kogan-stippled.png", "sourcePage": "https://www.automata.art/artists/gene-kogan/", "credit": "Source photograph published by AUTOMATA; photographer not identified on the retrieved artist page."},
   "mohr": {
     "sourcePage": "https://zkm.de/en/event/2013/06/the-algorithm-of-manfred-mohr-1963-present",
     "credit": "ONUK",

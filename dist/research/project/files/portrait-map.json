@@ -691,7 +691,8 @@
     "referenceLocal": "/notes/ingredients/portraits/lauren-lee-mccarthy.jpg",
     "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
     "generator": "Built-in image generation tool",
-    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license."
+    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license.",
+    "personId": "mccarthy"
   },
   "Tega Brain": {
     "src": "/notes/ingredients/portraits/tega-brain-stippled.png",
@@ -703,7 +704,8 @@
     "referenceLocal": "/notes/ingredients/portraits/tega-brain.jpg",
     "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
     "generator": "Built-in image generation tool",
-    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license."
+    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license.",
+    "personId": "brain"
   },
   "Gene Kogan": {
     "page": "https://www.automata.art/artists/gene-kogan/",
@@ -715,6 +717,7 @@
     "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
     "generator": "Built-in image generation tool",
     "checked": "2026-09-28",
-    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license."
+    "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license.",
+    "personId": "kogan"
   }
 }

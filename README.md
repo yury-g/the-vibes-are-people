@@ -12,7 +12,7 @@ An interactive atlas of algorithmic art, the people behind its techniques, and t
 
 `dist/` contains the deployable static website, animated studies, portraits and their source records. `research/` preserves checked relationship records, archive discovery notes, coverage reports and an Eyebeam application narrative **draft**, not a submitted application. `scripts/` contains deterministic data rebuild and research-export tools. `tests/` includes browser and data checks; some older tests are inherited from the original personal-site project.
 
-The current collection includes 18 animated artist studies, 40 recipes with 105 named contributors (108 inherited credits and eight newly checked credits), 120 linked people, eight inherited person-to-person paths, 31 checked institutional and educational relationships, and 41 language/tool connections across 18 people (37 documented, four inferred). These counts describe this edition, not an exhaustive history of algorithmic art.
+The current collection includes 21 animated artist studies, 40 recipes with 105 named contributors (108 inherited credits and eight newly checked credits), 120 linked people, eight inherited person-to-person paths, 31 checked institutional and educational relationships, and 41 language/tool connections across 18 people (37 documented, four inferred). These counts describe this edition, not an exhaustive history of algorithmic art.
 
 ## Explore the records
 

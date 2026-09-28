@@ -11,7 +11,7 @@ try{
  assert.equal(await page.getByRole('button',{name:'Together',exact:true}).count(),1,'Public navigation names the views, not A/B testing');
  const people=page.frameLocator('#people iframe'), ingredients=page.frameLocator('#ingredients iframe');
  await people.locator('.card').first().waitFor();await ingredients.locator('.tile').first().waitFor();
- assert.equal(await people.locator('.card').count(),18);assert.equal(await ingredients.locator('.tile').count(),40);
+ assert.equal(await people.locator('.card').count(),21);assert.equal(await ingredients.locator('.tile').count(),40);
  await people.locator('.card').nth(7).click();
  await ingredients.locator('#people-search').fill('Perlin');
  const visible=await ingredients.locator('.tile:visible').count();assert.ok(visible>0&&visible<40);
