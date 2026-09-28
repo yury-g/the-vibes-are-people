@@ -26,7 +26,7 @@ function face(person){
 }
 function sourceLink(label,url,className='evidence-link'){const a=element('a',className,label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
 const allPeople=[...new Map(records.flatMap(r=>r.contributors).map(p=>[p.name,p])).values()];
-$('#human-count').textContent=String(allPeople.length);
+$('#human-count').textContent=String(new Set([...allPeople.map(p=>p.name),...additions.map(p=>p.person)]).size);
 const tileRecords=new Map();
 tiles.forEach((tile,index)=>{
   const name=tile.querySelector('.tile-label').textContent;
@@ -108,15 +108,16 @@ portraitRequest.then(loaded=>{
 
 profileRequest.then(loaded=>{profiles=loaded;panel.dataset.technique='';renderLabel();document.body.dataset.profiles='ready'});
 
-connectionData.then(graph=>{
+connectionData.then(async graph=>{
  if(!graph)return;connectionTerms=recipeSearchTerms(graph);applyFilter();document.body.dataset.connectionSearch='ready';
+ portraits=await portraitRequest;
  const roster=document.querySelector('#eyebeam-roster');if(!roster)return;
  const rows=graph.people.filter(p=>graph.relationships.some(r=>r.person===p.id&&r.target==='entity-eyebeam'&&r.review==='checked'));
  roster.replaceChildren();
- for(const p of rows){const card=element('article','eyebeam-person');card.append(element('h3','',p.name));
+ for(const p of rows){const card=element('article','eyebeam-person');card.append(face(p),element('h3','',p.name));const portrait=portraits[p.name];if(portrait){card.append(sourceLink(portrait.kind==='ai-assisted-illustration'?'Reference photo ↗':'Portrait source ↗',portrait.page,'photo-credit'),element('small','portrait-treatment',portrait.kind==='ai-assisted-illustration'?'AI-assisted illustration':'Illustrated portrait'));if(portrait.credit)card.append(element('small','portrait-treatment',portrait.credit))}
  const credits=records.filter(r=>r.contributors.some(c=>c.name===p.name));
  card.append(element('p','',credits.length?'In Ingredients · '+credits.map(r=>r.name).join(' · '):p.placement));
- const a=element('a','',credits.length?'Explore recipe credits ↗':'View evidence & research ↗');a.href=credits.length?'?person='+encodeURIComponent(p.name):'/connections/?node='+encodeURIComponent(p.id)+'#people';card.append(a);attachConnections(card,p.name);roster.append(card)}
+ const a=element('a','',credits.length?'Explore recipe credits ↗':'View evidence & research ↗');a.href=credits.length?'?person='+encodeURIComponent(p.name):'/connections/?node='+encodeURIComponent(p.id)+'#people';card.append(a);attachConnections(card,p.name,{compact:true});roster.append(card)}
 }).catch(()=>{});
 
 // Exact recipe links open the existing animated tile, preserving its controller.

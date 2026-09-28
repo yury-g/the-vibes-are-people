@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Carnegie Mellon University",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "Georgia Tech",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "MIT",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "McGill University",
+    "country": "Canada",
+    "region": "Canada"
+  },
+  {
+    "name": "Parsons School of Design",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "Stanford University",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "University of Bremen",
+    "country": "Germany",
+    "region": "Europe"
+  },
+  {
+    "name": "University of British Columbia",
+    "country": "Canada",
+    "region": "Canada"
+  },
+  {
+    "name": "University of Calgary",
+    "country": "Canada",
+    "region": "Canada"
+  },
+  {
+    "name": "University of California, Berkeley",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "University of Cambridge",
+    "country": "United Kingdom",
+    "region": "Europe"
+  },
+  {
+    "name": "University of Konstanz",
+    "country": "Germany",
+    "region": "Europe"
+  },
+  {
+    "name": "University of Oxford",
+    "country": "United Kingdom",
+    "region": "Europe"
+  },
+  {
+    "name": "University of Waterloo",
+    "country": "Canada",
+    "region": "Canada"
+  },
+  {
+    "name": "NYU ITP",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "NYU Integrated Design & Media",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "UCLA",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "Eyebeam",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "School for Poetic Computation",
+    "country": "United States",
+    "region": "United States"
+  },
+  {
+    "name": "STUDIO for Creative Inquiry",
+    "country": "United States",
+    "region": "United States"
+  }
+]

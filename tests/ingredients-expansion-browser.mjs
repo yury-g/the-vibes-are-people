@@ -8,7 +8,7 @@ const base=process.env.TEST_URL;
 try{
  await page.goto(base+'/notes/ingredients/techniques.html');
  await page.waitForSelector('body[data-provenance="ready"][data-portraits="ready"][data-profiles="ready"]');
- assert.equal(await page.locator('#human-count').innerText(),'105');
+ assert.ok(Number(await page.locator('#human-count').innerText())>=105,'Preserve baseline contributors and include accepted additions');
  for(const name of ['Lauren Lee McCarthy','Golan Levin','Tega Brain','Gene Kogan','Zach Lieberman']){
   await page.locator('#people-search').fill(name);
   assert.ok(await page.locator('.tile:visible .ingredient-name').filter({hasText:name}).count());

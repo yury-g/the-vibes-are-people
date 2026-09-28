@@ -719,5 +719,41 @@
     "checked": "2026-09-28",
     "rights": "Source photograph rights remain with its rights holder; public availability is not a blanket reuse license.",
     "personId": "kogan"
+  },
+  "Kyle McDonald": {
+    "page": "https://eyebeam.org/artists/kyle-mcdonald/",
+    "original": "https://cdn.sanity.io/images/7pvh1tgn/production/b57d03b06b8a24c43223854edaf39d7104630448-600x600.jpg",
+    "credit": "Portrait published by Eyebeam; photographer not identified in the retrieved profile.",
+    "kind": "ai-assisted-illustration",
+    "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
+    "generator": "Built-in image generation tool",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "src": "/notes/ingredients/portraits/kyle-mcdonald-stippled.png",
+    "referenceLocal": "/notes/ingredients/portrait-sources/kyle-mcdonald-photo.jpg"
+  },
+  "Taeyoon Choi": {
+    "page": "https://www.ycam.jp/en/archive/profile/taeyoon-choi/",
+    "original": "https://www.ycam.jp/asset/image/_resize/medium/profile/taeyoon-choi.jpg?s=1856520",
+    "credit": "Photo by Allyson Lupovich, published by Yamaguchi Center for Arts and Media (YCAM).",
+    "kind": "ai-assisted-illustration",
+    "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
+    "generator": "Built-in image generation tool",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "src": "/notes/ingredients/portraits/taeyoon-choi-stippled.png",
+    "referenceLocal": "/notes/ingredients/portrait-sources/taeyoon-choi-photo.jpg"
+  },
+  "Yury Gitman": {
+    "page": "https://b.parsons.edu/~gitmany/",
+    "original": "https://vcard.newschool.edu/?c=246246",
+    "credit": "Headshot published on Yury Gitman's Parsons faculty page and hosted by The New School; photographer not identified on the retrieved page.",
+    "kind": "ai-assisted-illustration",
+    "treatment": "AI-assisted stipple and crosshatch illustration derived from the linked photograph.",
+    "generator": "Built-in image generation tool",
+    "rights": "Source photograph rights remain with its rights holder; no reuse license was identified on the source page.",
+    "checked": "2026-09-28",
+    "src": "/notes/ingredients/portraits/yury-gitman-stippled.png",
+    "referenceLocal": "/notes/ingredients/portrait-sources/yury-gitman-photo.jpg"
   }
 }

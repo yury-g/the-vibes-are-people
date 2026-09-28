@@ -1,0 +1,44 @@
+# Institution expansion — checked September 28, 2026
+
+Twenty proposed edges connect 16 existing people to 14 institutions. The source JSON uses the same fields as research/checked-relationships.json, plus its already-supported detail field. Site files were read only.
+
+The proposed edges have no person/target/kind duplicates against the 31 existing checked relationships and introduce no new people. They cover all requested US institutions: Georgia Tech, Carnegie Mellon, Berkeley, Stanford and MIT; Canada adds UBC, Waterloo, Calgary and McGill; Europe adds Bremen, Konstanz, Oxford and Cambridge. Parsons supplies a separately verified Yury teaching record.
+
+## Integration notes
+
+- Affiliation is not collaboration, influence, endorsement, or a relationship between two people. No such connections should be inferred from common institutions.
+- Kinds are education (6), teaching (13), research (1). No university residency is asserted. Crutchfield must remain research, not education or residency. The builder permits research, but its peopleWithoutCheckedAffiliations summary currently excludes that kind; consider adding research to the summary/UI classification.
+- Dates are source-supplied. Since-dates should not be interpreted as uninterrupted employment or unchanging rank. Null means this source does not establish dates. Emeritus roles are explicitly labeled.
+- MIT and Georgia Tech labels reuse existing target names. Full university names are used for new targets.
+- proposed-existing-record-updates.json contains two replacements, not extra edges: the official Parsons page supplies Yury’s NYU ITP degree year (2002) and Georgia Tech degree year (1999).
+- Deussen’s official profile was available as indexed primary-source text; direct open failed. The detailed indexed profile explicitly says Professor for Visual Computing since 04/2003. If requiring direct live retrieval for every record, defer this one.
+
+## Source notes
+
+1. **Michael Barnsley → Georgia Tech (teaching)** — [Georgia Tech School of Mathematics history, p. 96](https://math.gatech.edu/sites/default/files/documents/georgiatech-school-of-math-history_1.pdf). The institutional history dates his associate-professor appointment to 1979. This is an appointment date, not a claim of continuous or current employment.
+2. **Ben Fry → MIT (education)** — [Ben Fry — artist biography](https://www.benfry.com/about/). The biography identifies a doctorate from the Aesthetics + Computation Group and says his dissertation was completed in 2004.
+3. **Ben Fry → MIT (teaching)** — [Ben Fry — artist biography](https://www.benfry.com/about/). The artist biography explicitly dates his MIT teaching as a lecturer from 2016; the MIT Architecture directory also lists him as a lecturer.
+4. **Ben Fry → Carnegie Mellon University (teaching)** — [Ben Fry — artist biography](https://www.benfry.com/about/). The biography identifies the Carnegie Mellon School of Design appointment for the 2006–2007 school year.
+5. **Golan Levin → MIT (education)** — [MIT News — Arts News, January 23, 2006](https://news.mit.edu/2006/artsnews). MIT identifies the two degree awards separately: undergraduate Art and Design in 1994 and graduate Media Arts and Sciences in 2000.
+6. **Zach Lieberman → MIT (teaching)** — [MIT Media Lab — faculty profile](https://www.media.mit.edu/people/zachl/overview/). MIT lists Lieberman with this faculty title and the Future Sketches group. The page does not establish the appointment start date.
+7. **Casey Reas → MIT (education)** — [Casey Reas — artist biography](https://gray.reas.com/information). The artist biography names the MIT master’s degree. No degree date is assigned from the linked archive’s date range.
+8. **James P. Crutchfield → University of California, Berkeley (research)** — [UC Berkeley Simons Institute — Jim Crutchfield profile](https://simons.berkeley.edu/people/jim-crutchfield). The biography says he was a Berkeley research physicist from 1985 before moving to the Santa Fe Institute in 1997. This is a research appointment, not a Berkeley degree.
+9. **Donald E. Knuth → Stanford University (teaching)** — [Stanford Mathematics — faculty profile](https://mathematics.stanford.edu/people/donald-knuth). The Stanford directory lists an emeritus appointment; it does not establish an active teaching load or a start date.
+10. **Robert Bridson → Stanford University (education)** — [Robert Bridson — UBC faculty page](https://www.cs.ubc.ca/~rbridson/). The faculty page states PhD Stanford 2003 and identifies the dissertation as Computational aspects of dynamic surfaces.
+11. **Robert Bridson → University of British Columbia (teaching)** — [UBC News — expert profile](https://news.ubc.ca/expert/robert-bridson/). The UBC expert directory lists adjunct status. His faculty page explains that he ceased being a full-time professor in August 2013 but retained adjunct status.
+12. **Craig S. Kaplan → University of Waterloo (teaching)** — [University of Waterloo — faculty profile](https://uwaterloo.ca/computer-science/contacts/craig-s-kaplan). The Cheriton School of Computer Science directory lists Kaplan as Professor; no appointment date is supplied.
+13. **Craig S. Kaplan → University of Waterloo (education)** — [University of Waterloo — faculty profile](https://uwaterloo.ca/computer-science/contacts/craig-s-kaplan). The degrees section records the Waterloo BMath separately from his later University of Washington degrees.
+14. **Przemysław Prusinkiewicz → University of Calgary (teaching)** — [University of Calgary — Computer Science faculty directory](https://science.ucalgary.ca/computer-science/contacts/faculty-members). The current department directory places Prusinkiewicz in its Emeriti section. Older faculty biographies label him Professor without noting retirement.
+15. **Godfried T. Toussaint → McGill University (teaching)** — [Godfried Toussaint — McGill-hosted biography](https://cgm.cs.mcgill.ca/~godfried/cv/bio.html). The biography dates his teaching and research at McGill from 1972 and emeritus appointment to September 1, 2007. This is a historical record; McGill’s 2022 newsletter confirms his death in 2019.
+16. **Frieder Nake → University of Bremen (teaching)** — [University of Bremen — retirement profile, February 2, 2024](https://www.uni-bremen.de/fb3/fachbereich/news-detailansicht/sein-letztes-seminar-der-dienstaelteste-professor-der-universitaet-bremen-frieder-nake-verabschiedet-sich). The university dates his appointment to 1972 and his final seminar and retirement to January 30, 2024.
+17. **Oliver Deussen → University of Konstanz (teaching)** — [University of Konstanz — Visual Computing faculty profile](https://www.cgmi.uni-konstanz.de/en/persons/prof-dr-oliver-deussen/). The university profile explicitly dates this appointment from April 2003. Evidence was available in the search index; direct page retrieval returned an error.
+18. **Roger Penrose → University of Oxford (teaching)** — [University of Oxford — Nobel Prize announcement, October 6, 2020](https://www.ox.ac.uk/news/2020-10-06-oxford-mathematician-roger-penrose-jointly-wins-nobel-prize-physics). The university announcement identifies the emeritus professorship and Wadham emeritus fellowship. This record describes the documented emeritus appointment without implying current teaching.
+19. **Alan Turing → University of Cambridge (education)** — [King’s College Cambridge — Turing Digital Archive](https://turingarchive.kings.cam.ac.uk/about-alan-turing). The college archive dates matriculation to 1931 and graduation with distinction to 1934. The separate fellowship awarded in 1935 is not folded into the degree relationship.
+20. **Yury Gitman → Parsons School of Design (teaching)** — [The New School — Parsons faculty profile](https://www.newschool.edu/parsons/faculty/yuri-gitman/). The current title is Part-time Assistant Professor. The biography dates teaching at Parsons from 2003; it does not say he held that rank continuously since 2003 or verify the recalled number of Eyebeam-linked sessions.
+
+## Additional corroboration
+
+- [MIT Architecture: Ben Fry](https://architecture.mit.edu/people/ben-fry) independently lists his lecturer role and MIT doctorate.
+- [McGill School of Computer Science newsletter, 2022, p. 15](https://www.cs.mcgill.ca/media/about/SOCS_Newsletter_2022.pdf) confirms Toussaint joined in 1972, became emeritus in 2007 and died in 2019. His old biography should not be used to describe present employment.
+- [Golan Levin’s MIT-hosted CV](https://acg.media.mit.edu/people/golan/resume/cv.html) independently dates his two degrees to June 1994 and August 2000.
+- [Robert Bridson’s UBC faculty page](https://www.cs.ubc.ca/~rbridson/) distinguishes prior full-time faculty employment from retained adjunct status starting in August 2013.

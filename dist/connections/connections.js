@@ -1,3 +1,4 @@
+import {attachCodeProjects} from './code-projects.js';
 import {nodes,relations,overlaps,gaps,indexGraph} from './graph.js';
 import {ledgerRequest,mergeLedger} from '/agents/overlay.js';
 import {confidenceMeter} from './confidence.js';
@@ -5,9 +6,10 @@ export const connectionData=fetch(new URL('data.json',import.meta.url)).then(r=>
 const el=(tag,text)=>{const node=document.createElement(tag);if(text)node.textContent=text;return node};
 const link=(text,url)=>{const a=el('a',text);a.href=url;if(/^https?:/.test(url)){a.target='_blank';a.rel='noopener noreferrer'}return a};
 const nodeLink=node=>link(node.name,'/connections/?node='+encodeURIComponent(node.id)+'#people');
-function rows(g,p,{languageOnly=false,includeInferred=true,excludeRecipe=null}={}){
+function rows(g,p,{languageOnly=false,includeInferred=true,excludeRecipe=null,compact=false}={}){
  const list=el('div');list.className='connection-lines';
- const visible=(indexGraph(g).byPerson.get(p.id)||[]).filter(r=>r.target!==excludeRecipe&&(!languageOnly||r.kind==='language/tool')&&(includeInferred||!['inferred','tentative'].includes(r.review)));
+ let visible=(indexGraph(g).byPerson.get(p.id)||[]).filter(r=>r.target!==excludeRecipe&&(!languageOnly||r.kind==='language/tool')&&(includeInferred||!['inferred','tentative'].includes(r.review)));
+ if(compact)visible=[...visible.filter(r=>r.target==='entity-eyebeam').slice(0,2),...visible.filter(r=>r.kind==='language/tool').slice(0,2)];
  const ordinary=visible.filter(r=>r.kind!=='language/tool'),languages=visible.filter(r=>r.kind==='language/tool');
  for(const r of [...ordinary,...languages]){
   if(r===languages[0]){const heading=el('h4','Languages & tools');list.append(heading)}
@@ -17,7 +19,7 @@ function rows(g,p,{languageOnly=false,includeInferred=true,excludeRecipe=null}={
   if(r.agentReview){line.append(' · ',link('AI reviewed · evidence 3/3','/agents/'));line.append('. '+r.detail)}
   if(r.kind==='contribution'&&!target.agentAdded)line.append(' · ',link('View recipe ↗','/notes/ingredients/techniques.html?recipe='+encodeURIComponent(target.name)));
   if(r.review==='imported'){const status=el('small','Catalog credit · source recheck pending');status.className='evidence-status';line.append(status)}
-  if(r.detail&&r.kind==='documented path')line.append('. '+r.detail);
+  if(r.detail&&r.kind!=='language/tool'&&!r.agentReview)line.append('. '+r.detail);
   if(r.kind==='language/tool'){
    line.append(' ',confidenceMeter(r));
    const scope=el('span',r.context);scope.className='language-context';line.append(scope);
@@ -29,16 +31,17 @@ function rows(g,p,{languageOnly=false,includeInferred=true,excludeRecipe=null}={
   list.append(line);
  }
  if(!list.children.length)list.append(el('p',languageOnly?'No language or tool evidence recorded at this confidence level.':'No additional connections recorded.'));
+ attachCodeProjects(list,p.name,{compact});
  return list;
 }
-export function attachConnections(container,name,{recipe=null}={}){
+export function attachConnections(container,name,{recipe=null,compact=false}={}){
  container.querySelector(':scope > .people-connections')?.remove();
  const section=el('section');section.className='people-connections';section.setAttribute('aria-label','People, places and connections');container.append(section);
  connectionData.then(g=>{
   if(!g){section.append(link('Explore connections ↗','/connections/'));return}
   const p=g.people.find(p=>p.name===name);if(!p)return;
-  section.append(rows(g,p,{excludeRecipe:g.recipes.find(r=>r.name===recipe)?.id}),link('Follow these connections ↗','/connections/?node='+encodeURIComponent(p.id)+'#people'));
-  if(p.study){const note=el('p','This site’s animated study uses JavaScript. Language links above describe the cited work or practice, not our animation.');note.className='study-language-note';section.append(note)}
+  section.append(rows(g,p,{compact,excludeRecipe:g.recipes.find(r=>r.name===recipe)?.id}),link('Follow these connections ↗','/connections/?node='+encodeURIComponent(p.id)+'#people'));
+  if(p.study&&!compact){const note=el('p','This site’s animated study uses JavaScript. Language links above describe the cited work or practice, not our animation.');note.className='study-language-note';section.append(note)}
  });
  if(!document.querySelector('link[data-connections-style]')){const css=el('link');css.rel='stylesheet';css.href='/connections/connections.css';css.dataset.connectionsStyle='true';document.head.append(css)}
 }
@@ -46,7 +49,9 @@ if(document.querySelector('#connections-directory')){
  const g=await connectionData,host=document.querySelector('#connections-directory');
  if(!g)host.textContent='The directory could not load. Please try again.';
  else{
-  const search=document.querySelector('#connection-search'),params=new URL(location.href).searchParams;
+  const portraitMap=await fetch('/notes/ingredients/portrait-map.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
+ const geography=await fetch('/connections/institutions.json').then(r=>r.ok?r.json():[]).catch(()=>[]);
+ const search=document.querySelector('#connection-search'),params=new URL(location.href).searchParams;
   const includeGuesses=document.querySelector('#include-inferred');
   const languageOnly=params.get('layer')==='languages';
   const selected=nodes(g).find(n=>n.id===params.get('node')),gap=gaps(g).find(x=>x.id===params.get('gap'));
@@ -69,6 +74,8 @@ if(document.querySelector('#connections-directory')){
     const item=el('p');item.append(nodeLink(t),` · ${direct} documented${guesses?` + ${guesses} inferred`:''}`);if(!related.length)item.append(' · research gap');group.append(item);
    }languageHost.append(group);
   }
+  const institutionHost=document.querySelector('#institution-links');
+  if(institutionHost){const inst=g.entities.filter(t=>!t.category&&g.relationships.some(r=>r.target===t.id&&['education','teaching','research','residency','service','funding','exhibition'].includes(r.kind)));for(const region of ['United States','Canada','Europe','Other networks']){const group=inst.filter(t=>(geography.find(x=>x.name===t.name)?.region||'Other networks')===region);if(!group.length)continue;institutionHost.append(el('h3',region));for(const t of group){const rs=g.relationships.filter(r=>r.target===t.id&&r.review==='checked'),geo=geography.find(x=>x.name===t.name),line=el('p');line.append(nodeLink(t),` · ${new Set(rs.map(r=>r.person)).size} people${geo&&geo.region!==geo.country?' · '+geo.country:''}`);institutionHost.append(line)}}}
   const overlapHost=document.querySelector('#overlap-links');
   overlaps(g).forEach(n=>{const item=el('span');item.append(nodeLink(n),` · ${n.people.length} people`);overlapHost.append(item)});
   const gapHost=document.querySelector('#gap-links');
@@ -82,7 +89,7 @@ if(document.querySelector('#connections-directory')){
     const text=[p.name,...eligible.map(r=>[r.role,indexGraph(g).byId.get(r.target===p.id?r.person:r.target).name].join(' '))].join(' ').toLowerCase();
     return !query||text.includes(query);
    });document.querySelector('#connection-count').textContent=`${people.length} people shown`;
-   for(const p of people){const card=el('article');card.className='connection-card';card.id=p.id;const heading=el('h3');heading.append(nodeLink(p));card.append(heading,el('small',p.placement),rows(g,p,{languageOnly:languageOnly||!!selected?.category,includeInferred:includeGuesses.checked}));if(p.study)card.append(link('Open animated study ↗','/notes/ingredients/people.html?person='+p.study));host.append(card)}
+   for(const p of people){const card=el('article');card.className='connection-card';card.id=p.id;const portrait=portraitMap[p.name];if(portrait&&g.relationships.some(r=>r.person===p.id&&r.target==='entity-eyebeam')){const img=el('img');img.src=portrait.src;img.alt=(portrait.kind==='ai-assisted-illustration'?'AI-assisted illustration of ':'Illustrated portrait of ')+p.name;img.width=120;img.height=120;img.loading='lazy';img.className='connection-portrait';card.append(img);const credit=link(portrait.kind==='ai-assisted-illustration'?'AI-assisted · reference photo ↗':'Portrait source ↗',portrait.page);credit.className='connection-portrait-credit';card.append(credit)}const heading=el('h3');heading.append(nodeLink(p));card.append(heading,el('small',p.placement),rows(g,p,{languageOnly:languageOnly||!!selected?.category,includeInferred:includeGuesses.checked}));if(p.study)card.append(link('Open animated study ↗','/notes/ingredients/people.html?person='+p.study));host.append(card)}
    if(!people.length)host.append(el('p','No matching records. Try a person, institution, tool or recipe.'));
   }search.addEventListener('input',render);includeGuesses.addEventListener('change',render);render();
  }

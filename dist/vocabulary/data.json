@@ -1,0 +1,14 @@
+{
+  "version":1,
+  "status":"Working vocabulary: descriptive terms and teaching exercises, not universal meanings or an exhaustive taxonomy.",
+  "terms":[
+    {"id":"flow","name":"Flow","observation":"Continuous paths with a changing direction.","mechanism":"A field gives each position a direction; paths follow it.","recipe":"Curl noise","question":"Does the motion read as water, wind, handwriting or something else? Which context makes that reading possible?"},
+    {"id":"cohesion","name":"Cohesion","observation":"Separate marks gather into locally coherent groups.","mechanism":"Local rules coordinate neighboring elements.","recipe":"Boids / flocking","question":"Does grouping suggest cooperation, crowding, control or care? What changes your reading?"},
+    {"id":"interference","name":"Interference","observation":"Overlapping rhythms form larger apparent bands.","mechanism":"Two repeated structures interact through angle, spacing and phase.","recipe":"Moiré","question":"When does repetition feel orderly, unstable, optical or mechanical?"},
+    {"id":"branching","name":"Branching","observation":"A structure divides repeatedly across scales.","mechanism":"Recursive rules extend and split a structure.","recipe":"L-systems","question":"Does the same branching form read as a plant, a family, a route or a hierarchy? Why?"},
+    {"id":"grain","name":"Grain","observation":"Many small marks build a larger tonal impression.","mechanism":"Discrete marks distribute density or brightness.","recipe":"Dithering as art","question":"Does grain suggest print, memory, noise or material? Which associations come from experience?"},
+    {"id":"subdivision","name":"Subdivision","observation":"A whole separates into nested regions.","mechanism":"A partition rule repeatedly divides an area.","recipe":"Recursive subdivision","question":"Does a partition read as architecture, territory, a grid or an organism? What makes it feel imposed or grown?"}
+  ],
+  "axes":[{"id":"density","name":"Density","low":"sparse","high":"dense"},{"id":"scale","name":"Scale","low":"fine","high":"coarse"},{"id":"irregularity","name":"Irregularity","low":"regular","high":"irregular"}],
+  "attribution":"Recipe links trace specific contributions. They do not imply that an individual invented an aesthetic quality, or that visual similarity establishes influence."
+}

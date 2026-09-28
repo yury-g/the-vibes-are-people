@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';import{readFile}from'node:fs/promises';
+const load=async p=>JSON.parse(await readFile(p,'utf8'));const g=await load('dist/connections/data.json'),r=await load('research/checked-relationships.json'),profiles=await load('research/code-profiles.json'),snapshot=await load('dist/connections/code-projects.json');
+assert.equal(r.length,51);for(const name of ['Georgia Tech','Carnegie Mellon University','University of California, Berkeley','Stanford University','MIT','University of Waterloo','McGill University','University of Bremen','University of Oxford'])assert.ok(g.entities.some(e=>e.name===name),name);
+assert.ok(r.some(e=>e.person==='Yury Gitman'&&e.target==='Parsons School of Design'&&e.dates==='Since 2003'));
+assert.equal(profiles.profiles.length,16);assert.equal(snapshot.profiles.length,16);assert.equal(profiles.personArchives.length,4);for(const p of snapshot.profiles){assert.ok(p.source.startsWith('https://'));for(const project of p.projects){assert.ok(project.url.startsWith('https://github.com/'+p.account+'/')||project.url.toLowerCase().startsWith('https://github.com/'+p.account.toLowerCase()+'/'));assert.ok(/^\d{4}-\d\d-\d\dT/.test(project.pushedAt))}}
+console.log('51 sourced relationships, geographical expansion, Yury teaching and 16 code accounts plus4 archives pass');

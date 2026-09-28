@@ -25,3 +25,7 @@ No matching Gene Kogan Wikipedia biography was established. Search results for s
 There are 91 portrait-bearing contributors among the 105 people credited in recipes. Fourteen still lack a verified portrait reference in this catalog, listed in `portrait-coverage.json`. A missing portrait is not a missing contribution: names, roles, and recipe evidence remain visible.
 
 For each future reference: confirm the named subject using a biography or institutional record; record the photograph's file page, photographer, and license where stated; inspect the image; apply the matching image-generation treatment; preserve the original and exact prompt; label the result AI-assisted; and publish both the source record and asset. Never substitute an unrelated person or generate a likeness from a name alone.
+
+## Complete Eyebeam roster, September28 update
+
+All eight Eyebeam connections have illustrated headshots. Kyle McDonald, Taeyoon Choi and Yury Gitman now join the existing five portraits. New sources: Eyebeam for Kyle; YCAM’s Allyson Lupovich photograph for Taeyoon; Yury’s Parsons faculty page with a New School-hosted image. Each new treatment uses the built-in image-generation tool, retains its photographic reference and credit, and is visibly labeled AI-assisted. Exact prompts are in portrait-prompts.json; source metadata and rights caveats are in portrait-map.json. No general reuse license is inferred from public availability.

@@ -1,0 +1,635 @@
+{
+  "checked": "2026-09-28T14:50:17.220Z",
+  "profiles": [
+    {
+      "person": "Gene Kogan",
+      "account": "genekogan",
+      "source": "https://genekogan.com/",
+      "basis": "Artist website links GitHub account",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "va2rosa.com",
+          "url": "https://github.com/genekogan/va2rosa.com",
+          "description": "personal website",
+          "pushedAt": "2026-09-27T07:14:50Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "littlemartians.world",
+          "url": "https://github.com/genekogan/littlemartians.world",
+          "description": "",
+          "pushedAt": "2026-08-23T01:03:22Z",
+          "language": "CSS",
+          "license": null
+        },
+        {
+          "name": "eden3",
+          "url": "https://github.com/genekogan/eden3",
+          "description": "",
+          "pushedAt": "2026-08-18T13:50:12Z",
+          "language": "TypeScript",
+          "license": "MIT"
+        }
+      ]
+    },
+    {
+      "person": "Golan Levin",
+      "account": "golanlevin",
+      "source": "https://github.com/golanlevin/exercises",
+      "basis": "Named author and public creative-coding repositories",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "60-212",
+          "url": "https://github.com/golanlevin/60-212",
+          "description": "Repository for Course 60-212 at CMU",
+          "pushedAt": "2026-09-28T06:49:10Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "lectures",
+          "url": "https://github.com/golanlevin/lectures",
+          "description": "Lectures used in my pedagogy",
+          "pushedAt": "2026-09-25T08:36:53Z",
+          "language": "Processing",
+          "license": null
+        },
+        {
+          "name": "ExperimentalCapture",
+          "url": "https://github.com/golanlevin/ExperimentalCapture",
+          "description": "A Curriculum for a Semester Course in Computational & Expanded ███ography",
+          "pushedAt": "2026-09-24T17:02:36Z",
+          "language": "Processing",
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Kyle McDonald",
+      "account": "kylemcdonald",
+      "source": "https://kylemcdonald.net/",
+      "basis": "Artist website links GitHub toolkits",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "follow-that-page",
+          "url": "https://github.com/kylemcdonald/follow-that-page",
+          "description": "",
+          "pushedAt": "2026-09-26T02:55:57Z",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "name": "prodigi-sizing",
+          "url": "https://github.com/kylemcdonald/prodigi-sizing",
+          "description": "Compare Prodigi print sizes, borders, resolution targets and cached US prices",
+          "pushedAt": "2026-09-25T00:26:52Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "three-grab-camera",
+          "url": "https://github.com/kylemcdonald/three-grab-camera",
+          "description": "Surface-anchored, retained-depth camera controls for Three.js",
+          "pushedAt": "2026-09-20T04:36:55Z",
+          "language": "TypeScript",
+          "license": "MIT"
+        }
+      ]
+    },
+    {
+      "person": "Lauren Lee McCarthy",
+      "account": "lmccart",
+      "source": "https://github.com/lmccart",
+      "basis": "Named creator profile linked to p5.js",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "womb-walk-pi",
+          "url": "https://github.com/lmccart/womb-walk-pi",
+          "description": "",
+          "pushedAt": "2026-08-25T22:14:32Z",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "name": "lauren-type-to-talk",
+          "url": "https://github.com/lmccart/lauren-type-to-talk",
+          "description": "",
+          "pushedAt": "2025-05-14T23:21:52Z",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "name": "pplkpr",
+          "url": "https://github.com/lmccart/pplkpr",
+          "description": "An app that tracks, analyzes, and auto-manages your relationships.",
+          "pushedAt": "2024-11-18T22:53:14Z",
+          "language": "Objective-C",
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Taeyoon Choi",
+      "account": "tchoi8",
+      "source": "https://ems.andrew.cmu.edu/2013/author/taeyoon/index.html",
+      "basis": "CMU course profile links GitHub account",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "tchoi8.github.io",
+          "url": "https://github.com/tchoi8/tchoi8.github.io",
+          "description": "lazzzer",
+          "pushedAt": "2025-12-19T13:40:04Z",
+          "language": "HTML",
+          "license": "MIT"
+        },
+        {
+          "name": "distributedwebofcare",
+          "url": "https://github.com/tchoi8/distributedwebofcare",
+          "description": "DWC ",
+          "pushedAt": "2024-07-07T03:01:01Z",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "name": "poetry",
+          "url": "https://github.com/tchoi8/poetry",
+          "description": "version controlled poetry ",
+          "pushedAt": "2024-01-28T18:14:57Z",
+          "language": null,
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Tega Brain",
+      "account": "tegacodes",
+      "source": "https://github.com/tegacodes",
+      "basis": "Named artist profile and teaching repositories",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "EccentricEngineeringGradStudio",
+          "url": "https://github.com/tegacodes/EccentricEngineeringGradStudio",
+          "description": "A curriculum for a 7 week studio in Eccentric Engineering ",
+          "pushedAt": "2026-09-16T02:24:33Z",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "name": "small-data-fair",
+          "url": "https://github.com/tegacodes/small-data-fair",
+          "description": "",
+          "pushedAt": "2026-06-29T13:23:46Z",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "name": "slop-evader",
+          "url": "https://github.com/tegacodes/slop-evader",
+          "description": "Search the world before generative AI",
+          "pushedAt": "2026-05-23T19:48:18Z",
+          "language": "JavaScript",
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Yury Gitman",
+      "account": "yury-g",
+      "source": "https://github.com/yury-g/the-vibes-are-people",
+      "basis": "Project owner account confirmed in this project",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "the-vibes-are-people",
+          "url": "https://github.com/yury-g/the-vibes-are-people",
+          "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
+          "pushedAt": "2026-09-28T14:47:43Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "cyd-kids-toy-piano",
+          "url": "https://github.com/yury-g/cyd-kids-toy-piano",
+          "description": "Kids toy piano firmware for the ESP32 Cheap Yellow Display (CYD).",
+          "pushedAt": "2026-09-28T02:59:37Z",
+          "language": "C++",
+          "license": null
+        },
+        {
+          "name": "yury-g",
+          "url": "https://github.com/yury-g/yury-g",
+          "description": "Hardware, small tools, and things that respond to a heartbeat.",
+          "pushedAt": "2026-09-28T02:25:35Z",
+          "language": null,
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Zach Lieberman",
+      "account": "ofZach",
+      "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
+      "basis": "Named openFrameworks author and linked code examples",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "bodyWorkshopTiat",
+          "url": "https://github.com/ofZach/bodyWorkshopTiat",
+          "description": "workshop at tiat",
+          "pushedAt": "2026-06-25T03:11:53Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "drawingpp",
+          "url": "https://github.com/ofZach/drawingpp",
+          "description": "drawing++ class held fall 2022 at MIT",
+          "pushedAt": "2025-10-30T20:33:03Z",
+          "language": "Makefile",
+          "license": "MIT"
+        },
+        {
+          "name": "RTP_MIT_SPRING_23",
+          "url": "https://github.com/ofZach/RTP_MIT_SPRING_23",
+          "description": "RTP class at MIT, Spring 2023",
+          "pushedAt": "2023-02-09T12:26:06Z",
+          "language": "C++",
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Casey Reas",
+      "account": "REAS",
+      "source": "https://gray.reas.com/information",
+      "basis": "Artist's official archived information page explicitly links @REAS under CODE.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "OmniaExNatura",
+          "url": "https://github.com/REAS/OmniaExNatura",
+          "description": "This work is an extension of the Process Series 2004–2010. It pushes my ideas about ecology and emergence into new territory.",
+          "pushedAt": "2026-09-25T19:05:57Z",
+          "language": "JavaScript",
+          "license": "GPL-2.0"
+        },
+        {
+          "name": "sketchmachine",
+          "url": "https://github.com/REAS/sketchmachine",
+          "description": "The Sketch Machine wants you to draw; it's waiting for you.",
+          "pushedAt": "2021-10-20T19:08:02Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "studio",
+          "url": "https://github.com/REAS/studio",
+          "description": "Essential documents",
+          "pushedAt": "2016-08-31T20:43:34Z",
+          "language": null,
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Daniel Shiffman",
+      "account": "shiffman",
+      "source": "https://thecodingtrain.com/about",
+      "basis": "Official About page identifies Dan Shiffman and links his personal GitHub account under Dan's socials.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "spectrum-angels-test",
+          "url": "https://github.com/shiffman/spectrum-angels-test",
+          "description": "Testing",
+          "pushedAt": "2026-04-30T19:55:12Z",
+          "language": null,
+          "license": null
+        },
+        {
+          "name": "Creative-Computing-F25",
+          "url": "https://github.com/shiffman/Creative-Computing-F25",
+          "description": "Creative Computing at IMA Fall 2025",
+          "pushedAt": "2025-11-12T15:32:52Z",
+          "language": null,
+          "license": null
+        },
+        {
+          "name": "srs-babble-GPT",
+          "url": "https://github.com/shiffman/srs-babble-GPT",
+          "description": "",
+          "pushedAt": "2025-10-05T23:55:21Z",
+          "language": "JavaScript",
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Olivia Jack",
+      "account": "ojack",
+      "source": "https://ojack.xyz/about/",
+      "basis": "Artist's official About page links directly to github.com/ojack.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "hydra-helpers",
+          "url": "https://github.com/ojack/hydra-helpers",
+          "description": "extensions and helpers for hydra",
+          "pushedAt": "2025-12-13T21:28:25Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "LiveLab",
+          "url": "https://github.com/ojack/LiveLab",
+          "description": "",
+          "pushedAt": "2025-12-10T22:44:01Z",
+          "language": "JavaScript",
+          "license": "AGPL-3.0"
+        },
+        {
+          "name": "netnet-test",
+          "url": "https://github.com/ojack/netnet-test",
+          "description": "◕ ◞ ◕ This project was made using https://netnet.studio",
+          "pushedAt": "2025-07-11T07:30:10Z",
+          "language": "HTML",
+          "license": null
+        }
+      ]
+    },
+    {
+      "person": "Bert Wang-Chak Chan",
+      "account": "Chakazul",
+      "source": "https://chakazul.github.io/lenia.html",
+      "basis": "Author's Lenia portal identifies Bert Wang-Chak Chan in its bibliography and links Lenia source to github.com/Chakazul/Lenia; home page identifies Bert Chan.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "chakazul.github.io",
+          "url": "https://github.com/Chakazul/chakazul.github.io",
+          "description": "",
+          "pushedAt": "2026-09-12T03:54:06Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "Lenia",
+          "url": "https://github.com/Chakazul/Lenia",
+          "description": "Lenia - Mathematical Life Forms",
+          "pushedAt": "2024-07-19T08:43:34Z",
+          "language": "Python",
+          "license": "MIT"
+        },
+        {
+          "name": "HANet",
+          "url": "https://github.com/Chakazul/HANet",
+          "description": "Hybrid Architecture Network, originally VAE+CPPN+GAN by hardmaru",
+          "pushedAt": "2019-04-18T06:19:17Z",
+          "language": "Jupyter Notebook",
+          "license": "MIT"
+        }
+      ]
+    },
+    {
+      "person": "Craig Reynolds",
+      "account": "cwreynolds",
+      "source": "https://www.red3d.com/cwr/",
+      "basis": "Official home page links software notes at cwreynolds.github.io; that site names Craig Reynolds, links back to red3d.com, and includes a github.com/cwreynolds link.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "evoflock",
+          "url": "https://github.com/cwreynolds/evoflock",
+          "description": "Evolution flocking",
+          "pushedAt": "2026-09-28T00:06:45Z",
+          "language": "C++",
+          "license": "MIT"
+        },
+        {
+          "name": "TexSyn",
+          "url": "https://github.com/cwreynolds/TexSyn",
+          "description": "Library for evolutionary texture synthesis",
+          "pushedAt": "2025-02-14T00:44:36Z",
+          "language": "C++",
+          "license": "MIT"
+        },
+        {
+          "name": "flock",
+          "url": "https://github.com/cwreynolds/flock",
+          "description": "new flock experiments",
+          "pushedAt": "2024-10-28T21:43:26Z",
+          "language": "Python",
+          "license": "MIT"
+        }
+      ]
+    },
+    {
+      "person": "Craig S. Kaplan",
+      "account": "isohedral",
+      "source": "https://cs.uwaterloo.ca/~csk/",
+      "basis": "University of Waterloo faculty home page explicitly lists Github: isohedral.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "heesch-sat",
+          "url": "https://github.com/isohedral/heesch-sat",
+          "description": "A C++ program to compute Heesch numbers of unmarked polyforms, using a SAT Solver",
+          "pushedAt": "2026-08-30T18:34:41Z",
+          "language": "C++",
+          "license": "BSD-3-Clause"
+        },
+        {
+          "name": "tactile-js",
+          "url": "https://github.com/isohedral/tactile-js",
+          "description": "A Javascript library for representing, manipulating, and drawing periodic tilings of the plane.",
+          "pushedAt": "2024-08-08T23:23:22Z",
+          "language": "JavaScript",
+          "license": "BSD-3-Clause"
+        },
+        {
+          "name": "frag",
+          "url": "https://github.com/isohedral/frag",
+          "description": "A simple 2D fragment shader viewer, inspired by Shadertoy",
+          "pushedAt": "2024-08-07T07:55:40Z",
+          "language": "C++",
+          "license": "MIT"
+        }
+      ]
+    },
+    {
+      "person": "Jared Tarbell",
+      "account": "jaredstarbell",
+      "source": "https://www.jaredstarbell.com/about/",
+      "basis": "Artist's About page identifies Jared S Tarbell and directly links code repositories at github.com/jaredstarbell?tab=repositories.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "AsemicIllustrationI",
+          "url": "https://github.com/jaredstarbell/AsemicIllustrationI",
+          "description": "Uninterpretable technical diagrams in the fashion of asemic writing. Generative art",
+          "pushedAt": "2026-09-24T01:03:22Z",
+          "language": "Processing",
+          "license": "MIT"
+        },
+        {
+          "name": "GlowLights",
+          "url": "https://github.com/jaredstarbell/GlowLights",
+          "description": "Little floating glowing particle compositions inspired by the movie \"Song of the Sea\" 2014",
+          "pushedAt": "2021-09-03T05:43:58Z",
+          "language": "Processing",
+          "license": "MIT"
+        },
+        {
+          "name": "WeftComplex",
+          "url": "https://github.com/jaredstarbell/WeftComplex",
+          "description": "Noise disturbances within a complex of vertical lines",
+          "pushedAt": "2021-08-15T20:35:56Z",
+          "language": "Processing",
+          "license": "MIT"
+        }
+      ]
+    },
+    {
+      "person": "Anders Hoff",
+      "account": "inconvergent",
+      "source": "https://inconvergent.net/",
+      "basis": "Official artist site names Anders Hoff as inconvergent and describes his generative code; GitHub profile links back to this exact domain and repeats its Boxtype project and writing. Official site text verified via search index because direct retrieval returned 403.",
+      "checked": "2026-09-28T14:50:17.220Z",
+      "projects": [
+        {
+          "name": "inconvergent",
+          "url": "https://github.com/inconvergent/inconvergent",
+          "description": "",
+          "pushedAt": "2026-03-01T14:53:07Z",
+          "language": null,
+          "license": null
+        },
+        {
+          "name": "lqn",
+          "url": "https://github.com/inconvergent/lqn",
+          "description": "query language and terminal utility for querying and transforming Lisp, JSON and other text files. written in Common Lisp",
+          "pushedAt": "2026-01-19T23:09:33Z",
+          "language": "Common Lisp",
+          "license": "MIT"
+        },
+        {
+          "name": "auxin",
+          "url": "https://github.com/inconvergent/auxin",
+          "description": "Auxiliary Common Lisp Utilities for Generative Art",
+          "pushedAt": "2026-01-13T21:47:17Z",
+          "language": "Common Lisp",
+          "license": null
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "name": "Processing",
+      "url": "https://github.com/processing",
+      "description": "Creative coding language and environment"
+    },
+    {
+      "name": "p5.js",
+      "url": "https://github.com/processing/p5.js",
+      "description": "Creative coding for the web"
+    },
+    {
+      "name": "openFrameworks",
+      "url": "https://github.com/openframeworks/openFrameworks",
+      "description": "C++ toolkit for creative coding"
+    },
+    {
+      "name": "Code as Creative Medium",
+      "url": "https://github.com/golanlevin/exercises",
+      "description": "Creative coding exercises and teaching resources"
+    },
+    {
+      "name": "Rhizome ArtBase",
+      "url": "https://artbase.rhizome.org/wiki/Query",
+      "description": "Digital art records and preservation context; not every artwork is open source"
+    },
+    {
+      "name": "Software Heritage",
+      "url": "https://archive.softwareheritage.org/",
+      "description": "Archive of publicly available source code"
+    },
+    {
+      "name": "OpenAI Skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Published agent skills"
+    },
+    {
+      "name": "Anthropic Skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Published agent skills"
+    },
+    {
+      "name": "Model Context Protocol servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Reference integrations for AI tools"
+    }
+  ],
+  "personArchives": [
+    {
+      "person": "Donald E. Knuth",
+      "name": "Knuth: Programs to Read",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs.html",
+      "source": "https://www-cs-faculty.stanford.edu/~knuth/programs.html",
+      "basis": "Author's Stanford page publishes his CWEB program sources with individual descriptions and dates.",
+      "description": "Author-hosted CWEB source programs, algorithms, combinatorics and mathematical experiments.",
+      "recentEvidence": "Page lists HAMSAT dated April 2026 and ADVENT version of 5 June 2026.",
+      "licenseNote": "Do not assume one uniform license for every linked program."
+    },
+    {
+      "person": "Ken Perlin",
+      "name": "Improved Noise reference implementation",
+      "url": "https://mrl.cs.nyu.edu/~perlin/noise/",
+      "source": "https://mrl.cs.nyu.edu/~perlin/noise/",
+      "basis": "NYU-hosted page explicitly names Ken Perlin and presents the Java reference implementation for his SIGGRAPH 2002 paper.",
+      "description": "Original Java reference implementation of improved Perlin noise.",
+      "recentEvidence": null,
+      "licenseNote": "Code carries a 2002 Ken Perlin copyright notice; a permissive license was not verified. Label as public reference code, not automatically open source."
+    },
+    {
+      "person": "Robert Bridson",
+      "name": "Bridson graphics and simulation code",
+      "url": "https://www.cs.ubc.ca/~rbridson/",
+      "source": "https://www.cs.ubc.ca/~rbridson/",
+      "basis": "Author's UBC faculty page names Robert Bridson and directly provides code downloads under Software.",
+      "description": "Curl noise, fast Poisson disk sampling, PIC/FLIP fluids, collision detection and geometry reference code.",
+      "exampleUrl": "https://www.cs.ubc.ca/~rbridson/download/curlnoise.tar.gz",
+      "recentEvidence": null,
+      "licenseNote": "Faculty page explicitly calls the curl-noise example code and included Poisson sampling implementation public domain; do not extend that claim to all downloads."
+    },
+    {
+      "person": "Jesse Louis-Rosenberg",
+      "name": "Nervous System OBJExport",
+      "url": "https://github.com/nervoussystem/OBJExport",
+      "source": "https://n-e-r-v-o-u-s.com/tools/obj/",
+      "basis": "Official tool page explicitly credits Jesse Louis-Rosenberg as author and links this repository.",
+      "description": "Processing library for exporting color meshes as OBJ and X3D.",
+      "account": "nervoussystem",
+      "accountKind": "studio",
+      "recentEvidence": "Official tool page lists v0.2.4 dated 21 April 2013; this is archival evidence, not a recent activity claim.",
+      "licenseNote": "Check the repository license before reuse. The studio's general Creative Commons statement is not a repository-specific license audit."
+    }
+  ],
+  "studioAssociations": [
+    {
+      "person": "Jessica Rosenkrantz",
+      "studio": "Nervous System",
+      "source": "https://n-e-r-v-o-u-s.com/about_us.php",
+      "basis": "Official studio page names Jessica Rosenkrantz and Jesse Louis-Rosenberg as founders and describes releasing source code.",
+      "archive": "https://github.com/nervoussystem/OBJExport",
+      "limitation": "Studio association only. OBJExport's official author credit is Jesse Louis-Rosenberg; do not imply Jessica authored it or treat the studio account as her personal GitHub."
+    }
+  ]
+}

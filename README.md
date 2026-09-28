@@ -3,6 +3,8 @@
 An interactive atlas of algorithmic art, the people behind its techniques, and the tools, teaching and institutions connecting them.
 
 - **Website:** https://thevibesarepeople.com/
+- **Agent skill and submissions:** https://thevibesarepeople.com/agents/
+- **Visual vocabulary:** https://thevibesarepeople.com/vocabulary/
 - **Connections:** https://thevibesarepeople.com/connections/
 - **Languages and tools:** https://thevibesarepeople.com/connections/#languages
 - **Research and downloads:** https://thevibesarepeople.com/research/project/
@@ -12,7 +14,7 @@ An interactive atlas of algorithmic art, the people behind its techniques, and t
 
 `dist/` contains the deployable static website, animated studies, portraits and their source records. `research/` preserves checked relationship records, archive discovery notes, coverage reports and an Eyebeam application narrative **draft**, not a submitted application. `scripts/` contains deterministic data rebuild and research-export tools. `tests/` includes browser and data checks; some older tests are inherited from the original personal-site project.
 
-The current collection includes 21 animated artist studies, 40 recipes with 105 named contributors (108 inherited credits and eight newly checked credits), 120 linked people, eight inherited person-to-person paths, 31 checked institutional and educational relationships, and 41 language/tool connections across 18 people (37 documented, four inferred). These counts describe this edition, not an exhaustive history of algorithmic art.
+The current collection includes 21 animated artist studies, 40 recipes with 105 named contributors (108 inherited credits and eight newly checked credits), 120 linked people, eight inherited person-to-person paths, 51 checked institutional, educational and research relationships, and 41 language/tool connections across 18 people (37 documented, four inferred). The live contribution ledger adds Boids / flocking as a 41st sourced recipe (without an animated tile). These counts describe this edition, not an exhaustive history of algorithmic art. The code layer links 16 verified GitHub accounts, four author-attributed archives and one separately labeled studio association.
 
 ## Explore the records
 
@@ -63,3 +65,5 @@ The project began as a standalone publication from the Yury personal-site source
 ## Contribute with your AI
 
 Read [Vibes Descramble](dist/agents/SKILL.md) or open https://thevibesarepeople.com/agents/. Source-backed proposals receive two AI checks. Accepted people and connections appear automatically; new techniques are supported as sourced entries. [System and budget](research/AGENT-SYSTEM.md): $8 monthly reservation cap, no paid retries.
+
+Experiments need not have perfect documentation. [Share an attributed recollection](https://github.com/yury-g/the-vibes-are-people/issues/new?template=experiment.yml), explore [code and open collections](https://thevibesarepeople.com/connections/#code), or [send your AI](https://thevibesarepeople.com/agents/) to investigate one gap. [Public roadmap](https://thevibesarepeople.com/agents/roadmap.html). Resource links do not establish inclusion in AI training data.

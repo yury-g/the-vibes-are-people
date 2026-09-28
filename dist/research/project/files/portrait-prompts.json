@@ -13,6 +13,18 @@
     {
       "person": "Gene Kogan",
       "prompt": "Edit the first reference photograph of Gene Kogan into a head-and-shoulders portrait illustration for The Vibes Are People. Preserve his actual face, recognizable proportions, hairstyle, gaze, expression, and clothing from the photograph. Use the second image only as a rendering-style reference, NOT its person's face: refined black ink stippling and fine cross-hatched engraved lines on clean white paper, strong black-and-white contrast, richly detailed face, shoulders fading gently into white, square composition, generous small white margin. No text, frame, symbols, invented accessories, beautification, or additional people. This is an openly labeled AI-assisted illustration derived from the reference photograph. Crop at the upper chest so the microphone and hands can remain outside the crop; retain his actual three-quarter head pose and open-mouth speaking expression."
+    },
+    {
+      "person": "Kyle McDonald",
+      "prompt": "Use case: style-transfer. Edit the first reference photograph of Kyle McDonald into a square head-and-shoulders portrait illustration for The Vibes Are People. Preserve the real person's recognizable face, proportions, hairstyle, gaze, expression and clothing. Use the second image only as a rendering-style reference, NOT its person's identity: refined black ink stippling, fine dither dots, and cross-hatched engraved lines on clean white paper; strong black-and-white contrast; richly detailed face; shoulders fading gently into white; small white margin. Remove the photographic background. No text, frame, symbols, invented accessories, beautification, or additional people.  This is an openly labeled AI-assisted illustration derived from the reference photograph."
+    },
+    {
+      "person": "Taeyoon Choi",
+      "prompt": "Use case: style-transfer. Edit the first reference photograph of Taeyoon Choi into a square head-and-shoulders portrait illustration for The Vibes Are People. Preserve the real person's recognizable face, proportions, hairstyle, gaze, expression and clothing. Use the second image only as a rendering-style reference, NOT its person's identity: refined black ink stippling, fine dither dots, and cross-hatched engraved lines on clean white paper; strong black-and-white contrast; richly detailed face; shoulders fading gently into white; small white margin. Remove the photographic background. No text, frame, symbols, invented accessories, beautification, or additional people. Keep the round glasses. Crop tightly enough that printed T-shirt words are outside the composition; keep the white open shirt. This is an openly labeled AI-assisted illustration derived from the reference photograph."
+    },
+    {
+      "person": "Yury Gitman",
+      "prompt": "Use case: style-transfer. Edit the first reference photograph of Yury Gitman into a square head-and-shoulders portrait illustration for The Vibes Are People. Preserve the real person's recognizable face, proportions, hairstyle, gaze, expression and clothing. Use the second image only as a rendering-style reference, NOT its person's identity: refined black ink stippling, fine dither dots, and cross-hatched engraved lines on clean white paper; strong black-and-white contrast; richly detailed face; shoulders fading gently into white; small white margin. Remove the photographic background. No text, frame, symbols, invented accessories, beautification, or additional people. Preserve his curly hair, beard, smile and shirt neckline. Crop at the upper chest so the handheld devices, hands, and printed shirt text are outside the composition. This is an openly labeled AI-assisted illustration derived from the reference photograph."
     }
   ]
 }

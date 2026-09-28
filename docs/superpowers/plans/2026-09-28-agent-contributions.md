@@ -20,17 +20,19 @@
 - Missing GitHub feed must preserve catalog and identify snapshot fallback.
 
 ### Task 1: Review engine and ledger
-- [ ] Write failing tests in tests/agent-contributions.mjs for validation, reservations, evidence decisions and merge behavior.
-- [ ] Implement scripts/agents/core.mjs (validateProposal, reserve, appendEvent, decide), sources.mjs (fetchSource), reviewer.mjs (review), process.mjs (serial persistent execution).
-- [ ] Verify unit tests, pinned model/body limits, network controls and crash idempotency.
+- [x] Write failing tests in tests/agent-contributions.mjs for validation, reservations, evidence decisions and merge behavior.
+- [x] Implement scripts/agents/core.mjs (validateProposal, reserve, appendEvent, decide), sources.mjs (fetchSource), reviewer.mjs (review), process.mjs (serial persistent execution).
+- [x] Verify unit tests, pinned model/body limits, network controls and crash idempotency.
 
 ### Task 2: Public agent interface and catalog overlay
-- [ ] Implement dist/agents/index.html, client.js, overlay.js, SKILL.md, example.json and ledger.json.
-- [ ] Integrate accepted people/connections and ingredient claims into existing directory and recipe view. Render new recipes in a compact sourced additions area.
-- [ ] Test desktop/mobile, new people, new recipe, unsupported status, injection-like text, offline fallback.
+- [x] Implement dist/agents/index.html, client.js, overlay.js, SKILL.md, example.json and ledger.json.
+- [x] Integrate accepted people/connections and ingredient claims into existing directory and recipe view. Render new recipes in a compact sourced additions area.
+- [x] Test desktop/mobile, new people, new recipe, unsupported status, injection-like text, offline fallback.
 
 ### Task 3: Publish and prove the loop
-- [ ] Add issues/dispatch/scheduled workflow, scoped GitHub secret, schema/template and public documentation.
-- [ ] Independent code review; repair blocking findings and rerun relevant tests.
-- [ ] Push GitHub; submit a real source-backed new recipe; inspect Actions review and published ledger. Run supported/unsupported live checks within reserved allowance.
-- [ ] Export public research, package exact source, publish Sites and verify terminal success.
+- [x] Add issues/dispatch/scheduled workflow, scoped GitHub secret, schema/template and public documentation.
+- [x] Independent code review; repair blocking findings and rerun relevant tests.
+- [x] Push GitHub; submit a real source-backed new recipe; inspect Actions review and published ledger. Run supported/unsupported live checks within reserved allowance.
+- [ ] Export public research, package exact source, publish Sites and verify terminal success. (Ready for publication; deployment outcome is recorded separately.)
+
+Delivery extensions explicitly requested during implementation: all8 Eyebeam portraits;16GitHub profiles and4archives;20new institutional edges; specific published skill links and screenshots; experiment/recollection intake; six-term visual vocabulary. Tests and research evidence are recorded in research/AGENT-REVIEW.md. Sites publication is the final delivery step.

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-27",
+  "checked": "2026-09-28",
   "people": [
     {
       "id": "person-adam-runions",
@@ -778,6 +778,50 @@
     {
       "id": "entity-code-as-creative-medium",
       "name": "Code as Creative Medium"
+    },
+    {
+      "id": "entity-university-of-california-berkeley",
+      "name": "University of California, Berkeley"
+    },
+    {
+      "id": "entity-stanford-university",
+      "name": "Stanford University"
+    },
+    {
+      "id": "entity-university-of-british-columbia",
+      "name": "University of British Columbia"
+    },
+    {
+      "id": "entity-university-of-waterloo",
+      "name": "University of Waterloo"
+    },
+    {
+      "id": "entity-university-of-calgary",
+      "name": "University of Calgary"
+    },
+    {
+      "id": "entity-mcgill-university",
+      "name": "McGill University"
+    },
+    {
+      "id": "entity-university-of-bremen",
+      "name": "University of Bremen"
+    },
+    {
+      "id": "entity-university-of-konstanz",
+      "name": "University of Konstanz"
+    },
+    {
+      "id": "entity-university-of-oxford",
+      "name": "University of Oxford"
+    },
+    {
+      "id": "entity-university-of-cambridge",
+      "name": "University of Cambridge"
+    },
+    {
+      "id": "entity-parsons-school-of-design",
+      "name": "Parsons School of Design"
     },
     {
       "id": "entity-c",
@@ -2813,10 +2857,11 @@
       "target": "entity-nyu-itp",
       "kind": "education",
       "role": "Master’s degree",
-      "dates": null,
-      "source": "https://eyebeam.org/artists/yury-gitman/",
-      "sourceLabel": "Eyebeam artist record",
-      "checked": "2026-09-27",
+      "dates": "2002",
+      "source": "https://www.newschool.edu/parsons/faculty/yuri-gitman/",
+      "sourceLabel": "The New School — Parsons faculty profile",
+      "checked": "2026-09-28",
+      "detail": "Degree year explicitly given under Degrees Held on the official faculty profile.",
       "review": "checked"
     },
     {
@@ -2824,10 +2869,11 @@
       "target": "entity-georgia-tech",
       "kind": "education",
       "role": "BS Science, Technology and Culture",
-      "dates": null,
-      "source": "https://eyebeam.org/artists/yury-gitman/",
-      "sourceLabel": "Eyebeam artist record",
-      "checked": "2026-09-27",
+      "dates": "1999",
+      "source": "https://www.newschool.edu/parsons/faculty/yuri-gitman/",
+      "sourceLabel": "The New School — Parsons faculty profile",
+      "checked": "2026-09-28",
+      "detail": "Degree year explicitly given under Degrees Held on the official faculty profile.",
       "review": "checked"
     },
     {
@@ -2872,6 +2918,246 @@
       "source": "https://eyebeam.org/artists/lisa-kori-gene-kogan/",
       "sourceLabel": "Eyebeam · Lisa Kori & Gene Kogan",
       "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-michael-barnsley",
+      "target": "entity-georgia-tech",
+      "kind": "teaching",
+      "role": "Joined faculty as Associate Professor",
+      "dates": "1979",
+      "source": "https://math.gatech.edu/sites/default/files/documents/georgiatech-school-of-math-history_1.pdf",
+      "sourceLabel": "Georgia Tech School of Mathematics history, p. 96",
+      "checked": "2026-09-28",
+      "detail": "The institutional history dates his associate-professor appointment to 1979. This is an appointment date, not a claim of continuous or current employment.",
+      "review": "checked"
+    },
+    {
+      "person": "person-ben-fry",
+      "target": "entity-mit",
+      "kind": "education",
+      "role": "Doctoral degree, MIT Media Laboratory",
+      "dates": null,
+      "source": "https://www.benfry.com/about/",
+      "sourceLabel": "Ben Fry — artist biography",
+      "checked": "2026-09-28",
+      "detail": "The biography identifies a doctorate from the Aesthetics + Computation Group and says his dissertation was completed in 2004.",
+      "review": "checked"
+    },
+    {
+      "person": "person-ben-fry",
+      "target": "entity-mit",
+      "kind": "teaching",
+      "role": "Lecturer",
+      "dates": "Since 2016",
+      "source": "https://www.benfry.com/about/",
+      "sourceLabel": "Ben Fry — artist biography",
+      "checked": "2026-09-28",
+      "detail": "The artist biography explicitly dates his MIT teaching as a lecturer from 2016; the MIT Architecture directory also lists him as a lecturer.",
+      "review": "checked"
+    },
+    {
+      "person": "person-ben-fry",
+      "target": "entity-carnegie-mellon-university",
+      "kind": "teaching",
+      "role": "Nierenberg Chair of Design",
+      "dates": "2006–2007",
+      "source": "https://www.benfry.com/about/",
+      "sourceLabel": "Ben Fry — artist biography",
+      "checked": "2026-09-28",
+      "detail": "The biography identifies the Carnegie Mellon School of Design appointment for the 2006–2007 school year.",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-mit",
+      "kind": "education",
+      "role": "SB Art and Design; SM Media Arts and Sciences",
+      "dates": "1994; 2000",
+      "source": "https://news.mit.edu/2006/artsnews",
+      "sourceLabel": "MIT News — Arts News, January 23, 2006",
+      "checked": "2026-09-28",
+      "detail": "MIT identifies the two degree awards separately: undergraduate Art and Design in 1994 and graduate Media Arts and Sciences in 2000.",
+      "review": "checked"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-mit",
+      "kind": "teaching",
+      "role": "Adjunct Associate Professor of Media Arts and Sciences",
+      "dates": null,
+      "source": "https://www.media.mit.edu/people/zachl/overview/",
+      "sourceLabel": "MIT Media Lab — faculty profile",
+      "checked": "2026-09-28",
+      "detail": "MIT lists Lieberman with this faculty title and the Future Sketches group. The page does not establish the appointment start date.",
+      "review": "checked"
+    },
+    {
+      "person": "person-casey-reas",
+      "target": "entity-mit",
+      "kind": "education",
+      "role": "Master’s degree, Media Arts and Sciences",
+      "dates": null,
+      "source": "https://gray.reas.com/information",
+      "sourceLabel": "Casey Reas — artist biography",
+      "checked": "2026-09-28",
+      "detail": "The artist biography names the MIT master’s degree. No degree date is assigned from the linked archive’s date range.",
+      "review": "checked"
+    },
+    {
+      "person": "person-james-p-crutchfield",
+      "target": "entity-university-of-california-berkeley",
+      "kind": "research",
+      "role": "Research Physicist, Physics Department",
+      "dates": "1985–1997",
+      "source": "https://simons.berkeley.edu/people/jim-crutchfield",
+      "sourceLabel": "UC Berkeley Simons Institute — Jim Crutchfield profile",
+      "checked": "2026-09-28",
+      "detail": "The biography says he was a Berkeley research physicist from 1985 before moving to the Santa Fe Institute in 1997. This is a research appointment, not a Berkeley degree.",
+      "review": "checked"
+    },
+    {
+      "person": "person-donald-e-knuth",
+      "target": "entity-stanford-university",
+      "kind": "teaching",
+      "role": "Fletcher Jones Professor of Computer Science, Emeritus",
+      "dates": null,
+      "source": "https://mathematics.stanford.edu/people/donald-knuth",
+      "sourceLabel": "Stanford Mathematics — faculty profile",
+      "checked": "2026-09-28",
+      "detail": "The Stanford directory lists an emeritus appointment; it does not establish an active teaching load or a start date.",
+      "review": "checked"
+    },
+    {
+      "person": "person-robert-bridson",
+      "target": "entity-stanford-university",
+      "kind": "education",
+      "role": "PhD",
+      "dates": "2003",
+      "source": "https://www.cs.ubc.ca/~rbridson/",
+      "sourceLabel": "Robert Bridson — UBC faculty page",
+      "checked": "2026-09-28",
+      "detail": "The faculty page states PhD Stanford 2003 and identifies the dissertation as Computational aspects of dynamic surfaces.",
+      "review": "checked"
+    },
+    {
+      "person": "person-robert-bridson",
+      "target": "entity-university-of-british-columbia",
+      "kind": "teaching",
+      "role": "Adjunct Professor, Computer Science",
+      "dates": null,
+      "source": "https://news.ubc.ca/expert/robert-bridson/",
+      "sourceLabel": "UBC News — expert profile",
+      "checked": "2026-09-28",
+      "detail": "The UBC expert directory lists adjunct status. His faculty page explains that he ceased being a full-time professor in August 2013 but retained adjunct status.",
+      "review": "checked"
+    },
+    {
+      "person": "person-craig-s-kaplan",
+      "target": "entity-university-of-waterloo",
+      "kind": "teaching",
+      "role": "Professor, Computer Science",
+      "dates": null,
+      "source": "https://uwaterloo.ca/computer-science/contacts/craig-s-kaplan",
+      "sourceLabel": "University of Waterloo — faculty profile",
+      "checked": "2026-09-28",
+      "detail": "The Cheriton School of Computer Science directory lists Kaplan as Professor; no appointment date is supplied.",
+      "review": "checked"
+    },
+    {
+      "person": "person-craig-s-kaplan",
+      "target": "entity-university-of-waterloo",
+      "kind": "education",
+      "role": "BMath",
+      "dates": "1996",
+      "source": "https://uwaterloo.ca/computer-science/contacts/craig-s-kaplan",
+      "sourceLabel": "University of Waterloo — faculty profile",
+      "checked": "2026-09-28",
+      "detail": "The degrees section records the Waterloo BMath separately from his later University of Washington degrees.",
+      "review": "checked"
+    },
+    {
+      "person": "person-przemys-aw-prusinkiewicz",
+      "target": "entity-university-of-calgary",
+      "kind": "teaching",
+      "role": "Professor Emeritus, Computer Science",
+      "dates": null,
+      "source": "https://science.ucalgary.ca/computer-science/contacts/faculty-members",
+      "sourceLabel": "University of Calgary — Computer Science faculty directory",
+      "checked": "2026-09-28",
+      "detail": "The current department directory places Prusinkiewicz in its Emeriti section. Older faculty biographies label him Professor without noting retirement.",
+      "review": "checked"
+    },
+    {
+      "person": "person-godfried-t-toussaint",
+      "target": "entity-mcgill-university",
+      "kind": "teaching",
+      "role": "Professor, School of Computer Science; later Professor Emeritus",
+      "dates": "1972–2007; emeritus from 2007",
+      "source": "https://cgm.cs.mcgill.ca/~godfried/cv/bio.html",
+      "sourceLabel": "Godfried Toussaint — McGill-hosted biography",
+      "checked": "2026-09-28",
+      "detail": "The biography dates his teaching and research at McGill from 1972 and emeritus appointment to September 1, 2007. This is a historical record; McGill’s 2022 newsletter confirms his death in 2019.",
+      "review": "checked"
+    },
+    {
+      "person": "person-frieder-nake",
+      "target": "entity-university-of-bremen",
+      "kind": "teaching",
+      "role": "Professor of Computer Graphics and Interactive Systems",
+      "dates": "1972–2024",
+      "source": "https://www.uni-bremen.de/fb3/fachbereich/news-detailansicht/sein-letztes-seminar-der-dienstaelteste-professor-der-universitaet-bremen-frieder-nake-verabschiedet-sich",
+      "sourceLabel": "University of Bremen — retirement profile, February 2, 2024",
+      "checked": "2026-09-28",
+      "detail": "The university dates his appointment to 1972 and his final seminar and retirement to January 30, 2024.",
+      "review": "checked"
+    },
+    {
+      "person": "person-oliver-deussen",
+      "target": "entity-university-of-konstanz",
+      "kind": "teaching",
+      "role": "Professor for Visual Computing",
+      "dates": "Since April 2003",
+      "source": "https://www.cgmi.uni-konstanz.de/en/persons/prof-dr-oliver-deussen/",
+      "sourceLabel": "University of Konstanz — Visual Computing faculty profile",
+      "checked": "2026-09-28",
+      "detail": "The university profile explicitly dates this appointment from April 2003. Evidence was available in the search index; direct page retrieval returned an error.",
+      "review": "checked"
+    },
+    {
+      "person": "person-roger-penrose",
+      "target": "entity-university-of-oxford",
+      "kind": "teaching",
+      "role": "Emeritus Rouse Ball Professor of Mathematics",
+      "dates": null,
+      "source": "https://www.ox.ac.uk/news/2020-10-06-oxford-mathematician-roger-penrose-jointly-wins-nobel-prize-physics",
+      "sourceLabel": "University of Oxford — Nobel Prize announcement, October 6, 2020",
+      "checked": "2026-09-28",
+      "detail": "The university announcement identifies the emeritus professorship and Wadham emeritus fellowship. This record describes the documented emeritus appointment without implying current teaching.",
+      "review": "checked"
+    },
+    {
+      "person": "person-alan-turing",
+      "target": "entity-university-of-cambridge",
+      "kind": "education",
+      "role": "Undergraduate mathematics, King’s College",
+      "dates": "1931–1934",
+      "source": "https://turingarchive.kings.cam.ac.uk/about-alan-turing",
+      "sourceLabel": "King’s College Cambridge — Turing Digital Archive",
+      "checked": "2026-09-28",
+      "detail": "The college archive dates matriculation to 1931 and graduation with distinction to 1934. The separate fellowship awarded in 1935 is not folded into the degree relationship.",
+      "review": "checked"
+    },
+    {
+      "person": "person-yury-gitman",
+      "target": "entity-parsons-school-of-design",
+      "kind": "teaching",
+      "role": "Part-time Assistant Professor; teaching since 2003",
+      "dates": "Since 2003",
+      "source": "https://www.newschool.edu/parsons/faculty/yuri-gitman/",
+      "sourceLabel": "The New School — Parsons faculty profile",
+      "checked": "2026-09-28",
+      "detail": "The current title is Part-time Assistant Professor. The biography dates teaching at Parsons from 2003; it does not say he held that rank continuously since 2003 or verify the recalled number of Eyebeam-linked sessions.",
       "review": "checked"
     },
     {

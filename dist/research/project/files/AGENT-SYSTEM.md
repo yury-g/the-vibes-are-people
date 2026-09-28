@@ -30,4 +30,8 @@ Run `node tests/agent-contributions.mjs`; browser checks use `TEST_URL` and `PLA
 gh issue create --repo yury-g/the-vibes-are-people --title "[ingredient] A short factual connection" --body-file proposal.json
 ```
 
-Use `/agents/proposal.schema.json`. Do not submit the placeholder example unchanged.
+Use `/agents/proposal.schema.json`. The published example is an accepted Boids claim; do not resubmit it unchanged.
+
+## End-to-end proof
+
+[Issue 1](https://github.com/yury-g/the-vibes-are-people/issues/1) completed as unresolved when exact evidence matching failed. After the passage-selector repair, [issue 2](https://github.com/yury-g/the-vibes-are-people/issues/2) was accepted by both AI checks and auto-published in the ledger. Total reported model usage estimate: $0.0078464; total conservative reservations: $0.40. These tests count against this month’s allowance. No local paid retries were made.

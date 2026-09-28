@@ -1,0 +1,203 @@
+{
+  "checked": "2026-09-28",
+  "profiles": [
+    {
+      "person": "Gene Kogan",
+      "account": "genekogan",
+      "source": "https://genekogan.com/",
+      "basis": "Artist website links GitHub account"
+    },
+    {
+      "person": "Golan Levin",
+      "account": "golanlevin",
+      "source": "https://github.com/golanlevin/exercises",
+      "basis": "Named author and public creative-coding repositories"
+    },
+    {
+      "person": "Kyle McDonald",
+      "account": "kylemcdonald",
+      "source": "https://kylemcdonald.net/",
+      "basis": "Artist website links GitHub toolkits"
+    },
+    {
+      "person": "Lauren Lee McCarthy",
+      "account": "lmccart",
+      "source": "https://github.com/lmccart",
+      "basis": "Named creator profile linked to p5.js"
+    },
+    {
+      "person": "Taeyoon Choi",
+      "account": "tchoi8",
+      "source": "https://ems.andrew.cmu.edu/2013/author/taeyoon/index.html",
+      "basis": "CMU course profile links GitHub account"
+    },
+    {
+      "person": "Tega Brain",
+      "account": "tegacodes",
+      "source": "https://github.com/tegacodes",
+      "basis": "Named artist profile and teaching repositories"
+    },
+    {
+      "person": "Yury Gitman",
+      "account": "yury-g",
+      "source": "https://github.com/yury-g/the-vibes-are-people",
+      "basis": "Project owner account confirmed in this project"
+    },
+    {
+      "person": "Zach Lieberman",
+      "account": "ofZach",
+      "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
+      "basis": "Named openFrameworks author and linked code examples"
+    },
+    {
+      "person": "Casey Reas",
+      "account": "REAS",
+      "source": "https://gray.reas.com/information",
+      "basis": "Artist's official archived information page explicitly links @REAS under CODE."
+    },
+    {
+      "person": "Daniel Shiffman",
+      "account": "shiffman",
+      "source": "https://thecodingtrain.com/about",
+      "basis": "Official About page identifies Dan Shiffman and links his personal GitHub account under Dan's socials."
+    },
+    {
+      "person": "Olivia Jack",
+      "account": "ojack",
+      "source": "https://ojack.xyz/about/",
+      "basis": "Artist's official About page links directly to github.com/ojack."
+    },
+    {
+      "person": "Bert Wang-Chak Chan",
+      "account": "Chakazul",
+      "source": "https://chakazul.github.io/lenia.html",
+      "basis": "Author's Lenia portal identifies Bert Wang-Chak Chan in its bibliography and links Lenia source to github.com/Chakazul/Lenia; home page identifies Bert Chan."
+    },
+    {
+      "person": "Craig Reynolds",
+      "account": "cwreynolds",
+      "source": "https://www.red3d.com/cwr/",
+      "basis": "Official home page links software notes at cwreynolds.github.io; that site names Craig Reynolds, links back to red3d.com, and includes a github.com/cwreynolds link."
+    },
+    {
+      "person": "Craig S. Kaplan",
+      "account": "isohedral",
+      "source": "https://cs.uwaterloo.ca/~csk/",
+      "basis": "University of Waterloo faculty home page explicitly lists Github: isohedral."
+    },
+    {
+      "person": "Jared Tarbell",
+      "account": "jaredstarbell",
+      "source": "https://www.jaredstarbell.com/about/",
+      "basis": "Artist's About page identifies Jared S Tarbell and directly links code repositories at github.com/jaredstarbell?tab=repositories."
+    },
+    {
+      "person": "Anders Hoff",
+      "account": "inconvergent",
+      "source": "https://inconvergent.net/",
+      "basis": "Official artist site names Anders Hoff as inconvergent and describes his generative code; GitHub profile links back to this exact domain and repeats its Boxtype project and writing. Official site text verified via search index because direct retrieval returned 403."
+    }
+  ],
+  "archives": [
+    {
+      "name": "Processing",
+      "url": "https://github.com/processing",
+      "description": "Creative coding language and environment"
+    },
+    {
+      "name": "p5.js",
+      "url": "https://github.com/processing/p5.js",
+      "description": "Creative coding for the web"
+    },
+    {
+      "name": "openFrameworks",
+      "url": "https://github.com/openframeworks/openFrameworks",
+      "description": "C++ toolkit for creative coding"
+    },
+    {
+      "name": "Code as Creative Medium",
+      "url": "https://github.com/golanlevin/exercises",
+      "description": "Creative coding exercises and teaching resources"
+    },
+    {
+      "name": "Rhizome ArtBase",
+      "url": "https://artbase.rhizome.org/wiki/Query",
+      "description": "Digital art records and preservation context; not every artwork is open source"
+    },
+    {
+      "name": "Software Heritage",
+      "url": "https://archive.softwareheritage.org/",
+      "description": "Archive of publicly available source code"
+    },
+    {
+      "name": "OpenAI Skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Published agent skills"
+    },
+    {
+      "name": "Anthropic Skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Published agent skills"
+    },
+    {
+      "name": "Model Context Protocol servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Reference integrations for AI tools"
+    }
+  ],
+  "personArchives": [
+    {
+      "person": "Donald E. Knuth",
+      "name": "Knuth: Programs to Read",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs.html",
+      "source": "https://www-cs-faculty.stanford.edu/~knuth/programs.html",
+      "basis": "Author's Stanford page publishes his CWEB program sources with individual descriptions and dates.",
+      "description": "Author-hosted CWEB source programs, algorithms, combinatorics and mathematical experiments.",
+      "recentEvidence": "Page lists HAMSAT dated April 2026 and ADVENT version of 5 June 2026.",
+      "licenseNote": "Do not assume one uniform license for every linked program."
+    },
+    {
+      "person": "Ken Perlin",
+      "name": "Improved Noise reference implementation",
+      "url": "https://mrl.cs.nyu.edu/~perlin/noise/",
+      "source": "https://mrl.cs.nyu.edu/~perlin/noise/",
+      "basis": "NYU-hosted page explicitly names Ken Perlin and presents the Java reference implementation for his SIGGRAPH 2002 paper.",
+      "description": "Original Java reference implementation of improved Perlin noise.",
+      "recentEvidence": null,
+      "licenseNote": "Code carries a 2002 Ken Perlin copyright notice; a permissive license was not verified. Label as public reference code, not automatically open source."
+    },
+    {
+      "person": "Robert Bridson",
+      "name": "Bridson graphics and simulation code",
+      "url": "https://www.cs.ubc.ca/~rbridson/",
+      "source": "https://www.cs.ubc.ca/~rbridson/",
+      "basis": "Author's UBC faculty page names Robert Bridson and directly provides code downloads under Software.",
+      "description": "Curl noise, fast Poisson disk sampling, PIC/FLIP fluids, collision detection and geometry reference code.",
+      "exampleUrl": "https://www.cs.ubc.ca/~rbridson/download/curlnoise.tar.gz",
+      "recentEvidence": null,
+      "licenseNote": "Faculty page explicitly calls the curl-noise example code and included Poisson sampling implementation public domain; do not extend that claim to all downloads."
+    },
+    {
+      "person": "Jesse Louis-Rosenberg",
+      "name": "Nervous System OBJExport",
+      "url": "https://github.com/nervoussystem/OBJExport",
+      "source": "https://n-e-r-v-o-u-s.com/tools/obj/",
+      "basis": "Official tool page explicitly credits Jesse Louis-Rosenberg as author and links this repository.",
+      "description": "Processing library for exporting color meshes as OBJ and X3D.",
+      "account": "nervoussystem",
+      "accountKind": "studio",
+      "recentEvidence": "Official tool page lists v0.2.4 dated 21 April 2013; this is archival evidence, not a recent activity claim.",
+      "licenseNote": "Check the repository license before reuse. The studio's general Creative Commons statement is not a repository-specific license audit."
+    }
+  ],
+  "studioAssociations": [
+    {
+      "person": "Jessica Rosenkrantz",
+      "studio": "Nervous System",
+      "source": "https://n-e-r-v-o-u-s.com/about_us.php",
+      "basis": "Official studio page names Jessica Rosenkrantz and Jesse Louis-Rosenberg as founders and describes releasing source code.",
+      "archive": "https://github.com/nervoussystem/OBJExport",
+      "limitation": "Studio association only. OBJExport's official author credit is Jesse Louis-Rosenberg; do not imply Jessica authored it or treat the studio account as her personal GitHub."
+    }
+  ]
+}

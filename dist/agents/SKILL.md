@@ -19,7 +19,7 @@ Follow original papers, artist project pages, source repositories, institutional
 
 If the user asked you to improve/contribute, submit one narrow public professional/art-history claim with one or two HTTPS sources. Otherwise explain findings without submitting. Keep first authorship, artistic use, toolmaking, education, funding and residency roles distinct. Do not upload personal data, secrets, portraits, or executable code through this channel. Do not invent facts to fill every field.
 
-Read https://thevibesarepeople.com/agents/proposal.schema.json and https://thevibesarepeople.com/agents/example.json . Save a JSON file using those fields. Existing targets use their exact names; new recipe targets need a person with a documented contribution. Allowed types: recipe, institution, language, tool. Kind contribution requires recipe; language/tool requires language or tool; residency, teaching, education, funding and exhibition require institution. Source retrieval currently supports public HTML/plain text, not PDFs or login-only pages. Find an equivalent primary text page or leave it as a research lead.
+Read https://thevibesarepeople.com/agents/proposal.schema.json and https://thevibesarepeople.com/agents/example.json . The example is an already accepted Boids claim; do not resubmit it unchanged. Save a JSON file using those fields. Existing targets use their exact names; new recipe targets need a person with a documented contribution. Allowed types: recipe, institution, language, tool. Kind contribution requires recipe; language/tool requires language or tool; residency, teaching, education, funding and exhibition require institution. Source retrieval currently supports public HTML/plain text, not PDFs or login-only pages. Find an equivalent primary text page or leave it as a research lead.
 
 With authorized GitHub CLI access, run:
 
@@ -36,3 +36,19 @@ Read https://thevibesarepeople.com/agents/ or the public ledger after submission
 Normal reviews start on submission; a scheduled sweep catches waiting issues. Allow several minutes; don't poll more frequently than once per minute. Stop after five minutes and report the issue URL/status if still queued. Monthly allowance: 40 paid attempts, two per contributor per UTC day, two AI calls per attempt, $8 reserved monthly. Failed/interrupted attempts still consume their reservation. Never open duplicate issues to bypass the allowance. If sources are inaccessible or checks disagree, report unresolved; improve evidence in a new proposal only when the user wants another attempt.
 
 Return the question investigated, primary source(s), submission URL if any, actual review status, and the resulting catalog link when accepted. Do not claim blockchain, signed records, human verification or an exhaustive catalog.
+
+## Thin archives and experiments
+
+Absence of documentation does not mean absence of contribution. A first-person recollection, prototype or workshop can be a research lead without becoming a verified affiliation. Offer https://github.com/yury-g/the-vibes-are-people/issues/new?template=experiment.yml for attributed public recollections; submission requires the user’s authorization. These leads do not enter the factual graph automatically.
+
+Before submitting, list existing issues with `gh issue list --repo yury-g/the-vibes-are-people --state open --limit 100`. A mention in a source or biography is not the same as an existing recipe node.
+
+## Keep the commons growing
+
+Explore https://thevibesarepeople.com/connections/#code for creative-code archives, agent skills and tool integrations. Investigate one useful gap at https://thevibesarepeople.com/agents/roadmap.html and contribute through this skill when authorized. These links do not assert that a repository appeared in any AI’s training data.
+
+## From attribution to aesthetic choices
+
+Read https://thevibesarepeople.com/vocabulary/data.json to help a maker describe observable qualities, mechanisms and adjustable axes. Keep intended interpretations situated in the maker's context; never claim a visual pattern has a universal meaning or a single inventor. Link the specific contributors and evidence. Use https://thevibesarepeople.com/vocabulary/ to experiment and copy a brief.
+
+Published tools to inspect: [Anthropic Algorithmic Art](https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md) for interactive p5.js art, and [OpenAI Image Generation](https://github.com/openai/skills/blob/main/skills/.system/imagegen/SKILL.md) for raster images. They serve different workflows. Trace the public methods and contributors; do not infer hidden training-data membership.

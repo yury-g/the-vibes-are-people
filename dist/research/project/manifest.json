@@ -2,22 +2,64 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/PUBLISHED-SKILLS.md",
+      "file": "files/PUBLISHED-SKILLS.md",
+      "bytes": 1337,
+      "sha256": "53c48402fdaa4800d83cb6a8561cc27178f4802682ba77accba822420e529859"
+    },
+    {
+      "source": "research/VISUAL-VOCABULARY.md",
+      "file": "files/VISUAL-VOCABULARY.md",
+      "bytes": 1113,
+      "sha256": "e1d3a47b69010de31dee2045cab065d64e1beccd121e4508c7280991fab65247"
+    },
+    {
+      "source": "research/INSTITUTIONS.md",
+      "file": "files/INSTITUTIONS.md",
+      "bytes": 8941,
+      "sha256": "84eff4372974032c53aea02ff890896762808bf296770fa441fb7aa07f531ef5"
+    },
+    {
+      "source": "research/CODE-PROJECTS.md",
+      "file": "files/CODE-PROJECTS.md",
+      "bytes": 4791,
+      "sha256": "94b4dc3a861315e51dcf9af4a218805d5be968f09d0aa227f83f921a78d37130"
+    },
+    {
+      "source": "dist/connections/institutions.json",
+      "file": "files/institutions.json",
+      "bytes": 2045,
+      "sha256": "ec845d00bcf9fa14fb19b679e6d773c2b0bf6d2b3898e03c638c85a15ecdf834"
+    },
+    {
+      "source": "research/AGENT-REVIEW.md",
+      "file": "files/AGENT-REVIEW.md",
+      "bytes": 2151,
+      "sha256": "3b72e6dd89173d7609b454698b5951bf5f3bb95d9d4dd595b09dd1bcb21bdebb"
+    },
+    {
+      "source": "research/code-profiles.json",
+      "file": "files/code-profiles.json",
+      "bytes": 8684,
+      "sha256": "75f752fc706da0b9f15a0973055f51b8e09df7e3bbc1fcd35b306f309637a93a"
+    },
+    {
       "source": "research/AGENT-SYSTEM.md",
       "file": "files/AGENT-SYSTEM.md",
-      "bytes": 4656,
-      "sha256": "8b50ab7f4d731633eb427a6a3b9689384dfe11d94a74cf8acecff55c28393a94"
+      "bytes": 5178,
+      "sha256": "1f0360dbccffad098cd441e0108e5f23f7b05b34b9fd8977bd58b6291fbcfe15"
     },
     {
       "source": "research/yury-teaching-leads.md",
       "file": "files/yury-teaching-leads.md",
-      "bytes": 811,
-      "sha256": "ef16de9748bc94d87c2e9a89d45513bd7c194eb6bb74c67e3f11d036bb5e869c"
+      "bytes": 3181,
+      "sha256": "7cb749b47e28d28303dac9ceb9788f4b284f1f37a283269dbcb52811584aacac"
     },
     {
       "source": "dist/agents/SKILL.md",
       "file": "files/SKILL.md",
-      "bytes": 4807,
-      "sha256": "fef78d0596bbebdcbf5dc13410bf4430b6ffbc6621fafe5aad8af74098a75abb"
+      "bytes": 6745,
+      "sha256": "89de8f245477578aea01782165019b800af728940bf1fb33375c6b09a3b4e76a"
     },
     {
       "source": "dist/agents/proposal.schema.json",
@@ -28,8 +70,8 @@
     {
       "source": "research/PORTRAITS.md",
       "file": "files/PORTRAITS.md",
-      "bytes": 4083,
-      "sha256": "9886630fb54913a0829430d6bb067eecff8db79305d44dfee2fca61e3d0d8b0e"
+      "bytes": 4726,
+      "sha256": "2ae45a2c099567ac728fa55d77b053e360eebce95a5a7837f15dc5b8859a2091"
     },
     {
       "source": "research/portrait-coverage.json",
@@ -40,8 +82,8 @@
     {
       "source": "research/portrait-prompts.json",
       "file": "files/portrait-prompts.json",
-      "bytes": 2614,
-      "sha256": "a91d1a13984f518ca288a435ca6abc86d7ac22431bb1d5c5f43d5d105fceb2d6"
+      "bytes": 5404,
+      "sha256": "f1ae71ed82a87ffc2457164291b0864a88edd7085ce878e6ab3788f3bcd1f2a7"
     },
     {
       "source": "research/INGREDIENTS-EXPANSION.md",
@@ -58,8 +100,8 @@
     {
       "source": "dist/notes/ingredients/portrait-map.json",
       "file": "files/portrait-map.json",
-      "bytes": 40555,
-      "sha256": "756097c830f251ca786141c61dfb08f74664f03c62033203b28b6d86530ec55d"
+      "bytes": 42943,
+      "sha256": "c998871848b95fb16965cc7a4dae34389b3f511bc2b917c7338e1b5180e2a308"
     },
     {
       "source": "research/LANGUAGES.md",
@@ -76,8 +118,8 @@
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 5352,
-      "sha256": "7a87bfb3c32cd6f3386f451f4832b5509c8c1b7a55420482dd3e99e6cc688412"
+      "bytes": 6203,
+      "sha256": "9b437db0da27067d799abeb8d2f718c388ef9825a92c347c1515e47a44f05801"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -94,14 +136,14 @@
     {
       "source": "research/checked-relationships.json",
       "file": "files/checked-relationships.json",
-      "bytes": 8864,
-      "sha256": "1deb4a8ddcfb02d978fff939208d3473ed1c5b7f8b99f28132b60505dd71ed6c"
+      "bytes": 19309,
+      "sha256": "bf5160c61cfa4bfd2dbe0495b52fe9ac3175f7cb4bc352650007881d14a535c7"
     },
     {
       "source": "research/connections-coverage.json",
       "file": "files/connections-coverage.json",
-      "bytes": 7514,
-      "sha256": "ea6e3c51cbd3e7c1b6c7f3507d3d77c1b0c110562a99f548d1599e2857e2f44f"
+      "bytes": 6953,
+      "sha256": "ba7fa88bbb5ac627d3eb82916b15d2de5458aab747659ab3a64a4163c1c9f507"
     },
     {
       "source": "research/eyebeam-connections.json",
@@ -130,8 +172,8 @@
     {
       "source": "dist/connections/data.json",
       "file": "files/data.json",
-      "bytes": 132555,
-      "sha256": "51f7f8439a5d10cce059afa9dbbb3fdc49bc57b78755490091f000c90648ac9b"
+      "bytes": 145343,
+      "sha256": "0c123b8a39f34184d3d2016902576206bc9a09d074aa520fe52ef7039ccadc32"
     },
     {
       "source": "dist/notes/ingredients/technique-provenance.json",
@@ -142,14 +184,14 @@
     {
       "source": "scripts/build-connections.mjs",
       "file": "files/build-connections.mjs",
-      "bytes": 5564,
-      "sha256": "3d2d32236352d98a07f5fe940b4b155e18ffbad98b351ab1b8d18763af163f8b"
+      "bytes": 5575,
+      "sha256": "a7940aedae6370825d92901f32df699b45420350beb7532cee6526788a99917c"
     },
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 1595,
-      "sha256": "b2218bbf16d79aa31d560e24d6c2504749ec904ef598b8733fbd8ee9e0860dac"
+      "bytes": 1807,
+      "sha256": "a3f50af08a6b642f77142f00e64adae8a23ada5463d40a9fc51fe1222ef1e487"
     }
   ]
 }

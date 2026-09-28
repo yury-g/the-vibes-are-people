@@ -1,9 +1,15 @@
 {
   "version": 1,
-  "person": "Lillian Schwartz",
-  "target": {"type": "recipe", "name": "Computer-assisted image collage"},
+  "person": "Craig Reynolds",
+  "target": {
+    "type": "recipe",
+    "name": "Boids / flocking"
+  },
   "kind": "contribution",
-  "role": "Artist",
-  "claim": "Replace this example claim with a narrow contribution supported by a primary source before submitting.",
-  "sources": ["https://www.example.org/replace-with-primary-source"]
+  "role": "Model creator",
+  "claim": "Craig Reynolds created the Boids computer model in 1986, using local steering behaviors including separation, alignment and cohesion to simulate flocking.",
+  "sources": [
+    "https://www.red3d.com/cwr/boids/",
+    "https://www.red3d.com/cwr/papers/1987/boids.html"
+  ]
 }

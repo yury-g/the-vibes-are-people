@@ -1,0 +1,26 @@
+name: Experiment or recollection
+description: Share a first-person experiment, teaching memory, prototype or unfinished work. Formal publication is not required.
+title: "[lead] "
+body:
+  - type: markdown
+    attributes:
+      value: "Experiments count even when they leave a thin paper trail. This is a public research lead, not an automatically verified claim. Share your own experience, distinguish memory from certainty, and avoid private information about others."
+  - type: textarea
+    id: story
+    attributes:
+      label: What did you try, make, teach or share?
+      description: Your role, approximate time/place if remembered, and what remains uncertain.
+    validations:
+      required: true
+  - type: textarea
+    id: traces
+    attributes:
+      label: Any surviving traces?
+      description: Optional sketch, public link, class handout, collaborator account, code fragment or photograph. No formal publication required.
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Attribution
+      options:
+        - label: I understand this account is public and may be cited as an attributed research lead.
+          required: true
