@@ -1,4 +1,5 @@
 import {readFile,writeFile} from 'node:fs/promises';
+import {hasDocumentedToolLink} from '../dist/connections/graph.js';
 import {fileURLToPath} from 'node:url';
 import {people as studies,connections} from '../dist/notes/living/data.js';
 const root=new URL('../',import.meta.url);
@@ -8,7 +9,9 @@ export function validate(g){
  const ids=new Set([...g.people,...g.entities,...g.recipes].map(x=>x.id));
  if(ids.size!==g.people.length+g.entities.length+g.recipes.length)throw Error('Identifier collision');
  for(const r of g.relationships){
-  if(!ids.has(r.person)||!ids.has(r.target))throw Error('Dangling reference');
+  if(!ids.has(r.subject||r.person)||!ids.has(r.target))throw Error('Dangling reference');
+  if(r.subject&&r.person)throw Error('Ambiguous relationship source');
+  if(r.lineage&&(!r.inverseRole||!r.checked||r.review!=='checked'))throw Error('Incomplete lineage evidence');
   if(!/^https?:\/\//.test(r.source)||!r.role)throw Error('Missing source or role');
   if(!['imported','checked','inferred','tentative'].includes(r.review))throw Error('Invalid review status');
   if(r.kind==='language/tool'){
@@ -25,6 +28,7 @@ export async function build(){
  const checked=await read('research/checked-relationships.json');
  const eyebeam=await read('research/eyebeam-connections.json');
  const languages=await read('research/language-tools.json');
+ const lineage=await read('research/processing-lineage.json');
  const persons=new Map(),entities=new Map(),relationships=[];
  function person(name){if(!persons.has(name)){const study=studies.find(p=>p.name===name);persons.set(name,{id:'person-'+slug(name),name,study:study?.id||null,placement:eyebeam.artists.find(p=>p.name===name)?.status|| (study?'In the collection':'Existing recipe credit')})}return persons.get(name).id}
  for(const p of studies)person(p.name);
@@ -33,6 +37,21 @@ export async function build(){
  for(const r of checked){const target='entity-'+slug(r.target);entities.set(target,{id:target,name:r.target});relationships.push({...r,person:person(r.person),target,review:'checked'})}
  for(const t of languages.technologies){if(entities.has(t.id)&&entities.get(t.id).name!==t.name)throw Error('Technology identifier collision');entities.set(t.id,t)}
  for(const r of languages.relationships){if(!persons.has(r.person))throw Error('Unknown language-layer person');relationships.push({...r,person:person(r.person),kind:'language/tool',review:({1:'tentative',2:'inferred',3:'checked'})[r.confidence]})}
+ for(const p of lineage.people){
+  if(!p.inclusion?.trim())throw Error('Missing inclusion reason');
+  const existed=persons.has(p.name);person(p.name);Object.assign(persons.get(p.name),p);
+  if(!existed)persons.get(p.name).placement='Creative coding lineage';
+ }
+ for(const e of lineage.entities){
+  if(entities.has(e.id)&&entities.get(e.id).name!==e.name)throw Error('Lineage identifier collision');
+  entities.set(e.id,{...entities.get(e.id),...e});
+ }
+ const resolve=name=>persons.get(name)||[...entities.values()].find(e=>e.name===name);
+ for(const {from,to,...r} of lineage.relationships){
+  const origin=resolve(from),target=resolve(to);
+  if(!origin||!target)throw Error('Unknown lineage reference: '+from+' → '+to);
+  relationships.push({...r,...(persons.has(from)?{person:origin.id}:{subject:origin.id}),target:target.id,review:'checked',lineage:true});
+ }
  for(const p of persons.values()){
   if(relationships.some(r=>r.person===p.id&&r.kind==='contribution'))p.placement='In Ingredients';
   else if(p.name==='Tega Brain')p.placement='To be assigned';
@@ -43,6 +62,6 @@ export async function build(){
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)){
  const g=await build();await writeFile(new URL('dist/connections/data.json',root),JSON.stringify(g,null,2)+'\n');
- const report={peopleWithoutDocumentedLanguageLinks:g.people.filter(p=>!g.relationships.some(r=>r.person===p.id&&r.kind==='language/tool'&&r.confidence===3)).map(p=>p.name),peopleWithoutCheckedAffiliations:g.people.filter(p=>!g.relationships.some(r=>r.person===p.id&&r.review==='checked'&&['residency','education','teaching','research','service'].includes(r.kind))).map(p=>p.name),people:g.people.length,recipes:g.recipes.length,recipeContributors:new Set(g.relationships.filter(r=>r.kind==='contribution').map(r=>r.person)).size,importedCredits:g.relationships.filter(r=>r.kind==='contribution'&&r.review==='imported').length,checkedRecipeCredits:g.relationships.filter(r=>r.kind==='contribution'&&r.review==='checked').length,importedPaths:g.relationships.filter(r=>r.kind==='documented path').length,checkedRelationships:g.relationships.filter(r=>r.review==='checked').length,languageRelationships:g.relationships.filter(r=>r.kind==='language/tool').length,inferredLanguageRelationships:g.relationships.filter(r=>r.kind==='language/tool'&&r.confidence<3).length,technologiesWithoutArtistEvidence:g.entities.filter(t=>t.category&&!g.relationships.some(r=>r.target===t.id&&r.kind==='language/tool')).map(t=>t.name),toBeAssigned:g.people.filter(p=>p.placement==='To be assigned').map(p=>p.name),peopleWithoutCheckedRelationships:g.people.filter(p=>!g.relationships.some(r=>r.person===p.id&&r.review==='checked')).map(p=>p.name)};
+ const report={peopleWithoutDocumentedLanguageLinks:g.people.filter(p=>!hasDocumentedToolLink(g,p.id)).map(p=>p.name),peopleWithoutCheckedAffiliations:g.people.filter(p=>!g.relationships.some(r=>r.person===p.id&&r.review==='checked'&&['residency','education','teaching','research','service'].includes(r.kind))).map(p=>p.name),people:g.people.length,recipes:g.recipes.length,recipeContributors:new Set(g.relationships.filter(r=>r.kind==='contribution').map(r=>r.person)).size,importedCredits:g.relationships.filter(r=>r.kind==='contribution'&&r.review==='imported').length,checkedRecipeCredits:g.relationships.filter(r=>r.kind==='contribution'&&r.review==='checked').length,importedPaths:g.relationships.filter(r=>r.kind==='documented path').length,checkedRelationships:g.relationships.filter(r=>r.review==='checked').length,languageRelationships:g.relationships.filter(r=>r.kind==='language/tool').length,inferredLanguageRelationships:g.relationships.filter(r=>r.kind==='language/tool'&&r.confidence<3).length,technologiesWithoutArtistEvidence:g.entities.filter(t=>t.category&&!g.relationships.some(r=>r.target===t.id&&r.kind==='language/tool')).map(t=>t.name),toBeAssigned:g.people.filter(p=>p.placement==='To be assigned').map(p=>p.name),peopleWithoutCheckedRelationships:g.people.filter(p=>!g.relationships.some(r=>r.person===p.id&&r.review==='checked')).map(p=>p.name)};
  await writeFile(new URL('research/connections-coverage.json',root),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
 }

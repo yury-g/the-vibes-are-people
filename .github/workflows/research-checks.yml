@@ -14,6 +14,7 @@ jobs:
       - run: node tests/agent-contributions.mjs
       - run: node tests/institution-code-expansion.mjs
       - run: node tests/connections.mjs
+      - run: node tests/processing-lineage.mjs
       - run: node tests/new-people.mjs
       - run: node tests/connection-links.mjs
       - run: node tests/connection-fundamentals.mjs

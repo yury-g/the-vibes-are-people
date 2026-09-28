@@ -48,3 +48,7 @@ Rhizome's preservation provenance describes the history and versions of digital 
 ## Leads with access limitations
 
 Archive of Digital Art (ADA) and V2 are relevant further leads. ADA's main page did not load through the web reader; search indexed its archive records. V2's current archive-history page required JavaScript. Neither was fully validated as a usable current database during this pass. MIT Press books are useful contextual sources but are not a unified artist-affiliation database.
+
+## Future Franklin Furnace book source (user-provided lead)
+
+*Back to the Present: Fifty Years of Free Expression with Franklin Furnace* is a potential archival source. Yury reports that the forthcoming book includes his work. Not independently verified, read, mined or used to establish graph edges in the Processing pass. See `PROCESSING-LINEAGE.md` for the source boundary.

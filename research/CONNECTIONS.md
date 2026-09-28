@@ -25,3 +25,7 @@ The Ingredients page shares one connection-data promise for overlays, search and
 ## People-section expansion · September 28, 2026
 
 Lauren Lee McCarthy, Tega Brain and Gene Kogan now join the left-hand People contact sheet, bringing it to 21 entries. Their existing Ingredients photographs, biographies, source records and checked recipe links are reused. Each has a lightweight original JavaScript study (layered noise, rotating line-grid moiré, and nested deltoid curves respectively), explicitly distinguished from the artist’s own work. Birth dates are left blank instead of guessed. Golan Levin and Zach Lieberman were already present. The 105 recipe contributors and 120-person broader directory do not increase from this presentation change.
+
+## Processing lineage · September 28, 2026
+
+`research/processing-lineage.json` adds typed, source-linked origins without altering inherited credits. Person-origin records retain `person`; organization/tool/publication-origin records use `subject`. Read either with `origin(r)`. Entity lookup indexes both ends, and overlap/people counts exclude non-person origins. Entity `type` is separate from technology `category`. New person inclusion, source conflicts and deferred archival leads are documented in [PROCESSING-LINEAGE.md](PROCESSING-LINEAGE.md).

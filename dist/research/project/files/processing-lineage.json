@@ -1,0 +1,568 @@
+{
+  "checked": "2026-09-28",
+  "people": [
+    {
+      "name": "Muriel Cooper",
+      "inclusion": "Typography and interactive information spaces at MIT’s Visible Language Workshop helped establish the design-and-code research inherited by Processing."
+    },
+    {
+      "name": "John Maeda",
+      "inclusion": "Design By Numbers and his teaching at MIT’s Aesthetics and Computation Group helped shape Reas and Fry’s approach to visual programming."
+    },
+    {
+      "name": "Xin Xin",
+      "inclusion": "Critical Computation courses pair p5.js programming with critique and design; Code, Decolonized develops socially engaged ways of teaching code."
+    },
+    {
+      "name": "R. Luke DuBois",
+      "inclusion": "Co-authored Processing’s Sound tutorial with Wilm Thoben, transmitting audio analysis and synthesis to visual programmers."
+    },
+    {
+      "name": "Kate Hollenbach",
+      "inclusion": "Created phonelovesyoutoo: a custom phone-recording application and immersive video matrix that examine the intimate habits of screen use."
+    },
+    {
+      "name": "Cassie Tarakajian",
+      "inclusion": "Created the p5.js Web Editor, making creative coding available directly in a browser, and mentored its next project lead."
+    },
+    {
+      "name": "Qianqian Ye",
+      "inclusion": "Led p5.js documentation accessibility and contributor work, and co-edited the Processing Community Catalog."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity-processing-foundation",
+      "name": "Processing Foundation",
+      "type": "organization",
+      "note": "Supports open-source creative tools, education and community. These links describe stewardship and transmission, not artistic authorship."
+    },
+    {
+      "id": "entity-eyebeam",
+      "name": "Eyebeam",
+      "type": "organization"
+    },
+    {
+      "id": "entity-processing",
+      "name": "Processing",
+      "type": "tool"
+    },
+    {
+      "id": "entity-p5-js",
+      "name": "p5.js",
+      "type": "tool"
+    },
+    {
+      "id": "entity-p5-js-web-editor",
+      "name": "p5.js Web Editor",
+      "type": "tool",
+      "note": "A browser-based workspace for writing and sharing p5.js sketches."
+    },
+    {
+      "id": "entity-processing-community-catalog",
+      "name": "Processing Community Catalog",
+      "type": "publication",
+      "note": "Community contributions gathered through a 2021 open call; published in 2023."
+    },
+    {
+      "id": "entity-critical-computation",
+      "name": "Critical Computation",
+      "type": "pedagogy",
+      "note": "Code, critique and design, taught together through creative programming."
+    },
+    {
+      "id": "entity-code-decolonized",
+      "name": "Code, Decolonized",
+      "type": "pedagogy",
+      "note": "A teaching practicum exploring socially engaged code education."
+    },
+    {
+      "id": "entity-processing-community-day",
+      "name": "Processing Community Day",
+      "type": "community",
+      "note": "Locally organized gatherings around art, code and creative tools."
+    },
+    {
+      "id": "entity-phonelovesyoutoo",
+      "name": "phonelovesyoutoo",
+      "type": "artwork",
+      "note": "An immersive video matrix made from recordings of the artist’s own phone use."
+    },
+    {
+      "id": "entity-design-by-numbers",
+      "name": "Design By Numbers",
+      "type": "tool",
+      "note": "John Maeda’s minimal visual-programming system, released in 1999."
+    },
+    {
+      "id": "entity-the-nature-of-code",
+      "name": "The Nature of Code",
+      "type": "publication",
+      "note": "Daniel Shiffman’s teaching of natural systems through creative coding."
+    },
+    {
+      "id": "entity-school-for-poetic-computation",
+      "name": "School for Poetic Computation",
+      "type": "organization",
+      "note": "An artist-led learning community connecting computation and artistic practice."
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Muriel Cooper",
+      "to": "John Maeda",
+      "kind": "research lineage",
+      "role": "Research continued by",
+      "inverseRole": "Continues research associated with",
+      "detail": "The Visible Language Workshop’s visual-computing research continued in Maeda’s ACG. This is an institutional research lineage, not a teacher–student claim.",
+      "source": "https://www.processingfoundation.org/blog/a-modern-prometheus/",
+      "sourceLabel": "Reas & Fry · A Modern Prometheus",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "John Maeda",
+      "to": "Casey Reas",
+      "kind": "mentorship",
+      "role": "Advised",
+      "inverseRole": "Studied with",
+      "detail": "Fry identifies Maeda as his and Reas’s former advisor at MIT.",
+      "source": "https://www.benfry.com/writing/archives/513",
+      "sourceLabel": "Ben Fry · former advisor John Maeda",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Casey Reas",
+      "to": "Processing Foundation",
+      "kind": "founding",
+      "role": "Co-founded",
+      "inverseRole": "Co-founded by",
+      "detail": "Helped establish the nonprofit supporting the Processing ecosystem.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "dates": "2012",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "John Maeda",
+      "to": "Ben Fry",
+      "kind": "mentorship",
+      "role": "Advised",
+      "inverseRole": "Studied with",
+      "detail": "Fry identifies Maeda as his and Reas’s former advisor at MIT.",
+      "source": "https://www.benfry.com/writing/archives/513",
+      "sourceLabel": "Ben Fry · former advisor John Maeda",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Ben Fry",
+      "to": "Processing Foundation",
+      "kind": "founding",
+      "role": "Co-founded",
+      "inverseRole": "Co-founded by",
+      "detail": "Helped establish the nonprofit supporting the Processing ecosystem.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "dates": "2012",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Daniel Shiffman",
+      "to": "Processing Foundation",
+      "kind": "founding",
+      "role": "Co-founded",
+      "inverseRole": "Co-founded by",
+      "detail": "Joined Fry and Reas in establishing the foundation.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "dates": "2012",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "John Maeda",
+      "to": "Design By Numbers",
+      "kind": "toolmaking",
+      "role": "Created",
+      "inverseRole": "Created by",
+      "detail": "A minimal visual-programming platform developed within the ACG.",
+      "source": "https://www.processingfoundation.org/blog/a-modern-prometheus/",
+      "sourceLabel": "Reas & Fry · A Modern Prometheus",
+      "dates": "1999",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Design By Numbers",
+      "to": "Processing",
+      "kind": "technical lineage",
+      "role": "Helped shape",
+      "inverseRole": "Builds on",
+      "detail": "Teaching and extending DBN informed Reas and Fry’s design of Processing.",
+      "source": "https://www.processingfoundation.org/blog/a-modern-prometheus/",
+      "sourceLabel": "Reas & Fry · A Modern Prometheus",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Processing",
+      "to": "p5.js",
+      "kind": "reinterpretation",
+      "role": "Reinterpreted for the web as",
+      "inverseRole": "Reinterprets",
+      "detail": "Lauren Lee McCarthy initiated p5.js in 2013, adapting Processing’s approach to the web.",
+      "source": "https://p5js.org/people/",
+      "sourceLabel": "p5.js · project history",
+      "dates": "2013",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Processing Foundation",
+      "to": "Processing",
+      "kind": "stewardship",
+      "role": "Stewards",
+      "inverseRole": "Stewarded by",
+      "detail": "The nonprofit supports the software and its contributor community.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Processing Foundation",
+      "to": "p5.js",
+      "kind": "stewardship",
+      "role": "Supports",
+      "inverseRole": "Supported by",
+      "detail": "The library is sustained by contributors with support from the foundation.",
+      "source": "https://p5js.org/people/",
+      "sourceLabel": "p5.js · project history",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Cassie Tarakajian",
+      "to": "p5.js Web Editor",
+      "kind": "toolmaking",
+      "role": "Created",
+      "inverseRole": "Created by",
+      "detail": "An open-source browser editor for making art with p5.js.",
+      "source": "https://processingfoundation.org/blog/the-soothing-balm-of-uncertainty/",
+      "sourceLabel": "Tarakajian & Lim · editor leadership transition",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "p5.js Web Editor",
+      "to": "p5.js",
+      "kind": "tool integration",
+      "role": "Provides a workspace for",
+      "inverseRole": "Can be written in",
+      "detail": "The editor lets people code p5.js sketches in a browser.",
+      "source": "https://processingfoundation.org/blog/the-soothing-balm-of-uncertainty/",
+      "sourceLabel": "Tarakajian & Lim · editor leadership transition",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Processing Foundation",
+      "to": "p5.js Web Editor",
+      "kind": "stewardship",
+      "role": "Supports",
+      "inverseRole": "Supported by",
+      "detail": "Supports the browser-based creative coding tool.",
+      "source": "https://processingfoundation.org/blog/the-soothing-balm-of-uncertainty/",
+      "sourceLabel": "Tarakajian & Lim · editor leadership transition",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Cassie Tarakajian",
+      "to": "Processing Foundation",
+      "kind": "service",
+      "role": "Editor creator and mentor with",
+      "inverseRole": "Supports the editor work of",
+      "detail": "The foundation supports the editor and its mentoring work.",
+      "source": "https://processingfoundation.org/blog/the-soothing-balm-of-uncertainty/",
+      "sourceLabel": "Tarakajian & Lim · editor leadership transition",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Daniel Shiffman",
+      "to": "The Nature of Code",
+      "kind": "pedagogy",
+      "role": "Wrote and teaches through",
+      "inverseRole": "Written and taught by",
+      "detail": "Natural-system simulations taught first through Processing and then through p5.js.",
+      "source": "https://natureofcode.com/introduction/",
+      "sourceLabel": "Shiffman · The Nature of Code introduction",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "The Nature of Code",
+      "to": "Processing",
+      "kind": "pedagogy",
+      "role": "Teaches with",
+      "inverseRole": "Taught through",
+      "detail": "The introduction distinguishes the earlier Processing edition from the revised p5.js edition.",
+      "source": "https://natureofcode.com/introduction/",
+      "sourceLabel": "Shiffman · The Nature of Code introduction",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "The Nature of Code",
+      "to": "p5.js",
+      "kind": "pedagogy",
+      "role": "Teaches with",
+      "inverseRole": "Taught through",
+      "detail": "The introduction distinguishes the earlier Processing edition from the revised p5.js edition.",
+      "source": "https://natureofcode.com/introduction/",
+      "sourceLabel": "Shiffman · The Nature of Code introduction",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Xin Xin",
+      "to": "Critical Computation",
+      "kind": "pedagogy",
+      "role": "Teaches",
+      "inverseRole": "Taught by",
+      "detail": "Lecture and lab combine code, critique and design; the lecture was co-taught with Katherine Moriwaki.",
+      "source": "https://xin-xin.info/teaching/",
+      "sourceLabel": "Xin Xin · teaching archive",
+      "dates": "2019–2021",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Critical Computation",
+      "to": "p5.js",
+      "kind": "pedagogy",
+      "role": "Teaches with",
+      "inverseRole": "Taught through",
+      "detail": "Courses introduce programming through p5.js within a critical social and historical context.",
+      "source": "https://xin-xin.info/teaching/",
+      "sourceLabel": "Xin Xin · teaching archive",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Xin Xin",
+      "to": "Code, Decolonized",
+      "kind": "pedagogy",
+      "role": "Teaches",
+      "inverseRole": "Taught by",
+      "detail": "A practicum for developing socially engaged code teaching materials.",
+      "source": "https://xin-xin.info/teaching/",
+      "sourceLabel": "Xin Xin · teaching archive",
+      "dates": "2021–2022",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Code, Decolonized",
+      "to": "Processing Foundation",
+      "kind": "community",
+      "role": "Includes mentors from",
+      "inverseRole": "Provides mentors for",
+      "detail": "The course description names foundation mentors.",
+      "source": "https://xin-xin.info/teaching/",
+      "sourceLabel": "Xin Xin · teaching archive",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Xin Xin",
+      "to": "Processing Foundation",
+      "kind": "community",
+      "role": "Developed community programs with",
+      "inverseRole": "Community programs developed with",
+      "detail": "Helped lead Processing Community Day 2019 and Code, Decolonized before the 2024 co-director appointment.",
+      "source": "https://processingfoundation.org/blog/announcing-roxana-hadad-and-xin-xin-as-executive-co-directors-of-the-processing-foundation/",
+      "sourceLabel": "Processing Foundation · November 2024 announcement",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Xin Xin",
+      "to": "Processing Community Day",
+      "kind": "community",
+      "role": "Helped lead",
+      "inverseRole": "Coordinated in part by",
+      "detail": "Helped lead the global 2019 program.",
+      "source": "https://processingfoundation.org/blog/announcing-roxana-hadad-and-xin-xin-as-executive-co-directors-of-the-processing-foundation/",
+      "sourceLabel": "Processing Foundation · November 2024 announcement",
+      "dates": "2019",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Processing Foundation",
+      "to": "Processing Community Day",
+      "kind": "community",
+      "role": "Supports",
+      "inverseRole": "Supported by",
+      "detail": "Supports a network of community-led art-and-code gatherings.",
+      "source": "https://processingfoundation.org/",
+      "sourceLabel": "Processing Foundation · programs",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Xin Xin",
+      "to": "Parsons School of Design",
+      "kind": "teaching",
+      "role": "Taught Critical Computation at",
+      "inverseRole": "Hosted teaching by",
+      "detail": "The teaching archive identifies Parsons Design & Technology.",
+      "source": "https://xin-xin.info/teaching/",
+      "sourceLabel": "Xin Xin · teaching archive",
+      "dates": "2020",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "R. Luke DuBois",
+      "to": "Processing",
+      "kind": "pedagogy",
+      "role": "Co-authored sound instruction for",
+      "inverseRole": "Sound instruction co-authored by",
+      "detail": "With Wilm Thoben: playing, analyzing and synthesizing audio.",
+      "source": "https://processing.org/tutorials/sound/",
+      "sourceLabel": "DuBois & Thoben · Sound",
+      "dates": "2014 handbook; online tutorial",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "R. Luke DuBois",
+      "to": "Processing Foundation",
+      "kind": "service",
+      "role": "Advisor and contributor to",
+      "inverseRole": "Advisor and contributor",
+      "detail": "The foundation lists these roles; the sound tutorial separately establishes his pedagogical contribution.",
+      "source": "https://processingfoundation.org/people/r-luke-dubois/",
+      "sourceLabel": "Processing Foundation · DuBois profile",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Kate Hollenbach",
+      "to": "phonelovesyoutoo",
+      "kind": "artwork",
+      "role": "Created",
+      "inverseRole": "Created by",
+      "detail": "An Android application recorded phone use; the resulting footage forms an immersive video matrix.",
+      "source": "https://www.katehollenbach.com/phonelovesyoutoo/",
+      "sourceLabel": "Kate Hollenbach · artwork account",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Kate Hollenbach",
+      "to": "Processing Foundation",
+      "kind": "service",
+      "role": "Advisor and contributor to",
+      "inverseRole": "Advisor and contributor",
+      "detail": "The profile also records prior board and mentoring roles; her artwork is documented separately.",
+      "source": "https://processingfoundation.org/people/kate-hollenbach/",
+      "sourceLabel": "Processing Foundation · Hollenbach profile",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Taeyoon Choi",
+      "to": "Processing Foundation",
+      "kind": "service",
+      "role": "Former advisor and contributor to",
+      "inverseRole": "Former advisor and contributor",
+      "detail": "The foundation records these as past roles, alongside his alternative pedagogy and accessibility work.",
+      "source": "https://www.processingfoundation.org/people/taeyoon-choi/",
+      "sourceLabel": "Processing Foundation · Choi profile",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Qianqian Ye",
+      "to": "p5.js",
+      "kind": "maintenance",
+      "role": "Led accessibility and contributor work for",
+      "inverseRole": "Accessibility and contributor work led by",
+      "detail": "Led a documentation accessibility initiative involving coding, writing, design, translation and research. The January 2025 retrospective describes a completed four-year leadership tenure.",
+      "source": "https://processingfoundation.org/blog/celebrating-4-years-of-p5js-leadership-with-qianqian-ye/",
+      "sourceLabel": "Processing Foundation · Qianqian Ye retrospective",
+      "dates": "Four-year tenure, retrospective January 2025",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Qianqian Ye",
+      "to": "Processing Foundation",
+      "kind": "community",
+      "role": "Led p5.js community work with",
+      "inverseRole": "p5.js community work led by",
+      "detail": "Helped contributors participate in developing and documenting the creative-coding library.",
+      "source": "https://processingfoundation.org/blog/celebrating-4-years-of-p5js-leadership-with-qianqian-ye/",
+      "sourceLabel": "Processing Foundation · Qianqian Ye retrospective",
+      "dates": null,
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Lauren Lee McCarthy",
+      "to": "Processing Community Catalog",
+      "kind": "publication",
+      "role": "Co-edited",
+      "inverseRole": "Co-edited by",
+      "detail": "Edited with Nikki Makagiansar; the catalog gathers community-submitted art, code, teaching and recollections.",
+      "source": "https://processingfoundation.org/blog/20th-anniversary-processing-community-catalog-out-now/",
+      "sourceLabel": "Processing Foundation · catalog publication",
+      "dates": "2023",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Casey Reas",
+      "to": "Processing Community Catalog",
+      "kind": "publication",
+      "role": "Co-edited",
+      "inverseRole": "Co-edited by",
+      "detail": "Edited with Nikki Makagiansar; the catalog gathers community-submitted art, code, teaching and recollections.",
+      "source": "https://processingfoundation.org/blog/20th-anniversary-processing-community-catalog-out-now/",
+      "sourceLabel": "Processing Foundation · catalog publication",
+      "dates": "2023",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Qianqian Ye",
+      "to": "Processing Community Catalog",
+      "kind": "publication",
+      "role": "Co-edited",
+      "inverseRole": "Co-edited by",
+      "detail": "Edited with Nikki Makagiansar; the catalog gathers community-submitted art, code, teaching and recollections.",
+      "source": "https://processingfoundation.org/blog/20th-anniversary-processing-community-catalog-out-now/",
+      "sourceLabel": "Processing Foundation · catalog publication",
+      "dates": "2023",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Processing Foundation",
+      "to": "Processing Community Catalog",
+      "kind": "publication",
+      "role": "Published",
+      "inverseRole": "Published by",
+      "detail": "A collection assembled from the community’s 2021 open call.",
+      "source": "https://processingfoundation.org/blog/20th-anniversary-processing-community-catalog-out-now/",
+      "sourceLabel": "Processing Foundation · catalog publication",
+      "dates": "2023",
+      "checked": "2026-09-28"
+    },
+    {
+      "from": "Kate Hollenbach",
+      "to": "Processing",
+      "kind": "maintenance",
+      "role": "Developer in residence for",
+      "inverseRole": "Resident developer",
+      "detail": "The foundation’s profile identifies her as Developer in Residence for Processing Java.",
+      "source": "https://processingfoundation.org/people/kate-hollenbach/",
+      "sourceLabel": "Processing Foundation · Hollenbach profile",
+      "dates": "Listed September 2026",
+      "checked": "2026-09-28"
+    }
+  ]
+}
