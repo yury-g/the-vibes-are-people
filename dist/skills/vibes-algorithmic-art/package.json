@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "file": "vibes-algorithmic-art.zip",
+  "sha256": "a78479d36997a627d08bc4f636a7ac747721670eb35edafbfd645c4c27c7643c",
+  "bytes": 49375,
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/visual-language.md",
+    "references/taxonomy.md",
+    "references/methods.json",
+    "assets/studio.html"
+  ]
+}

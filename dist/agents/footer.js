@@ -4,8 +4,9 @@ if(!document.querySelector('.vibes-contribute-footer')){
  const f=make('footer',null,'vibes-contribute-footer');
  f.append(make('p','A living collection of people, experiments and shared tools. Help fill in a missing connection.'));
  const nav=make('nav');nav.setAttribute('aria-label','Explore and contribute');
- for(const [label,url]of [['Visual vocabulary','/vocabulary/'],['Send your AI','/agents/'],['Share an experiment','https://github.com/yury-g/the-vibes-are-people/issues/new?template=experiment.yml'],['Code & open collections','/connections/#code'],['Public roadmap','/agents/roadmap.html']])nav.append(link(label+' ↗',url));
+ for(const [label,url]of [['Make art with your AI','/skills/vibes-algorithmic-art/'],['Visual taxonomy','/taxonomy/'],['Visual vocabulary','/vocabulary/'],['Send your AI','/agents/'],['Share an experiment','https://github.com/yury-g/the-vibes-are-people/issues/new?template=experiment.yml'],['Code & open collections','/connections/#code'],['Public roadmap','/agents/roadmap.html']])nav.append(link(label+' ↗',url));
  f.append(nav,make('h2','Make algorithmic art easier to discuss.'));
+ const start=make('p',null,'skill-start');start.append(link('Use Vibes Algorithmic Art →','/skills/vibes-algorithmic-art/'),document.createTextNode(' Our creation skill connects a visual brief to working controls, repeatable exports and sourced people. Try the studio or give the skill to your AI.'));f.append(start);
  const resources=make('div',null,'skill-resources');
  const card=make('article'),source=link('','https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md',true);
  const img=make('img');img.src='/agents/resources/anthropic-algorithmic-art.png';img.alt='Anthropic’s published algorithmic-art skill on GitHub, September 28, 2026';img.width=1050;img.height=650;img.loading='lazy';
@@ -18,7 +19,7 @@ if(!document.querySelector('.vibes-contribute-footer')){
  vocabulary.append(make('p','Starting impression','brief-label'),make('blockquote','“Make it feel more organic.”'));
  vocabulary.append(make('p','A brief you can act on','brief-label'),make('blockquote','“Build a p5.js flow field driven by Perlin noise. Use sparse, fine trails with broad, gradual changes in direction. Keep seed 42 fixed while we compare density. Expose density, noise scale and speed as separate controls.”'));
  const credits=make('p');credits.append(document.createTextNode('Keep names attached to methods: '),link('Perlin noise · Ken Perlin','/connections/?person=Ken%20Perlin#people'),document.createTextNode('; '),link('Boids · Craig Reynolds','/connections/?person=Craig%20Reynolds#people'),document.createTextNode('; '),link('L-systems · Aristid Lindenmayer','/connections/?person=Aristid%20Lindenmayer#people'),document.createTextNode('. Follow each contribution and its sources.'));
- vocabulary.append(credits,make('p','Use established method names and people’s credited or chosen names. Pair them with observable qualities: flow, cohesion, grain, branching, scale and density. Names help us find a history; controls help us make deliberate changes.'),link('Try the visual vocabulary & build a brief ↗','/vocabulary/#flow'),make('small','This is our suggested teaching workflow. The linked Anthropic skill runs in your own AI tool; this site provides vocabulary, exercises and contribution research.'));
+ vocabulary.append(credits,make('p','Use established method names and people’s credited or chosen names. Pair them with observable qualities: flow, cohesion, grain, branching, scale and density. Names help us find a history; controls help us make deliberate changes.'),link('Try the visual vocabulary & build a brief ↗','/vocabulary/#flow'),make('small','Use our creation skill to follow this workflow in your own AI tool. The original Anthropic skill is linked for context and comparison.'));
  resources.append(card,vocabulary);f.append(resources,make('p','Interpretations depend on context. Specific credits do not make one person the inventor of an entire aesthetic. Explore the sources, compare variations, and develop your own work.','footer-note'));
  const audit=make('section',null,'skill-audit');audit.id='algorithmic-skill-audit';audit.setAttribute('aria-labelledby','skill-audit-title');
  const auditTitle=make('h3','A closer look at the published skill');auditTitle.id='skill-audit-title';
@@ -42,6 +43,7 @@ if(!document.querySelector('.vibes-contribute-footer')){
  .vibes-contribute-footer .skill-resources article{border:1px solid #bbb;padding:1rem;min-width:0}
  .vibes-contribute-footer .skill-resources img{display:block;width:100%;height:auto;margin-bottom:.75rem}
  .vibes-contribute-footer .skill-resources strong{font-size:20px}
+ .vibes-contribute-footer .skill-start{max-width:1166px;border:2px solid #111;padding:1rem}.vibes-contribute-footer .skill-start a{font-weight:700;margin-right:.5rem}
  .vibes-contribute-footer h3{font-size:22px;line-height:1.25;margin:0 0 1rem}
  .vibes-contribute-footer .brief-label{font-size:13px;font-weight:700;margin:1rem 0 .4rem}
  .vibes-contribute-footer blockquote{margin:0;padding:.8rem 1rem;background:#f3f3ef;border-left:3px solid #111;font-size:16px}

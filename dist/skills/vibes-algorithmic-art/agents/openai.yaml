@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibes Algorithmic Art"
+  short_description: "Make art with visual vocabulary and sourced methods"
+  default_prompt: "Use $vibes-algorithmic-art to turn my visual intention into a controllable, reproducible artwork with sourced method credits."

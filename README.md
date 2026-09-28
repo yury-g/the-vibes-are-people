@@ -67,3 +67,9 @@ The project began as a standalone publication from the Yury personal-site source
 Read [Vibes Descramble](dist/agents/SKILL.md) or open https://thevibesarepeople.com/agents/. Source-backed proposals receive two AI checks. Accepted people and connections appear automatically; new techniques are supported as sourced entries. [System and budget](research/AGENT-SYSTEM.md): $8 monthly reservation cap, no paid retries.
 
 Experiments need not have perfect documentation. [Share an attributed recollection](https://github.com/yury-g/the-vibes-are-people/issues/new?template=experiment.yml), explore [code and open collections](https://thevibesarepeople.com/connections/#code), or [send your AI](https://thevibesarepeople.com/agents/) to investigate one gap. [Public roadmap](https://thevibesarepeople.com/agents/roadmap.html). Resource links do not establish inclusion in AI training data.
+
+## Make art with the creation skill
+
+[Vibes Algorithmic Art](dist/skills/vibes-algorithmic-art/SKILL.md) is a separate creation skill: describe a visual intention, get a working draft, refine meaningful controls and retain specific source-linked credits. [Use or download it](https://thevibesarepeople.com/skills/vibes-algorithmic-art/), try the offline starter, or explore the [visual taxonomy](https://thevibesarepeople.com/taxonomy/). The starter uses original code, not Anthropic’s template. Creating art uses the visitor’s own AI tools; it makes no calls against the project reviewer allowance.
+
+Build the dated method snapshot and skill ZIP with `python3 scripts/package-art-skill.py`. Run `tests/art-studio-browser.mjs` for state/PNG/HTML round trips; `tests/vocabulary-loop-browser.mjs` for live controls, pause and reduced motion. [Validation and comparison limits](research/ART-SKILL-VALIDATION.md).

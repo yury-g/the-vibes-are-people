@@ -19,6 +19,7 @@ jobs:
       - run: node tests/connection-fundamentals.mjs
       - run: node tests/languages.mjs
       - run: node tests/ingredients-expansion.mjs
+      - run: python3 scripts/package-art-skill.py
       - run: node scripts/export-research.mjs
       - name: Verify committed exports are current
-        run: git diff --exit-code -- dist/connections/data.json research/connections-coverage.json dist/research/project/
+        run: git diff --exit-code -- dist/connections/data.json research/connections-coverage.json dist/research/project/ dist/skills/vibes-algorithmic-art/

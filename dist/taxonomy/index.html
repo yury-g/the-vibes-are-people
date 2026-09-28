@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A working visual taxonomy of five computational image-making methods: compare live examples, change a parameter, and follow the people and sources behind each method.">
+  <title>Visual taxonomy — The Vibes Are People</title>
+  <link rel="stylesheet" href="taxonomy.css">
+</head>
+<body>
+  <a class="skip" href="#methods">Skip to methods</a>
+  <main>
+    <nav class="top-nav" aria-label="Project"><a href="/">← The Vibes Are People</a><a href="/vocabulary/">Visual vocabulary ↗</a><a href="/connections/#people">People & connections ↗</a></nav>
+    <header>
+      <p class="eyebrow">An exploratory field guide · Edition 01</p>
+      <h1>What makes<br>that pattern?</h1>
+      <div class="introduction"><p class="lead">Five methods. Five ways to make an image.<br>Look, adjust, then follow the people behind the technique.</p><p>This working visual taxonomy separates <strong>computational role</strong>, <strong>visible quality</strong>, and <strong>contribution</strong>. A similar appearance can come from different methods. This is a first edition, not an exhaustive encyclopedia.</p></div>
+    </header>
+    <section class="browse" aria-labelledby="browse-title">
+      <h2 id="browse-title">Explore by what the method does</h2>
+      <div id="role-filters" role="group" aria-label="Computational role"></div>
+      <div class="search-row"><label for="method-search">Search a method, quality, or person<input id="method-search" type="search" placeholder="Try soft, branching, or Perlin" autocomplete="off"></label><p id="result-count" role="status" aria-live="polite">Loading five methods…</p></div>
+    </section>
+    <div id="methods" class="method-grid" tabindex="-1"></div>
+    <p id="empty" hidden>No matching methods in this edition. Try another word or <button type="button" id="reset-filters">show all five</button>.</p>
+    <noscript><p>The interactive demonstrations need JavaScript. You can still read the <a href="data.json">method descriptions and sources</a>, explore <a href="/notes/ingredients/techniques.html">the recipe collection</a>, or follow the reading paths below.</p></noscript>
+    <section class="next" aria-labelledby="next-title">
+      <div><p class="eyebrow">From looking to making</p><h2 id="next-title">Make something<br>of your own.</h2><p>Choose a mechanism, describe a visible quality, and change one constraint. Keep method credits specific and interpretations open.</p><a class="primary-link" href="/skills/vibes-algorithmic-art/">Create with AI →</a></div>
+      <div><h3>Keep exploring</h3><p><a href="/vocabulary/">Visual vocabulary →</a><br>Words for describing what you see.</p><p><a href="/notes/ingredients/techniques.html">Recipes & ingredients →</a><br>More methods, studies, and contributors.</p><p><a href="/agents/">Help extend this taxonomy →</a><br>Suggest a method, a source, or a missing contribution.</p><p><a href="data.json">Method data ↗</a> · <a href="demos.js">Demonstration source ↗</a></p></div>
+    </section>
+    <section class="reading" aria-labelledby="reading-title"><h2 id="reading-title">Other maps of this territory</h2><p>This small index sits alongside larger, differently organized resources: <a href="https://homepages.inf.ed.ac.uk/rbf/HIPR2/index.htm">HIPR2</a> groups image-processing operators; <a href="https://natureofcode.com/">The Nature of Code</a> teaches computational systems; and <a href="https://algorithmicbotany.org/papers/#abop">The Algorithmic Beauty of Plants</a> develops formal approaches to plant modeling.</p><p class="small">The previews are original educational code, not reproductions of artists’ works. People links reuse the project’s contribution records; “source recheck pending” remains visible for imported records. Computational roles are an editorial navigation aid, not mutually exclusive scientific categories.</p></section>
+  </main>
+  <script type="module" src="taxonomy.js"></script>
+  <script type="module" src="/agents/footer.js"></script>
+</body>
+</html>

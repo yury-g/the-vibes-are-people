@@ -2,6 +2,18 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/VISUAL-TAXONOMY.md",
+      "file": "files/VISUAL-TAXONOMY.md",
+      "bytes": 4129,
+      "sha256": "75720d7b82a06cc038de5cd5f885b75d9d7a227bfe653230c62ff3d356a9af97"
+    },
+    {
+      "source": "research/ART-SKILL-VALIDATION.md",
+      "file": "files/ART-SKILL-VALIDATION.md",
+      "bytes": 4077,
+      "sha256": "c2fe48b7a6f0d34dde7ae4695e2487b1bddbc5ce94e27d934464a21753d50f8b"
+    },
+    {
       "source": "research/ANTHROPIC-SKILL-AUDIT.md",
       "file": "files/ANTHROPIC-SKILL-AUDIT.md",
       "bytes": 6313,
@@ -22,8 +34,8 @@
     {
       "source": "research/VISUAL-VOCABULARY.md",
       "file": "files/VISUAL-VOCABULARY.md",
-      "bytes": 1113,
-      "sha256": "e1d3a47b69010de31dee2045cab065d64e1beccd121e4508c7280991fab65247"
+      "bytes": 1694,
+      "sha256": "8c640eb0558c844d27dd6a28de9da4b43174e7d3a024e233cad388644c5d554d"
     },
     {
       "source": "research/INSTITUTIONS.md",
@@ -70,8 +82,8 @@
     {
       "source": "dist/agents/SKILL.md",
       "file": "files/SKILL.md",
-      "bytes": 6877,
-      "sha256": "309d946803d645bac3b95967e4e71d5d10440b42aecfcd6fb355b7af1a33d202"
+      "bytes": 7267,
+      "sha256": "1aecb906b0e2084932f15af7c183089e378a8ecfd4394d28430bda64f9f88ede"
     },
     {
       "source": "dist/agents/proposal.schema.json",
@@ -130,8 +142,8 @@
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 6203,
-      "sha256": "9b437db0da27067d799abeb8d2f718c388ef9825a92c347c1515e47a44f05801"
+      "bytes": 7118,
+      "sha256": "402e52f5f46447d600a1e09028ffb7c76ae4d8e78c26a8531c1817b470a5c0c3"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -202,8 +214,8 @@
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 1874,
-      "sha256": "a763add8ba9c40fbc193fc0a3376e94e504381de413d88a92c6cd09c69651c9a"
+      "bytes": 1939,
+      "sha256": "fd56109f4b8ad95c0061a5ec306a389c94730e4546c377f4ff8cba785ccc456a"
     }
   ]
 }

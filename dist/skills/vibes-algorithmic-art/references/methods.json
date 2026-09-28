@@ -1,0 +1,265 @@
+{
+  "catalogChecked": "2026-09-28",
+  "source": "https://thevibesarepeople.com/connections/data.json",
+  "note": "Selected catalog records, not an exhaustive method list. Preserve each review status and follow its source.",
+  "methods": [
+    {
+      "name": "Curl noise",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=Curl%20noise",
+      "contributions": [
+        {
+          "person": "Robert Bridson",
+          "role": "2007 paper · coauthor",
+          "claim": "Coauthored Curl-Noise for Procedural Fluid Flow, constructing incompressible procedural velocity fields with controllable boundaries.",
+          "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+          "sourceLabel": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+          "review": "imported"
+        },
+        {
+          "person": "Jim Hourihan",
+          "role": "2007 paper · coauthor",
+          "claim": "Coauthored the 2007 curl-noise method for procedural fluid-like motion.",
+          "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+          "sourceLabel": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+          "review": "imported"
+        },
+        {
+          "person": "Marcus Nordenstam",
+          "role": "2007 paper · coauthor",
+          "claim": "Coauthored the 2007 curl-noise method, including treatment of solid boundaries.",
+          "source": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf",
+          "sourceLabel": "Bridson, Hourihan & Nordenstam, SIGGRAPH 2007 (author-hosted paper)",
+          "review": "imported"
+        }
+      ]
+    },
+    {
+      "name": "Vector fields from math",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=Vector%20fields%20from%20math",
+      "contributions": [
+        {
+          "person": "Josiah Willard Gibbs",
+          "role": "Mathematical foundation",
+          "claim": "Developed vector analysis as a practical mathematical language; his 1881–1884 Yale notes are preserved by the Smithsonian.",
+          "source": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+          "sourceLabel": "Smithsonian Libraries, Elements of vector analysis",
+          "review": "imported"
+        },
+        {
+          "person": "Oliver Heaviside",
+          "role": "Mathematical foundation",
+          "claim": "The Smithsonian identifies Heaviside alongside Gibbs as a developer of practical vector analysis.",
+          "source": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+          "sourceLabel": "Smithsonian Libraries, Elements of vector analysis",
+          "review": "imported"
+        },
+        {
+          "person": "Tyler Hobbs",
+          "role": "Later artist / expositor",
+          "claim": "Explains tracing paths through direction fields and shows how he uses and varies them in his own artwork.",
+          "source": "https://www.tylerxhobbs.com/words/flow-fields",
+          "sourceLabel": "Tyler Hobbs · Flow Fields",
+          "review": "imported"
+        },
+        {
+          "person": "Gene Kogan",
+          "role": "Artistic use · Vertex rivers (2011)",
+          "claim": "His work index describes Vertex rivers as dots over vector fields. The work page documents a generative sketch, shown at Big Screen Plaza in January 2012, and links to its OpenProcessing code.",
+          "source": "https://genekogan.com/work/",
+          "sourceLabel": "Artist’s work index · Vertex rivers",
+          "review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "L-systems",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=L-systems",
+      "contributions": [
+        {
+          "person": "Aristid Lindenmayer",
+          "role": "1968 growth formalism",
+          "claim": "Developed formal growth models for cellular interactions, including branching filaments.",
+          "source": "https://www0.cs.ucl.ac.uk/staff/p.bentley/teaching/L6_reading/lsystems.pdf",
+          "sourceLabel": "Lindenmayer, Journal of Theoretical Biology (1968), institutional copy",
+          "review": "imported"
+        },
+        {
+          "person": "Przemysław Prusinkiewicz",
+          "role": "1986 graphical method",
+          "claim": "Presented turtle interpretation of L-system strings to generate fractal curves and plant-like pictures.",
+          "source": "https://algorithmicbotany.org/papers/graphical.gi86.html",
+          "sourceLabel": "Author publication page, Graphics Interface 1986",
+          "review": "imported"
+        }
+      ]
+    },
+    {
+      "name": "Moiré",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=Moir%C3%A9",
+      "contributions": [
+        {
+          "person": "Carlos Cruz-Diez",
+          "role": "Artist / optical exploration",
+          "claim": "His 1964 Chromointerférence arose from sliding one repeated-line image over another transparent line pattern.",
+          "source": "https://cruz-diez.com/works/chromointerference/",
+          "sourceLabel": "Cruz-Diez official archive: Chromointerférence (1964)",
+          "review": "imported"
+        },
+        {
+          "person": "Golan Levin",
+          "role": "Teaching · Code as Creative Medium co-author",
+          "claim": "Co-authored the creative-coding book and its shared example collection, including this moiré exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+          "source": "https://github.com/golanlevin/exercises/tree/main/02_iteration/14_moire_patterns",
+          "sourceLabel": "Code as Creative Medium · example and repository credits",
+          "review": "checked"
+        },
+        {
+          "person": "Tega Brain",
+          "role": "Teaching · Code as Creative Medium co-author",
+          "claim": "Co-authored the creative-coding book and its shared example collection, including this moiré exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+          "source": "https://github.com/golanlevin/exercises/tree/main/02_iteration/14_moire_patterns",
+          "sourceLabel": "Code as Creative Medium · example and repository credits",
+          "review": "checked"
+        },
+        {
+          "person": "Gene Kogan",
+          "role": "Artistic use · Interference (2012)",
+          "claim": "Used repeated deltoid curves to produce moiré patterns in Interference. His account says the original code was lost; the work documents an artistic application, not invention of moiré.",
+          "source": "https://genekogan.com/works/interference/",
+          "sourceLabel": "Artist’s work record · Interference",
+          "review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Dithering as art",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=Dithering%20as%20art",
+      "contributions": [
+        {
+          "person": "Robert W. Floyd",
+          "role": "1976 error diffusion",
+          "claim": "Coauthored An Adaptive Algorithm for Spatial Greyscale, the paper associated with Floyd–Steinberg dithering.",
+          "source": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+          "sourceLabel": "University of Magdeburg bibliography for Floyd and Steinberg (1976)",
+          "review": "imported"
+        },
+        {
+          "person": "Louis Steinberg",
+          "role": "1976 error diffusion",
+          "claim": "Coauthored the spatial-greyscale algorithm jointly credited as Floyd–Steinberg dithering.",
+          "source": "https://isgwww.cs.uni-magdeburg.de/~stefans/npr/entry-Floyd-1976-AAS.html",
+          "sourceLabel": "University of Magdeburg bibliography for Floyd and Steinberg (1976)",
+          "review": "imported"
+        },
+        {
+          "person": "Donald E. Knuth",
+          "role": "1987 dot diffusion",
+          "claim": "Published Digital Halftones by Dot Diffusion, another documented route from continuous tones to discrete marks.",
+          "source": "https://profiles.stanford.edu/donald-knuth",
+          "sourceLabel": "Stanford profile publication record",
+          "review": "imported"
+        },
+        {
+          "person": "Golan Levin",
+          "role": "Teaching · Code as Creative Medium co-author",
+          "claim": "Co-authored the creative-coding book and its shared example collection, including this random-dot dithering exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+          "source": "https://github.com/golanlevin/exercises/tree/main/12_image/04_random_dot_dithering",
+          "sourceLabel": "Code as Creative Medium · example and repository credits",
+          "review": "checked"
+        },
+        {
+          "person": "Tega Brain",
+          "role": "Teaching · Code as Creative Medium co-author",
+          "claim": "Co-authored the creative-coding book and its shared example collection, including this random-dot dithering exercise. The repository credits assistance from Lingdong Huang, Tatyana Mustakos, Cassie Scheirer, and Xinyi (Joyce) Wang. This is a teaching credit, not sole implementation or invention.",
+          "source": "https://github.com/golanlevin/exercises/tree/main/12_image/04_random_dot_dithering",
+          "sourceLabel": "Code as Creative Medium · example and repository credits",
+          "review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Voronoi/Delaunay operated on",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=Voronoi/Delaunay%20operated%20on",
+      "contributions": [
+        {
+          "person": "Georgy Voronoy",
+          "role": "Mathematical foundation",
+          "claim": "Studied the tessellations now known as Voronoi diagrams in his geometry-of-numbers work.",
+          "source": "https://mathshistory.st-andrews.ac.uk/Biographies/Voronoy/",
+          "sourceLabel": "University of St Andrews: Georgy Voronoy",
+          "review": "imported"
+        },
+        {
+          "person": "Boris Delaunay",
+          "role": "Mathematical foundation",
+          "claim": "Authored the 1934 empty-sphere paper Sur la sphère vide, dedicated to Georges Voronoï.",
+          "source": "https://www.mathnet.ru/php/archive.phtml?jrnid=im&option_lang=&paperid=4937&wshow=paper",
+          "sourceLabel": "Math-Net: Delaunay (1934)",
+          "review": "imported"
+        }
+      ]
+    },
+    {
+      "name": "fBm + ridged / turbulent",
+      "catalog": "https://thevibesarepeople.com/notes/ingredients/techniques.html?recipe=fBm%20%2B%20ridged%20/%20turbulent",
+      "contributions": [
+        {
+          "person": "Benoît Mandelbrot",
+          "role": "Mathematical foundation coauthor",
+          "claim": "Coauthored the 1968 study Fractional Brownian Motions, Fractional Noises and Applications.",
+          "source": "https://epubs.siam.org/doi/10.1137/1010093",
+          "sourceLabel": "Mandelbrot and Van Ness: SIAM Review (1968)",
+          "review": "imported"
+        },
+        {
+          "person": "John W. Van Ness",
+          "role": "Mathematical foundation coauthor",
+          "claim": "Coauthored the 1968 paper formalizing and studying fractional Brownian motions.",
+          "source": "https://epubs.siam.org/doi/10.1137/1010093",
+          "sourceLabel": "Mandelbrot and Van Ness: SIAM Review (1968)",
+          "review": "imported"
+        },
+        {
+          "person": "Ken Perlin",
+          "role": "Procedural graphics contributor",
+          "claim": "Introduced a procedural noise-based image synthesizer including synthetic turbulence in 1985.",
+          "source": "https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/perlin85_imagesynthesizer.pdf",
+          "sourceLabel": "Perlin: An Image Synthesizer (1985)",
+          "review": "imported"
+        },
+        {
+          "person": "F. Kenton Musgrave",
+          "role": "Ridged-noise contributor / terrain coauthor",
+          "claim": "Developed ridged multifractal noise used for mountainous terrain, as credited in LightWave's texture documentation.",
+          "source": "https://docs.lightwave3d.com/2025/3d-textures.html",
+          "sourceLabel": "LightWave 2025 documentation: Ridged Multifractal",
+          "review": "imported"
+        },
+        {
+          "person": "Craig E. Kolb",
+          "role": "Fractal-terrain coauthor",
+          "claim": "Coauthored the 1989 paper on fractal terrain noise synthesis, erosion, and rendering.",
+          "source": "https://citeseerx.ist.psu.edu/document?doi=8af1ba21a954c910994f5ad599777640452a3d6b&repid=rep1&type=pdf",
+          "sourceLabel": "Musgrave, Kolb and Mace (1989)",
+          "review": "imported"
+        },
+        {
+          "person": "Robert S. Mace",
+          "role": "Fractal-terrain coauthor",
+          "claim": "Coauthored the 1989 paper on fractal terrain noise synthesis, erosion, and rendering.",
+          "source": "https://citeseerx.ist.psu.edu/document?doi=8af1ba21a954c910994f5ad599777640452a3d6b&repid=rep1&type=pdf",
+          "sourceLabel": "Musgrave, Kolb and Mace (1989)",
+          "review": "imported"
+        },
+        {
+          "person": "Lauren Lee McCarthy",
+          "role": "Toolmaking · p5.js creator",
+          "claim": "Created p5.js, whose noiseDetail API exposes octave and falloff controls for layered Perlin noise. This credits the enabling platform, not invention of fBm, implementation of every noise function, or all ridged/turbulent variants.",
+          "source": "https://p5js.org/reference/p5/noiseDetail/",
+          "sourceLabel": "p5.js · octave and falloff documentation",
+          "review": "checked"
+        }
+      ]
+    }
+  ]
+}

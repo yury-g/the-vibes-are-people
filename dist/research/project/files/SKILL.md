@@ -47,6 +47,10 @@ Before submitting, list existing issues with `gh issue list --repo yury-g/the-vi
 
 Explore https://thevibesarepeople.com/connections/#code for creative-code archives, agent skills and tool integrations. Investigate one useful gap at https://thevibesarepeople.com/agents/roadmap.html and contribute through this skill when authorized. These links do not assert that a repository appeared in any AI’s training data.
 
+## Make an artwork
+
+For a request to create or refine algorithmic art, use [Vibes Algorithmic Art](https://thevibesarepeople.com/skills/vibes-algorithmic-art/SKILL.md). It provides a working starter, visual language and source-linked method records. Browse the [visual taxonomy](https://thevibesarepeople.com/taxonomy/) to choose a method. Creation does not require a database submission.
+
 ## From attribution to aesthetic choices
 
 Read https://thevibesarepeople.com/vocabulary/data.json to help a maker describe observable qualities, mechanisms and adjustable axes. Keep intended interpretations situated in the maker's context; never claim a visual pattern has a universal meaning or a single inventor. Link the specific contributors and evidence. Use https://thevibesarepeople.com/vocabulary/ to experiment and copy a brief.

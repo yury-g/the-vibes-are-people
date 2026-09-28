@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An original, offline generative-art studio. Explore a seeded direction field, save your recipe, and download a working copy.">
+  <title>Calm currents — classroom flow-field study</title>
+  <style>
+    .studio { margin: 0; color: #171717; background: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.5; }
+    .studio *, .studio *::before, .studio *::after { box-sizing: border-box; }
+    .studio a { color: inherit; text-underline-offset: .22em; }
+    .studio button, .studio input { font: inherit; }
+    .studio button { border: 1px solid #222; background: #fff; color: #171717; border-radius: 0; padding: 10px 13px; min-height: 44px; cursor: pointer; }
+    .studio button:hover { background: #ededeb; }
+    .studio :focus-visible { outline: 3px solid #171717; outline-offset: 4px; }
+    .studio button.primary { background: #171717; color: #fff; }
+    .studio button.primary:hover { background: #333; }
+    .studio main { max-width: 1380px; margin: auto; padding: 26px 36px 40px; }
+    .studio .masthead { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 18px; border-bottom: 1px solid #bdbdb8; font-size: 12px; }
+    .studio .masthead a { font-weight: 700; text-decoration: none; }
+    .studio .eyebrow { margin: 29px 0 4px; text-transform: uppercase; letter-spacing: .11em; font-size: 11px; }
+    .studio h1 { font-size: clamp(34px, 5vw, 66px); line-height: 1.04; letter-spacing: -.055em; margin: 0 0 13px; font-weight: 500; }
+    .studio .intro { max-width: 720px; margin: 0 0 26px; color: #494949; }
+    .studio .workspace { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 26px; align-items: start; }
+    .studio .controls { padding: 20px; background: #f4f4f1; }
+    .studio .control { margin-bottom: 23px; }
+    .studio .control-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .studio label, .studio .control-heading > span { font-size: 13px; font-weight: 700; }
+    .studio output { font-size: 12px; font-variant-numeric: tabular-nums; color: #505050; }
+    .studio input[type="range"] { display: block; width: 100%; height: 28px; margin: 6px 0 0; accent-color: #171717; cursor: pointer; }
+    .studio .ends { display: flex; justify-content: space-between; gap: 12px; color: #505050; font-size: 11px; }
+    .studio .seed-row { display: flex; gap: 8px; margin-top: 8px; }
+    .studio input[type="number"] { width: 100%; min-width: 0; padding: 9px; border: 1px solid #999; background: #fff; color: #171717; font-variant-numeric: tabular-nums; }
+    .studio .seed-row button { white-space: nowrap; font-size: 12px; }
+    .studio .seed-hint { margin: 5px 0 0; color: #505050; font-size: 11px; }
+    .studio .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .studio .microcopy { font-size: 12px; color: #505050; margin: 13px 0 0; }
+    .studio figure { margin: 0; min-width: 0; }
+    .studio .paper { border: 1px solid #c8c8c3; background: #fff; }
+    .studio canvas { width: 100%; height: auto; display: block; aspect-ratio: 4 / 3; }
+    .studio figcaption { display: flex; justify-content: space-between; gap: 15px; font-size: 11px; margin-top: 9px; color: #505050; font-variant-numeric: tabular-nums; }
+    .studio .exports { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .studio .exports button { font-size: 12px; }
+    .studio #status { min-height: 22px; font-size: 12px; margin: 10px 0 0; overflow-wrap: anywhere; }
+    .studio #status[data-kind="error"] { font-weight: 700; }
+    .studio .context { margin-top: 26px; padding-top: 17px; border-top: 1px solid #bdbdb8; display: grid; grid-template-columns: 1fr 1fr; gap: 36px; font-size: 12px; color: #494949; }
+    .studio .context h2 { font-size: 12px; color: #171717; margin: 0 0 5px; }
+    .studio .context p { margin: 0 0 8px; }
+    .studio .context details { margin-top: 10px; }
+    .studio .context summary { cursor: pointer; text-decoration: underline; text-underline-offset: .2em; }
+    .studio .context details p { margin-top: 8px; }
+    .studio code { overflow-wrap: anywhere; font-size: 11px; }
+    .studio .offline { white-space: nowrap; }
+    @media (max-width: 780px) {
+      .studio main { padding: 18px 18px 28px; }
+      .studio .workspace { display: flex; flex-direction: column; gap: 22px; }
+      .studio .preview { order: -1; width: 100%; }
+      .studio .controls { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 19px 24px; padding: 18px; }
+      .studio .control { margin: 0; }
+      .studio .controls .microcopy { margin: 0; align-self: center; }
+      .studio .context { gap: 20px; }
+      .studio .eyebrow { margin-top: 23px; }
+    }
+    @media (max-width: 480px) {
+      .studio main { padding-right: 14px; padding-left: 14px; }
+      .studio .controls, .studio .context { grid-template-columns: 1fr; }
+      .studio .exports { display: grid; grid-template-columns: 1fr 1fr; }
+      .studio .exports button { padding-right: 6px; padding-left: 6px; }
+      .studio .intro { font-size: 13px; }
+      .studio figcaption { font-size: 10px; }
+      .studio .masthead { font-size: 10px; }
+    }
+  </style>
+</head>
+<body class="studio">
+  <main>
+    <header class="masthead">
+      <span>Classroom field study</span>
+      <span class="offline">Runs offline · No account</span>
+    </header>
+    <p class="eyebrow">A study in sparse ink trails</p>
+    <h1>Calm currents.</h1>
+    <p class="intro">Fine ink trails follow a broad direction field. Begin with 180 paths, a 240-pixel field scale, and gently aligned directions. Change one control at a time to see what it does.</p>
+    <div class="workspace">
+      <section class="controls" aria-label="Drawing controls">
+        <div class="control">
+          <div class="control-heading"><label for="density">Density</label><output id="density-value" for="density">180 paths</output></div>
+          <input id="density" type="range" min="100" max="1400" step="1" value="180" aria-describedby="density-ends">
+          <div id="density-ends" class="ends"><span>Sparse</span><span>Dense</span></div>
+        </div>
+        <div class="control">
+          <div class="control-heading"><label for="fieldScale">Field scale</label><output id="fieldScale-value" for="fieldScale">240 px</output></div>
+          <input id="fieldScale" type="range" min="48" max="260" step="1" value="240" aria-describedby="scale-ends">
+          <div id="scale-ends" class="ends"><span>Tighter curves</span><span>Broad sweeps</span></div>
+        </div>
+        <div class="control">
+          <label for="seed">Seed</label>
+          <div class="seed-row"><input id="seed" type="number" min="0" max="4294967295" step="1" value="1847" aria-describedby="seed-hint"><button id="new-seed" type="button">New seed</button></div>
+          <p class="seed-hint" id="seed-hint">Whole number from 0 to 4,294,967,295.</p>
+        </div>
+        <div class="actions"><button id="regenerate" class="primary" type="button">Regenerate</button><button id="reset" type="button">Reset</button></div>
+        <p class="microcopy">Density adds paths without moving the existing ones (100–1,400). Field scale sets the width of currents (48–260 px). Reset returns to the classroom defaults.</p>
+      </section>
+      <div class="preview">
+        <figure>
+          <div class="paper"><canvas id="artwork" width="1200" height="900" role="img" aria-label="Black paths tracing an interpolated direction field on white. Adjust the controls to explore different forms.">Your browser needs Canvas support to show this drawing.</canvas></div>
+          <figcaption><span id="drawing-caption">Seed 1847 · 180 paths</span><span>1200 × 900 · Static drawing</span></figcaption>
+        </figure>
+        <div class="exports" aria-label="Save and restore">
+          <button id="download-png" class="primary" type="button">Download PNG</button>
+          <button id="download-html" type="button">Download HTML</button>
+          <button id="download-recipe" type="button">Download recipe</button>
+          <button id="import-recipe" type="button">Import recipe</button>
+          <input id="recipe-file" type="file" accept=".json,application/json" hidden>
+        </div>
+        <p class="microcopy">Keep the HTML file to reopen this exact variation tomorrow or send the working piece to classmates. It runs offline. PNG saves the image. A recipe saves the settings for Import recipe.</p>
+        <p id="status" role="status" aria-live="polite" data-kind="ready">Ready.</p>
+      </div>
+    </div>
+    <footer class="context">
+      <section>
+        <h2>Method &amp; people</h2>
+        <p>This is an interpolated direction field: seeded directions vary within 0.9 radians of a shared current on a grid; smooth interpolation blends neighboring vectors. Paths advance in short steps and limit their turn at each step. Increasing field scale broadens the regions of similar direction; it does not change the canvas or pen width.</p>
+        <section class="recipe-details"><h3>Recipe and reproduction details</h3><p>Algorithm: <code>aligned-direction-field-v1</code>. A 32-bit seeded random stream sets the field and starting points. Every path takes up to 160 steps of 2.6 pixels, ending at the drawing margin. Density sets the path count; field scale sets grid spacing. The fixed turn limit is 0.052 radians per step. Ink width is 0.95 canvas pixels. The shared direction is seeded within −0.3 to 0.3 radians; each grid vector varies by at most 0.9 radians from it.</p><p>This implementation uses interpolated random vectors, not Perlin noise, curl noise, or a fluid solver. The version 1 recipe stores the seed, both adjustable parameters, the fixed canvas, and <code>frame: null</code> for this static drawing. Reproduction is deterministic within the same browser; Canvas antialiasing can differ across browsers. Imports must match this version and canvas and be at most 16 KB.</p></section>
+      </section>
+      <section>
+        <h2>Credits and a class exercise</h2>
+        <p><a href="https://www.tylerxhobbs.com/words/flow-fields" target="_blank" rel="noopener noreferrer">Tyler Hobbs, <cite>Flow Fields</cite> (2020)</a> explains tracing curves through direction grids and varying their behavior. Credit him here as an artist and explainer of this approach. This adaptation does not reproduce a specific work of his. Source checked September 28, 2026.</p>
+        <p>Code adapted from <a href="https://thevibesarepeople.com/skills/vibes-algorithmic-art/assets/studio.html">The Vibes Are People’s offline starter</a>, with AI assistance from OpenAI Codex. Tools: JavaScript and the browser’s Canvas 2D API; no outside libraries or model calls. The classroom prompt supplies the intended feeling of calm.</p><p>Try this next: keep seed 1847 and density 180, compare scale 80 with 240, and describe the change in the width of the currents.</p>
+      </section>
+    </footer>
+  </main>
+  <script id="initial-recipe" type="application/json">{"schema":"vibes-algorithmic-art/recipe","version":1,"algorithm":"aligned-direction-field-v1","seed":1847,"parameters":{"density":180,"fieldScale":240},"canvas":{"width":1200,"height":900,"pixelRatio":1,"background":"#ffffff"},"render":"static","frame":null}</script>
+  <script>
+  (() => {
+    'use strict';
+    const SCHEMA = 'vibes-algorithmic-art/recipe';
+    const ALGORITHM = 'aligned-direction-field-v1';
+    const MAX_RECIPE_BYTES = 16384;
+    const LIMITS = {density: [100, 1400], fieldScale: [48, 260]};
+    const DEFAULTS = {
+      schema: SCHEMA, version: 1, algorithm: ALGORITHM, seed: 1847,
+      parameters: {density: 180, fieldScale: 240},
+      canvas: {width: 1200, height: 900, pixelRatio: 1, background: '#ffffff'},
+      render: 'static', frame: null
+    };
+    const byId = id => document.getElementById(id);
+    const canvas = byId('artwork');
+    const context = canvas.getContext('2d');
+    const status = byId('status');
+    // Keep the original program, not a copy of transient UI or download elements.
+    const htmlTemplate = '<!doctype html>\n' + document.documentElement.outerHTML;
+    let current;
+    let importSequence = 0;
+
+    function tell(message, kind = 'ready') {
+      status.textContent = message;
+      status.dataset.kind = kind;
+    }
+
+    function keysMatch(value, expected) {
+      return value !== null && typeof value === 'object' && !Array.isArray(value) &&
+        Object.keys(value).length === expected.length && expected.every(key => Object.hasOwn(value, key));
+    }
+
+    function integerIn(value, min, max) {
+      return typeof value === 'number' && Number.isInteger(value) && value >= min && value <= max;
+    }
+
+    function validateRecipe(value) {
+      if (!keysMatch(value, ['schema', 'version', 'algorithm', 'seed', 'parameters', 'canvas', 'render', 'frame'])) {
+        throw new Error('Recipe fields are missing or unrecognized.');
+      }
+      if (value.schema !== SCHEMA || value.version !== 1 || value.algorithm !== ALGORITHM) {
+        throw new Error('This recipe uses an incompatible schema, version, or algorithm.');
+      }
+      if (value.render !== 'static' || value.frame !== null) throw new Error('This studio needs a static recipe with frame set to null.');
+      if (!integerIn(value.seed, 0, 4294967295)) throw new Error('Seed must be a whole number from 0 to 4,294,967,295.');
+      if (!keysMatch(value.parameters, Object.keys(LIMITS))) throw new Error('Recipe parameters are missing or unrecognized.');
+      for (const [key, [min, max]] of Object.entries(LIMITS)) {
+        if (!integerIn(value.parameters[key], min, max)) throw new Error(`${key} must be a whole number from ${min} to ${max}.`);
+      }
+      if (!keysMatch(value.canvas, ['width', 'height', 'pixelRatio', 'background']) ||
+          value.canvas.width !== 1200 || value.canvas.height !== 900 || value.canvas.pixelRatio !== 1 || value.canvas.background !== '#ffffff') {
+        throw new Error('This recipe needs the 1200 × 900 white canvas at pixel ratio 1.');
+      }
+      // Explicit reconstruction prevents unexpected imported fields from reaching state.
+      return {
+        schema: SCHEMA, version: 1, algorithm: ALGORITHM, seed: value.seed,
+        parameters: {density: value.parameters.density, fieldScale: value.parameters.fieldScale},
+        canvas: {...DEFAULTS.canvas}, render: 'static', frame: null
+      };
+    }
+
+    // An integer LCG: independent streams keep added paths from changing the field.
+    function randomStream(seed) {
+      let state = seed >>> 0;
+      return () => {
+        state = (Math.imul(state, 1664525) + 1013904223) >>> 0;
+        return state / 4294967296;
+      };
+    }
+
+    function draw(recipe) {
+      const {width, height} = recipe.canvas;
+      const {density, fieldScale} = recipe.parameters;
+      const fieldRandom = randomStream(recipe.seed ^ 0x9e3779b9);
+      const pathRandom = randomStream(recipe.seed ^ 0x85ebca6b);
+      const columns = Math.ceil(width / fieldScale) + 1;
+      const rows = Math.ceil(height / fieldScale) + 1;
+      const currentAngle = -0.3 + fieldRandom() * 0.6;
+      const vectors = Array.from({length: columns * rows}, () => {
+        const angle = currentAngle + (fieldRandom() - 0.5) * 1.8;
+        return [Math.cos(angle), Math.sin(angle)];
+      });
+      const smooth = t => t * t * (3 - 2 * t);
+      const blend = (a, b, t) => a + (b - a) * t;
+      function direction(x, y) {
+        const gx = x / fieldScale, gy = y / fieldScale;
+        const column = Math.min(columns - 2, Math.floor(gx));
+        const row = Math.min(rows - 2, Math.floor(gy));
+        const tx = smooth(gx - column), ty = smooth(gy - row);
+        const a = vectors[row * columns + column];
+        const b = vectors[row * columns + column + 1];
+        const c = vectors[(row + 1) * columns + column];
+        const d = vectors[(row + 1) * columns + column + 1];
+        const vx = blend(blend(a[0], b[0], tx), blend(c[0], d[0], tx), ty);
+        const vy = blend(blend(a[1], b[1], tx), blend(c[1], d[1], tx), ty);
+        return Math.atan2(vy, vx);
+      }
+      context.fillStyle = recipe.canvas.background;
+      context.fillRect(0, 0, width, height);
+      context.strokeStyle = 'rgba(15, 15, 15, 0.28)';
+      context.lineWidth = 0.95;
+      context.lineCap = 'round';
+      context.lineJoin = 'round';
+      const margin = 32;
+      const maxTurn = 0.052;
+      for (let path = 0; path < density; path++) {
+        let x = margin + pathRandom() * (width - margin * 2);
+        let y = margin + pathRandom() * (height - margin * 2);
+        let heading = direction(x, y) + (pathRandom() - 0.5) * 0.6;
+        context.beginPath();
+        context.moveTo(x, y);
+        for (let step = 0; step < 160; step++) {
+          const desired = direction(x, y);
+          const difference = Math.atan2(Math.sin(desired - heading), Math.cos(desired - heading));
+          heading += Math.max(-maxTurn, Math.min(maxTurn, difference));
+          const nextX = x + Math.cos(heading) * 2.6;
+          const nextY = y + Math.sin(heading) * 2.6;
+          if (nextX < margin || nextX > width - margin || nextY < margin || nextY > height - margin) break;
+          x = nextX; y = nextY;
+          context.lineTo(x, y);
+        }
+        context.stroke();
+      }
+    }
+
+    function apply(recipe, message) {
+      const valid = validateRecipe(recipe);
+      draw(valid);
+      current = valid;
+      byId('seed').value = String(current.seed);
+      byId('seed').removeAttribute('aria-invalid');
+      for (const key of Object.keys(LIMITS)) byId(key).value = String(current.parameters[key]);
+      byId('density-value').textContent = `${current.parameters.density} paths`;
+      byId('fieldScale-value').textContent = `${current.parameters.fieldScale} px`;
+      byId('drawing-caption').textContent = `Seed ${current.seed} · ${current.parameters.density} paths`;
+      canvas.setAttribute('aria-label', `${current.parameters.density} black paths tracing an interpolated direction field on white. Seed ${current.seed}; field scale ${current.parameters.fieldScale} pixels.`);
+      tell(message);
+    }
+
+    function readControls(message) {
+      importSequence++;
+      const rawSeed = byId('seed').value.trim();
+      if (!/^\d+$/.test(rawSeed) || !integerIn(Number(rawSeed), 0, 4294967295)) {
+        byId('seed').setAttribute('aria-invalid', 'true');
+        tell('Seed must be a whole number from 0 to 4,294,967,295. The last valid drawing is preserved.', 'error');
+        return;
+      }
+      try {
+        apply({...current, seed: Number(rawSeed), parameters: {
+          density: Number(byId('density').value), fieldScale: Number(byId('fieldScale').value)
+        }}, message);
+      } catch (error) { tell(error.message, 'error'); }
+    }
+
+    function save(blob, extension) {
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `calm-currents-s${current.seed}${extension}`;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    function safeJSON(value) {
+      return JSON.stringify(value).replace(/[<>&\u2028\u2029]/g, character => {
+        return '\\u' + character.charCodeAt(0).toString(16).padStart(4, '0');
+      });
+    }
+
+    for (const key of Object.keys(LIMITS)) byId(key).addEventListener('input', () => readControls('Drawing updated.'));
+    byId('seed').addEventListener('change', () => readControls('Seed applied.'));
+    byId('regenerate').addEventListener('click', () => readControls('Regenerated the same recipe.'));
+    byId('reset').addEventListener('click', () => { importSequence++; apply(DEFAULTS, 'Starter restored.'); });
+    byId('new-seed').addEventListener('click', () => {
+      importSequence++;
+      let seed = crypto.getRandomValues(new Uint32Array(1))[0];
+      if (seed === current.seed) seed = (seed + 1) >>> 0;
+      apply({...current, seed}, 'New seed, new drawing.');
+    });
+    byId('download-recipe').addEventListener('click', () => {
+      save(new Blob([JSON.stringify(current, null, 2) + '\n'], {type: 'application/json'}), '.recipe.json');
+    });
+    byId('download-png').addEventListener('click', () => {
+      canvas.toBlob(blob => {
+        if (blob) save(blob, '.png');
+        else tell('This browser could not create a PNG. Try Download HTML to keep the drawing.', 'error');
+      }, 'image/png');
+    });
+    byId('download-html').addEventListener('click', () => {
+      const documentCopy = new DOMParser().parseFromString(htmlTemplate, 'text/html');
+      documentCopy.getElementById('initial-recipe').textContent = safeJSON(current);
+      save(new Blob(['<!doctype html>\n' + documentCopy.documentElement.outerHTML], {type: 'text/html;charset=utf-8'}), '.html');
+    });
+    byId('import-recipe').addEventListener('click', () => byId('recipe-file').click());
+    byId('recipe-file').addEventListener('change', async event => {
+      const file = event.target.files[0];
+      if (!file) return;
+      const sequence = ++importSequence;
+      tell('Reading recipe…', 'loading');
+      try {
+        if (file.size > MAX_RECIPE_BYTES) throw new Error('Recipe is too large. Maximum size is 16 KB.');
+        const text = await file.text();
+        const recipe = validateRecipe(JSON.parse(text));
+        if (sequence === importSequence) apply(recipe, 'Recipe imported. Drawing restored.');
+      } catch (error) {
+        if (sequence === importSequence) tell(`Import rejected. ${error instanceof SyntaxError ? 'The file is not valid JSON.' : error.message} The last valid drawing is preserved.`, 'error');
+      } finally { event.target.value = ''; }
+    });
+    try {
+      const embedded = byId('initial-recipe').textContent;
+      if (new TextEncoder().encode(embedded).length > MAX_RECIPE_BYTES) throw new Error('Saved recipe is too large.');
+      apply(JSON.parse(embedded), 'Ready. Move a control to explore.');
+    } catch (error) {
+      apply(DEFAULTS, 'Starter restored.');
+      tell('The saved recipe was incompatible. Loaded the starter drawing.', 'error');
+    }
+  })();
+  </script>
+</body>
+</html>
