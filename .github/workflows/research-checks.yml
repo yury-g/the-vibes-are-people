@@ -11,6 +11,7 @@ jobs:
         with:
           node-version: '24'
       - run: node scripts/build-connections.mjs
+      - run: node tests/agent-contributions.mjs
       - run: node tests/connections.mjs
       - run: node tests/new-people.mjs
       - run: node tests/connection-links.mjs

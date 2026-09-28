@@ -1,6 +1,7 @@
 import {nodes,relations,overlaps,gaps,indexGraph} from './graph.js';
+import {ledgerRequest,mergeLedger} from '/agents/overlay.js';
 import {confidenceMeter} from './confidence.js';
-export const connectionData=fetch(new URL('data.json',import.meta.url)).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}).catch(()=>null);
+export const connectionData=fetch(new URL('data.json',import.meta.url)).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}).then(async g=>mergeLedger(g,(await ledgerRequest).data)).catch(()=>null);
 const el=(tag,text)=>{const node=document.createElement(tag);if(text)node.textContent=text;return node};
 const link=(text,url)=>{const a=el('a',text);a.href=url;if(/^https?:/.test(url)){a.target='_blank';a.rel='noopener noreferrer'}return a};
 const nodeLink=node=>link(node.name,'/connections/?node='+encodeURIComponent(node.id)+'#people');
@@ -13,7 +14,8 @@ function rows(g,p,{languageOnly=false,includeInferred=true,excludeRecipe=null}={
   const target=indexGraph(g).byId.get(r.target===p.id?r.person:r.target);
   const line=el('p');line.className=r.kind==='language/tool'?'language-relationship':'';
   line.append(r.role+' · ',nodeLink(target),r.dates?' ('+r.dates+')':'');
-  if(r.kind==='contribution')line.append(' · ',link('View recipe ↗','/notes/ingredients/techniques.html?recipe='+encodeURIComponent(target.name)));
+  if(r.agentReview){line.append(' · ',link('AI reviewed · evidence 3/3','/agents/'));line.append('. '+r.detail)}
+  if(r.kind==='contribution'&&!target.agentAdded)line.append(' · ',link('View recipe ↗','/notes/ingredients/techniques.html?recipe='+encodeURIComponent(target.name)));
   if(r.review==='imported'){const status=el('small','Catalog credit · source recheck pending');status.className='evidence-status';line.append(status)}
   if(r.detail&&r.kind==='documented path')line.append('. '+r.detail);
   if(r.kind==='language/tool'){

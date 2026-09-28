@@ -2,6 +2,30 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/AGENT-SYSTEM.md",
+      "file": "files/AGENT-SYSTEM.md",
+      "bytes": 4656,
+      "sha256": "8b50ab7f4d731633eb427a6a3b9689384dfe11d94a74cf8acecff55c28393a94"
+    },
+    {
+      "source": "research/yury-teaching-leads.md",
+      "file": "files/yury-teaching-leads.md",
+      "bytes": 811,
+      "sha256": "ef16de9748bc94d87c2e9a89d45513bd7c194eb6bb74c67e3f11d036bb5e869c"
+    },
+    {
+      "source": "dist/agents/SKILL.md",
+      "file": "files/SKILL.md",
+      "bytes": 4807,
+      "sha256": "fef78d0596bbebdcbf5dc13410bf4430b6ffbc6621fafe5aad8af74098a75abb"
+    },
+    {
+      "source": "dist/agents/proposal.schema.json",
+      "file": "files/proposal.schema.json",
+      "bytes": 1495,
+      "sha256": "8198cb58eb70c7caa5b4edbf5f95c8be0911e283cbcc510205f40521d38e4ff4"
+    },
+    {
       "source": "research/PORTRAITS.md",
       "file": "files/PORTRAITS.md",
       "bytes": 4083,
@@ -52,14 +76,14 @@
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 4988,
-      "sha256": "7ed90288cf705091c0e179168cb417fee7e2fd3e95f91ee8c90be2e4a46481fe"
+      "bytes": 5352,
+      "sha256": "7a87bfb3c32cd6f3386f451f4832b5509c8c1b7a55420482dd3e99e6cc688412"
     },
     {
       "source": "CONTRIBUTING.md",
       "file": "files/CONTRIBUTING.md",
-      "bytes": 1268,
-      "sha256": "058a8cd95c315bbebeaffc0b76720c5ae4273c07f9344a3f6f36fb3395d3b2bb"
+      "bytes": 1610,
+      "sha256": "a93b1a182cfc2c17ac4cc9bda53043b352dcd15ffcb14611e3f47bdf9609bc93"
     },
     {
       "source": "research/CONNECTIONS.md",
@@ -124,8 +148,8 @@
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 1476,
-      "sha256": "42c5d0c6bb851e43da41dc958ba0067d5081b7f06b466e104fa25d2e3a12f4bc"
+      "bytes": 1595,
+      "sha256": "b2218bbf16d79aa31d560e24d6c2504749ec904ef598b8733fbd8ee9e0860dac"
     }
   ]
 }

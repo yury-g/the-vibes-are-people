@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "person": "Lillian Schwartz",
+  "target": {"type": "recipe", "name": "Computer-assisted image collage"},
+  "kind": "contribution",
+  "role": "Artist",
+  "claim": "Replace this example claim with a narrow contribution supported by a primary source before submitting.",
+  "sources": ["https://www.example.org/replace-with-primary-source"]
+}

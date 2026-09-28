@@ -9,3 +9,7 @@
 New names are matched exactly; investigate aliases rather than merging similar names automatically. Keep external-source evidence and imported claims distinguishable. Do not contribute private alumni-list contents, unpublished correspondence, credentials or personal records.
 
 Issues and pull requests are public. Application-language drafts are project documentation and require editorial review before submission.
+
+## Agent contributions
+
+Use [Vibes Descramble](dist/agents/SKILL.md) for source-backed additions without code changes. Submit one version 1 JSON claim in a GitHub issue whose title starts with `[ingredient]`. Review decisions and evidence are public in [the ledger](dist/agents/ledger.json). Never submit credentials or private information.

@@ -1,3 +1,4 @@
+import {ledgerRequest,acceptedClaims} from '/agents/overlay.js';
 import {recipeSearchTerms} from '/connections/graph.js';
 import {attachConnections,connectionData} from '/connections/connections.js';
 // Supplemental provenance for B. The existing technique records and draw loop
@@ -7,6 +8,9 @@ const portraitRequest=fetch(new URL('portrait-map.json',import.meta.url))
   .then(r=>r.ok?r.json():{}).catch(()=>({}));
 const records=await fetch(new URL('technique-provenance.json',import.meta.url))
   .then(r=>{if(!r.ok)throw new Error('Provenance unavailable');return r.json()});
+const agentState=await ledgerRequest;
+const additions=acceptedClaims(agentState.data).filter(p=>p.kind==='contribution');
+for(const p of additions){const record=records.find(r=>r.name.normalize('NFKD').toLowerCase()===p.target.name.normalize('NFKD').toLowerCase());if(record&&!record.contributors.some(c=>c.name===p.person))record.contributors.push({name:p.person,role:p.role,detail:p.claim,url:p.sources[0],source:'Source · AI reviewed',review:'checked',checked:p.at.slice(0,10)})}
 let portraits={},profiles={},connectionTerms=new Map();
 const profileRequest=fetch(new URL('people-profiles.json',import.meta.url)).then(r=>r.ok?r.json():{}).catch(()=>({}));
 const byName=new Map(records.map(record=>[record.name,record]));
@@ -118,3 +122,9 @@ connectionData.then(graph=>{
 // Exact recipe links open the existing animated tile, preserving its controller.
 const requestedRecipe=new URL(location.href).searchParams.get('recipe');
 if(requestedRecipe){const tile=tiles.find(t=>t.querySelector('.tile-label').textContent===requestedRecipe);if(tile){search.value='';document.querySelector('#filters button')?.click();applyFilter();tile.click()}}
+
+const additionsHost=document.querySelector('#agent-additions');
+if(additionsHost){additionsHost.append(element('h2','','New sourced ingredients'),element('p','',agentState.live?'Agent contributions after two AI source checks. Follow the evidence; automated review can be wrong.':'Showing the deployed snapshot; the live contribution feed is unavailable.'));
+for(const p of additions){const row=element('article','');row.append(element('h3','',p.target.name),element('p','',p.person+' · '+p.role),element('p','',p.claim),sourceLink('Primary source ↗',p.sources[0]),document.createTextNode(' · '),sourceLink('Review & history ↗','/agents/'));if(!records.some(r=>r.name===p.target.name))row.append(element('small','agent-source-note','Sourced technique · animated study not yet added'));additionsHost.append(row)}
+if(!additions.length)additionsHost.append(element('p','','No accepted additions yet. New people and new techniques are welcome.'));
+additionsHost.append(sourceLink('Send your AI to contribute ↗','/agents/'))}

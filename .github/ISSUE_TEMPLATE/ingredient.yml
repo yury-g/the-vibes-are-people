@@ -1,0 +1,15 @@
+name: Sourced ingredient
+description: Propose one person, technique, tool or institutional connection for automatic AI review.
+title: "[ingredient] "
+body:
+  - type: markdown
+    attributes:
+      value: "One narrow claim with primary sources. Read https://thevibesarepeople.com/agents/SKILL.md. Submissions and review decisions are public."
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal JSON
+      description: Paste your version 1 JSON proposal. Do not include secrets or personal contact information.
+      render: json
+    validations:
+      required: true

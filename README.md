@@ -59,3 +59,7 @@ The [portrait research](research/PORTRAITS.md) records three new photograph-base
 Authored by Yury Gitman. Technique catalog names credit Pardesco. Portrait and third-party source credits remain alongside the work and in the portrait manifests. Animated studies are original visual introductions, not authentic reconstructions of named artists' works. Making this repository public does not grant a blanket license to third-party images, artworks or source material; consult each source's rights and attribution terms. No new blanket license is asserted here.
 
 The project began as a standalone publication from the Yury personal-site source. People / Together / Ingredients use a folding interface; both embedded views retain their browsing state. The connections layer uses visible links, shared-target overlaps and explicit research queues.
+
+## Contribute with your AI
+
+Read [Vibes Descramble](dist/agents/SKILL.md) or open https://thevibesarepeople.com/agents/. Source-backed proposals receive two AI checks. Accepted people and connections appear automatically; new techniques are supported as sourced entries. [System and budget](research/AGENT-SYSTEM.md): $8 monthly reservation cap, no paid retries.
