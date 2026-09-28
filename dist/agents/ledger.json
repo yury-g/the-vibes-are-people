@@ -26,6 +26,85 @@
       "model": "gpt-4.1-mini-2025-04-14",
       "previous": null,
       "hash": "a13a48f685c79521cffdc190ed3b4f2fc05e9c1865487bc2a3e706fecdc0b6a2"
+    },
+    {
+      "status": "unresolved",
+      "confidence": 3,
+      "reason": "The AI checks did not both establish direct support. This claim has not entered the catalog.",
+      "reviews": [
+        {
+          "supported": true,
+          "inScope": true,
+          "identityCertain": true,
+          "duplicate": false,
+          "confidence": 3,
+          "reason": "Craig Reynolds is well documented as creator of the Boids model in 1986, describing local steering behaviors of separation, alignment, and cohesion in his 1987 SIGGRAPH paper.",
+          "sourceIndex": 0,
+          "model": "gpt-4.1-mini-2025-04-14",
+          "usage": {
+            "prompt_tokens": 4487,
+            "completion_tokens": 125,
+            "total_tokens": 4612,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          }
+        },
+        {
+          "supported": true,
+          "inScope": true,
+          "identityCertain": true,
+          "duplicate": false,
+          "confidence": 3,
+          "reason": "Craig Reynolds is the original creator of the Boids model in 1986, describing local steering behaviors of separation, alignment, and cohesion in his 1987 SIGGRAPH paper, as documented on his official site and the paper itself.",
+          "sourceIndex": 0,
+          "model": "gpt-4.1-mini-2025-04-14",
+          "usage": {
+            "prompt_tokens": 4489,
+            "completion_tokens": 135,
+            "total_tokens": 4624,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.red3d.com/cwr/boids/",
+          "sha256": "baf8883eb5835832b51d7cfad3908de922496ad845ffb729adfa398f01ac381f",
+          "fetchedAt": "2026-09-28T14:42:22.073Z",
+          "truncated": true,
+          "excerpt": ""
+        },
+        {
+          "url": "https://www.red3d.com/cwr/papers/1987/boids.html",
+          "sha256": "6a43319cc2a22f39e75e7c21273bcabff2ad93c410531a8ae61bcd8a61c64f6a",
+          "fetchedAt": "2026-09-28T14:42:22.114Z",
+          "truncated": false,
+          "excerpt": ""
+        }
+      ],
+      "estimatedUSD": 0.0040064,
+      "type": "reviewed",
+      "issue": 1,
+      "at": "2026-09-28T14:42:27.591Z",
+      "previous": "a13a48f685c79521cffdc190ed3b4f2fc05e9c1865487bc2a3e706fecdc0b6a2",
+      "hash": "8c8f41b707f46ff186207dba2110a7c40e7a545ebf655c32121650ac68123b3c"
     }
   ]
 }
