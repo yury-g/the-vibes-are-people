@@ -4,8 +4,8 @@
     {
       "source": "research/PUBLISHED-SKILLS.md",
       "file": "files/PUBLISHED-SKILLS.md",
-      "bytes": 1337,
-      "sha256": "53c48402fdaa4800d83cb6a8561cc27178f4802682ba77accba822420e529859"
+      "bytes": 1912,
+      "sha256": "6db32bef6e6a18f0f765382aa39183ddada3daaec1fdb3eda8b985d324223421"
     },
     {
       "source": "research/VISUAL-VOCABULARY.md",
@@ -58,8 +58,8 @@
     {
       "source": "dist/agents/SKILL.md",
       "file": "files/SKILL.md",
-      "bytes": 6745,
-      "sha256": "89de8f245477578aea01782165019b800af728940bf1fb33375c6b09a3b4e76a"
+      "bytes": 6877,
+      "sha256": "309d946803d645bac3b95967e4e71d5d10440b42aecfcd6fb355b7af1a33d202"
     },
     {
       "source": "dist/agents/proposal.schema.json",
