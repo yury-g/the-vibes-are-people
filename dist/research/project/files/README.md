@@ -4,6 +4,7 @@ An interactive atlas of algorithmic art, the people behind its techniques, and t
 
 - **Website:** https://thevibesarepeople.com/
 - **Connections:** https://thevibesarepeople.com/connections/
+- **Languages and tools:** https://thevibesarepeople.com/connections/#languages
 - **Research and downloads:** https://thevibesarepeople.com/research/project/
 - **Public repository:** https://github.com/yury-g/the-vibes-are-people
 
@@ -11,7 +12,7 @@ An interactive atlas of algorithmic art, the people behind its techniques, and t
 
 `dist/` contains the deployable static website, animated studies, portraits and their source records. `research/` preserves checked relationship records, archive discovery notes, coverage reports and an Eyebeam application narrative **draft**, not a submitted application. `scripts/` contains deterministic data rebuild and research-export tools. `tests/` includes browser and data checks; some older tests are inherited from the original personal-site project.
 
-The current collection includes 18 animated artist studies, 40 recipes, 119 linked people, 108 inherited recipe credits, eight inherited person-to-person paths and 30 additional checked relationships. These counts describe this edition, not an exhaustive history of algorithmic art.
+The current collection includes 18 animated artist studies, 40 recipes, 119 linked people, 108 inherited recipe credits, eight inherited person-to-person paths 30 checked institutional and educational relationships, and a language/tools layer with 32 documented and five inferred connections across 16 people. These counts describe this edition, not an exhaustive history of algorithmic art.
 
 ## Explore the records
 
@@ -26,6 +27,8 @@ The current collection includes 18 animated artist studies, 40 recipes, 119 link
 
 Relationships keep role, date, source and verification status separate. Shared institutions do not establish collaboration. Existing catalog credits are marked imported; affiliation research does not automatically verify those credits. Gaps identify missing documentation in this collection, not an absence from someone's life or practice. Rhizome, Franklin Furnace, Ars Electronica and ISEA are research sources, not project partners or synchronized feeds.
 
+The [language evidence](research/language-tools.json) and [confidence policy](research/LANGUAGES.md) explain the three-step confidence meter. Inferences remain visible and are excluded from documented-overlap counts. Assembly, Ruby and Rails remain unassigned research gaps.
+
 ## Run and rebuild
 
 Use Node.js 24+ and Python 3 for a simple local server. No build framework or API key is needed.
@@ -35,6 +38,7 @@ node scripts/build-connections.mjs
 node scripts/export-research.mjs
 node tests/connections.mjs
 node tests/connection-links.mjs
+node tests/languages.mjs
 python3 -m http.server 8000 --directory dist
 ```
 

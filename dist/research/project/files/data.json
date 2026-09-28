@@ -731,7 +731,9 @@
     },
     {
       "id": "entity-p5-js",
-      "name": "p5.js"
+      "name": "p5.js",
+      "category": "library",
+      "note": ""
     },
     {
       "id": "entity-processing-foundation",
@@ -747,7 +749,9 @@
     },
     {
       "id": "entity-openframeworks",
-      "name": "openFrameworks"
+      "name": "openFrameworks",
+      "category": "toolkit",
+      "note": ""
     },
     {
       "id": "entity-school-for-poetic-computation",
@@ -768,6 +772,108 @@
     {
       "id": "entity-code-as-creative-medium",
       "name": "Code as Creative Medium"
+    },
+    {
+      "id": "entity-c",
+      "name": "C",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-cpp",
+      "name": "C++",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-javascript",
+      "name": "JavaScript",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-java",
+      "name": "Java",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-python",
+      "name": "Python",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-fortran",
+      "name": "FORTRAN",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-algol",
+      "name": "ALGOL",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-lisp",
+      "name": "Lisp",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-clojure",
+      "name": "Clojure",
+      "category": "language",
+      "note": ""
+    },
+    {
+      "id": "entity-glsl",
+      "name": "GLSL",
+      "category": "shader language",
+      "note": ""
+    },
+    {
+      "id": "entity-processing",
+      "name": "Processing",
+      "category": "language / environment",
+      "note": ""
+    },
+    {
+      "id": "entity-quil",
+      "name": "Quil",
+      "category": "library",
+      "note": ""
+    },
+    {
+      "id": "entity-hype",
+      "name": "HYPE",
+      "category": "framework",
+      "note": ""
+    },
+    {
+      "id": "entity-processing-py",
+      "name": "Processing.py",
+      "category": "mode / environment",
+      "note": ""
+    },
+    {
+      "id": "entity-assembly",
+      "name": "Assembly",
+      "category": "language family",
+      "note": "No artist/work association verified in this pass. An architecture and source are needed; machine code is not automatically assembly."
+    },
+    {
+      "id": "entity-ruby",
+      "name": "Ruby",
+      "category": "language",
+      "note": "No artist/work association verified in this pass. This is a research gap, not evidence of absence."
+    },
+    {
+      "id": "entity-ruby-on-rails",
+      "name": "Ruby on Rails",
+      "category": "framework",
+      "note": "A Ruby web framework. No artist/work association verified in this pass. See https://guides.rubyonrails.org/getting_started.html"
     }
   ],
   "recipes": [
@@ -2653,6 +2759,758 @@
       "source": "https://tisch.nyu.edu/about/directory/itp/1984778605",
       "sourceLabel": "Institutional source",
       "checked": "2026-09-27",
+      "review": "checked"
+    },
+    {
+      "person": "person-vera-molnar",
+      "target": "entity-fortran",
+      "role": "Used for computer drawings",
+      "context": "Interruptions; museum account of her computer practice.",
+      "source": "https://www.mudam.com/de/vera-molnar",
+      "sourceLabel": "Mudam · Vera Molnár",
+      "evidence": [
+        {
+          "url": "https://www.mudam.com/de/vera-molnar",
+          "label": "Mudam · Vera Molnár"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-manfred-mohr",
+      "target": "entity-fortran",
+      "role": "Programmed in FORTRAN IV",
+      "context": "Early plotter compositions; artist archive describes learning FORTRAN IV in 1969.",
+      "source": "https://emohr.com/paris-1971/meteo.html",
+      "sourceLabel": "Mohr · artist archive",
+      "evidence": [
+        {
+          "url": "https://emohr.com/paris-1971/meteo.html",
+          "label": "Mohr · artist archive"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "1969",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-manfred-mohr",
+      "target": "entity-c",
+      "role": "Listed in artwork software",
+      "context": "space.color.motion / p777; technical record lists C and FORTRAN.",
+      "source": "https://zkm.de/en/artworks/spacecolormotion",
+      "sourceLabel": "ZKM · artwork record",
+      "evidence": [
+        {
+          "url": "https://zkm.de/en/artworks/spacecolormotion",
+          "label": "ZKM · artwork record"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-georg-nees",
+      "target": "entity-algol",
+      "role": "Used for independent drawings",
+      "context": "Programs associated with Siemens 2002 and Zuse-Graphomat.",
+      "source": "https://zkm.de/en/exhibition/2006/08/georg-nees-the-great-temptation",
+      "sourceLabel": "ZKM · Nees exhibition",
+      "evidence": [
+        {
+          "url": "https://zkm.de/en/exhibition/2006/08/georg-nees-the-great-temptation",
+          "label": "ZKM · Nees exhibition"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-harold-cohen",
+      "target": "entity-c",
+      "role": "Earlier AARON implementation",
+      "context": "The museum describes a transition from C to Lisp; this is historical, not every AARON version.",
+      "source": "https://computerhistory.org/blog/harold-cohen-and-aaron-a-40-year-collaboration/",
+      "sourceLabel": "Computer History Museum · AARON history",
+      "evidence": [
+        {
+          "url": "https://computerhistory.org/blog/harold-cohen-and-aaron-a-40-year-collaboration/",
+          "label": "Computer History Museum · AARON history"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-harold-cohen",
+      "target": "entity-lisp",
+      "role": "AARON drawing software",
+      "context": "Language named by Cohen in the 1995 interview.",
+      "source": "https://computerhistory.org/blog/into-the-archives-a-look-back-with-robotic-artist-harold-cohen/",
+      "sourceLabel": "Computer History Museum · Cohen interview",
+      "evidence": [
+        {
+          "url": "https://computerhistory.org/blog/into-the-archives-a-look-back-with-robotic-artist-harold-cohen/",
+          "label": "Computer History Museum · Cohen interview"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "1995",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-harold-cohen",
+      "target": "entity-cpp",
+      "role": "Painting-machine controller",
+      "context": "Cohen distinguishes this controller from AARON’s Lisp program.",
+      "source": "https://computerhistory.org/blog/into-the-archives-a-look-back-with-robotic-artist-harold-cohen/",
+      "sourceLabel": "Computer History Museum · Cohen interview",
+      "evidence": [
+        {
+          "url": "https://computerhistory.org/blog/into-the-archives-a-look-back-with-robotic-artist-harold-cohen/",
+          "label": "Computer History Museum · Cohen interview"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "1995",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-casey-reas",
+      "target": "entity-processing",
+      "role": "Co-creator",
+      "context": "Started Processing with the other co-founder in 2001.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "evidence": [
+        {
+          "url": "https://processing.org/people/",
+          "label": "Processing · project history"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2001",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-casey-reas",
+      "target": "entity-java",
+      "role": "Language association via Processing",
+      "context": "Underlying language of the co-created environment; personal use in a particular artwork is not established here.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "evidence": [
+        {
+          "url": "https://processing.org/people/",
+          "label": "Processing · project history"
+        },
+        {
+          "url": "https://processing.org/tutorials/overview/",
+          "label": "Processing · Java basis"
+        }
+      ],
+      "confidence": 2,
+      "rationale": "Inferred from co-creating Processing and its documented Java basis, not from an inspected artwork implementation.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "inferred"
+    },
+    {
+      "person": "person-ben-fry",
+      "target": "entity-processing",
+      "role": "Co-creator",
+      "context": "Started Processing with the other co-founder in 2001.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "evidence": [
+        {
+          "url": "https://processing.org/people/",
+          "label": "Processing · project history"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2001",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-ben-fry",
+      "target": "entity-java",
+      "role": "Language association via Processing",
+      "context": "Underlying language of the co-created environment; personal use in a particular artwork is not established here.",
+      "source": "https://processing.org/people/",
+      "sourceLabel": "Processing · project history",
+      "evidence": [
+        {
+          "url": "https://processing.org/people/",
+          "label": "Processing · project history"
+        },
+        {
+          "url": "https://processing.org/tutorials/overview/",
+          "label": "Processing · Java basis"
+        }
+      ],
+      "confidence": 2,
+      "rationale": "Inferred from co-creating Processing and its documented Java basis, not from an inspected artwork implementation.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "inferred"
+    },
+    {
+      "person": "person-daniel-shiffman",
+      "target": "entity-processing",
+      "role": "Uses and teaches",
+      "context": "Earlier Nature of Code edition and Learning Processing.",
+      "source": "https://natureofcode.com/introduction/",
+      "sourceLabel": "Shiffman · Nature of Code introduction",
+      "evidence": [
+        {
+          "url": "https://natureofcode.com/introduction/",
+          "label": "Shiffman · Nature of Code introduction"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-daniel-shiffman",
+      "target": "entity-p5-js",
+      "role": "Uses for teaching examples",
+      "context": "Revised Nature of Code edition.",
+      "source": "https://natureofcode.com/introduction/",
+      "sourceLabel": "Shiffman · Nature of Code introduction",
+      "evidence": [
+        {
+          "url": "https://natureofcode.com/introduction/",
+          "label": "Shiffman · Nature of Code introduction"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-daniel-shiffman",
+      "target": "entity-javascript",
+      "role": "Uses for teaching examples",
+      "context": "Revised Nature of Code and p5.js teaching.",
+      "source": "https://natureofcode.com/introduction/",
+      "sourceLabel": "Shiffman · Nature of Code introduction",
+      "evidence": [
+        {
+          "url": "https://natureofcode.com/introduction/",
+          "label": "Shiffman · Nature of Code introduction"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-p5-js",
+      "role": "Creator and former lead",
+      "context": "The project credits McCarthy as creator and lead, 2013–2020.",
+      "source": "https://p5js.org/about/",
+      "sourceLabel": "p5.js · about",
+      "evidence": [
+        {
+          "url": "https://p5js.org/about/",
+          "label": "p5.js · about"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2013–2020",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-lauren-lee-mccarthy",
+      "target": "entity-javascript",
+      "role": "Language association via p5.js",
+      "context": "The language of the library she created; not a claim about all her artworks.",
+      "source": "https://p5js.org/about/",
+      "sourceLabel": "p5.js · about",
+      "evidence": [
+        {
+          "url": "https://p5js.org/about/",
+          "label": "p5.js · about"
+        }
+      ],
+      "confidence": 2,
+      "rationale": "The source identifies both the creator and the JavaScript library. The broader person-to-language connection is inferred.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "inferred"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-openframeworks",
+      "role": "Co-creator",
+      "context": "Creative-coding toolkit identified in his institutional biography.",
+      "source": "https://eyebeam.org/artists/zach-lieberman/",
+      "sourceLabel": "Eyebeam · Lieberman",
+      "evidence": [
+        {
+          "url": "https://eyebeam.org/artists/zach-lieberman/",
+          "label": "Eyebeam · Lieberman"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-zach-lieberman",
+      "target": "entity-cpp",
+      "role": "Language association via openFrameworks",
+      "context": "C++ is the toolkit’s language; no specific artwork implementation is claimed.",
+      "source": "https://eyebeam.org/artists/zach-lieberman/",
+      "sourceLabel": "Eyebeam · Lieberman",
+      "evidence": [
+        {
+          "url": "https://eyebeam.org/artists/zach-lieberman/",
+          "label": "Eyebeam · Lieberman"
+        },
+        {
+          "url": "https://openframeworks.cc/about/",
+          "label": "openFrameworks · C++ toolkit"
+        }
+      ],
+      "confidence": 2,
+      "rationale": "Inferred from co-creating openFrameworks and the toolkit’s documented C++ basis.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "inferred"
+    },
+    {
+      "person": "person-kyle-mcdonald",
+      "target": "entity-python",
+      "role": "Publishes Python utilities",
+      "context": "python-utils contains audio, image and machine-learning helpers.",
+      "source": "https://github.com/kylemcdonald/python-utils",
+      "sourceLabel": "McDonald · python-utils repository",
+      "evidence": [
+        {
+          "url": "https://github.com/kylemcdonald/python-utils",
+          "label": "McDonald · python-utils repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-kyle-mcdonald",
+      "target": "entity-cpp",
+      "role": "Publishes a FaceTracker fork",
+      "context": "Repository documents a C++ face-tracking system; fork ownership is not original authorship.",
+      "source": "https://github.com/kylemcdonald/FaceTracker",
+      "sourceLabel": "McDonald · FaceTracker repository",
+      "evidence": [
+        {
+          "url": "https://github.com/kylemcdonald/FaceTracker",
+          "label": "McDonald · FaceTracker repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-processing",
+      "role": "Publishes looping-animation templates",
+      "context": "Processing templates in the LoopTemplates repository.",
+      "source": "https://github.com/golanlevin/LoopTemplates",
+      "sourceLabel": "Levin · LoopTemplates repository",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/LoopTemplates",
+          "label": "Levin · LoopTemplates repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-p5-js",
+      "role": "Publishes looping-animation templates",
+      "context": "p5.js templates in the LoopTemplates repository.",
+      "source": "https://github.com/golanlevin/LoopTemplates",
+      "sourceLabel": "Levin · LoopTemplates repository",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/LoopTemplates",
+          "label": "Levin · LoopTemplates repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-processing-py",
+      "role": "Publishes looping-animation templates",
+      "context": "Processing.py templates in the LoopTemplates repository.",
+      "source": "https://github.com/golanlevin/LoopTemplates",
+      "sourceLabel": "Levin · LoopTemplates repository",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/LoopTemplates",
+          "label": "Levin · LoopTemplates repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-java",
+      "role": "Publishes looping-animation templates",
+      "context": "Processing (Java) templates in the LoopTemplates repository.",
+      "source": "https://github.com/golanlevin/LoopTemplates",
+      "sourceLabel": "Levin · LoopTemplates repository",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/LoopTemplates",
+          "label": "Levin · LoopTemplates repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-javascript",
+      "role": "Publishes looping-animation templates",
+      "context": "p5.js (JavaScript) templates in the LoopTemplates repository.",
+      "source": "https://github.com/golanlevin/LoopTemplates",
+      "sourceLabel": "Levin · LoopTemplates repository",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/LoopTemplates",
+          "label": "Levin · LoopTemplates repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-golan-levin",
+      "target": "entity-python",
+      "role": "Publishes looping-animation templates",
+      "context": "Processing.py (Python) templates in the LoopTemplates repository.",
+      "source": "https://github.com/golanlevin/LoopTemplates",
+      "sourceLabel": "Levin · LoopTemplates repository",
+      "evidence": [
+        {
+          "url": "https://github.com/golanlevin/LoopTemplates",
+          "label": "Levin · LoopTemplates repository"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-tyler-hobbs",
+      "target": "entity-clojure",
+      "role": "Describes using",
+      "context": "Language used in the generative-art workflow described in his 2018 talk.",
+      "source": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+      "sourceLabel": "Hobbs · Code Goes In, Art Comes Out",
+      "evidence": [
+        {
+          "url": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+          "label": "Hobbs · Code Goes In, Art Comes Out"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2018 talk; 2019 publication",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-tyler-hobbs",
+      "target": "entity-quil",
+      "role": "Describes using",
+      "context": "Library used in the workflow described in his 2018 talk.",
+      "source": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+      "sourceLabel": "Hobbs · Code Goes In, Art Comes Out",
+      "evidence": [
+        {
+          "url": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+          "label": "Hobbs · Code Goes In, Art Comes Out"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2018 talk; 2019 publication",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-tyler-hobbs",
+      "target": "entity-processing",
+      "role": "Describes using",
+      "context": "Accessed through Quil in the workflow described in his 2018 talk.",
+      "source": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+      "sourceLabel": "Hobbs · Code Goes In, Art Comes Out",
+      "evidence": [
+        {
+          "url": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+          "label": "Hobbs · Code Goes In, Art Comes Out"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2018 talk; 2019 publication",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-tyler-hobbs",
+      "target": "entity-java",
+      "role": "Language association via Quil / Processing",
+      "context": "Java underlies the library stack; not a claim of writing an artwork directly in Java.",
+      "source": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+      "sourceLabel": "Hobbs · Code Goes In, Art Comes Out",
+      "evidence": [
+        {
+          "url": "https://www.tylerxhobbs.com/words/code-goes-in-art-comes-out",
+          "label": "Hobbs · Code Goes In, Art Comes Out"
+        }
+      ],
+      "confidence": 2,
+      "rationale": "The artist describes a Clojure/Quil workflow using Processing. Direct Java authorship for a particular work remains unverified.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "inferred"
+    },
+    {
+      "person": "person-joshua-davis",
+      "target": "entity-processing",
+      "role": "Listed in artwork tools",
+      "context": "After You; artist’s technical credits.",
+      "source": "https://joshuadavis.com/After-You",
+      "sourceLabel": "Joshua Davis Studios · After You",
+      "evidence": [
+        {
+          "url": "https://joshuadavis.com/After-You",
+          "label": "Joshua Davis Studios · After You"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-joshua-davis",
+      "target": "entity-hype",
+      "role": "Listed in artwork tools",
+      "context": "After You; artist’s technical credits.",
+      "source": "https://joshuadavis.com/After-You",
+      "sourceLabel": "Joshua Davis Studios · After You",
+      "evidence": [
+        {
+          "url": "https://joshuadavis.com/After-You",
+          "label": "Joshua Davis Studios · After You"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-joshua-davis",
+      "target": "entity-glsl",
+      "role": "Listed in artwork tools",
+      "context": "After You; artist’s technical credits.",
+      "source": "https://joshuadavis.com/After-You",
+      "sourceLabel": "Joshua Davis Studios · After You",
+      "evidence": [
+        {
+          "url": "https://joshuadavis.com/After-You",
+          "label": "Joshua Davis Studios · After You"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-jared-tarbell",
+      "target": "entity-processing",
+      "role": "Describes recreating a visual process",
+      "context": "His published 2018 conference talk describes recreating a process in Processing.",
+      "source": "https://beyondtellerrand.com/events/dusseldorf-2018/speakers/jared-tarbell",
+      "sourceLabel": "Beyond Tellerrand · Tarbell talk",
+      "evidence": [
+        {
+          "url": "https://beyondtellerrand.com/events/dusseldorf-2018/speakers/jared-tarbell",
+          "label": "Beyond Tellerrand · Tarbell talk"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The cited source explicitly names this language or tool for the stated work or practice.",
+      "dates": "2018",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-ken-perlin",
+      "target": "entity-java",
+      "role": "Published reference implementation",
+      "context": "Improved Noise reference code; this does not establish the language of the original 1980s implementation.",
+      "source": "https://cs.nyu.edu/~perlin/noise/",
+      "sourceLabel": "NYU · Perlin reference implementation",
+      "evidence": [
+        {
+          "url": "https://cs.nyu.edu/~perlin/noise/",
+          "label": "NYU · Perlin reference implementation"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The primary project page explicitly names the language for this implementation.",
+      "dates": "2002",
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-craig-reynolds",
+      "target": "entity-java",
+      "role": "Published animated diagrams",
+      "context": "Steering-behavior diagrams identified as Java-based on his own project page.",
+      "source": "https://www.red3d.com/cwr/steer/",
+      "sourceLabel": "Reynolds · steering behaviors",
+      "evidence": [
+        {
+          "url": "https://www.red3d.com/cwr/steer/",
+          "label": "Reynolds · steering behaviors"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The primary project page explicitly names the language for this implementation.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
+      "review": "checked"
+    },
+    {
+      "person": "person-craig-reynolds",
+      "target": "entity-cpp",
+      "role": "Documents a steering implementation",
+      "context": "OpenSteer implementation of steering behaviors; not a claim about every version of boids.",
+      "source": "https://www.red3d.com/cwr/steer/",
+      "sourceLabel": "Reynolds · steering behaviors",
+      "evidence": [
+        {
+          "url": "https://www.red3d.com/cwr/steer/",
+          "label": "Reynolds · steering behaviors"
+        }
+      ],
+      "confidence": 3,
+      "rationale": "The primary project page explicitly names the language for this implementation.",
+      "dates": null,
+      "checked": "2026-09-27",
+      "kind": "language/tool",
       "review": "checked"
     }
   ]

@@ -13,6 +13,7 @@ jobs:
       - run: node scripts/build-connections.mjs
       - run: node tests/connections.mjs
       - run: node tests/connection-links.mjs
+      - run: node tests/languages.mjs
       - run: node scripts/export-research.mjs
       - name: Verify committed exports are current
         run: git diff --exit-code -- dist/connections/data.json research/connections-coverage.json dist/research/project/

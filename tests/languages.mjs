@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {build,validate} from '../scripts/build-connections.mjs';
+import {overlaps,gaps} from '../dist/connections/graph.js';
+const g=await build(),rels=g.relationships.filter(r=>r.kind==='language/tool');
+assert.ok(rels.length>=25,'Research-backed language layer must exist');
+assert.notEqual(g.entities.find(n=>n.name==='C').id,g.entities.find(n=>n.name==='C++').id);
+assert.equal(g.entities.find(n=>n.name==='Ruby on Rails').category,'framework');
+assert.ok(rels.some(r=>r.confidence===2&&r.review==='inferred'));
+const inferred=rels.find(r=>r.confidence===2);
+assert.throws(()=>validate({...g,relationships:[{...inferred,review:'checked'}]}),/confidence/);
+assert.throws(()=>validate({...g,relationships:[{...inferred,rationale:''}]}),/rationale/);
+assert.ok(!rels.some(r=>r.target==='entity-assembly'||r.target==='entity-ruby-on-rails'),'Unresearched technologies must not acquire invented artist links');
+assert.ok(gaps(g).some(g=>g.id==='languages'));
+assert.ok(overlaps({...g,relationships:[inferred,{...inferred,person:'person-yury-gitman'}]}).length===0,'Inferences must not become documented overlaps');
+console.log('Language evidence and confidence checks passed');
