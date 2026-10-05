@@ -1,18 +1,18 @@
 {
-  "checked": "2026-09-28T14:50:17.220Z",
+  "checked": "2026-10-05T07:18:39.287Z",
   "profiles": [
     {
       "person": "Gene Kogan",
       "account": "genekogan",
       "source": "https://genekogan.com/",
       "basis": "Artist website links GitHub account",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "va2rosa.com",
           "url": "https://github.com/genekogan/va2rosa.com",
           "description": "personal website",
-          "pushedAt": "2026-09-27T07:14:50Z",
+          "pushedAt": "2026-10-02T17:04:01Z",
           "language": "JavaScript",
           "license": null
         },
@@ -39,14 +39,22 @@
       "account": "golanlevin",
       "source": "https://github.com/golanlevin/exercises",
       "basis": "Named author and public creative-coding repositories",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "60-212",
           "url": "https://github.com/golanlevin/60-212",
           "description": "Repository for Course 60-212 at CMU",
-          "pushedAt": "2026-09-28T06:49:10Z",
+          "pushedAt": "2026-10-05T02:31:13Z",
           "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "ExperimentalCapture",
+          "url": "https://github.com/golanlevin/ExperimentalCapture",
+          "description": "A Curriculum for a Semester Course in Computational & Expanded ███ography",
+          "pushedAt": "2026-09-29T18:18:08Z",
+          "language": "Processing",
           "license": null
         },
         {
@@ -54,14 +62,6 @@
           "url": "https://github.com/golanlevin/lectures",
           "description": "Lectures used in my pedagogy",
           "pushedAt": "2026-09-25T08:36:53Z",
-          "language": "Processing",
-          "license": null
-        },
-        {
-          "name": "ExperimentalCapture",
-          "url": "https://github.com/golanlevin/ExperimentalCapture",
-          "description": "A Curriculum for a Semester Course in Computational & Expanded ███ography",
-          "pushedAt": "2026-09-24T17:02:36Z",
           "language": "Processing",
           "license": null
         }
@@ -72,8 +72,16 @@
       "account": "kylemcdonald",
       "source": "https://kylemcdonald.net/",
       "basis": "Artist website links GitHub toolkits",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
+        {
+          "name": "color-cube",
+          "url": "https://github.com/kylemcdonald/color-cube",
+          "description": "3D view of how a CIELAB code range lines up with sRGB, Display P3 and Adobe RGB gamuts",
+          "pushedAt": "2026-10-02T01:08:36Z",
+          "language": "JavaScript",
+          "license": null
+        },
         {
           "name": "follow-that-page",
           "url": "https://github.com/kylemcdonald/follow-that-page",
@@ -89,14 +97,6 @@
           "pushedAt": "2026-09-25T00:26:52Z",
           "language": "JavaScript",
           "license": null
-        },
-        {
-          "name": "three-grab-camera",
-          "url": "https://github.com/kylemcdonald/three-grab-camera",
-          "description": "Surface-anchored, retained-depth camera controls for Three.js",
-          "pushedAt": "2026-09-20T04:36:55Z",
-          "language": "TypeScript",
-          "license": "MIT"
         }
       ]
     },
@@ -105,7 +105,7 @@
       "account": "lmccart",
       "source": "https://github.com/lmccart",
       "basis": "Named creator profile linked to p5.js",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "womb-walk-pi",
@@ -138,7 +138,7 @@
       "account": "tchoi8",
       "source": "https://ems.andrew.cmu.edu/2013/author/taeyoon/index.html",
       "basis": "CMU course profile links GitHub account",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "tchoi8.github.io",
@@ -171,7 +171,7 @@
       "account": "tegacodes",
       "source": "https://github.com/tegacodes",
       "basis": "Named artist profile and teaching repositories",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "EccentricEngineeringGradStudio",
@@ -204,13 +204,13 @@
       "account": "yury-g",
       "source": "https://github.com/yury-g/the-vibes-are-people",
       "basis": "Project owner account confirmed in this project",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "the-vibes-are-people",
           "url": "https://github.com/yury-g/the-vibes-are-people",
           "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
-          "pushedAt": "2026-09-28T14:47:43Z",
+          "pushedAt": "2026-09-28T19:30:05Z",
           "language": "JavaScript",
           "license": null
         },
@@ -237,7 +237,7 @@
       "account": "ofZach",
       "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
       "basis": "Named openFrameworks author and linked code examples",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "bodyWorkshopTiat",
@@ -270,13 +270,13 @@
       "account": "REAS",
       "source": "https://gray.reas.com/information",
       "basis": "Artist's official archived information page explicitly links @REAS under CODE.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "OmniaExNatura",
           "url": "https://github.com/REAS/OmniaExNatura",
           "description": "This work is an extension of the Process Series 2004–2010. It pushes my ideas about ecology and emergence into new territory.",
-          "pushedAt": "2026-09-25T19:05:57Z",
+          "pushedAt": "2026-10-03T17:09:28Z",
           "language": "JavaScript",
           "license": "GPL-2.0"
         },
@@ -303,7 +303,7 @@
       "account": "shiffman",
       "source": "https://thecodingtrain.com/about",
       "basis": "Official About page identifies Dan Shiffman and links his personal GitHub account under Dan's socials.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "spectrum-angels-test",
@@ -336,7 +336,7 @@
       "account": "ojack",
       "source": "https://ojack.xyz/about/",
       "basis": "Artist's official About page links directly to github.com/ojack.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "hydra-helpers",
@@ -369,13 +369,13 @@
       "account": "Chakazul",
       "source": "https://chakazul.github.io/lenia.html",
       "basis": "Author's Lenia portal identifies Bert Wang-Chak Chan in its bibliography and links Lenia source to github.com/Chakazul/Lenia; home page identifies Bert Chan.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "chakazul.github.io",
           "url": "https://github.com/Chakazul/chakazul.github.io",
           "description": "",
-          "pushedAt": "2026-09-12T03:54:06Z",
+          "pushedAt": "2026-10-02T15:36:56Z",
           "language": "JavaScript",
           "license": null
         },
@@ -402,13 +402,13 @@
       "account": "cwreynolds",
       "source": "https://www.red3d.com/cwr/",
       "basis": "Official home page links software notes at cwreynolds.github.io; that site names Craig Reynolds, links back to red3d.com, and includes a github.com/cwreynolds link.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "evoflock",
           "url": "https://github.com/cwreynolds/evoflock",
           "description": "Evolution flocking",
-          "pushedAt": "2026-09-28T00:06:45Z",
+          "pushedAt": "2026-10-04T23:25:41Z",
           "language": "C++",
           "license": "MIT"
         },
@@ -435,7 +435,7 @@
       "account": "isohedral",
       "source": "https://cs.uwaterloo.ca/~csk/",
       "basis": "University of Waterloo faculty home page explicitly lists Github: isohedral.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "heesch-sat",
@@ -468,7 +468,7 @@
       "account": "jaredstarbell",
       "source": "https://www.jaredstarbell.com/about/",
       "basis": "Artist's About page identifies Jared S Tarbell and directly links code repositories at github.com/jaredstarbell?tab=repositories.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "AsemicIllustrationI",
@@ -501,7 +501,7 @@
       "account": "inconvergent",
       "source": "https://inconvergent.net/",
       "basis": "Official artist site names Anders Hoff as inconvergent and describes his generative code; GitHub profile links back to this exact domain and repeats its Boxtype project and writing. Official site text verified via search index because direct retrieval returned 403.",
-      "checked": "2026-09-28T14:50:17.220Z",
+      "checked": "2026-10-05T07:18:39.287Z",
       "projects": [
         {
           "name": "inconvergent",
