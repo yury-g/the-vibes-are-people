@@ -1,18 +1,18 @@
 {
-  "checked": "2026-10-05T07:18:39.287Z",
+  "checked": "2026-10-12T07:21:47.409Z",
   "profiles": [
     {
       "person": "Gene Kogan",
       "account": "genekogan",
       "source": "https://genekogan.com/",
       "basis": "Artist website links GitHub account",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "va2rosa.com",
           "url": "https://github.com/genekogan/va2rosa.com",
           "description": "personal website",
-          "pushedAt": "2026-10-02T17:04:01Z",
+          "pushedAt": "2026-10-12T01:24:20Z",
           "language": "JavaScript",
           "license": null
         },
@@ -39,30 +39,30 @@
       "account": "golanlevin",
       "source": "https://github.com/golanlevin/exercises",
       "basis": "Named author and public creative-coding repositories",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
+        {
+          "name": "DrawingWithMachines",
+          "url": "https://github.com/golanlevin/DrawingWithMachines",
+          "description": "Resources for the CMU Drawing with Machines Course",
+          "pushedAt": "2026-10-11T09:21:42Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "p5.plotSvg",
+          "url": "https://github.com/golanlevin/p5.plotSvg",
+          "description": "A p5.js library for exporting SVG files tailored for pen plotting. ",
+          "pushedAt": "2026-10-09T02:17:42Z",
+          "language": "JavaScript",
+          "license": "MIT"
+        },
         {
           "name": "60-212",
           "url": "https://github.com/golanlevin/60-212",
           "description": "Repository for Course 60-212 at CMU",
           "pushedAt": "2026-10-05T02:31:13Z",
           "language": "JavaScript",
-          "license": null
-        },
-        {
-          "name": "ExperimentalCapture",
-          "url": "https://github.com/golanlevin/ExperimentalCapture",
-          "description": "A Curriculum for a Semester Course in Computational & Expanded ███ography",
-          "pushedAt": "2026-09-29T18:18:08Z",
-          "language": "Processing",
-          "license": null
-        },
-        {
-          "name": "lectures",
-          "url": "https://github.com/golanlevin/lectures",
-          "description": "Lectures used in my pedagogy",
-          "pushedAt": "2026-09-25T08:36:53Z",
-          "language": "Processing",
           "license": null
         }
       ]
@@ -72,30 +72,30 @@
       "account": "kylemcdonald",
       "source": "https://kylemcdonald.net/",
       "basis": "Artist website links GitHub toolkits",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
-          "name": "color-cube",
-          "url": "https://github.com/kylemcdonald/color-cube",
-          "description": "3D view of how a CIELAB code range lines up with sRGB, Display P3 and Adobe RGB gamuts",
-          "pushedAt": "2026-10-02T01:08:36Z",
-          "language": "JavaScript",
-          "license": null
-        },
-        {
-          "name": "follow-that-page",
-          "url": "https://github.com/kylemcdonald/follow-that-page",
+          "name": "transformirror-web",
+          "url": "https://github.com/kylemcdonald/transformirror-web",
           "description": "",
-          "pushedAt": "2026-09-26T02:55:57Z",
+          "pushedAt": "2026-10-11T17:50:09Z",
           "language": "Python",
           "license": null
         },
         {
-          "name": "prodigi-sizing",
-          "url": "https://github.com/kylemcdonald/prodigi-sizing",
-          "description": "Compare Prodigi print sizes, borders, resolution targets and cached US prices",
-          "pushedAt": "2026-09-25T00:26:52Z",
-          "language": "JavaScript",
+          "name": "shufflesnap",
+          "url": "https://github.com/kylemcdonald/shufflesnap",
+          "description": "ShuffleSnap: point-to-grid assignment (UMAP/t-SNE layouts to image grids) by strided windowed exact reassignment.",
+          "pushedAt": "2026-10-11T11:08:26Z",
+          "language": "Python",
+          "license": "MIT"
+        },
+        {
+          "name": "la-tree-inventory",
+          "url": "https://github.com/kylemcdonald/la-tree-inventory",
+          "description": "Every street and park tree in LA County (~2M) in one table, with a WebGL viewer and LA-specific fruit seasons",
+          "pushedAt": "2026-10-08T01:09:01Z",
+          "language": "Python",
           "license": null
         }
       ]
@@ -105,7 +105,7 @@
       "account": "lmccart",
       "source": "https://github.com/lmccart",
       "basis": "Named creator profile linked to p5.js",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "womb-walk-pi",
@@ -138,7 +138,7 @@
       "account": "tchoi8",
       "source": "https://ems.andrew.cmu.edu/2013/author/taeyoon/index.html",
       "basis": "CMU course profile links GitHub account",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "tchoi8.github.io",
@@ -171,7 +171,7 @@
       "account": "tegacodes",
       "source": "https://github.com/tegacodes",
       "basis": "Named artist profile and teaching repositories",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "EccentricEngineeringGradStudio",
@@ -204,13 +204,13 @@
       "account": "yury-g",
       "source": "https://github.com/yury-g/the-vibes-are-people",
       "basis": "Project owner account confirmed in this project",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "the-vibes-are-people",
           "url": "https://github.com/yury-g/the-vibes-are-people",
           "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
-          "pushedAt": "2026-09-28T19:30:05Z",
+          "pushedAt": "2026-10-05T07:18:48Z",
           "language": "JavaScript",
           "license": null
         },
@@ -237,7 +237,7 @@
       "account": "ofZach",
       "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
       "basis": "Named openFrameworks author and linked code examples",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "bodyWorkshopTiat",
@@ -270,13 +270,13 @@
       "account": "REAS",
       "source": "https://gray.reas.com/information",
       "basis": "Artist's official archived information page explicitly links @REAS under CODE.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "OmniaExNatura",
           "url": "https://github.com/REAS/OmniaExNatura",
           "description": "This work is an extension of the Process Series 2004–2010. It pushes my ideas about ecology and emergence into new territory.",
-          "pushedAt": "2026-10-03T17:09:28Z",
+          "pushedAt": "2026-10-09T18:24:27Z",
           "language": "JavaScript",
           "license": "GPL-2.0"
         },
@@ -303,8 +303,16 @@
       "account": "shiffman",
       "source": "https://thecodingtrain.com/about",
       "basis": "Official About page identifies Dan Shiffman and links his personal GitHub account under Dan's socials.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
+        {
+          "name": "Scolling-Movie",
+          "url": "https://github.com/shiffman/Scolling-Movie",
+          "description": "You have to scroll to watch",
+          "pushedAt": "2026-10-09T14:26:04Z",
+          "language": "JavaScript",
+          "license": null
+        },
         {
           "name": "spectrum-angels-test",
           "url": "https://github.com/shiffman/spectrum-angels-test",
@@ -320,14 +328,6 @@
           "pushedAt": "2025-11-12T15:32:52Z",
           "language": null,
           "license": null
-        },
-        {
-          "name": "srs-babble-GPT",
-          "url": "https://github.com/shiffman/srs-babble-GPT",
-          "description": "",
-          "pushedAt": "2025-10-05T23:55:21Z",
-          "language": "JavaScript",
-          "license": null
         }
       ]
     },
@@ -336,7 +336,7 @@
       "account": "ojack",
       "source": "https://ojack.xyz/about/",
       "basis": "Artist's official About page links directly to github.com/ojack.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "hydra-helpers",
@@ -369,7 +369,7 @@
       "account": "Chakazul",
       "source": "https://chakazul.github.io/lenia.html",
       "basis": "Author's Lenia portal identifies Bert Wang-Chak Chan in its bibliography and links Lenia source to github.com/Chakazul/Lenia; home page identifies Bert Chan.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "chakazul.github.io",
@@ -402,13 +402,13 @@
       "account": "cwreynolds",
       "source": "https://www.red3d.com/cwr/",
       "basis": "Official home page links software notes at cwreynolds.github.io; that site names Craig Reynolds, links back to red3d.com, and includes a github.com/cwreynolds link.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "evoflock",
           "url": "https://github.com/cwreynolds/evoflock",
           "description": "Evolution flocking",
-          "pushedAt": "2026-10-04T23:25:41Z",
+          "pushedAt": "2026-10-12T00:34:56Z",
           "language": "C++",
           "license": "MIT"
         },
@@ -435,7 +435,7 @@
       "account": "isohedral",
       "source": "https://cs.uwaterloo.ca/~csk/",
       "basis": "University of Waterloo faculty home page explicitly lists Github: isohedral.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "heesch-sat",
@@ -468,7 +468,7 @@
       "account": "jaredstarbell",
       "source": "https://www.jaredstarbell.com/about/",
       "basis": "Artist's About page identifies Jared S Tarbell and directly links code repositories at github.com/jaredstarbell?tab=repositories.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "AsemicIllustrationI",
@@ -501,7 +501,7 @@
       "account": "inconvergent",
       "source": "https://inconvergent.net/",
       "basis": "Official artist site names Anders Hoff as inconvergent and describes his generative code; GitHub profile links back to this exact domain and repeats its Boxtype project and writing. Official site text verified via search index because direct retrieval returned 403.",
-      "checked": "2026-10-05T07:18:39.287Z",
+      "checked": "2026-10-12T07:21:47.409Z",
       "projects": [
         {
           "name": "inconvergent",
