@@ -1,18 +1,18 @@
 {
-  "checked": "2026-10-19T07:11:47.769Z",
+  "checked": "2026-10-26T07:13:38.356Z",
   "profiles": [
     {
       "person": "Gene Kogan",
       "account": "genekogan",
       "source": "https://genekogan.com/",
       "basis": "Artist website links GitHub account",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "va2rosa.com",
           "url": "https://github.com/genekogan/va2rosa.com",
           "description": "personal website",
-          "pushedAt": "2026-10-19T03:46:31Z",
+          "pushedAt": "2026-10-22T20:54:08Z",
           "language": "JavaScript",
           "license": null
         },
@@ -39,29 +39,29 @@
       "account": "golanlevin",
       "source": "https://github.com/golanlevin/exercises",
       "basis": "Named author and public creative-coding repositories",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "60-212",
           "url": "https://github.com/golanlevin/60-212",
           "description": "Repository for Course 60-212 at CMU",
-          "pushedAt": "2026-10-19T04:43:59Z",
+          "pushedAt": "2026-10-23T01:04:45Z",
           "language": "JavaScript",
           "license": null
         },
         {
-          "name": "p5-flipdots",
-          "url": "https://github.com/golanlevin/p5-flipdots",
-          "description": "an API to control a flipdot display via p5.js",
-          "pushedAt": "2026-10-19T00:37:43Z",
-          "language": "JavaScript",
+          "name": "ExperimentalCapture",
+          "url": "https://github.com/golanlevin/ExperimentalCapture",
+          "description": "A Curriculum for a Semester Course in Computational & Expanded ███ography",
+          "pushedAt": "2026-10-20T16:28:30Z",
+          "language": "Processing",
           "license": null
         },
         {
-          "name": "p5-single-line-font-resources",
-          "url": "https://github.com/golanlevin/p5-single-line-font-resources",
-          "description": "An archive of monoline vector fonts, and p5.js code to render them.",
-          "pushedAt": "2026-10-15T07:15:08Z",
+          "name": "golanlevin.github.io",
+          "url": "https://github.com/golanlevin/golanlevin.github.io",
+          "description": "Website for Golan Levin",
+          "pushedAt": "2026-10-20T16:20:28Z",
           "language": "JavaScript",
           "license": null
         }
@@ -72,30 +72,30 @@
       "account": "kylemcdonald",
       "source": "https://kylemcdonald.net/",
       "basis": "Artist website links GitHub toolkits",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
-          "name": "ews",
-          "url": "https://github.com/kylemcdonald/ews",
+          "name": "kylemcdonald.net-svelte",
+          "url": "https://github.com/kylemcdonald/kylemcdonald.net-svelte",
           "description": "",
-          "pushedAt": "2026-10-18T13:08:39Z",
-          "language": "JavaScript",
-          "license": "MIT"
-        },
-        {
-          "name": "house-builder",
-          "url": "https://github.com/kylemcdonald/house-builder",
-          "description": "Parametric raised-floor house designer for Polowat, Micronesia: 3D model, construction playback, shipping layout and bill of materials",
-          "pushedAt": "2026-10-18T11:39:31Z",
-          "language": "JavaScript",
+          "pushedAt": "2026-10-23T00:31:55Z",
+          "language": "HTML",
           "license": null
         },
         {
-          "name": "ExhaustingACrowd",
-          "url": "https://github.com/kylemcdonald/ExhaustingACrowd",
+          "name": "socialroulette.net",
+          "url": "https://github.com/kylemcdonald/socialroulette.net",
           "description": "",
-          "pushedAt": "2026-10-17T22:46:15Z",
-          "language": "JavaScript",
+          "pushedAt": "2026-10-23T00:29:29Z",
+          "language": "CSS",
+          "license": null
+        },
+        {
+          "name": "facetracker.net",
+          "url": "https://github.com/kylemcdonald/facetracker.net",
+          "description": "Website for FaceTracker library.",
+          "pushedAt": "2026-10-23T00:29:27Z",
+          "language": "HTML",
           "license": null
         }
       ]
@@ -105,8 +105,16 @@
       "account": "lmccart",
       "source": "https://github.com/lmccart",
       "basis": "Named creator profile linked to p5.js",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
+        {
+          "name": "ITS_TIME",
+          "url": "https://github.com/lmccart/ITS_TIME",
+          "description": "DMA252A workshop repo",
+          "pushedAt": "2026-10-26T03:33:55Z",
+          "language": "JavaScript",
+          "license": "MIT"
+        },
         {
           "name": "womb-walk-pi",
           "url": "https://github.com/lmccart/womb-walk-pi",
@@ -122,14 +130,6 @@
           "pushedAt": "2025-05-14T23:21:52Z",
           "language": "HTML",
           "license": null
-        },
-        {
-          "name": "pplkpr",
-          "url": "https://github.com/lmccart/pplkpr",
-          "description": "An app that tracks, analyzes, and auto-manages your relationships.",
-          "pushedAt": "2024-11-18T22:53:14Z",
-          "language": "Objective-C",
-          "license": null
         }
       ]
     },
@@ -138,7 +138,7 @@
       "account": "tchoi8",
       "source": "https://ems.andrew.cmu.edu/2013/author/taeyoon/index.html",
       "basis": "CMU course profile links GitHub account",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "tchoi8.github.io",
@@ -171,7 +171,7 @@
       "account": "tegacodes",
       "source": "https://github.com/tegacodes",
       "basis": "Named artist profile and teaching repositories",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "EccentricEngineeringGradStudio",
@@ -204,22 +204,22 @@
       "account": "yury-g",
       "source": "https://github.com/yury-g/the-vibes-are-people",
       "basis": "Project owner account confirmed in this project",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
+        {
+          "name": "the-vibes-are-people",
+          "url": "https://github.com/yury-g/the-vibes-are-people",
+          "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
+          "pushedAt": "2026-10-19T07:11:58Z",
+          "language": "JavaScript",
+          "license": null
+        },
         {
           "name": "Toy-Hackery-Pilots",
           "url": "https://github.com/yury-g/Toy-Hackery-Pilots",
           "description": "Toy Hackery mechanical toy pilots and printable lesson prototypes. Pilot 10: windowed stud-and-tube building brick.",
           "pushedAt": "2026-10-15T19:20:07Z",
           "language": null,
-          "license": null
-        },
-        {
-          "name": "the-vibes-are-people",
-          "url": "https://github.com/yury-g/the-vibes-are-people",
-          "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
-          "pushedAt": "2026-10-12T07:21:56Z",
-          "language": "JavaScript",
           "license": null
         },
         {
@@ -237,7 +237,7 @@
       "account": "ofZach",
       "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
       "basis": "Named openFrameworks author and linked code examples",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "bodyWorkshopTiat",
@@ -270,13 +270,13 @@
       "account": "REAS",
       "source": "https://gray.reas.com/information",
       "basis": "Artist's official archived information page explicitly links @REAS under CODE.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "OmniaExNatura",
           "url": "https://github.com/REAS/OmniaExNatura",
           "description": "This work is an extension of the Process Series 2004–2010. It pushes my ideas about ecology and emergence into new territory.",
-          "pushedAt": "2026-10-16T04:48:26Z",
+          "pushedAt": "2026-10-23T20:07:06Z",
           "language": "JavaScript",
           "license": "GPL-2.0"
         },
@@ -303,7 +303,7 @@
       "account": "shiffman",
       "source": "https://thecodingtrain.com/about",
       "basis": "Official About page identifies Dan Shiffman and links his personal GitHub account under Dan's socials.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "Scolling-Movie",
@@ -336,7 +336,7 @@
       "account": "ojack",
       "source": "https://ojack.xyz/about/",
       "basis": "Artist's official About page links directly to github.com/ojack.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "hydra-helpers",
@@ -369,8 +369,16 @@
       "account": "Chakazul",
       "source": "https://chakazul.github.io/lenia.html",
       "basis": "Author's Lenia portal identifies Bert Wang-Chak Chan in its bibliography and links Lenia source to github.com/Chakazul/Lenia; home page identifies Bert Chan.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
+        {
+          "name": "complexity",
+          "url": "https://github.com/Chakazul/complexity",
+          "description": "",
+          "pushedAt": "2026-10-21T08:33:48Z",
+          "language": "Python",
+          "license": null
+        },
         {
           "name": "chakazul.github.io",
           "url": "https://github.com/Chakazul/chakazul.github.io",
@@ -386,14 +394,6 @@
           "pushedAt": "2024-07-19T08:43:34Z",
           "language": "Python",
           "license": "MIT"
-        },
-        {
-          "name": "HANet",
-          "url": "https://github.com/Chakazul/HANet",
-          "description": "Hybrid Architecture Network, originally VAE+CPPN+GAN by hardmaru",
-          "pushedAt": "2019-04-18T06:19:17Z",
-          "language": "Jupyter Notebook",
-          "license": "MIT"
         }
       ]
     },
@@ -402,13 +402,13 @@
       "account": "cwreynolds",
       "source": "https://www.red3d.com/cwr/",
       "basis": "Official home page links software notes at cwreynolds.github.io; that site names Craig Reynolds, links back to red3d.com, and includes a github.com/cwreynolds link.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "evoflock",
           "url": "https://github.com/cwreynolds/evoflock",
           "description": "Evolution flocking",
-          "pushedAt": "2026-10-17T16:54:10Z",
+          "pushedAt": "2026-10-26T00:28:49Z",
           "language": "C++",
           "license": "MIT"
         },
@@ -435,7 +435,7 @@
       "account": "isohedral",
       "source": "https://cs.uwaterloo.ca/~csk/",
       "basis": "University of Waterloo faculty home page explicitly lists Github: isohedral.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "heesch-sat",
@@ -468,7 +468,7 @@
       "account": "jaredstarbell",
       "source": "https://www.jaredstarbell.com/about/",
       "basis": "Artist's About page identifies Jared S Tarbell and directly links code repositories at github.com/jaredstarbell?tab=repositories.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "AsemicIllustrationI",
@@ -501,7 +501,7 @@
       "account": "inconvergent",
       "source": "https://inconvergent.net/",
       "basis": "Official artist site names Anders Hoff as inconvergent and describes his generative code; GitHub profile links back to this exact domain and repeats its Boxtype project and writing. Official site text verified via search index because direct retrieval returned 403.",
-      "checked": "2026-10-19T07:11:47.769Z",
+      "checked": "2026-10-26T07:13:38.356Z",
       "projects": [
         {
           "name": "inconvergent",
