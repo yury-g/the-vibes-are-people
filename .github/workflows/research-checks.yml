@@ -12,6 +12,7 @@ jobs:
           node-version: '24'
       - run: node scripts/build-connections.mjs
       - run: node tests/agent-contributions.mjs
+      - run: node tests/swarm-attribution.mjs
       - run: node tests/institution-code-expansion.mjs
       - run: node tests/connections.mjs
       - run: node tests/processing-lineage.mjs

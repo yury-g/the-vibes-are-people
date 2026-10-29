@@ -2,6 +2,18 @@
   "repository": "https://github.com/yury-g/the-vibes-are-people",
   "files": [
     {
+      "source": "research/SWARM-ATTRIBUTION.md",
+      "file": "files/SWARM-ATTRIBUTION.md",
+      "bytes": 2212,
+      "sha256": "74e256dae06d6ac6d726583ae54731c7ff7235420ffd898d594ee12856c4212f"
+    },
+    {
+      "source": "docs/WORK_LOG.md",
+      "file": "files/WORK_LOG.md",
+      "bytes": 2835,
+      "sha256": "0ce1d3b5f86b303d2d0495e2209c74f9b1f6ef61e7d19eb3c72fe179dcc12c6b"
+    },
+    {
       "source": "dist/connections/graph.js",
       "file": "files/graph.js",
       "bytes": 2680,
@@ -88,8 +100,8 @@
     {
       "source": "research/AGENT-SYSTEM.md",
       "file": "files/AGENT-SYSTEM.md",
-      "bytes": 5178,
-      "sha256": "1f0360dbccffad098cd441e0108e5f23f7b05b34b9fd8977bd58b6291fbcfe15"
+      "bytes": 6335,
+      "sha256": "16331a8d0ffea7f45a4f1fd5867b2196761eed342ddedbd54e9aada67344a8b4"
     },
     {
       "source": "research/yury-teaching-leads.md",
@@ -160,8 +172,8 @@
     {
       "source": "README.md",
       "file": "files/README.md",
-      "bytes": 7453,
-      "sha256": "7904159c70d252b72d04bdf7eb2cfdaff82fcf9a0c01e8dcdf84ffb769b0469f"
+      "bytes": 8300,
+      "sha256": "5f37381d510c0e13def0d38ac86e50395d09381df72b39da838ccb9622255b89"
     },
     {
       "source": "CONTRIBUTING.md",
@@ -232,8 +244,8 @@
     {
       "source": "scripts/export-research.mjs",
       "file": "files/export-research.mjs",
-      "bytes": 2035,
-      "sha256": "b08bc9c68f149d1eb8e2f018f36c6c558d7932331a4e63f3eca5d9fc4a0868d6"
+      "bytes": 2086,
+      "sha256": "8c2bbb3878b9471fd98ab1017a87eceb3c08cf0f6f2dad1eeef2c0dce13522e0"
     }
   ]
 }

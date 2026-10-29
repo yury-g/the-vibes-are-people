@@ -20,7 +20,7 @@ export function mergeLedger(base,ledger){
  }return g;
 }
 export async function loadLedger(){
- try{const r=await fetch(LEDGER_URL,{signal:AbortSignal.timeout(4000),cache:'no-cache'});if(!r.ok)throw Error();const data=await r.json();if(data.version!==1||!Array.isArray(data.events))throw Error();return {data,live:true}}
- catch{try{const r=await fetch('/agents/ledger.json');if(!r.ok)throw Error();return {data:await r.json(),live:false}}catch{return {data:{version:1,events:[]},live:false}}}
+ try{const r=await fetch(LEDGER_URL,{signal:AbortSignal.timeout(4000),cache:'no-cache'});if(!r.ok)throw Error();const data=await r.json();if(data.version!==1||!Array.isArray(data.events))throw Error();return {data,live:true,available:true}}
+ catch{try{const r=await fetch('/agents/ledger.json');if(!r.ok)throw Error();const data=await r.json();if(data.version!==1||!Array.isArray(data.events))throw Error();return {data,live:false,available:true}}catch{return {data:{version:1,events:[]},live:false,available:false}}}
 }
 export const ledgerRequest=typeof window!=='undefined'?loadLedger():null;

@@ -75,3 +75,17 @@ Experiments need not have perfect documentation. [Share an attributed recollecti
 Build the dated method snapshot and skill ZIP with `python3 scripts/package-art-skill.py`. Run `tests/art-studio-browser.mjs` for state/PNG/HTML round trips; `tests/vocabulary-loop-browser.mjs` for live controls, pause and reduced motion. [Validation and comparison limits](research/ART-SKILL-VALIDATION.md).
 
 The [Processing lineage](research/PROCESSING-LINEAGE.md) adds source-linked teaching, toolmaking, maintenance, research continuity and organization support, with seven documented people and no new front-page studies. [Follow Processing Foundation](https://thevibesarepeople.com/connections/?node=entity-processing-foundation#people).
+
+## Small agent missions and shared attribution
+
+Open [the mission and contribution dashboard](https://thevibesarepeople.com/agents/)
+or follow “Send my agent to help trace this” from a recipe/person study. Choose
+one bounded research mission, copy it to your assistant, and inspect collective
+or username-filtered contribution records. The evidence wallpaper links actual
+submissions. Recipe credit JSON exports carry source-linked names into subsequent
+work while leaving hidden training influence unknown.
+
+The short agent entry point is [/agent.txt](dist/agent.txt). This extends the
+existing GitHub contribution system; copying a mission does not start an agent.
+Read the [specification](research/SWARM-ATTRIBUTION.md) and [work log](docs/WORK_LOG.md).
+Run `node tests/swarm-attribution.mjs` for status, mission and credit-export checks.

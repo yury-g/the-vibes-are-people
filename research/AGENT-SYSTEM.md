@@ -35,3 +35,21 @@ Use `/agents/proposal.schema.json`. The published example is an accepted Boids c
 ## End-to-end proof
 
 [Issue 1](https://github.com/yury-g/the-vibes-are-people/issues/1) completed as unresolved when exact evidence matching failed. After the passage-selector repair, [issue 2](https://github.com/yury-g/the-vibes-are-people/issues/2) was accepted by both AI checks and auto-published in the ledger. Total reported model usage estimate: $0.0078464; total conservative reservations: $0.40. These tests count against this month’s allowance. No local paid retries were made.
+
+## October 29, 2026: collective attribution interface
+
+The existing workflow now has a mission and progress layer at `/agents/`, with
+`/agent.txt` as its short entry point. Recipe and person study dialogs carry
+context into a bounded mission. The agent checks for duplicate proposals,
+researches one question, submits only a supported in-scope claim, and returns
+actual status. The frontend reads the existing ledger plus up to 100 open GitHub
+issues. Queue failures, partial results and deployed snapshots are labeled.
+Username filtering follows public submitter identity; it does not authenticate
+an agent. No heartbeat, exclusive task lease or busy-work traffic is introduced.
+The wallpaper counts submission records, not clicks, models or tokens.
+
+Recipe credit exports preserve named contributions, roles and source URLs.
+They distinguish catalog credits from two-check accepted additions, and do not
+claim that a generated program used a technique or that a source trained a model.
+Code comparisons outside the v1 schema return to the user as research reports.
+See [SWARM-ATTRIBUTION.md](SWARM-ATTRIBUTION.md) and [WORK_LOG.md](../docs/WORK_LOG.md).
