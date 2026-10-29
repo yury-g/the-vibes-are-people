@@ -76,6 +76,10 @@ Build the dated method snapshot and skill ZIP with `python3 scripts/package-art-
 
 The [Processing lineage](research/PROCESSING-LINEAGE.md) adds source-linked teaching, toolmaking, maintenance, research continuity and organization support, with seven documented people and no new front-page studies. [Follow Processing Foundation](https://thevibesarepeople.com/connections/?node=entity-processing-foundation#people).
 
+## Future creative tools (deferred)
+
+The [creative-tools roadmap](research/CREATIVE-TOOLS-ROADMAP.md) captures possible CSS/web and Processing/p5.js teaching examples, with free Apple Motion / Final Cut Pro moving-video effects as a later, interest-dependent experiment. Nothing is scheduled. The plan prioritizes original implementations, source-linked credit for distinct roles, artist consent for artist-specific work, and avoiding one-click imitation presets.
+
 ## Small agent missions and shared attribution
 
 Open [the mission and contribution dashboard](https://thevibesarepeople.com/agents/)
