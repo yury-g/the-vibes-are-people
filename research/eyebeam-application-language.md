@@ -23,3 +23,17 @@ The Vibes Are People makes the human history of algorithmic images explorable. V
 - Artist conversations, community review, expanded coverage, and a reusable method are proposed residency activities; do not describe them as already completed.
 - Named archives are prospective research sources, not confirmed collaborators or supporters.
 - This draft has not been checked against the current application prompts, selection criteria, or word limits; no funding or acceptance claim is made.
+
+## October 29, 2026 — guiding philosophy (brainstorm, not finalized application copy)
+
+> **The goal isn't to stop creative ideas from traveling. It's to make sure the people don't disappear as the ideas travel.**
+
+This research is not an attempt to prevent copying, learning, remixing or artistic influence. It asks whether creative techniques can circulate widely while making the people, communities, histories, and distinct contributions behind them more discoverable. The desired experience is **an inspiration machine, not an imitation machine**: learn and experiment with the vocabulary of computational art, discover who contributed to it, explore their original work, and make something new. Techniques may be shareable without packaging a living artist's signature work as a one-click replica or implying their endorsement.
+
+**Where this belongs in the Eyebeam application:** This is the guiding reason for the existing work, not an additional residency workstream. The personal story remains: a designer/developer/teacher builds a visual guide for students; names and contributions of people met through Eyebeam and NYU ITP, and now encountered through Parsons, keep resurfacing; the guide becomes a discovery tool and a difficult research question about what meaningful attribution is possible for AI-generated visual code. Similarity can reveal historical precedents without proving that a particular person's work was used in an AI model's private training data.
+
+**The concrete residency outcome remains the book and public atlas.** The covers and introduction already exist; the proposed residency offers time, artist dialogue, and archival research to write and source the chapters. The resulting open resource would help artists and students discover artistic histories, and might inform future retrieval, citation or training systems without promising that publication causes AI models to learn from it.
+
+**Possible spoken line (not locked):** “I don't want to stop creative ideas from traveling. I want to make sure the people don't disappear as they travel.”
+
+**Possible visual expression:** A live effect transforms the speaker's face, reveals the technique's name, then leads through the atlas to documented artists, work and sources. A technique is an invitation to meet the people behind it, not a preset imitating their identity. Apple Motion / CSS / Processing example libraries are future possibilities, not requirements of the residency proposal.
