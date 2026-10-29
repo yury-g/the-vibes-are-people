@@ -19,4 +19,4 @@
 - [x] Integrate the mission selector, local brief, personal tracker, status cards and linked evidence wallpaper into dist/agents/index.html and client.js; add responsive/reduced-motion CSS.
 - [x] Add contextual study links in dist/interface/study-links.js; publish agent.txt discovery, project specification and work log.
 - [x] Run focused and existing data/agent/navigation checks, export research and inspect browser UI.
-- [ ] Package and publish to the existing public Site; verify the returned deployment result.
+- [x] Package and publish to the existing public Site; version 25 succeeded and the custom-domain page was verified.
