@@ -1,18 +1,18 @@
 {
-  "checked": "2026-11-02T06:50:21.182Z",
+  "checked": "2026-11-09T06:52:04.342Z",
   "profiles": [
     {
       "person": "Gene Kogan",
       "account": "genekogan",
       "source": "https://genekogan.com/",
       "basis": "Artist website links GitHub account",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
-          "name": "souls",
-          "url": "https://github.com/genekogan/souls",
-          "description": "Sim — persistent simulated worlds for agent Souls (sim.eden.art)",
-          "pushedAt": "2026-11-02T06:42:40Z",
+          "name": "gazelli_post",
+          "url": "https://github.com/genekogan/gazelli_post",
+          "description": "",
+          "pushedAt": "2026-11-02T16:23:19Z",
           "language": "TypeScript",
           "license": "MIT"
         },
@@ -25,12 +25,12 @@
           "license": null
         },
         {
-          "name": "gazelli_post",
-          "url": "https://github.com/genekogan/gazelli_post",
+          "name": "littlemartians.world",
+          "url": "https://github.com/genekogan/littlemartians.world",
           "description": "",
-          "pushedAt": "2026-11-02T04:57:59Z",
-          "language": "TypeScript",
-          "license": "MIT"
+          "pushedAt": "2026-08-23T01:03:22Z",
+          "language": "CSS",
+          "license": null
         }
       ]
     },
@@ -39,13 +39,21 @@
       "account": "golanlevin",
       "source": "https://github.com/golanlevin/exercises",
       "basis": "Named author and public creative-coding repositories",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "60-212",
           "url": "https://github.com/golanlevin/60-212",
           "description": "Repository for Course 60-212 at CMU",
-          "pushedAt": "2026-11-01T19:53:47Z",
+          "pushedAt": "2026-11-09T04:32:03Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "golanlevin.github.io",
+          "url": "https://github.com/golanlevin/golanlevin.github.io",
+          "description": "Website for Golan Levin",
+          "pushedAt": "2026-11-08T22:45:58Z",
           "language": "JavaScript",
           "license": null
         },
@@ -56,14 +64,6 @@
           "pushedAt": "2026-10-31T12:31:54Z",
           "language": "JavaScript",
           "license": null
-        },
-        {
-          "name": "editor.p5js.org-backup",
-          "url": "https://github.com/golanlevin/editor.p5js.org-backup",
-          "description": "Makes local backup copies of all your sketches from editor.p5js.org",
-          "pushedAt": "2026-10-27T04:29:43Z",
-          "language": "Python",
-          "license": "Unlicense"
         }
       ]
     },
@@ -72,30 +72,30 @@
       "account": "kylemcdonald",
       "source": "https://kylemcdonald.net/",
       "basis": "Artist website links GitHub toolkits",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
-          "name": "ews",
-          "url": "https://github.com/kylemcdonald/ews",
+          "name": "transformirror-web",
+          "url": "https://github.com/kylemcdonald/transformirror-web",
           "description": "",
-          "pushedAt": "2026-10-29T17:37:48Z",
-          "language": "JavaScript",
-          "license": "MIT"
+          "pushedAt": "2026-11-07T08:38:15Z",
+          "language": "Python",
+          "license": null
         },
         {
-          "name": "no-cameras",
-          "url": "https://github.com/kylemcdonald/no-cameras",
-          "description": "macOS overlay that puts a big red X over your screen to discourage photos",
-          "pushedAt": "2026-10-27T07:02:37Z",
+          "name": "iphone-camera",
+          "url": "https://github.com/kylemcdonald/iphone-camera",
+          "description": "Use an iPhone as a machine-vision camera: manual-control capture app (ProRes/HEVC/RAW) driven from the desktop over USB",
+          "pushedAt": "2026-11-03T11:17:56Z",
           "language": "Swift",
           "license": null
         },
         {
-          "name": "kylemcdonald.net-svelte",
-          "url": "https://github.com/kylemcdonald/kylemcdonald.net-svelte",
+          "name": "voice-in-my-head",
+          "url": "https://github.com/kylemcdonald/voice-in-my-head",
           "description": "",
-          "pushedAt": "2026-10-23T00:31:55Z",
-          "language": "HTML",
+          "pushedAt": "2026-11-03T07:17:31Z",
+          "language": "Python",
           "license": null
         }
       ]
@@ -105,7 +105,7 @@
       "account": "lmccart",
       "source": "https://github.com/lmccart",
       "basis": "Named creator profile linked to p5.js",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "ITS_TIME",
@@ -138,7 +138,7 @@
       "account": "tchoi8",
       "source": "https://ems.andrew.cmu.edu/2013/author/taeyoon/index.html",
       "basis": "CMU course profile links GitHub account",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "tchoi8.github.io",
@@ -171,7 +171,7 @@
       "account": "tegacodes",
       "source": "https://github.com/tegacodes",
       "basis": "Named artist profile and teaching repositories",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "EccentricEngineeringGradStudio",
@@ -204,22 +204,22 @@
       "account": "yury-g",
       "source": "https://github.com/yury-g/the-vibes-are-people",
       "basis": "Project owner account confirmed in this project",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
+        {
+          "name": "the-vibes-are-people",
+          "url": "https://github.com/yury-g/the-vibes-are-people",
+          "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
+          "pushedAt": "2026-11-02T06:50:32Z",
+          "language": "JavaScript",
+          "license": null
+        },
         {
           "name": "Toy-Hackery-Pilots",
           "url": "https://github.com/yury-g/Toy-Hackery-Pilots",
           "description": "Toy Hackery mechanical toy pilots and printable lesson prototypes. Pilot 10: windowed stud-and-tube building brick.",
           "pushedAt": "2026-10-30T21:27:02Z",
           "language": null,
-          "license": null
-        },
-        {
-          "name": "the-vibes-are-people",
-          "url": "https://github.com/yury-g/the-vibes-are-people",
-          "description": "The Vibes Are People: moving studies, recipes, and human ingredients",
-          "pushedAt": "2026-10-29T22:27:42Z",
-          "language": "JavaScript",
           "license": null
         },
         {
@@ -237,7 +237,7 @@
       "account": "ofZach",
       "source": "https://openframeworks.cc/ofBook/chapters/animation.html",
       "basis": "Named openFrameworks author and linked code examples",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "bodyWorkshopTiat",
@@ -270,7 +270,7 @@
       "account": "REAS",
       "source": "https://gray.reas.com/information",
       "basis": "Artist's official archived information page explicitly links @REAS under CODE.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "OmniaExNatura",
@@ -303,29 +303,29 @@
       "account": "shiffman",
       "source": "https://thecodingtrain.com/about",
       "basis": "Official About page identifies Dan Shiffman and links his personal GitHub account under Dan's socials.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
+        {
+          "name": "Semantic-Search-Images",
+          "url": "https://github.com/shiffman/Semantic-Search-Images",
+          "description": "Testing multi-modal embeddings model",
+          "pushedAt": "2026-11-02T23:17:39Z",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "name": "create-embeddings-database",
+          "url": "https://github.com/shiffman/create-embeddings-database",
+          "description": "Creating an Embeddings Database with CLIP and Unsplash",
+          "pushedAt": "2026-11-02T23:16:07Z",
+          "language": "JavaScript",
+          "license": null
+        },
         {
           "name": "Clustering-Umap-Embeddings",
           "url": "https://github.com/shiffman/Clustering-Umap-Embeddings",
           "description": "",
           "pushedAt": "2026-11-01T21:46:42Z",
-          "language": "JavaScript",
-          "license": null
-        },
-        {
-          "name": "Computational-Thinking-Artists",
-          "url": "https://github.com/shiffman/Computational-Thinking-Artists",
-          "description": "Collecting links and resources",
-          "pushedAt": "2026-10-30T17:57:17Z",
-          "language": null,
-          "license": null
-        },
-        {
-          "name": "Scolling-Movie",
-          "url": "https://github.com/shiffman/Scolling-Movie",
-          "description": "You have to scroll to watch",
-          "pushedAt": "2026-10-09T14:26:04Z",
           "language": "JavaScript",
           "license": null
         }
@@ -336,7 +336,7 @@
       "account": "ojack",
       "source": "https://ojack.xyz/about/",
       "basis": "Artist's official About page links directly to github.com/ojack.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "hydra-helpers",
@@ -369,13 +369,13 @@
       "account": "Chakazul",
       "source": "https://chakazul.github.io/lenia.html",
       "basis": "Author's Lenia portal identifies Bert Wang-Chak Chan in its bibliography and links Lenia source to github.com/Chakazul/Lenia; home page identifies Bert Chan.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "chakazul.github.io",
           "url": "https://github.com/Chakazul/chakazul.github.io",
           "description": "",
-          "pushedAt": "2026-10-29T13:10:07Z",
+          "pushedAt": "2026-11-06T18:25:34Z",
           "language": "JavaScript",
           "license": null
         },
@@ -383,7 +383,7 @@
           "name": "complexity",
           "url": "https://github.com/Chakazul/complexity",
           "description": "",
-          "pushedAt": "2026-10-21T08:33:48Z",
+          "pushedAt": "2026-11-02T12:32:13Z",
           "language": "Python",
           "license": null
         },
@@ -402,13 +402,13 @@
       "account": "cwreynolds",
       "source": "https://www.red3d.com/cwr/",
       "basis": "Official home page links software notes at cwreynolds.github.io; that site names Craig Reynolds, links back to red3d.com, and includes a github.com/cwreynolds link.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "evoflock",
           "url": "https://github.com/cwreynolds/evoflock",
           "description": "Evolution flocking",
-          "pushedAt": "2026-11-02T01:13:55Z",
+          "pushedAt": "2026-11-09T02:44:13Z",
           "language": "C++",
           "license": "MIT"
         },
@@ -435,7 +435,7 @@
       "account": "isohedral",
       "source": "https://cs.uwaterloo.ca/~csk/",
       "basis": "University of Waterloo faculty home page explicitly lists Github: isohedral.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "heesch-sat",
@@ -468,7 +468,7 @@
       "account": "jaredstarbell",
       "source": "https://www.jaredstarbell.com/about/",
       "basis": "Artist's About page identifies Jared S Tarbell and directly links code repositories at github.com/jaredstarbell?tab=repositories.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "AsemicIllustrationI",
@@ -501,7 +501,7 @@
       "account": "inconvergent",
       "source": "https://inconvergent.net/",
       "basis": "Official artist site names Anders Hoff as inconvergent and describes his generative code; GitHub profile links back to this exact domain and repeats its Boxtype project and writing. Official site text verified via search index because direct retrieval returned 403.",
-      "checked": "2026-11-02T06:50:21.182Z",
+      "checked": "2026-11-09T06:52:04.342Z",
       "projects": [
         {
           "name": "inconvergent",
